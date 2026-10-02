@@ -156,6 +156,90 @@
 <script>
 let places = [];
 
+function detectLocale(){
+  const forced = new URLSearchParams(window.location.search).get("lang");
+  const raw = (forced || (navigator.languages && navigator.languages[0]) || navigator.language || "en").toLowerCase();
+
+  if(raw.startsWith("ja")) return "ja";
+  if(raw.startsWith("ko")) return "ko";
+  if(raw.startsWith("zh")){
+    if(raw.includes("tw") || raw.includes("hk") || raw.includes("mo") || raw.includes("hant")) return "zhHant";
+    return "zhHans";
+  }
+  return "en";
+}
+
+const locale = detectLocale();
+const htmlLang = {en:"en", ja:"ja", ko:"ko", zhHans:"zh-CN", zhHant:"zh-TW"}[locale] || "en";
+document.documentElement.lang = htmlLang;
+
+const ui = {
+  en:{
+    myLocation:"◎ MY LOCATION",
+    naver:"NAVER MAP",
+    google:"GOOGLE MAPS",
+    hotel:"This is your hotel.",
+    noLocation:"Location is not available on this device.",
+    allowLocation:"Please allow location access to show your position.",
+    loadError:"The local guide could not be loaded. Please try again."
+  },
+  ja:{
+    myLocation:"◎ 現在地",
+    naver:"NAVER MAP",
+    google:"GOOGLE MAPS",
+    hotel:"ここがホテルです。",
+    noLocation:"この端末では現在地を利用できません。",
+    allowLocation:"現在地の利用を許可してください。",
+    loadError:"ローカルガイドを読み込めませんでした。もう一度お試しください。"
+  },
+  zhHans:{
+    myLocation:"◎ 我的位置",
+    naver:"NAVER 地图",
+    google:"GOOGLE 地图",
+    hotel:"这里是您的酒店。",
+    noLocation:"此设备无法使用定位功能。",
+    allowLocation:"请允许定位权限以显示您的位置。",
+    loadError:"无法加载本地指南，请重试。"
+  },
+  zhHant:{
+    myLocation:"◎ 我的位置",
+    naver:"NAVER 地圖",
+    google:"GOOGLE 地圖",
+    hotel:"這裡是您的飯店。",
+    noLocation:"此裝置無法使用定位功能。",
+    allowLocation:"請允許定位權限以顯示您的位置。",
+    loadError:"無法載入周邊指南，請再試一次。"
+  },
+  ko:{
+    myLocation:"◎ 내 위치",
+    naver:"네이버 지도",
+    google:"구글 지도",
+    hotel:"여기가 호텔입니다.",
+    noLocation:"이 기기에서는 현재 위치를 사용할 수 없습니다.",
+    allowLocation:"현재 위치를 표시하려면 위치 권한을 허용해주세요.",
+    loadError:"주변 가이드를 불러오지 못했습니다. 다시 시도해주세요."
+  }
+}[locale];
+
+function primaryName(place){
+  if(locale === "ja") return place.jaName || place.enName || place.name;
+  if(locale === "zhHans") return place.zhHansName || place.enName || place.name;
+  if(locale === "zhHant") return place.zhHantName || place.enName || place.name;
+  if(locale === "ko") return place.name;
+  return place.enName || place.name;
+}
+
+function secondaryName(place){
+  if(locale === "ko"){
+    return place.enName && place.enName !== place.name ? place.enName : "";
+  }
+  return place.name;
+}
+
+function localizedDesc(place){
+  return (place.descs && (place.descs[locale] || place.descs.en)) || place.desc || "";
+}
+
 const map = new maplibregl.Map({
   container:"map",
   style:"https://tiles.openfreemap.org/styles/positron",
@@ -174,15 +258,21 @@ const directionsBtn = document.getElementById("directionsBtn");
 const googleBtn = document.getElementById("googleBtn");
 const mapActions = document.getElementById("mapActions");
 const hotelNote = document.getElementById("hotelNote");
+
+document.getElementById("locateBtn").textContent = ui.myLocation;
+directionsBtn.textContent = ui.naver;
+googleBtn.textContent = ui.google;
+hotelNote.textContent = ui.hotel;
+
 const bounds = new maplibregl.LngLatBounds();
 let userMarker = null;
 
 function closeSheet(){ sheet.classList.remove("open"); }
 
 function openPlace(place){
-  sheetName.textContent = place.enName || place.name;
-  sheetLocal.textContent = (place.category === "hotel" || !place.enName || place.enName === place.name) ? "" : place.name;
-  sheetDesc.textContent = place.desc;
+  sheetName.textContent = primaryName(place);
+  sheetLocal.textContent = place.category === "hotel" ? "" : secondaryName(place);
+  sheetDesc.textContent = localizedDesc(place);
 
   if(place.category === "hotel"){
     mapActions.hidden = true;
@@ -208,7 +298,9 @@ function openDirections(place){
 }
 
 function openGoogleDirections(place){
-  const destination = encodeURIComponent(`${place.lat},${place.lng}`);
+  const glat = place.googleLat ?? place.lat;
+  const glng = place.googleLng ?? place.lng;
+  const destination = encodeURIComponent(`${glat},${glng}`);
   const googleUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`;
   window.location.href = googleUrl;
 }
@@ -225,7 +317,7 @@ function markerEl(place){
   const el = document.createElement("div");
   el.className = `place-marker ${place.category}`;
   el.textContent = place.icon;
-  el.setAttribute("aria-label", `${place.enName || place.name} ${place.name}`);
+  el.setAttribute("aria-label", `${primaryName(place)} ${place.name}`);
   el.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
   return el;
 }
@@ -254,7 +346,7 @@ map.on("load", async ()=>{
     }
   } catch (error) {
     console.error(error);
-    alert("The local guide could not be loaded. Please try again.");
+    alert(ui.loadError);
   }
 });
 
@@ -263,7 +355,7 @@ document.getElementById("closeBtn").addEventListener("click", closeSheet);
 
 document.getElementById("locateBtn").addEventListener("click",()=>{
   if(!navigator.geolocation){
-    alert("Location is not available on this device.");
+    alert(ui.noLocation);
     return;
   }
 
@@ -285,7 +377,7 @@ document.getElementById("locateBtn").addEventListener("click",()=>{
       map.flyTo({center:[lng,lat],zoom:17,duration:600});
       closeSheet();
     },
-    ()=>alert("Please allow location access to show your position."),
+    ()=>alert(ui.allowLocation),
     {enableHighAccuracy:true,timeout:8000,maximumAge:30000}
   );
 });
