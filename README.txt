@@ -16,3 +16,5 @@ Changes
 Deployment
 - This repository is the source of truth for the Hohe City Local Guide.
 - Connect the Vercel project to this GitHub repository to keep a stable production URL.
+
+Git connection verification trigger: 2026-10-02
