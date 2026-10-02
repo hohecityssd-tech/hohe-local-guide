@@ -1,22 +1,315 @@
 {
-  "version": "2.2",
+  "version": "2.3-language-preview",
   "places": [
-    {"name":"HOHE CITY","desc":"Hotel","category":"hotel","lat":37.575921604413,"lng":127.02593960419,"address":"서울특별시 동대문구 하정로5길 7","icon":"★","enName":"HOHE CITY"},
-    {"name":"신솔돈","desc":"Korean Pork BBQ","category":"food","lat":37.576011051942,"lng":127.02623721923,"address":"서울 동대문구 하정로5길 1","icon":"🍴","enName":"Sinsoldon"},
-    {"name":"엔드롱","desc":"Cafe","category":"cafe","lat":37.5750843,"lng":127.0266371,"address":"서울 동대문구 하정로 43","icon":"☕","enName":"Endlong"},
-    {"name":"재벌국수","desc":"Korean Noodles","category":"food","lat":37.5754033,"lng":127.026327,"address":"서울 동대문구 하정로3길 7-3 1층","icon":"🍴","enName":"Jaebeol Guksu"},
-    {"name":"육전식당 신설동본점","desc":"Korean BBQ","category":"food","lat":37.574078058184,"lng":127.02698980596,"address":"서울 동대문구 천호대로 33 1층","icon":"🍴","enName":"Yukjeon Sikdang"},
-    {"name":"오모 브런치 바","desc":"Brunch & Pasta","category":"food","lat":37.57513,"lng":127.0276,"address":"서울 동대문구 하정로2길 15 1층","icon":"🍴","enName":"OMO Brunch Bar"},
-    {"name":"비비밀","desc":"Bibimbap","category":"food","lat":37.57520763614,"lng":127.02461868111,"address":"서울 동대문구 천호대로 7-4 1층","icon":"🍴","enName":"Bibimeal"},
-    {"name":"홍조보리밥","desc":"Korean Barley Rice","category":"food","lat":37.575224577367,"lng":127.02586099163,"address":"서울 동대문구 왕산로2길 27","icon":"🍴","enName":"Hongjo Boribap"},
-    {"name":"육전제면소","desc":"Korean Noodles","category":"food","lat":37.574350987563,"lng":127.02424167215,"address":"서울 동대문구 난계로30길 16","icon":"🍴","enName":"Yukjeon Jemyeonso"},
-    {"name":"나정순할매쭈꾸미","desc":"Spicy Webfoot Octopus","category":"food","lat":37.5770942,"lng":127.0307078,"address":"서울 동대문구 무학로 144","icon":"🍴","enName":"Na Jeong-sun Halmae Jjukkumi"},
-    {"name":"아후아","desc":"Cafe","category":"cafe","lat":37.574713428447,"lng":127.02775766491,"address":"서울 동대문구 천호대로7길 15 1층","icon":"☕","enName":"Ahua"},
-    {"name":"타일러","desc":"Craft Beer Pub","category":"bar","lat":37.5751392574862,"lng":127.026885748691,"address":"서울 동대문구 하정로 46 1층","icon":"🍺","enName":"Tyler"},
-    {"name":"오스테리아 채채","desc":"Italian","category":"food","lat":37.577036017572,"lng":127.02583305358,"address":"서울 동대문구 왕산로3길 10 1층","icon":"🍴","enName":"Osteria Chaechae"},
-    {"name":"후쿠라멘","desc":"Ramen","category":"food","lat":37.5770318420172,"lng":127.024610988234,"address":"서울 동대문구 한빛로 11 1층","icon":"🍴","enName":"Fuku Ramen"},
-    {"name":"동신곱창 신설동본점","desc":"Gopchang","category":"food","lat":37.5762,"lng":127.02258,"address":"서울 종로구 보문로1길 6 1층","icon":"🍴","enName":"Dongsin Gopchang"},
-    {"name":"미옥숯불구이","desc":"Korean BBQ","category":"food","lat":37.5761726,"lng":127.0307792,"address":"서울 동대문구 무학로 134 1층","icon":"🍴","enName":"Miok"},
-    {"name":"서울풍물시장","desc":"Flea Market","category":"spot","lat":37.5727219,"lng":127.0255127,"address":"서울 동대문구 천호대로4길 21","icon":"🏛","enName":"Seoul Folk Flea Market"}
+    {
+      "name": "HOHE CITY",
+      "desc": "Hotel",
+      "category": "hotel",
+      "lat": 37.575921604413,
+      "lng": 127.02593960419,
+      "address": "서울특별시 동대문구 하정로5길 7",
+      "icon": "★",
+      "enName": "HOHE CITY",
+      "jaName": "HOHE CITY",
+      "descs": {
+        "en": "Hotel",
+        "ja": "ホテル",
+        "zhHans": "酒店",
+        "zhHant": "飯店",
+        "ko": "호텔"
+      }
+    },
+    {
+      "name": "신솔돈",
+      "desc": "Korean Pork BBQ",
+      "category": "food",
+      "lat": 37.576011051942,
+      "lng": 127.02623721923,
+      "address": "서울 동대문구 하정로5길 1",
+      "icon": "🍴",
+      "enName": "Sinsoldon",
+      "jaName": "シンソルドン",
+      "descs": {
+        "en": "Korean Pork BBQ",
+        "ja": "韓国式豚焼肉",
+        "zhHans": "韩式烤猪肉",
+        "zhHant": "韓式烤豬肉",
+        "ko": "한식 돼지고기 구이"
+      }
+    },
+    {
+      "name": "엔드롱",
+      "desc": "Cafe",
+      "category": "cafe",
+      "lat": 37.5750843,
+      "lng": 127.0266371,
+      "address": "서울 동대문구 하정로 43",
+      "icon": "☕",
+      "enName": "Endlong",
+      "jaName": "エンドロン",
+      "descs": {
+        "en": "Cafe",
+        "ja": "カフェ",
+        "zhHans": "咖啡馆",
+        "zhHant": "咖啡廳",
+        "ko": "카페"
+      }
+    },
+    {
+      "name": "재벌국수",
+      "desc": "Korean Noodles",
+      "category": "food",
+      "lat": 37.5754033,
+      "lng": 127.026327,
+      "address": "서울 동대문구 하정로3길 7-3 1층",
+      "icon": "🍴",
+      "enName": "Jaebeol Guksu",
+      "jaName": "チェボルグクス",
+      "descs": {
+        "en": "Korean Noodles",
+        "ja": "韓国麺料理",
+        "zhHans": "韩式面食",
+        "zhHant": "韓式麵食",
+        "ko": "한식 면요리"
+      }
+    },
+    {
+      "name": "육전식당 신설동본점",
+      "desc": "Korean BBQ",
+      "category": "food",
+      "lat": 37.574078058184,
+      "lng": 127.02698980596,
+      "address": "서울 동대문구 천호대로 33 1층",
+      "icon": "🍴",
+      "enName": "Yukjeon Sikdang",
+      "jaName": "ユクチョン食堂",
+      "descs": {
+        "en": "Korean BBQ",
+        "ja": "韓国焼肉",
+        "zhHans": "韩式烤肉",
+        "zhHant": "韓式烤肉",
+        "ko": "한식 고기구이"
+      }
+    },
+    {
+      "name": "오모 브런치 바",
+      "desc": "Brunch & Pasta",
+      "category": "food",
+      "lat": 37.57513,
+      "lng": 127.0276,
+      "address": "서울 동대문구 하정로2길 15 1층",
+      "icon": "🍴",
+      "enName": "OMO Brunch Bar",
+      "jaName": "オモ・ブランチバー",
+      "descs": {
+        "en": "Brunch & Pasta",
+        "ja": "ブランチ & パスタ",
+        "zhHans": "早午餐 & 意大利面",
+        "zhHant": "早午餐 & 義大利麵",
+        "ko": "브런치 & 파스타"
+      }
+    },
+    {
+      "name": "비비밀",
+      "desc": "Bibimbap",
+      "category": "food",
+      "lat": 37.57520763614,
+      "lng": 127.02461868111,
+      "address": "서울 동대문구 천호대로 7-4 1층",
+      "icon": "🍴",
+      "enName": "Bibimeal",
+      "jaName": "ビビミール",
+      "descs": {
+        "en": "Bibimbap",
+        "ja": "ビビンバ",
+        "zhHans": "韩式拌饭",
+        "zhHant": "韓式拌飯",
+        "ko": "비빔밥"
+      }
+    },
+    {
+      "name": "홍조보리밥",
+      "desc": "Korean Barley Rice",
+      "category": "food",
+      "lat": 37.575224577367,
+      "lng": 127.02586099163,
+      "address": "서울 동대문구 왕산로2길 27",
+      "icon": "🍴",
+      "enName": "Hongjo Boribap",
+      "jaName": "ホンジョ・ボリバプ",
+      "descs": {
+        "en": "Korean Barley Rice",
+        "ja": "韓国式麦ご飯",
+        "zhHans": "韩式大麦饭",
+        "zhHant": "韓式大麥飯",
+        "ko": "보리밥"
+      }
+    },
+    {
+      "name": "육전제면소",
+      "desc": "Korean Noodles",
+      "category": "food",
+      "lat": 37.574350987563,
+      "lng": 127.02424167215,
+      "address": "서울 동대문구 난계로30길 16",
+      "icon": "🍴",
+      "enName": "Yukjeon Jemyeonso",
+      "jaName": "ユクチョン製麺所",
+      "descs": {
+        "en": "Korean Noodles",
+        "ja": "韓国麺料理",
+        "zhHans": "韩式面食",
+        "zhHant": "韓式麵食",
+        "ko": "한식 면요리"
+      }
+    },
+    {
+      "name": "나정순할매쭈꾸미",
+      "desc": "Spicy Webfoot Octopus",
+      "category": "food",
+      "lat": 37.5770942,
+      "lng": 127.0307078,
+      "address": "서울 동대문구 무학로 144",
+      "icon": "🍴",
+      "enName": "Na Jeong-sun Halmae Jjukkumi",
+      "jaName": "ナ・ジョンスン・ハルメ・チュクミ",
+      "descs": {
+        "en": "Spicy Webfoot Octopus",
+        "ja": "辛いイイダコ炒め",
+        "zhHans": "辣炒小章鱼",
+        "zhHant": "辣炒小章魚",
+        "ko": "매콤한 쭈꾸미 볶음"
+      }
+    },
+    {
+      "name": "아후아",
+      "desc": "Cafe",
+      "category": "cafe",
+      "lat": 37.574713428447,
+      "lng": 127.02775766491,
+      "address": "서울 동대문구 천호대로7길 15 1층",
+      "icon": "☕",
+      "enName": "Ahua",
+      "jaName": "アフア",
+      "descs": {
+        "en": "Cafe",
+        "ja": "カフェ",
+        "zhHans": "咖啡馆",
+        "zhHant": "咖啡廳",
+        "ko": "카페"
+      }
+    },
+    {
+      "name": "타일러",
+      "desc": "Craft Beer Pub",
+      "category": "bar",
+      "lat": 37.5751392574862,
+      "lng": 127.026885748691,
+      "address": "서울 동대문구 하정로 46 1층",
+      "icon": "🍺",
+      "enName": "Tyler",
+      "jaName": "タイラー",
+      "descs": {
+        "en": "Craft Beer Pub",
+        "ja": "クラフトビールパブ",
+        "zhHans": "精酿啤酒吧",
+        "zhHant": "精釀啤酒吧",
+        "ko": "수제맥주 펍"
+      }
+    },
+    {
+      "name": "오스테리아 채채",
+      "desc": "Italian",
+      "category": "food",
+      "lat": 37.577036017572,
+      "lng": 127.02583305358,
+      "address": "서울 동대문구 왕산로3길 10 1층",
+      "icon": "🍴",
+      "enName": "Osteria Chaechae",
+      "jaName": "オステリア・チェチェ",
+      "descs": {
+        "en": "Italian",
+        "ja": "イタリア料理",
+        "zhHans": "意大利料理",
+        "zhHant": "義大利料理",
+        "ko": "이탈리안"
+      }
+    },
+    {
+      "name": "후쿠라멘",
+      "desc": "Ramen",
+      "category": "food",
+      "lat": 37.5770318420172,
+      "lng": 127.024610988234,
+      "address": "서울 동대문구 한빛로 11 1층",
+      "icon": "🍴",
+      "enName": "Fuku Ramen",
+      "jaName": "フクラーメン",
+      "descs": {
+        "en": "Ramen",
+        "ja": "ラーメン",
+        "zhHans": "拉面",
+        "zhHant": "拉麵",
+        "ko": "라멘"
+      }
+    },
+    {
+      "name": "동신곱창 신설동본점",
+      "desc": "Gopchang",
+      "category": "food",
+      "lat": 37.5762,
+      "lng": 127.02258,
+      "address": "서울 종로구 보문로1길 6 1층",
+      "icon": "🍴",
+      "enName": "Dongsin Gopchang",
+      "jaName": "トンシンコプチャン",
+      "descs": {
+        "en": "Gopchang",
+        "ja": "コプチャン（ホルモン）",
+        "zhHans": "韩式肥肠",
+        "zhHant": "韓式肥腸",
+        "ko": "곱창요리"
+      },
+      "googleLat": 37.57620742,
+      "googleLng": 127.0227842407
+    },
+    {
+      "name": "미옥숯불구이",
+      "desc": "Korean BBQ",
+      "category": "food",
+      "lat": 37.5761726,
+      "lng": 127.0307792,
+      "address": "서울 동대문구 무학로 134 1층",
+      "icon": "🍴",
+      "enName": "Miok",
+      "jaName": "ミオク",
+      "descs": {
+        "en": "Korean BBQ",
+        "ja": "韓国焼肉",
+        "zhHans": "韩式烤肉",
+        "zhHant": "韓式烤肉",
+        "ko": "한식 고기구이"
+      }
+    },
+    {
+      "name": "서울풍물시장",
+      "desc": "Flea Market",
+      "category": "spot",
+      "lat": 37.5727219,
+      "lng": 127.0255127,
+      "address": "서울 동대문구 천호대로4길 21",
+      "icon": "🏛",
+      "enName": "Seoul Folk Flea Market",
+      "jaName": "ソウル風物市場",
+      "descs": {
+        "en": "Flea Market",
+        "ja": "蚤の市",
+        "zhHans": "跳蚤市场",
+        "zhHant": "跳蚤市場",
+        "ko": "벼룩시장"
+      },
+      "zhHansName": "首尔风物市场",
+      "zhHantName": "首爾風物市場"
+    }
   ]
 }
