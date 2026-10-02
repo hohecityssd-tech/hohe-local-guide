@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F5F0E8">
+  <title>HOHE CITY LOCAL GUIDE</title>
+
+  <link href="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
+
+  <style>
+    :root{
+      --bg:#F5F0E8;
+      --panel:#FFFDF9;
+      --text:#262522;
+      --muted:#77736C;
+      --line:#E5DED3;
+      --hotel:#95483B;
+      --food:#C36D43;
+      --cafe:#67584A;
+      --bar:#34383B;
+      --spot:#65727A;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;overflow:hidden}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      -webkit-font-smoothing:antialiased;
+    }
+
+    .app{height:100dvh;display:flex;flex-direction:column}
+    header{
+      height:60px;flex:0 0 60px;
+      display:flex;align-items:center;
+      padding:0 16px;
+      background:var(--bg);
+      border-bottom:1px solid var(--line);
+      z-index:10;
+    }
+    .brand{font-size:14px;font-weight:850;letter-spacing:.08em}
+    .brand span{margin-left:7px;color:var(--muted);font-weight:650}
+
+    #map{flex:1;min-height:0}
+
+    .place-marker{
+      width:36px;height:36px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      border:3px solid #fff;
+      box-shadow:0 2px 10px rgba(0,0,0,.18);
+      cursor:pointer;
+      user-select:none;
+      -webkit-tap-highlight-color:transparent;
+      font-size:16px;
+      line-height:1;
+    }
+    .place-marker.hotel{background:var(--hotel);color:#fff}
+    .place-marker.food{background:var(--food);color:#fff}
+    .place-marker.cafe{background:var(--cafe);color:#fff}
+    .place-marker.bar{background:var(--bar);color:#fff}
+    .place-marker.spot{background:var(--spot);color:#fff}
+
+    .hotel-wrap{display:flex;align-items:center;gap:6px}
+    .hotel-label{
+      background:rgba(255,253,249,.97);
+      border:1px solid var(--line);
+      box-shadow:0 2px 8px rgba(0,0,0,.08);
+      border-radius:8px;
+      padding:5px 7px;
+      font-size:11px;
+      font-weight:850;
+      letter-spacing:.04em;
+      white-space:nowrap;
+    }
+
+    .locate{
+      position:absolute;right:12px;top:74px;z-index:9;
+      height:40px;
+      border:1px solid var(--line);
+      border-radius:11px;
+      background:rgba(255,253,249,.97);
+      color:var(--text);
+      font-weight:800;
+      font-size:12px;
+      padding:0 12px;
+      box-shadow:0 3px 12px rgba(0,0,0,.10);
+      cursor:pointer;
+    }
+
+    .sheet{
+      position:fixed;left:12px;right:12px;
+      bottom:max(12px,env(safe-area-inset-bottom));
+      z-index:20;
+      background:rgba(255,253,249,.99);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px;
+      box-shadow:0 12px 34px rgba(0,0,0,.18);
+      transform:translateY(calc(100% + 32px));
+      transition:transform .2s ease;
+    }
+    .sheet.open{transform:translateY(0)}
+    .sheet-name{font-size:18px;font-weight:850;margin-right:36px}
+    .sheet-local{font-size:12px;color:var(--muted);margin-top:2px}
+    .sheet-desc{font-size:14px;color:var(--muted);margin:4px 0 14px}
+    .close{
+      position:absolute;right:10px;top:8px;
+      width:34px;height:34px;border:0;background:transparent;
+      color:var(--muted);font-size:25px;cursor:pointer;
+    }
+    .directions{
+      width:100%;height:48px;border:0;border-radius:11px;
+      background:var(--text);color:#fff;
+      font-size:14px;font-weight:850;letter-spacing:.04em;
+      cursor:pointer;
+    }
+    .hotel-note{font-size:12px;color:var(--muted)}
+
+    .maplibregl-ctrl-attrib{font-size:9px;opacity:.68}
+
+    @media(min-width:800px){
+      .app{max-width:580px;margin:0 auto;box-shadow:0 0 30px rgba(0,0,0,.08)}
+      .sheet{width:556px;left:50%;right:auto;transform:translate(-50%,calc(100% + 32px))}
+      .sheet.open{transform:translate(-50%,0)}
+    }
+  </style>
+</head>
+
+<body>
+<main class="app">
+  <header><div class="brand">HOHE CITY <span>LOCAL GUIDE</span></div></header>
+  <div id="map"></div>
+  <button class="locate" id="locateBtn">◎ MY LOCATION</button>
+</main>
+
+<section class="sheet" id="sheet" aria-live="polite">
+  <button class="close" aria-label="Close" id="closeBtn">×</button>
+  <div class="sheet-name" id="sheetName"></div>
+  <div class="sheet-local" id="sheetLocal"></div>
+  <div class="sheet-desc" id="sheetDesc"></div>
+  <button class="directions" id="directionsBtn">DIRECTIONS</button>
+  <div class="hotel-note" id="hotelNote" hidden>This is your hotel.</div>
+</section>
+
+<script>
+const places = [{"name": "HOHE CITY", "desc": "Hotel", "category": "hotel", "lat": 37.575921604413, "lng": 127.02593960419, "address": "서울특별시 동대문구 하정로5길 7", "icon": "★", "enName": "HOHE CITY"}, {"name": "신솔돈", "desc": "Korean Pork BBQ", "category": "food", "lat": 37.576011051942, "lng": 127.02623721923, "address": "서울 동대문구 하정로5길 1", "icon": "🍴", "enName": "Sinsoldon"}, {"name": "엔드롱", "desc": "Cafe", "category": "cafe", "lat": 37.5750843, "lng": 127.0266371, "address": "서울 동대문구 하정로 43", "icon": "☕", "enName": "Endlong"}, {"name": "재벌국수", "desc": "Korean Noodles", "category": "food", "lat": 37.5754033, "lng": 127.026327, "address": "서울 동대문구 하정로3길 7-3 1층", "icon": "🍴", "enName": "Jaebeol Guksu"}, {"name": "육전식당 신설동본점", "desc": "Korean BBQ", "category": "food", "lat": 37.574078058184, "lng": 127.02698980596, "address": "서울 동대문구 천호대로 33 1층", "icon": "🍴", "enName": "Yukjeon Sikdang"}, {"name": "오모 브런치 바", "desc": "Brunch & Pasta", "category": "food", "lat": 37.57513, "lng": 127.0276, "address": "서울 동대문구 하정로2길 15 1층", "icon": "🍴", "enName": "OMO Brunch Bar"}, {"name": "비비밀", "desc": "Bibimbap", "category": "food", "lat": 37.57520763614, "lng": 127.02461868111, "address": "서울 동대문구 천호대로 7-4 1층", "icon": "🍴", "enName": "Bibimeal"}, {"name": "홍조보리밥", "desc": "Korean Barley Rice", "category": "food", "lat": 37.575224577367, "lng": 127.02586099163, "address": "서울 동대문구 왕산로2길 27", "icon": "🍴", "enName": "Hongjo Boribap"}, {"name": "육전제면소", "desc": "Korean Noodles", "category": "food", "lat": 37.574350987563, "lng": 127.02424167215, "address": "서울 동대문구 난계로30길 16", "icon": "🍴", "enName": "Yukjeon Jemyeonso"}, {"name": "나정순할매쭈꾸미", "desc": "Spicy Webfoot Octopus", "category": "food", "lat": 37.5770942, "lng": 127.0307078, "address": "서울 동대문구 무학로 144", "icon": "🍴", "enName": "Na Jeong-sun Halmae Jjukkumi"}, {"name": "아후아", "desc": "Cafe", "category": "cafe", "lat": 37.574713428447, "lng": 127.02775766491, "address": "서울 동대문구 천호대로7길 15 1층", "icon": "☕", "enName": "Ahua"}, {"name": "타일러", "desc": "Craft Beer Pub", "category": "bar", "lat": 37.5751392574862, "lng": 127.026885748691, "address": "서울 동대문구 하정로 46 1층", "icon": "🍺", "enName": "Tyler"}, {"name": "오스테리아 채채", "desc": "Italian", "category": "food", "lat": 37.577036017572, "lng": 127.02583305358, "address": "서울 동대문구 왕산로3길 10 1층", "icon": "🍴", "enName": "Osteria Chaechae"}, {"name": "후쿠라멘", "desc": "Ramen", "category": "food", "lat": 37.5770318420172, "lng": 127.024610988234, "address": "서울 동대문구 한빛로 11 1층", "icon": "🍴", "enName": "Fuku Ramen"}, {"name": "동신곱창 신설동본점", "desc": "Gopchang", "category": "food", "lat": 37.5762, "lng": 127.02258, "address": "서울 종로구 보문로1길 6 1층", "icon": "🍴", "enName": "Dongsin Gopchang"}, {"name": "미옥숯불구이", "desc": "Korean BBQ", "category": "food", "lat": 37.5761726, "lng": 127.0307792, "address": "서울 동대문구 무학로 134 1층", "icon": "🍴", "enName": "Miok"}, {"name": "서울풍물시장", "desc": "Flea Market", "category": "spot", "lat": 37.5727219, "lng": 127.0255127, "address": "서울 동대문구 천호대로4길 21", "icon": "🏛", "enName": "Seoul Folk Flea Market"}];
+
+const map = new maplibregl.Map({
+  container:"map",
+  style:"https://tiles.openfreemap.org/styles/positron",
+  center:[127.026,37.576],
+  zoom:15.7,
+  attributionControl:true
+});
+map.dragRotate.disable();
+map.touchZoomRotate.disableRotation();
+
+const sheet = document.getElementById("sheet");
+const sheetName = document.getElementById("sheetName");
+const sheetLocal = document.getElementById("sheetLocal");
+const sheetDesc = document.getElementById("sheetDesc");
+const directionsBtn = document.getElementById("directionsBtn");
+const hotelNote = document.getElementById("hotelNote");
+const bounds = new maplibregl.LngLatBounds();
+let userMarker = null;
+
+function closeSheet(){ sheet.classList.remove("open"); }
+
+function openPlace(place){
+  sheetName.textContent = place.enName || place.name;
+  sheetLocal.textContent = (place.category === "hotel" || !place.enName || place.enName === place.name) ? "" : place.name;
+  sheetDesc.textContent = place.desc;
+
+  if(place.category === "hotel"){
+    directionsBtn.hidden = true;
+    hotelNote.hidden = false;
+  }else{
+    directionsBtn.hidden = false;
+    hotelNote.hidden = true;
+    directionsBtn.onclick = () => openDirections(place);
+  }
+  sheet.classList.add("open");
+}
+
+function openDirections(place){
+  const dname = encodeURIComponent(place.name);
+  const naverApp = `nmap://route/walk?dlat=${place.lat}&dlng=${place.lng}&dname=${dname}&appname=com.hohecity.nearby`;
+  const naverWeb = `https://map.naver.com/p/search/${encodeURIComponent(place.address)}`;
+
+  window.location.href = naverApp;
+  setTimeout(() => {
+    if(!document.hidden) window.location.href = naverWeb;
+  }, 1100);
+}
+
+function markerEl(place){
+  if(place.category === "hotel"){
+    const wrap = document.createElement("div");
+    wrap.className = "hotel-wrap";
+    wrap.innerHTML = `<div class="place-marker hotel">${place.icon}</div><div class="hotel-label">HOHE CITY</div>`;
+    wrap.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
+    return wrap;
+  }
+
+  const el = document.createElement("div");
+  el.className = `place-marker ${place.category}`;
+  el.textContent = place.icon;
+  el.setAttribute("aria-label", `${place.enName || place.name} ${place.name}`);
+  el.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
+  return el;
+}
+
+map.on("load",()=>{
+  places.forEach(place=>{
+    new maplibregl.Marker({element:markerEl(place),anchor:"center"})
+      .setLngLat([place.lng,place.lat])
+      .addTo(map);
+    bounds.extend([place.lng,place.lat]);
+  });
+
+  map.fitBounds(bounds,{
+    padding:{top:85,right:44,bottom:90,left:44},
+    maxZoom:16.8,
+    duration:0
+  });
+});
+
+map.on("click", closeSheet);
+document.getElementById("closeBtn").addEventListener("click", closeSheet);
+
+document.getElementById("locateBtn").addEventListener("click",()=>{
+  if(!navigator.geolocation){
+    alert("Location is not available on this device.");
+    return;
+  }
+
+  navigator.geolocation.getCurrentPosition(
+    pos=>{
+      const lng = pos.coords.longitude;
+      const lat = pos.coords.latitude;
+
+      if(userMarker) userMarker.remove();
+
+      const dot = document.createElement("div");
+      dot.style.cssText =
+        "width:18px;height:18px;border-radius:50%;background:#2676D9;border:4px solid white;box-shadow:0 2px 10px rgba(0,0,0,.3)";
+
+      userMarker = new maplibregl.Marker({element:dot,anchor:"center"})
+        .setLngLat([lng,lat])
+        .addTo(map);
+
+      map.flyTo({center:[lng,lat],zoom:17,duration:600});
+      closeSheet();
+    },
+    ()=>alert("Please allow location access to show your position."),
+    {enableHighAccuracy:true,timeout:8000,maximumAge:30000}
+  );
+});
+</script>
+</body>
+</html>
