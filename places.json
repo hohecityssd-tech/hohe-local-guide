@@ -1,5 +1,5 @@
 {
-  "version": "2.8-naver-link-verification-preview",
+  "version": "2.9-naver-share-links-preview",
   "places": [
     {
       "name": "HOHE CITY",
@@ -18,7 +18,8 @@
         "zhHant": "飯店",
         "ko": "호텔"
       },
-      "naverLinkStatus": "not-needed"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/5B01dlm7"
     },
     {
       "name": "신솔돈",
@@ -37,7 +38,8 @@
         "zhHant": "韓式烤豬肉",
         "ko": "한식 돼지고기 구이"
       },
-      "naverLinkStatus": "verified-by-user"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/xP8mIZAQ"
     },
     {
       "name": "엔드롱",
@@ -56,7 +58,8 @@
         "zhHant": "咖啡廳",
         "ko": "카페"
       },
-      "naverLinkStatus": "verified-by-user"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/xk18oFj1"
     },
     {
       "name": "재벌국수",
@@ -75,8 +78,8 @@
         "zhHant": "韓式麵食",
         "ko": "한식 면요리"
       },
-      "naverUrl": "https://map.naver.com/p/entry/place/1959421088",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/GI3JjyCD",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "육전식당 신설동본점",
@@ -95,8 +98,8 @@
         "zhHant": "韓式烤肉",
         "ko": "한식 고기구이"
       },
-      "naverUrl": "https://naver.me/GVV7deel",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/5ssTQsSO",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "오모 브런치 바",
@@ -115,7 +118,8 @@
         "zhHant": "早午餐 & 義大利麵",
         "ko": "브런치 & 파스타"
       },
-      "naverLinkStatus": "needs-check"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/5HkaIOAC"
     },
     {
       "name": "비비밀",
@@ -134,7 +138,8 @@
         "zhHant": "韓式拌飯",
         "ko": "비빔밥"
       },
-      "naverLinkStatus": "needs-check"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/5UEcQeSc"
     },
     {
       "name": "육전제면소",
@@ -153,7 +158,8 @@
         "zhHant": "韓式麵食",
         "ko": "한식 면요리"
       },
-      "naverLinkStatus": "needs-check"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/xyTGXUZC"
     },
     {
       "name": "나정순할매쭈꾸미",
@@ -172,8 +178,8 @@
         "zhHant": "辣炒小章魚",
         "ko": "매콤한 쭈꾸미 볶음"
       },
-      "naverUrl": "https://map.naver.com/p/entry/place/11829657",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/GzE9HfHD",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "아후아",
@@ -192,7 +198,8 @@
         "zhHant": "咖啡廳",
         "ko": "카페"
       },
-      "naverLinkStatus": "needs-check"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/FM9XBP1k"
     },
     {
       "name": "타일러",
@@ -211,8 +218,8 @@
         "zhHant": "精釀啤酒吧",
         "ko": "수제맥주 펍"
       },
-      "naverUrl": "https://naver.me/xqvRuv0M",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/GtURZCbs",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "동신곱창 신설동본점",
@@ -233,8 +240,8 @@
       },
       "googleLat": 37.57620742,
       "googleLng": 127.0227842407,
-      "naverUrl": "https://m.place.naver.com/restaurant/1504535668/home?entry=pll",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/xtgpEUiV",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "미옥숯불구이",
@@ -253,7 +260,8 @@
         "zhHant": "韓式烤肉",
         "ko": "한식 고기구이"
       },
-      "naverLinkStatus": "needs-check"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/Fio7BS3E"
     },
     {
       "name": "서울풍물시장",
@@ -274,8 +282,8 @@
       },
       "zhHansName": "首尔风物市场",
       "zhHantName": "首爾風物市場",
-      "naverUrl": "https://map.naver.com/p/entry/place/12827607",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/FG7xgJRq",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "오팔식당 신설역점",
@@ -294,7 +302,8 @@
       "lng": 127.0243883301,
       "address": "서울 동대문구 천호대로 8 1층",
       "icon": "🍴",
-      "naverLinkStatus": "needs-check"
+      "naverLinkStatus": "verified-share-link",
+      "naverUrl": "https://naver.me/GeURDKbO"
     },
     {
       "name": "한상차림밥상 신설동",
@@ -313,8 +322,8 @@
       "lng": 127.025956,
       "address": "서울 동대문구 한빛로 28 1층",
       "icon": "🍴",
-      "naverUrl": "https://map.naver.com/p/entry/place/1727721533",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/52R5vdIL",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "신술동",
@@ -333,8 +342,8 @@
       "lng": 127.0241359,
       "address": "서울 동대문구 한빛로 3 1층",
       "icon": "🍺",
-      "naverUrl": "https://naver.me/xjJ4zgAI",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/IMyA9lZ1",
+      "naverLinkStatus": "verified-share-link"
     },
     {
       "name": "푸라닭 용신점",
@@ -353,8 +362,8 @@
       "lng": 127.0270767,
       "address": "서울 동대문구 천호대로 34 1층",
       "icon": "🍴",
-      "naverUrl": "https://map.naver.com/p/search/%EC%B9%98%ED%82%A8/place/1157696032?c=16.11,0,0,3,dh&placePath=%2Fhome%3Fentry%3Dbmp%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202610071836%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%B9%98%ED%82%A8",
-      "naverLinkStatus": "direct-place-link"
+      "naverUrl": "https://naver.me/5pwS7bvS",
+      "naverLinkStatus": "verified-share-link"
     }
   ]
 }
