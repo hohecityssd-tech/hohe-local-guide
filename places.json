@@ -1,5 +1,5 @@
 {
-  "version": "2.6-naver-place-links-preview",
+  "version": "2.7-naver-place-links-preview",
   "places": [
     {
       "name": "HOHE CITY",
@@ -221,7 +221,8 @@
         "ko": "곱창요리"
       },
       "googleLat": 37.57620742,
-      "googleLng": 127.0227842407
+      "googleLng": 127.0227842407,
+      "naverUrl": "https://m.place.naver.com/restaurant/1504535668/home?entry=pll"
     },
     {
       "name": "미옥숯불구이",
