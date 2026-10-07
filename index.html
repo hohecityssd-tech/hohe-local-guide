@@ -10,17 +10,19 @@
   <script src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
 
   <style>
+    /* color ver1: hotel #95483B, food #C36D43, cafe #67584A, bar #34383B, spot #65727A; white icon strokes. */
+    /* color ver2: approved marker backgrounds; dark strokes on light backgrounds. */
     :root{
       --bg:#F5F0E8;
       --panel:#FFFDF9;
       --text:#262522;
       --muted:#77736C;
       --line:#E5DED3;
-      --hotel:#95483B;
-      --food:#C36D43;
-      --cafe:#67584A;
-      --bar:#34383B;
-      --spot:#65727A;
+      --hotel:#2A1A0E;
+      --food:#F4AE52;
+      --cafe:#D4621A;
+      --bar:#AEAC78;
+      --spot:#FEF3E2;
     }
 
     *{box-sizing:border-box}
@@ -59,10 +61,10 @@
     }
     .place-marker svg{width:22px;height:22px;display:block;flex:none;pointer-events:none}
     .place-marker.hotel{background:var(--hotel);color:#fff}
-    .place-marker.food{background:var(--food);color:#fff}
+    .place-marker.food{background:var(--food);color:#2A1A0E}
     .place-marker.cafe{background:var(--cafe);color:#fff}
-    .place-marker.bar{background:var(--bar);color:#fff}
-    .place-marker.spot{background:var(--spot);color:#fff}
+    .place-marker.bar{background:var(--bar);color:#2A1A0E}
+    .place-marker.spot{background:var(--spot);color:#2A1A0E}
 
     .hotel-wrap{display:flex;align-items:center;gap:6px}
     .hotel-label{
