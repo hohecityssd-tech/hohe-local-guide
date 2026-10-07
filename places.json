@@ -1,5 +1,5 @@
 {
-  "version": "2.5-naver-place-link-preview",
+  "version": "2.6-naver-place-links-preview",
   "places": [
     {
       "name": "HOHE CITY",
@@ -71,7 +71,8 @@
         "zhHans": "韩式面食",
         "zhHant": "韓式麵食",
         "ko": "한식 면요리"
-      }
+      },
+      "naverUrl": "https://map.naver.com/p/entry/place/1959421088"
     },
     {
       "name": "육전식당 신설동본점",
@@ -89,7 +90,8 @@
         "zhHans": "韩式烤肉",
         "zhHant": "韓式烤肉",
         "ko": "한식 고기구이"
-      }
+      },
+      "naverUrl": "https://naver.me/GVV7deel"
     },
     {
       "name": "오모 브런치 바",
@@ -161,7 +163,8 @@
         "zhHans": "辣炒小章鱼",
         "zhHant": "辣炒小章魚",
         "ko": "매콤한 쭈꾸미 볶음"
-      }
+      },
+      "naverUrl": "https://map.naver.com/p/entry/place/11829657"
     },
     {
       "name": "아후아",
@@ -197,7 +200,8 @@
         "zhHans": "精酿啤酒吧",
         "zhHant": "精釀啤酒吧",
         "ko": "수제맥주 펍"
-      }
+      },
+      "naverUrl": "https://naver.me/xqvRuv0M"
     },
     {
       "name": "동신곱창 신설동본점",
@@ -255,7 +259,8 @@
         "ko": "벼룩시장"
       },
       "zhHansName": "首尔风物市场",
-      "zhHantName": "首爾風物市場"
+      "zhHantName": "首爾風物市場",
+      "naverUrl": "https://map.naver.com/p/entry/place/12827607"
     },
     {
       "name": "오팔식당 신설역점",
@@ -291,7 +296,8 @@
       "lat": 37.5778721,
       "lng": 127.025956,
       "address": "서울 동대문구 한빛로 28 1층",
-      "icon": "🍴"
+      "icon": "🍴",
+      "naverUrl": "https://map.naver.com/p/entry/place/1727721533"
     },
     {
       "name": "신술동",
@@ -309,7 +315,8 @@
       "lat": 37.5765227,
       "lng": 127.0241359,
       "address": "서울 동대문구 한빛로 3 1층",
-      "icon": "🍺"
+      "icon": "🍺",
+      "naverUrl": "https://naver.me/xjJ4zgAI"
     },
     {
       "name": "푸라닭 용신점",
