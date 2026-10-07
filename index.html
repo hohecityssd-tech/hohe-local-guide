@@ -287,14 +287,13 @@ function openPlace(place){
 }
 
 function openDirections(place){
-  const dname = encodeURIComponent(place.name);
-  const naverApp = `nmap://route/walk?dlat=${place.lat}&dlng=${place.lng}&dname=${dname}&appname=com.hohecity.nearby`;
-  const naverWeb = `https://map.naver.com/p/search/${encodeURIComponent(place.address)}`;
+  if(place.naverUrl){
+    window.location.href = place.naverUrl;
+    return;
+  }
 
-  window.location.href = naverApp;
-  setTimeout(() => {
-    if(!document.hidden) window.location.href = naverWeb;
-  }, 1100);
+  const naverWeb = `https://map.naver.com/p/search/${encodeURIComponent(place.name + " " + place.address)}`;
+  window.location.href = naverWeb;
 }
 
 function openGoogleDirections(place){
