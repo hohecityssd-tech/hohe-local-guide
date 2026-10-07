@@ -1,5 +1,5 @@
 {
-  "version": "2.3-language-preview",
+  "version": "2.4-list-refresh-preview",
   "places": [
     {
       "name": "HOHE CITY",
@@ -128,24 +128,6 @@
       }
     },
     {
-      "name": "홍조보리밥",
-      "desc": "Korean Barley Rice",
-      "category": "food",
-      "lat": 37.575224577367,
-      "lng": 127.02586099163,
-      "address": "서울 동대문구 왕산로2길 27",
-      "icon": "🍴",
-      "enName": "Hongjo Boribap",
-      "jaName": "ホンジョ・ボリバプ",
-      "descs": {
-        "en": "Korean Barley Rice",
-        "ja": "韓国式麦ご飯",
-        "zhHans": "韩式大麦饭",
-        "zhHant": "韓式大麥飯",
-        "ko": "보리밥"
-      }
-    },
-    {
       "name": "육전제면소",
       "desc": "Korean Noodles",
       "category": "food",
@@ -218,42 +200,6 @@
       }
     },
     {
-      "name": "오스테리아 채채",
-      "desc": "Italian",
-      "category": "food",
-      "lat": 37.577036017572,
-      "lng": 127.02583305358,
-      "address": "서울 동대문구 왕산로3길 10 1층",
-      "icon": "🍴",
-      "enName": "Osteria Chaechae",
-      "jaName": "オステリア・チェチェ",
-      "descs": {
-        "en": "Italian",
-        "ja": "イタリア料理",
-        "zhHans": "意大利料理",
-        "zhHant": "義大利料理",
-        "ko": "이탈리안"
-      }
-    },
-    {
-      "name": "후쿠라멘",
-      "desc": "Ramen",
-      "category": "food",
-      "lat": 37.5770318420172,
-      "lng": 127.024610988234,
-      "address": "서울 동대문구 한빛로 11 1층",
-      "icon": "🍴",
-      "enName": "Fuku Ramen",
-      "jaName": "フクラーメン",
-      "descs": {
-        "en": "Ramen",
-        "ja": "ラーメン",
-        "zhHans": "拉面",
-        "zhHant": "拉麵",
-        "ko": "라멘"
-      }
-    },
-    {
       "name": "동신곱창 신설동본점",
       "desc": "Gopchang",
       "category": "food",
@@ -310,6 +256,78 @@
       },
       "zhHansName": "首尔风物市场",
       "zhHantName": "首爾風物市場"
+    },
+    {
+      "name": "오팔식당 신설역점",
+      "enName": "Opal Sikdang",
+      "jaName": "オパル食堂",
+      "desc": "Budae Jjigae & Korean BBQ",
+      "descs": {
+        "en": "Budae Jjigae & Korean BBQ",
+        "ja": "プデチゲ & 韓国焼肉",
+        "zhHans": "部队锅 & 韩式烤肉",
+        "zhHant": "部隊鍋 & 韓式烤肉",
+        "ko": "부대찌개 & 한식 고기요리"
+      },
+      "category": "food",
+      "lat": 37.574865479731,
+      "lng": 127.0243883301,
+      "address": "서울 동대문구 천호대로 8 1층",
+      "icon": "🍴"
+    },
+    {
+      "name": "한상차림밥상 신설동",
+      "enName": "Hansang Charim Bapsang",
+      "jaName": "ハンサンチャリム・パプサン",
+      "desc": "Korean Set Meals & Bossam",
+      "descs": {
+        "en": "Korean Set Meals & Bossam",
+        "ja": "韓定食 & ポッサム",
+        "zhHans": "韩式套餐 & 菜包肉",
+        "zhHant": "韓式套餐 & 菜包肉",
+        "ko": "한상차림 정식 & 보쌈"
+      },
+      "category": "food",
+      "lat": 37.5778721,
+      "lng": 127.025956,
+      "address": "서울 동대문구 한빛로 28 1층",
+      "icon": "🍴"
+    },
+    {
+      "name": "신술동",
+      "enName": "Sinsooldong",
+      "jaName": "シンスルドン",
+      "desc": "Korean Pub & Seafood",
+      "descs": {
+        "en": "Korean Pub & Seafood",
+        "ja": "韓国居酒屋 & 海鮮",
+        "zhHans": "韩式酒馆 & 海鲜",
+        "zhHant": "韓式酒館 & 海鮮",
+        "ko": "한식 주점 & 해산물"
+      },
+      "category": "bar",
+      "lat": 37.5765227,
+      "lng": 127.0241359,
+      "address": "서울 동대문구 한빛로 3 1층",
+      "icon": "🍺"
+    },
+    {
+      "name": "푸라닭 용신점",
+      "enName": "Puradak Yongsin",
+      "jaName": "プラダック ヨンシン店",
+      "desc": "Korean Fried Chicken · Delivery & Takeout Only",
+      "descs": {
+        "en": "Korean Fried Chicken · Delivery & Takeout Only",
+        "ja": "韓国フライドチキン · デリバリー・テイクアウトのみ",
+        "zhHans": "韩式炸鸡 · 仅外送和外带",
+        "zhHant": "韓式炸雞 · 僅外送和外帶",
+        "ko": "치킨 · 배달·포장만 가능"
+      },
+      "category": "food",
+      "lat": 37.5736846,
+      "lng": 127.0270767,
+      "address": "서울 동대문구 천호대로 34 1층",
+      "icon": "🍴"
     }
   ]
 }
