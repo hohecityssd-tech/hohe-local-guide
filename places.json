@@ -1,5 +1,5 @@
 {
-  "version": "2.9-naver-share-links-preview",
+  "version": "3.0-google-place-links-preview",
   "places": [
     {
       "name": "HOHE CITY",
@@ -19,7 +19,10 @@
         "ko": "호텔"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/5B01dlm7"
+      "naverUrl": "https://naver.me/5B01dlm7",
+      "googleUrl": "https://www.google.com/maps/place/Hohe+City+Dongdaemun/data=!4m7!3m6!1s0x357ca30723df17f7:0xc80550c69f98ae9a!5m2!4m1!1i2!16s%2Fg%2F11z0mdlsp8!20s8Q99H2GG%2B992",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "신솔돈",
@@ -39,7 +42,10 @@
         "ko": "한식 돼지고기 구이"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/xP8mIZAQ"
+      "naverUrl": "https://naver.me/xP8mIZAQ",
+      "googleUrl": "https://www.google.com/maps/place/%EC%8B%A0%EC%86%94%EB%8F%88/data=!3m1!4b1!4m4!3m3!1s0x357ca3e3a9538749:0x4d7cde22ce4f6b33!16s%2Fg%2F11vr1_wjv0!20s8Q99H2GG%2B8GQ",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "엔드롱",
@@ -59,7 +65,10 @@
         "ko": "카페"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/xk18oFj1"
+      "naverUrl": "https://naver.me/xk18oFj1",
+      "googleUrl": "https://www.google.com/maps/place/%EC%97%94%EB%93%9C%EB%A1%B1/data=!3m1!4b1!4m4!3m3!1s0x357ca3c0c9c48f13:0x829710d8afb67606!16s%2Fg%2F11hyd3chbq!20s8Q99H2GG%2B2MC",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "재벌국수",
@@ -79,7 +88,10 @@
         "ko": "한식 면요리"
       },
       "naverUrl": "https://naver.me/GI3JjyCD",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%EC%9E%AC%EB%B2%8C%EA%B5%AD%EC%88%98/data=!3m1!4b1!4m4!3m3!1s0x357ca35f1ff43913:0x21f90883e920a126!16s%2Fg%2F11rw79dfxy!20s8Q99H2GG%2B5GF",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "육전식당 신설동본점",
@@ -99,7 +111,10 @@
         "ko": "한식 고기구이"
       },
       "naverUrl": "https://naver.me/5ssTQsSO",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%EC%9C%A1%EC%A0%84%EC%8B%9D%EB%8B%B9+%EC%8B%A0%EC%84%A4%EB%8F%99%EB%B3%B8%EC%A0%90/data=!4m5!3m4!1s0x357ca34da702bec5:0x6140d0792cbeb166!16s%2Fg%2F11c2r7v84l!19sChIJxb4Cp02jfDURZrG-LHnQQGE!20s8Q99H2FG%2BJQP",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "오모 브런치 바",
@@ -119,7 +134,10 @@
         "ko": "브런치 & 파스타"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/5HkaIOAC"
+      "naverUrl": "https://naver.me/5HkaIOAC",
+      "googleUrl": "https://www.google.com/maps/place/%EC%98%A4%EB%AA%A8/data=!3m1!4b1!4m4!3m3!1s0x357ca38a6562027d:0xd8444edab9ea40af!16s%2Fg%2F11y3hwv3c8!20s8Q99H2FH%2BX3C",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "비비밀",
@@ -139,7 +157,10 @@
         "ko": "비빔밥"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/5UEcQeSc"
+      "naverUrl": "https://naver.me/5UEcQeSc",
+      "googleUrl": "https://www.google.com/maps/place/%EB%B9%84%EB%B9%84%EB%B0%80/data=!3m1!4b1!4m4!3m3!1s0x357ca3000f079035:0x9a841cbc2ebded11!16s%2Fg%2F11y3vxnjtc!20s8Q99H2GF%2B3V2",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "육전제면소",
@@ -159,7 +180,10 @@
         "ko": "한식 면요리"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/xyTGXUZC"
+      "naverUrl": "https://naver.me/xyTGXUZC",
+      "googleUrl": "https://www.google.com/maps/place/%EC%9C%A1%EC%A0%84%EC%A0%9C%EB%A9%B4%EC%86%8C/data=!3m1!4b1!4m4!3m3!1s0x357ca34ca47c1855:0x747d2f24e4bfec27!16s%2Fg%2F11bbth_hcs!20s8Q99H2FF%2BMPV",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "나정순할매쭈꾸미",
@@ -179,7 +203,10 @@
         "ko": "매콤한 쭈꾸미 볶음"
       },
       "naverUrl": "https://naver.me/GzE9HfHD",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%EB%82%98%EC%A0%95%EC%88%9C%ED%95%A0%EB%A7%A4%EC%AD%88%EA%BE%B8%EB%AF%B8/data=!3m1!4b1!4m4!3m3!1s0x357cbcad0b1e8ecd:0xb92e4d2befed4c15!16s%2Fg%2F1tmphgf4!20s8Q99H2GJ%2BR7H",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "아후아",
@@ -199,7 +226,10 @@
         "ko": "카페"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/FM9XBP1k"
+      "naverUrl": "https://naver.me/FM9XBP1k",
+      "googleUrl": "https://www.google.com/maps/place/%EC%95%84%ED%9B%84%EC%95%84/data=!3m1!4b1!4m4!3m3!1s0x357ca3006919750d:0x505816df27ac196a!16s%2Fg%2F11z6q3bq4j!20s8Q99H2FH%2BV3G",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "타일러",
@@ -219,7 +249,10 @@
         "ko": "수제맥주 펍"
       },
       "naverUrl": "https://naver.me/GtURZCbs",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%ED%83%80%EC%9D%BC%EB%9F%AC/data=!3m1!4b1!4m4!3m3!1s0x357ca3013a7792f5:0xef075a2facaf3675!16s%2Fg%2F11rxs03t1r!20s8Q99H2GG%2B2PX",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "동신곱창 신설동본점",
@@ -241,7 +274,10 @@
       "googleLat": 37.57620742,
       "googleLng": 127.0227842407,
       "naverUrl": "https://naver.me/xtgpEUiV",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%EB%8F%99%EC%8B%A0%EA%B3%B1%EC%B0%BD+%EC%8B%A0%EC%84%A4%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca3000ca0371d:0xf6f47f85979b3f0e!16s%2Fg%2F11w7s11y66!20s8Q99H2GF%2BF4M",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "미옥숯불구이",
@@ -261,7 +297,10 @@
         "ko": "한식 고기구이"
       },
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/Fio7BS3E"
+      "naverUrl": "https://naver.me/Fio7BS3E",
+      "googleUrl": "https://www.google.com/maps/place/%EB%AF%B8%EC%98%A5%EC%88%AF%EB%B6%88%EA%B5%AC%EC%9D%B4/data=!3m1!4b1!4m4!3m3!1s0x357cbd0074500459:0x27e4e7930c224228!16s%2Fg%2F11ywv_b33n!20s8Q99H2GJ%2BF86",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "서울풍물시장",
@@ -283,7 +322,10 @@
       "zhHansName": "首尔风物市场",
       "zhHantName": "首爾風物市場",
       "naverUrl": "https://naver.me/FG7xgJRq",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%92%8D%EB%AC%BC%EC%8B%9C%EC%9E%A5/data=!3m1!4b1!4m4!3m3!1s0x357ca34c23126fdd:0x1f2f44177f2a4cef!16s%2Fg%2F11jgf8t75!20s8Q99H2FG%2B36C",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "오팔식당 신설역점",
@@ -303,7 +345,10 @@
       "address": "서울 동대문구 천호대로 8 1층",
       "icon": "🍴",
       "naverLinkStatus": "verified-share-link",
-      "naverUrl": "https://naver.me/GeURDKbO"
+      "naverUrl": "https://naver.me/GeURDKbO",
+      "googleUrl": "https://www.google.com/maps/place/%EC%98%A4%ED%8C%94%EC%8B%9D%EB%8B%B9/data=!3m1!4b1!4m4!3m3!1s0x357ca35f74191053:0xc6db744d87cbafef!16s%2Fg%2F11l5tlsmqh!20s8Q99H2FF%2BWP8",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "한상차림밥상 신설동",
@@ -323,7 +368,10 @@
       "address": "서울 동대문구 한빛로 28 1층",
       "icon": "🍴",
       "naverUrl": "https://naver.me/52R5vdIL",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%ED%95%9C%EC%83%81%EC%B0%A8%EB%A6%BC%EB%B0%A5%EC%83%81/data=!3m1!4b1!4m4!3m3!1s0x357cbcb701e7e5f1:0xf94b858097a4b5c4!16s%2Fg%2F11f54qp8lf!20s8Q99H2HG%2B49W",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "신술동",
@@ -343,7 +391,10 @@
       "address": "서울 동대문구 한빛로 3 1층",
       "icon": "🍺",
       "naverUrl": "https://naver.me/IMyA9lZ1",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%EC%8B%A0%EC%88%A0%EB%8F%99/data=!3m1!4b1!4m4!3m3!1s0x357ca3175eacf6c3:0xbd50d827d33a1c7b!16s%2Fg%2F11sw4vfswt!20s8Q99H2GF%2BJJF",
+      "googleLinkStatus": "verified-address",
+      "googleVerifiedAt": "2026-10-09"
     },
     {
       "name": "푸라닭 용신점",
@@ -363,7 +414,10 @@
       "address": "서울 동대문구 천호대로 34 1층",
       "icon": "🍴",
       "naverUrl": "https://naver.me/5pwS7bvS",
-      "naverLinkStatus": "verified-share-link"
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/place/%ED%91%B8%EB%9D%BC%EB%8B%AD+%EC%9A%A9%EC%8B%A0%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca34da92dbabb:0x11a00c8b50cbe2e0!16s%2Fg%2F11n0b8yyql!20s8Q99H2FG%2BFR8",
+      "googleLinkStatus": "verified-name-phone",
+      "googleVerifiedAt": "2026-10-09"
     }
   ]
 }
