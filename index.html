@@ -115,6 +115,7 @@
       color:var(--muted);font-size:25px;cursor:pointer;
     }
     .map-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .map-actions[hidden]{display:none}
     .directions{
       width:100%;height:48px;border:0;border-radius:11px;
       background:var(--text);color:#fff;
@@ -300,11 +301,12 @@ function openDirections(place){
 }
 
 function openGoogleDirections(place){
-  const glat = place.googleLat ?? place.lat;
-  const glng = place.googleLng ?? place.lng;
-  const destination = encodeURIComponent(`${glat},${glng}`);
-  const googleUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`;
-  window.location.href = googleUrl;
+  if(place.googleUrl){
+    window.location.href = place.googleUrl;
+    return;
+  }
+  const query = encodeURIComponent(`${place.name} ${place.address}`);
+  window.location.href = `https://www.google.com/maps/search/?api=1&query=${query}`;
 }
 
 // Approved category icons: Food/Cafe/Bar/Hotel A, Sightseeing B.
