@@ -1009,9 +1009,9 @@
         "ko": "대형마트 · 식료품 및 기념품"
       },
       "category": "shop",
-      "lat": 37.5708156,
-      "lng": 127.0214621,
-      "address": "서울특별시 중구 청계천로 400 (지하 2층)",
+      "lat": 37.5709,
+      "lng": 127.023003,
+      "address": "서울특별시 중구 청계천로 400 (황학동 2545, 롯데캐슬베네치아 B2)",
       "icon": "🛍",
       "googleUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%A7%88%ED%8A%B8%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EB%A1%9C%20400",
       "naverLinkStatus": "user-provided-entrance-share-link",
@@ -1059,7 +1059,8 @@
         "checkedDate": "2026-10-10"
       },
       "naverUrl": "https://naver.me/xXnsOLiB",
-      "pinVerification": "approximate-store-location-near-entrance; exact entrance pin not independently verified"
+      "pinVerification": "store-specific-location; entrance-marker-not-independently-verified",
+      "pinSourceUrl": "https://creatrip.com/en/spot/9951"
     },
     {
       "name": "다이소 동묘점",
