@@ -69,12 +69,6 @@
     .place-marker.spot{background:var(--spot);color:#2A1A0E}
     .place-marker.shop{background:var(--shop);color:#fff}
     .place-marker.transport{background:var(--transport);color:#fff}
-    .transport-wrap{display:flex;align-items:center;gap:5px}
-    .transport-label{
-      background:rgba(255,253,249,.97);border:1px solid var(--line);border-radius:7px;
-      padding:4px 6px;font-size:12px;font-weight:850;color:var(--transport);
-      box-shadow:0 2px 7px rgba(0,0,0,.1);white-space:nowrap;
-    }
 
     .hotel-wrap{display:flex;align-items:center;gap:6px}
     .hotel-label{
@@ -155,6 +149,17 @@
     .hour-row.today{font-weight:800}
     .hour-row .time{font-variant-numeric:tabular-nums;text-align:right}
     .hours-note{margin:9px 0 0;color:var(--muted);font-size:11px;line-height:1.4}
+    .bus-panel{margin:0 0 14px;padding:12px;background:#F1F5F7;border:1px solid #D8E1E8;border-radius:11px;font-size:12px}
+    .bus-panel[hidden]{display:none}
+    .bus-head{font-weight:800;font-size:13px;margin-bottom:9px}
+    .bus-times{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .bus-time{padding:9px 10px;border:1px solid #D8E1E8;border-radius:9px;background:rgba(255,255,255,.75)}
+    .bus-time-label{display:block;color:var(--muted);font-size:11px}
+    .bus-time-value{display:block;font-size:19px;font-weight:850;font-variant-numeric:tabular-nums;margin-top:3px}
+    .bus-details{margin-top:9px;font-size:12px;line-height:1.55}
+    .bus-caution{color:var(--muted);font-size:11px;line-height:1.5;margin:8px 0 0}
+    .bus-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:9px}
+    .bus-links a{color:#275877;font-weight:750;text-decoration:underline;text-underline-offset:2px}
     .hours-extras{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.5}
     .hours-extras[hidden]{display:none}
 
@@ -191,6 +196,19 @@
       <div class="hours-weekly" id="weeklyHoursRows"></div>
     </details>
     <p class="hours-note" id="hoursNote"></p>
+  </div>
+  <div class="bus-panel" id="busPanel" hidden>
+    <div class="bus-head" id="busHeading"></div>
+    <div class="bus-times">
+      <div class="bus-time"><span class="bus-time-label" id="busFirstLabel"></span><strong class="bus-time-value" id="busFirstValue"></strong></div>
+      <div class="bus-time"><span class="bus-time-label" id="busLastLabel"></span><strong class="bus-time-value" id="busLastValue"></strong></div>
+    </div>
+    <div class="bus-details" id="busDetails"></div>
+    <p class="bus-caution" id="busCaution"></p>
+    <div class="bus-links">
+      <a id="busTimetableLink" href="#" target="_blank" rel="noopener noreferrer"></a>
+      <a id="busOfficialLink" href="#" target="_blank" rel="noopener noreferrer"></a>
+    </div>
   </div>
   <div class="map-actions" id="mapActions">
     <button class="directions" id="directionsBtn">NAVER MAP</button>
@@ -276,6 +294,14 @@ const hoursUi = {
   ko:{today:"오늘 영업시간",weekly:"요일별 영업시간 보기",closed:"정기휴무",unknown:"확인 필요",nextDay:"익일",note:"공휴일 및 임시휴무에는 운영시간이 달라질 수 있습니다.",conflict:"플랫폼별 영업시간 정보가 달라 방문 전 재확인이 필요합니다.",breakTime:"브레이크타임",lastOrder:"라스트오더",days:["월","화","수","목","금","토","일"]}
 }[locale];
 
+const busUi = {
+  en:{heading:"Bus 6002 · Sinseol-dong stop (06008)",first:"First departure",last:"Last departure",daily:"Daily",interval:"Frequency",minutes:"min",adult:"Adult",child:"Child",stopTimes:"Stop timetable ↗",official:"Operator website ↗",caution:"Approximate scheduled times at this stop, not live arrivals. Actual departures can change; check before travelling."},
+  ja:{heading:"6002番 · 新設洞停留所 (06008)",first:"始発",last:"最終",daily:"毎日",interval:"運行間隔",minutes:"分",adult:"大人",child:"子ども",stopTimes:"停留所の時刻表 ↗",official:"運行会社公式 ↗",caution:"この停留所の参考時刻です。実際の到着・出発時刻は異なる場合があります。乗車前にご確認ください。"},
+  zhHans:{heading:"6002路 · 新设洞站 (06008)",first:"首班车",last:"末班车",daily:"每天",interval:"发车间隔",minutes:"分钟",adult:"成人",child:"儿童",stopTimes:"本站时刻表 ↗",official:"运营公司官网 ↗",caution:"仅供参考，非实时到站信息。实际发车时间可能变化，请出行前确认。"},
+  zhHant:{heading:"6002路 · 新設洞站 (06008)",first:"首班車",last:"末班車",daily:"每天",interval:"發車間隔",minutes:"分鐘",adult:"成人",child:"兒童",stopTimes:"本站時刻表 ↗",official:"營運公司官網 ↗",caution:"僅供參考，非即時到站資訊。實際發車時間可能變動，出發前請確認。"},
+  ko:{heading:"6002번 · 신설동역 정류장 (06008)",first:"첫차",last:"막차",daily:"매일",interval:"배차간격",minutes:"분",adult:"성인",child:"어린이",stopTimes:"정류장 시간표 ↗",official:"공항리무진 공식 ↗",caution:"신설동역 정류장 기준 참고시간이며 실시간 도착정보가 아닙니다. 도로 상황 및 운행 변경에 따라 달라질 수 있으니 탑승 전 확인해 주세요."}
+}[locale];
+
 function primaryName(place){
   if(locale === "ja") return place.jaName || place.enName || place.name;
   if(locale === "zhHans") return place.zhHansName || place.enName || place.name;
@@ -317,6 +343,16 @@ const weeklyHoursDetails = document.getElementById("weeklyHoursDetails");
 const weeklyHoursSummary = document.getElementById("weeklyHoursSummary");
 const weeklyHoursRows = document.getElementById("weeklyHoursRows");
 const hoursNote = document.getElementById("hoursNote");
+const busPanel = document.getElementById("busPanel");
+const busHeading = document.getElementById("busHeading");
+const busFirstLabel = document.getElementById("busFirstLabel");
+const busLastLabel = document.getElementById("busLastLabel");
+const busFirstValue = document.getElementById("busFirstValue");
+const busLastValue = document.getElementById("busLastValue");
+const busDetails = document.getElementById("busDetails");
+const busCaution = document.getElementById("busCaution");
+const busTimetableLink = document.getElementById("busTimetableLink");
+const busOfficialLink = document.getElementById("busOfficialLink");
 const directionsBtn = document.getElementById("directionsBtn");
 const googleBtn = document.getElementById("googleBtn");
 const mapActions = document.getElementById("mapActions");
@@ -386,11 +422,38 @@ function renderHours(place){
   });
 }
 
+function renderBusSchedule(place){
+  const schedule = place.transport && place.transport.schedule;
+  busPanel.hidden = !schedule;
+  if(!schedule) return;
+  busHeading.textContent = busUi.heading;
+  busFirstLabel.textContent = busUi.first;
+  busLastLabel.textContent = busUi.last;
+  busFirstValue.textContent = "≈ " + schedule.firstDeparture;
+  busLastValue.textContent = "≈ " + schedule.lastDeparture;
+  const range = schedule.approximateIntervalMinutes;
+  const intervalText = Array.isArray(range) && range.length === 2
+    ? range[0] + "–" + range[1] + " " + busUi.minutes : "";
+  const formatWon = amount => Number(amount).toLocaleString("en-US") + " KRW";
+  busDetails.textContent = [
+    busUi.daily,
+    busUi.interval + " ≈ " + intervalText,
+    busUi.adult + " " + formatWon(schedule.adultFareWon),
+    busUi.child + " " + formatWon(schedule.childFareWon)
+  ].join(" · ");
+  busCaution.textContent = busUi.caution;
+  busTimetableLink.textContent = busUi.stopTimes;
+  busTimetableLink.href = schedule.sourceUrl;
+  busOfficialLink.textContent = busUi.official;
+  busOfficialLink.href = schedule.officialRouteUrl;
+}
+
 function openPlace(place){
   sheetName.textContent = primaryName(place);
   sheetLocal.textContent = place.category === "hotel" ? "" : secondaryName(place);
   sheetDesc.textContent = localizedDesc(place);
   renderHours(place);
+  renderBusSchedule(place);
 
   if(place.category === "hotel"){
     mapActions.hidden = true;
@@ -444,21 +507,6 @@ function markerEl(place){
     wrap.className = "hotel-wrap";
     wrap.setAttribute("aria-label", primaryName(place));
     wrap.innerHTML = `<div class="place-marker hotel">${categoryIcon(place.category)}</div><div class="hotel-label">HOHE CITY</div>`;
-    wrap.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
-    return wrap;
-  }
-
-  if(place.category === "transport"){
-    const wrap = document.createElement("div");
-    wrap.className = "transport-wrap";
-    wrap.setAttribute("aria-label", primaryName(place));
-    const marker = document.createElement("div");
-    marker.className = "place-marker transport";
-    marker.innerHTML = categoryIcon(place.category);
-    const route = document.createElement("div");
-    route.className = "transport-label";
-    route.textContent = (place.transport && place.transport.route) || "BUS";
-    wrap.append(marker,route);
     wrap.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
     return wrap;
   }
