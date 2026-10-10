@@ -1205,9 +1205,11 @@
       "googleLinkStatus": "user-provided-exact-map-link",
       "naverUrl": "https://map.naver.com/p/search/%EC%84%B1%EB%B6%81%EC%B2%9C%20%EC%82%B0%EC%B1%85%EB%A1%9C%20%EC%8B%A0%EC%84%A4%EB%8F%99",
       "naverLinkStatus": "search-fallback",
-      "pinVerification": "provisional-nearby-marker; original-Google-shortlink-coordinate-unresolved",
+      "pinVerification": "wrong-previous-coordinate; hidden-awaiting-opposite-building-identification",
       "pinSourceUrl": "https://mapcarta.com/W463206167",
-      "notes": "Preview only until actual entrance coordinates confirmed. Provisional marker is nearby known Naedeulmok Library coordinate, not confirmed stream entrance."
+      "notes": "The original approximate marker was incorrect. User provided opposite/nearest building https://maps.app.goo.gl/YKdPTvSrkcigCkzp8 but redirect could not be expanded. Do not render or publish marker until location is verified.",
+      "oppositeBuildingGoogleUrl": "https://maps.app.goo.gl/YKdPTvSrkcigCkzp8",
+      "pendingLocationVerification": true
     }
   ]
 }
