@@ -896,7 +896,44 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%ED%91%B8%EB%9D%BC%EB%8B%AD+%EC%9A%A9%EC%8B%A0%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca34da92dbabb:0x11a00c8b50cbe2e0!16s%2Fg%2F11n0b8yyql!20s8Q99H2FG%2BFR8",
       "googleLinkStatus": "verified-name-phone",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–03:00 (+1)"
+          ],
+          "tue": [
+            "11:00–03:00 (+1)"
+          ],
+          "wed": [
+            "11:00–03:00 (+1)"
+          ],
+          "thu": [
+            "11:00–03:00 (+1)"
+          ],
+          "fri": [
+            "11:00–03:00 (+1)"
+          ],
+          "sat": [
+            "11:00–03:00 (+1)"
+          ],
+          "sun": [
+            "11:00–03:00 (+1)"
+          ]
+        },
+        "verification": "conflicting-sources",
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=yOx8unIE39Ol",
+        "alternateSourceUrl": "https://www.daangn.com/kr/local-profile/%ED%91%B8%EB%9D%BC%EB%8B%AD-%EC%9A%A9%EC%8B%A0-iqu46ixngvho/",
+        "checkedDate": "2026-10-10",
+        "specialHoursNotes": {
+          "ko": "배달·포장 전용 · 주문 앱에 따라 주문 마감시간이 다를 수 있습니다.",
+          "en": "Delivery and takeout only. Ordering cutoffs may vary by app.",
+          "ja": "デリバリー・テイクアウトのみ。注文締切はアプリによって異なります。",
+          "zhHans": "仅限外送和外带，各平台的最晚下单时间可能不同。",
+          "zhHant": "僅限外送和外帶，各平台的最晚下單時間可能不同。"
+        }
+      }
     },
     {
       "name": "갗bar",
@@ -919,7 +956,44 @@
       "naverLinkStatus": "user-provided-share-link",
       "googleUrl": "https://www.google.com/maps/search/?api=1&query=GACH%20Cafe%20%26%20Bar%20Seoul&query_place_id=ChIJTc_fOhOjfDURnv1M4AGRotE",
       "googleLinkStatus": "provider-place-id",
-      "googleVerifiedAt": "2026-10-10"
+      "googleVerifiedAt": "2026-10-10",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "12:00–18:00"
+          ],
+          "tue": [
+            "12:00–02:00 (+1)"
+          ],
+          "wed": [
+            "12:00–02:00 (+1)"
+          ],
+          "thu": [
+            "12:00–02:00 (+1)"
+          ],
+          "fri": [
+            "12:00–02:00 (+1)"
+          ],
+          "sat": [
+            "12:00–02:00 (+1)"
+          ],
+          "sun": [
+            "12:00–02:00 (+1)"
+          ]
+        },
+        "verification": "conflicting-sources",
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=42C77rYa57pJ",
+        "alternateSourceUrl": "https://www.ktriptips.com/kor/food/3486753",
+        "checkedDate": "2026-10-10",
+        "specialHoursNotes": {
+          "ko": "낮에는 카페, 약 19:00부터 바 운영 · 월요일 운영 여부 및 시간 재확인 권장",
+          "en": "Café by day, bar from around 19:00. Monday hours are uncertain.",
+          "ja": "昼はカフェ、19:00頃からバー。月曜日の営業時間は要確認。",
+          "zhHans": "白天为咖啡馆，约19:00起为酒吧；周一时间需再次确认。",
+          "zhHant": "白天為咖啡廳，約19:00起為酒吧；週一時間需再次確認。"
+        }
+      }
     }
   ]
 }
