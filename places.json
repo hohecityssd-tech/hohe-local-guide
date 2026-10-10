@@ -1197,19 +1197,19 @@
         "ko": "도심 속 하천 산책로 · 가볍게 걷기 좋은 길"
       },
       "category": "spot",
-      "lat": 37.5787,
-      "lng": 127.02426,
-      "address": "서울 동대문구 신설동 · 성북천 산책로 진입부 인근",
+      "lat": 37.57683,
+      "lng": 127.02755,
+      "address": "서울 동대문구 왕산로 36 제일광고기획 맞은편 · 천호대로7길과 왕산로가 만나는 성북천 진입 계단",
       "icon": "📷",
       "googleUrl": "https://maps.app.goo.gl/8QfzhMB8uWJg6EzU8",
       "googleLinkStatus": "user-provided-exact-map-link",
       "naverUrl": "https://map.naver.com/p/search/%EC%84%B1%EB%B6%81%EC%B2%9C%20%EC%82%B0%EC%B1%85%EB%A1%9C%20%EC%8B%A0%EC%84%A4%EB%8F%99",
       "naverLinkStatus": "search-fallback",
-      "pinVerification": "wrong-previous-coordinate; hidden-awaiting-opposite-building-identification",
-      "pinSourceUrl": "https://mapcarta.com/W463206167",
-      "notes": "The original approximate marker was incorrect. User provided opposite/nearest building https://maps.app.goo.gl/YKdPTvSrkcigCkzp8 but redirect could not be expanded. Do not render or publish marker until location is verified.",
+      "pinVerification": "estimated-from-Jeil-Advertising-Wangsan-ro-36-and-Cheonho-daero-7-gil-51; guest-confirmation-required",
+      "pinSourceUrl": "https://findby.co.kr/details/02582-112303105008-st-652ba3418c641f9e38ae93da",
+      "notes": "Preview-only estimate: near stairs opposite 제일광고기획, 서울 동대문구 왕산로 36. Building reference coordinates 37.5766919, 127.0274781. Requires guest visual approval before production release.",
       "oppositeBuildingGoogleUrl": "https://maps.app.goo.gl/YKdPTvSrkcigCkzp8",
-      "pendingLocationVerification": true
+      "pendingLocationVerification": false
     }
   ]
 }
