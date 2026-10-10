@@ -960,9 +960,7 @@
       "hours": {
         "timeZone": "Asia/Seoul",
         "weekly": {
-          "mon": [
-            "12:00–18:00"
-          ],
+          "mon": null,
           "tue": [
             "12:00–02:00 (+1)"
           ],
@@ -987,12 +985,13 @@
         "alternateSourceUrl": "https://www.ktriptips.com/kor/food/3486753",
         "checkedDate": "2026-10-10",
         "specialHoursNotes": {
-          "ko": "낮에는 카페, 약 19:00부터 바 운영 · 월요일 운영 여부 및 시간 재확인 권장",
-          "en": "Café by day, bar from around 19:00. Monday hours are uncertain.",
-          "ja": "昼はカフェ、19:00頃からバー。月曜日の営業時間は要確認。",
-          "zhHans": "白天为咖啡馆，约19:00起为酒吧；周一时间需再次确认。",
-          "zhHant": "白天為咖啡廳，約19:00起為酒吧；週一時間需再次確認。"
-        }
+          "ko": "월요일 영업·휴무 및 개점시간(10:00 또는 12:00)이 출처마다 다릅니다. 방문 전 지도에서 확인해 주세요.",
+          "en": "Monday opening and the daily start time (10:00 or 12:00) vary by source. Confirm on the map before visiting.",
+          "ja": "月曜の営業有無と開店時刻（10:00または12:00）は情報源によって異なります。来店前に地図でご確認ください。",
+          "zhHans": "周一是否营业及开店时间（10:00或12:00）各平台不一致，请到店前在地图上确认。",
+          "zhHant": "週一是否營業及開店時間（10:00或12:00）各平台不一致，請到店前於地圖確認。"
+        },
+        "thirdSourceUrl": "https://www.diningcode.com/profile.php?rid=42C77rYa57pJ"
       }
     }
   ]
