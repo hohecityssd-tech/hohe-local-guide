@@ -456,6 +456,8 @@ map.on("load", async ()=>{
     places = Array.isArray(data) ? data : data.places;
 
     places.forEach(place=>{
+      // Hide provisional pins whose location has not been verified.
+      if(place.pendingLocationVerification === true) return;
       new maplibregl.Marker({element:markerEl(place),anchor:"center"})
         .setLngLat([place.lng,place.lat])
         .addTo(map);
