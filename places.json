@@ -1197,17 +1197,17 @@
         "ko": "도심 속 하천 산책로 · 가볍게 걷기 좋은 길"
       },
       "category": "spot",
-      "lat": 37.57683,
-      "lng": 127.02755,
+      "lat": 37.5766996,
+      "lng": 127.0275544,
       "address": "서울 동대문구 왕산로 36 제일광고기획 맞은편 · 천호대로7길과 왕산로가 만나는 성북천 진입 계단",
       "icon": "📷",
       "googleUrl": "https://maps.app.goo.gl/8QfzhMB8uWJg6EzU8",
       "googleLinkStatus": "user-provided-exact-map-link",
       "naverUrl": "https://map.naver.com/p/search/%EC%84%B1%EB%B6%81%EC%B2%9C%20%EC%82%B0%EC%B1%85%EB%A1%9C%20%EC%8B%A0%EC%84%A4%EB%8F%99",
       "naverLinkStatus": "search-fallback",
-      "pinVerification": "estimated-from-Jeil-Advertising-Wangsan-ro-36-and-Cheonho-daero-7-gil-51; guest-confirmation-required",
-      "pinSourceUrl": "https://findby.co.kr/details/02582-112303105008-st-652ba3418c641f9e38ae93da",
-      "notes": "Preview-only estimate: near stairs opposite 제일광고기획, 서울 동대문구 왕산로 36. Building reference coordinates 37.5766919, 127.0274781. Requires guest visual approval before production release.",
+      "pinVerification": "user-confirmed-entrance-coordinate",
+      "pinSourceUrl": "user-provided-map-pin",
+      "notes": "Exact entrance stairs near Jeil Advertising across Wangsan-ro, at the junction of Cheonho-daero 7-gil and Wangsan-ro. Coordinates supplied by guide operator.",
       "oppositeBuildingGoogleUrl": "https://maps.app.goo.gl/YKdPTvSrkcigCkzp8",
       "pendingLocationVerification": false
     }
