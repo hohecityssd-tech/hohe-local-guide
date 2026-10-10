@@ -96,6 +96,8 @@
     .sheet{
       position:fixed;left:12px;right:12px;
       bottom:max(12px,env(safe-area-inset-bottom));
+      max-height:calc(100dvh - 84px);
+      overflow-y:auto;
       z-index:20;
       background:rgba(255,253,249,.99);
       border:1px solid var(--line);
@@ -143,6 +145,8 @@
     .hour-row.today{font-weight:800}
     .hour-row .time{font-variant-numeric:tabular-nums;text-align:right}
     .hours-note{margin:9px 0 0;color:var(--muted);font-size:11px;line-height:1.4}
+    .hours-extras{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.5}
+    .hours-extras[hidden]{display:none}
 
     .maplibregl-ctrl-attrib{font-size:9px;opacity:.68}
 
@@ -171,6 +175,7 @@
       <span class="hours-today-label" id="hoursTodayLabel"></span>
       <strong class="hours-today-value" id="hoursTodayValue"></strong>
     </div>
+    <div class="hours-extras" id="hoursExtras" hidden></div>
     <details id="weeklyHoursDetails">
       <summary id="weeklyHoursSummary"></summary>
       <div class="hours-weekly" id="weeklyHoursRows"></div>
@@ -254,11 +259,11 @@ const ui = {
 
 // Operating hours are displayed in the place's local time (Asia/Seoul).
 const hoursUi = {
-  en:{today:"Today's hours",weekly:"View all opening hours",closed:"Closed",note:"Holiday hours may differ. Please check before visiting.",days:["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]},
-  ja:{today:"本日の営業時間",weekly:"曜日別の営業時間を見る",closed:"定休日",note:"祝日などは営業時間が異なる場合があります。",days:["月","火","水","木","金","土","日"]},
-  zhHans:{today:"今日营业时间",weekly:"查看每周营业时间",closed:"休息",note:"节假日营业时间可能有所不同。",days:["周一","周二","周三","周四","周五","周六","周日"]},
-  zhHant:{today:"今日營業時間",weekly:"查看每週營業時間",closed:"公休",note:"節假日營業時間可能有所不同。",days:["週一","週二","週三","週四","週五","週六","週日"]},
-  ko:{today:"오늘 영업시간",weekly:"요일별 영업시간 보기",closed:"정기휴무",note:"공휴일 및 임시휴무에는 운영시간이 달라질 수 있습니다.",days:["월","화","수","목","금","토","일"]}
+  en:{today:"Today's hours",weekly:"View all opening hours",closed:"Closed",note:"Holiday hours may differ. Please check before visiting.",conflict:"Listed hours differ across sources. Please confirm before visiting.",breakTime:"Break",lastOrder:"Last order",days:["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]},
+  ja:{today:"本日の営業時間",weekly:"曜日別の営業時間を見る",closed:"定休日",note:"祝日などは営業時間が異なる場合があります。",conflict:"掲載サイトによって営業時間が異なります。来店前にご確認ください。",breakTime:"休憩時間",lastOrder:"ラストオーダー",days:["月","火","水","木","金","土","日"]},
+  zhHans:{today:"今日营业时间",weekly:"查看每周营业时间",closed:"休息",note:"节假日营业时间可能有所不同。",conflict:"各平台营业时间信息不一致，建议到店前再次确认。",breakTime:"休息时间",lastOrder:"最后点单",days:["周一","周二","周三","周四","周五","周六","周日"]},
+  zhHant:{today:"今日營業時間",weekly:"查看每週營業時間",closed:"公休",note:"節假日營業時間可能有所不同。",conflict:"各平台營業時間不一致，建議到店前再次確認。",breakTime:"休息時間",lastOrder:"最後點餐",days:["週一","週二","週三","週四","週五","週六","週日"]},
+  ko:{today:"오늘 영업시간",weekly:"요일별 영업시간 보기",closed:"정기휴무",note:"공휴일 및 임시휴무에는 운영시간이 달라질 수 있습니다.",conflict:"플랫폼별 영업시간 정보가 달라 방문 전 재확인이 필요합니다.",breakTime:"브레이크타임",lastOrder:"라스트오더",days:["월","화","수","목","금","토","일"]}
 }[locale];
 
 function primaryName(place){
@@ -297,6 +302,7 @@ const sheetDesc = document.getElementById("sheetDesc");
 const hoursPanel = document.getElementById("hoursPanel");
 const hoursTodayLabel = document.getElementById("hoursTodayLabel");
 const hoursTodayValue = document.getElementById("hoursTodayValue");
+const hoursExtras = document.getElementById("hoursExtras");
 const weeklyHoursDetails = document.getElementById("weeklyHoursDetails");
 const weeklyHoursSummary = document.getElementById("weeklyHoursSummary");
 const weeklyHoursRows = document.getElementById("weeklyHoursRows");
@@ -334,7 +340,12 @@ function renderHours(place){
   hoursTodayLabel.textContent = hoursUi.today;
   hoursTodayValue.textContent = formatted(todayKey);
   weeklyHoursSummary.textContent = hoursUi.weekly;
-  hoursNote.textContent = hoursUi.note;
+  const extraParts = [];
+  if(hours.breakTime) extraParts.push(hoursUi.breakTime + ": " + hours.breakTime);
+  if(hours.lastOrder) extraParts.push(hoursUi.lastOrder + ": " + hours.lastOrder);
+  hoursExtras.textContent = extraParts.join(" · ");
+  hoursExtras.hidden = !extraParts.length;
+  hoursNote.textContent = hours.verification === "conflicting-sources" ? hoursUi.conflict : hoursUi.note;
   weeklyHoursDetails.open = false;
   weeklyHoursRows.replaceChildren();
   keys.forEach((key,index)=>{
