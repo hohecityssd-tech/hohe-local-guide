@@ -418,6 +418,29 @@
       "googleUrl": "https://www.google.com/maps/place/%ED%91%B8%EB%9D%BC%EB%8B%AD+%EC%9A%A9%EC%8B%A0%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca34da92dbabb:0x11a00c8b50cbe2e0!16s%2Fg%2F11n0b8yyql!20s8Q99H2FG%2BFR8",
       "googleLinkStatus": "verified-name-phone",
       "googleVerifiedAt": "2026-10-09"
+    },
+    {
+      "name": "갗bar",
+      "enName": "GACH Cafe & Bar",
+      "jaName": "GACH カフェ＆バー",
+      "desc": "Whiskey Latte · Cafe by Day, Cocktail Bar by Night",
+      "descs": {
+        "en": "Whiskey Latte · Cafe by Day, Cocktail Bar by Night",
+        "ja": "ウイスキーラテ · 昼はカフェ、夜はカクテルバー",
+        "zhHans": "威士忌拿铁 · 白天是咖啡馆，晚上是鸡尾酒吧",
+        "zhHant": "威士忌拿鐵 · 白天是咖啡廳，晚上是雞尾酒吧",
+        "ko": "위스키 라떼 · 낮에는 카페, 밤에는 칵테일 바"
+      },
+      "category": "bar",
+      "lat": 37.5733731,
+      "lng": 127.0215092,
+      "address": "서울 종로구 난계로27길 30-8 1층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/55rFSbjK",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=GACH%20Cafe%20%26%20Bar%20Seoul&query_place_id=ChIJTc_fOhOjfDURnv1M4AGRotE",
+      "googleLinkStatus": "provider-place-id",
+      "googleVerifiedAt": "2026-10-10"
     }
   ]
 }
