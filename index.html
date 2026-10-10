@@ -95,6 +95,19 @@
       cursor:pointer;
     }
 
+    /* Preview-only pin picker, activated with ?pin=seongbuk */
+    .pin-picker{position:fixed;top:70px;left:12px;right:12px;max-width:440px;z-index:30;
+      padding:12px 14px;border-radius:13px;border:1px solid var(--line);
+      background:rgba(255,253,249,.98);box-shadow:0 4px 20px rgba(0,0,0,.16);
+      font-size:12px;line-height:1.5;}
+    .pin-picker[hidden]{display:none}
+    .pin-picker strong{display:block;font-size:14px;margin-bottom:4px}
+    .pin-picker .pick-coords{display:block;font-size:13px;font-weight:800;margin:6px 0;
+      font-variant-numeric:tabular-nums;user-select:all;}
+    .pin-picker button{border:0;border-radius:8px;background:var(--text);color:#fff;
+      font-weight:800;font-size:12px;padding:8px 12px;cursor:pointer}
+    .pin-picker .pick-help{color:var(--muted);font-size:11px;margin-top:5px}
+
     .sheet{
       position:fixed;left:12px;right:12px;
       bottom:max(12px,env(safe-area-inset-bottom));
@@ -166,6 +179,14 @@
   <div id="map"></div>
   <button class="locate" id="locateBtn">◎ MY LOCATION</button>
 </main>
+
+<aside class="pin-picker" id="pinPicker" hidden>
+  <strong>성북천 입구 · 좌표 확인</strong>
+  지도에서 실제 계단 위치를 누르거나 📷 핀을 드래그하세요.
+  <span class="pick-coords" id="pinCoords"></span>
+  <button id="pinCopyBtn" type="button">좌표 복사</button>
+  <div class="pick-help">복사한 좌표를 채팅에 보내주시면 그 위치로 정식 반영합니다.</div>
+</aside>
 
 <section class="sheet" id="sheet" aria-live="polite">
   <button class="close" aria-label="Close" id="closeBtn">×</button>
@@ -321,6 +342,29 @@ hotelNote.textContent = ui.hotel;
 
 const bounds = new maplibregl.LngLatBounds();
 let userMarker = null;
+const pinPicking = new URLSearchParams(window.location.search).get("pin") === "seongbuk";
+const pickerPanel = document.getElementById("pinPicker");
+const pickerCoords = document.getElementById("pinCoords");
+const pickerCopy = document.getElementById("pinCopyBtn");
+let pinMarker = null;
+if(pinPicking) pickerPanel.hidden = false;
+function setPickedPin(lng,lat){
+  if(!pinPicking || !Number.isFinite(lng) || !Number.isFinite(lat)) return;
+  if(pinMarker) pinMarker.setLngLat([lng,lat]);
+  pickerCoords.textContent = lat.toFixed(7) + ", " + lng.toFixed(7);
+  pickerCopy.textContent = "좌표 복사";
+}
+pickerCopy.addEventListener("click",async ()=>{
+  const coords=pickerCoords.textContent;
+  if(!coords) return;
+  try{
+    if(!navigator.clipboard || !navigator.clipboard.writeText) throw new Error("Clipboard unavailable");
+    await navigator.clipboard.writeText(coords);
+    pickerCopy.textContent = "복사 완료";
+  }catch(error){
+    window.prompt("이 좌표를 복사해 채팅에 보내주세요.",coords);
+  }
+});
 
 function closeSheet(){ sheet.classList.remove("open"); }
 
@@ -458,13 +502,27 @@ map.on("load", async ()=>{
     places.forEach(place=>{
       // Hide provisional pins whose location has not been verified.
       if(place.pendingLocationVerification === true) return;
-      new maplibregl.Marker({element:markerEl(place),anchor:"center"})
-        .setLngLat([place.lng,place.lat])
-        .addTo(map);
+      const isEntrance = place.name === "성북천 입구";
+      const marker = new maplibregl.Marker({
+        element:markerEl(place),anchor:"center",
+        draggable:pinPicking && isEntrance
+      }).setLngLat([place.lng,place.lat]).addTo(map);
+      if(pinPicking && isEntrance){
+        pinMarker = marker;
+        setPickedPin(place.lng,place.lat);
+        marker.on("dragend",()=>{
+          const position = marker.getLngLat();
+          setPickedPin(position.lng,position.lat);
+        });
+      }
       bounds.extend([place.lng,place.lat]);
     });
 
-    if (places.length) {
+    if(pinPicking && pinMarker){
+      const entrance = pinMarker.getLngLat();
+      map.jumpTo({center:[entrance.lng,entrance.lat],zoom:19.2});
+      closeSheet();
+    }else if(places.length){
       map.fitBounds(bounds,{
         padding:{top:85,right:44,bottom:90,left:44},
         maxZoom:16.8,
@@ -477,7 +535,10 @@ map.on("load", async ()=>{
   }
 });
 
-map.on("click", closeSheet);
+map.on("click",(event)=>{
+  closeSheet();
+  if(pinPicking) setPickedPin(event.lngLat.lng,event.lngLat.lat);
+});
 document.getElementById("closeBtn").addEventListener("click", closeSheet);
 
 document.getElementById("locateBtn").addEventListener("click",()=>{
