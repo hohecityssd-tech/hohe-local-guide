@@ -1285,6 +1285,13 @@
             "operatorFaq": "https://airportlimousine.co.kr/sub/sub03_02.php",
             "operatorEnglishFaq": "https://airportlimousine.co.kr/en/sub/sub03_02.php",
             "wowpassGuide": "https://www.wowpass.io/en/guide"
+          },
+          "cashHandling": {
+            "fiftyThousandWonNoteAccepted": "unverified",
+            "changeGivenInCash": "unverified",
+            "smallDenominationsRecommended": true,
+            "officialVerificationStatus": "pending",
+            "customerGuidance": "Avoid KRW 50,000 banknotes. Prepare KRW 10,000/5,000 banknotes or a topped-up T-money transit card. Confirm change and foreign exchange terms with the driver."
           }
         }
       },
