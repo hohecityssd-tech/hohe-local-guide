@@ -1181,6 +1181,33 @@
           "zhHant": "國定假日 10:00–22:30。部分平台顯示每天09:00開門，建議到店前確認。"
         }
       }
+    },
+    {
+      "name": "성북천 입구",
+      "enName": "Seongbukcheon Stream Entrance",
+      "jaName": "城北川 散策路入口",
+      "zhHansName": "城北川步道入口",
+      "zhHantName": "城北川步道入口",
+      "desc": "Scenic Streamside Walking Path",
+      "descs": {
+        "en": "Relaxing waterside stroll · Streamside walking path",
+        "ja": "水辺の散歩 · のんびり歩ける遊歩道",
+        "zhHans": "河畔散步 · 轻松悠闲的步道",
+        "zhHant": "河畔散步 · 輕鬆悠閒的步道",
+        "ko": "도심 속 하천 산책로 · 가볍게 걷기 좋은 길"
+      },
+      "category": "spot",
+      "lat": 37.5787,
+      "lng": 127.02426,
+      "address": "서울 동대문구 신설동 · 성북천 산책로 진입부 인근",
+      "icon": "📷",
+      "googleUrl": "https://maps.app.goo.gl/8QfzhMB8uWJg6EzU8",
+      "googleLinkStatus": "user-provided-exact-map-link",
+      "naverUrl": "https://map.naver.com/p/search/%EC%84%B1%EB%B6%81%EC%B2%9C%20%EC%82%B0%EC%B1%85%EB%A1%9C%20%EC%8B%A0%EC%84%A4%EB%8F%99",
+      "naverLinkStatus": "search-fallback",
+      "pinVerification": "provisional-nearby-marker; original-Google-shortlink-coordinate-unresolved",
+      "pinSourceUrl": "https://mapcarta.com/W463206167",
+      "notes": "Preview only until actual entrance coordinates confirmed. Provisional marker is nearby known Naedeulmok Library coordinate, not confirmed stream entrance."
     }
   ]
 }
