@@ -24,6 +24,7 @@
       --bar:#AEAC78;
       --spot:#FEF3E2;
       --shop:#728E82;
+      --transport:#426F91;
     }
 
     *{box-sizing:border-box}
@@ -67,6 +68,13 @@
     .place-marker.bar{background:var(--bar);color:#2A1A0E}
     .place-marker.spot{background:var(--spot);color:#2A1A0E}
     .place-marker.shop{background:var(--shop);color:#fff}
+    .place-marker.transport{background:var(--transport);color:#fff}
+    .transport-wrap{display:flex;align-items:center;gap:5px}
+    .transport-label{
+      background:rgba(255,253,249,.97);border:1px solid var(--line);border-radius:7px;
+      padding:4px 6px;font-size:12px;font-weight:850;color:var(--transport);
+      box-shadow:0 2px 7px rgba(0,0,0,.1);white-space:nowrap;
+    }
 
     .hotel-wrap{display:flex;align-items:center;gap:6px}
     .hotel-label{
@@ -461,6 +469,7 @@ function openGoogleDirections(place){
 
 // Approved category icons: Food/Cafe/Bar/Hotel A, Sightseeing B.
 const categoryIcons = {
+  "transport": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"15\" rx=\"3\"/><path d=\"M5 11h14M8 7h3m2 0h3M7 18v3m10-3v3M8 15h.01M16 15h.01\"/></svg>",
   "shop": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4 8h16l-1.3 12H5.3L4 8Z\"/><path d=\"M9 9V6a3 3 0 0 1 6 0v3\"/></svg>",
   "bar": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\">\n  <path d=\"m3 4 9 10 9-10H3Zm3.6 4h10.8M12 14v7M8 21h8\"/>\n</svg>",
   "cafe": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\">\n  <path d=\"M4 8h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8Zm12 1h2a3 3 0 0 1 0 6h-2M3 21h16M7 3v2M12 3v2\"/>\n</svg>",
@@ -479,6 +488,21 @@ function markerEl(place){
     wrap.className = "hotel-wrap";
     wrap.setAttribute("aria-label", primaryName(place));
     wrap.innerHTML = `<div class="place-marker hotel">${categoryIcon(place.category)}</div><div class="hotel-label">HOHE CITY</div>`;
+    wrap.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
+    return wrap;
+  }
+
+  if(place.category === "transport"){
+    const wrap = document.createElement("div");
+    wrap.className = "transport-wrap";
+    wrap.setAttribute("aria-label", primaryName(place));
+    const marker = document.createElement("div");
+    marker.className = "place-marker transport";
+    marker.innerHTML = categoryIcon(place.category);
+    const route = document.createElement("div");
+    route.className = "transport-label";
+    route.textContent = (place.transport && place.transport.route) || "BUS";
+    wrap.append(marker,route);
     wrap.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
     return wrap;
   }
