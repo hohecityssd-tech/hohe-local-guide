@@ -628,7 +628,38 @@
       "naverUrl": "https://naver.me/Fio7BS3E",
       "googleUrl": "https://www.google.com/maps/place/%EB%AF%B8%EC%98%A5%EC%88%AF%EB%B6%88%EA%B5%AC%EC%9D%B4/data=!3m1!4b1!4m4!3m3!1s0x357cbd0074500459:0x27e4e7930c224228!16s%2Fg%2F11ywv_b33n!20s8Q99H2GJ%2BF86",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "16:00–24:00"
+          ],
+          "tue": [
+            "16:00–24:00"
+          ],
+          "wed": [
+            "16:00–24:00"
+          ],
+          "thu": [
+            "16:00–24:00"
+          ],
+          "fri": [
+            "16:00–24:00"
+          ],
+          "sat": [
+            "15:00–24:00"
+          ],
+          "sun": [
+            "16:00–24:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=CPSjerSrJIFQ",
+        "checkedDate": "2026-10-10",
+        "lastOrder": "23:00",
+        "verification": "conflicting-sources",
+        "alternateSourceUrl": "https://meat.infomama.kr/%EB%8F%99%EB%8C%80%EB%AC%B8-%EC%8B%A0%EC%84%A4%EB%8F%99-%EC%9A%A9%EB%91%90%EB%8F%99-%EC%82%BC%EA%B2%B9%EC%82%B4-%EB%A7%9B%EC%A7%91-%EB%B2%A0%EC%8A%A4%ED%8A%B8-4-%EC%B6%94%EC%B2%9C-%EC%88%99%EC%84%B1/"
+      }
     },
     {
       "name": "서울풍물시장",
@@ -653,7 +684,34 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%92%8D%EB%AC%BC%EC%8B%9C%EC%9E%A5/data=!3m1!4b1!4m4!3m3!1s0x357ca34c23126fdd:0x1f2f44177f2a4cef!16s%2Fg%2F11jgf8t75!20s8Q99H2FG%2B36C",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–19:00"
+          ],
+          "tue": [],
+          "wed": [
+            "10:00–19:00"
+          ],
+          "thu": [
+            "10:00–19:00"
+          ],
+          "fri": [
+            "10:00–19:00"
+          ],
+          "sat": [
+            "10:00–19:00"
+          ],
+          "sun": [
+            "10:00–19:00"
+          ]
+        },
+        "sourceUrl": "https://news.seoul.go.kr/economy/pungmul-time",
+        "checkedDate": "2026-10-10",
+        "specialHoursNote": "Food court open until 22:00; market stalls until 19:00."
+      }
     },
     {
       "name": "오팔식당 신설역점",
@@ -676,7 +734,35 @@
       "naverUrl": "https://naver.me/GeURDKbO",
       "googleUrl": "https://www.google.com/maps/place/%EC%98%A4%ED%8C%94%EC%8B%9D%EB%8B%B9/data=!3m1!4b1!4m4!3m3!1s0x357ca35f74191053:0xc6db744d87cbafef!16s%2Fg%2F11l5tlsmqh!20s8Q99H2FF%2BWP8",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–22:00"
+          ],
+          "tue": [
+            "10:00–22:00"
+          ],
+          "wed": [
+            "10:00–22:00"
+          ],
+          "thu": [
+            "10:00–22:00"
+          ],
+          "fri": [
+            "10:00–22:00"
+          ],
+          "sat": [
+            "10:00–22:00"
+          ],
+          "sun": [
+            "10:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd61366de5f0698905884",
+        "checkedDate": "2026-10-10"
+      }
     },
     {
       "name": "한상차림밥상 신설동",
@@ -699,7 +785,35 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%ED%95%9C%EC%83%81%EC%B0%A8%EB%A6%BC%EB%B0%A5%EC%83%81/data=!3m1!4b1!4m4!3m3!1s0x357cbcb701e7e5f1:0xf94b858097a4b5c4!16s%2Fg%2F11f54qp8lf!20s8Q99H2HG%2B49W",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "10:45–21:30"
+          ],
+          "wed": [
+            "10:45–21:30"
+          ],
+          "thu": [
+            "10:45–21:30"
+          ],
+          "fri": [
+            "10:45–21:30"
+          ],
+          "sat": [
+            "10:45–21:30"
+          ],
+          "sun": [
+            "10:45–21:30"
+          ]
+        },
+        "sourceUrl": "https://www.ktriptips.com/kor/food/2839360",
+        "checkedDate": "2026-10-10",
+        "lastOrder": "20:30",
+        "alternateSourceUrl": "https://www.ktourmap.com/spotDetails.jsp?contentId=2839360"
+      }
     },
     {
       "name": "신술동",
@@ -722,7 +836,38 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%EC%8B%A0%EC%88%A0%EB%8F%99/data=!3m1!4b1!4m4!3m3!1s0x357ca3175eacf6c3:0xbd50d827d33a1c7b!16s%2Fg%2F11sw4vfswt!20s8Q99H2GF%2BJJF",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "17:00–05:00 (+1)"
+          ],
+          "tue": [
+            "17:00–05:00 (+1)"
+          ],
+          "wed": [
+            "17:00–05:00 (+1)"
+          ],
+          "thu": [
+            "17:00–05:00 (+1)"
+          ],
+          "fri": [
+            "17:00–05:00 (+1)"
+          ],
+          "sat": [
+            "17:00–05:00 (+1)"
+          ],
+          "sun": [
+            "17:00–05:00 (+1)"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd5ce66de5f06988fdcc4",
+        "checkedDate": "2026-10-10",
+        "lastOrder": "03:20 (+1)",
+        "verification": "conflicting-sources",
+        "alternateSourceUrl": "https://www.diningcode.com/profile.php?rid=akU70fkwhpwg"
+      }
     },
     {
       "name": "푸라닭 용신점",
