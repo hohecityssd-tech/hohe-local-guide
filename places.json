@@ -710,7 +710,13 @@
         },
         "sourceUrl": "https://news.seoul.go.kr/economy/pungmul-time",
         "checkedDate": "2026-10-10",
-        "specialHoursNote": "Food court open until 22:00; market stalls until 19:00."
+        "specialHoursNotes": {
+          "ko": "시장 점포는 19:00까지, 식당가는 22:00까지 운영합니다.",
+          "en": "Market shops close at 19:00; food court open until 22:00.",
+          "ja": "市場の店舗は19:00まで、飲食店街は22:00まで営業します。",
+          "zhHans": "市场店铺营业至19:00，美食区营业至22:00。",
+          "zhHant": "市場店鋪營業至19:00，美食區營業至22:00。"
+        }
       }
     },
     {
