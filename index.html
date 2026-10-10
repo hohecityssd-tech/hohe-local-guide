@@ -23,6 +23,7 @@
       --cafe:#D4621A;
       --bar:#AEAC78;
       --spot:#FEF3E2;
+      --shop:#728E82;
     }
 
     *{box-sizing:border-box}
@@ -65,6 +66,7 @@
     .place-marker.cafe{background:var(--cafe);color:#fff}
     .place-marker.bar{background:var(--bar);color:#2A1A0E}
     .place-marker.spot{background:var(--spot);color:#2A1A0E}
+    .place-marker.shop{background:var(--shop);color:#fff}
 
     .hotel-wrap{display:flex;align-items:center;gap:6px}
     .hotel-label{
@@ -328,9 +330,19 @@ function renderHours(place){
   if(!hours) return;
 
   const keys = ["mon","tue","wed","thu","fri","sat","sun"];
+  const now = new Date();
+  const timeZone = hours.timeZone || "Asia/Seoul";
   const todayKey = new Intl.DateTimeFormat("en-US", {
-    weekday:"short",timeZone:hours.timeZone || "Asia/Seoul"
-  }).format(new Date()).slice(0,3).toLowerCase();
+    weekday:"short",timeZone
+  }).format(now).slice(0,3).toLowerCase();
+  const dayOfMonth = Number(new Intl.DateTimeFormat("en-US", {
+    day:"numeric",timeZone
+  }).format(now));
+  const monthlyClosed = hours.monthlyClosed;
+  const isMonthlyClosingDay = monthlyClosed
+    && todayKey === monthlyClosed.weekday
+    && Array.isArray(monthlyClosed.weeks)
+    && monthlyClosed.weeks.includes(Math.ceil(dayOfMonth / 7));
 
   const formatted = key => {
     const slots = hours.weekly && hours.weekly[key];
@@ -339,7 +351,7 @@ function renderHours(place){
   };
 
   hoursTodayLabel.textContent = hoursUi.today;
-  hoursTodayValue.textContent = formatted(todayKey);
+  hoursTodayValue.textContent = isMonthlyClosingDay ? hoursUi.closed : formatted(todayKey);
   weeklyHoursSummary.textContent = hoursUi.weekly;
   const extraParts = [];
   if(hours.breakTime) extraParts.push(hoursUi.breakTime + ": " + hours.breakTime);
@@ -405,6 +417,7 @@ function openGoogleDirections(place){
 
 // Approved category icons: Food/Cafe/Bar/Hotel A, Sightseeing B.
 const categoryIcons = {
+  "shop": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4 8h16l-1.3 12H5.3L4 8Z\"/><path d=\"M9 9V6a3 3 0 0 1 6 0v3\"/></svg>",
   "bar": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\">\n  <path d=\"m3 4 9 10 9-10H3Zm3.6 4h10.8M12 14v7M8 21h8\"/>\n</svg>",
   "cafe": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\">\n  <path d=\"M4 8h12v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8Zm12 1h2a3 3 0 0 1 0 6h-2M3 21h16M7 3v2M12 3v2\"/>\n</svg>",
   "food": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\">\n  <path d=\"M4 3v5a3 3 0 0 0 6 0V3M7 3v18M18 21v-8h-4V8a5 5 0 0 1 5-5v10\"/>\n</svg>",
