@@ -230,7 +230,6 @@
         <strong class="bus-payment-value bus-payment-no" id="busPaymentCredit"></strong>
       </div>
       <p class="bus-payment-note" id="busPaymentWowpass"></p>
-      <p class="bus-payment-note" id="busPaymentPostpaid"></p>
       <p class="bus-payment-note" id="busPaymentCashNote"></p>
       <a class="bus-payment-source" id="busPaymentSource" target="_blank" rel="noopener noreferrer"></a>
     </section>
@@ -324,11 +323,11 @@ const hoursUi = {
 }[locale];
 
 const busUi = {
-  en:{heading:"Bus 6002 · Sinseol-dong stop (06008)",first:"First bus at this stop",last:"Last bus at this stop",unverified:"Not verified",daily:"Daily",interval:"Frequency",minutes:"min",adult:"Adult",child:"Child",official:"Operator website ↗",origin:"Cheongnyangni departures (official)",caution:"The Sinseol-dong stop's first/last bus times are not yet verified. Cheongnyangni is an earlier stop, so its listed departure times are NOT the boarding times here. Check before travelling."},
-  ja:{heading:"6002番 · 新設洞停留所 (06008)",first:"この停留所の始発",last:"この停留所の最終",unverified:"確認中",daily:"毎日",interval:"運行間隔",minutes:"分",adult:"大人",child:"子ども",official:"運行会社公式 ↗",origin:"清凉里駅発（公式）",caution:"新設洞停留所の始発・最終時刻は未確認です。清凉里駅の発車時刻はこの停留所の乗車時刻ではありません。出発前にご確認ください。"},
-  zhHans:{heading:"6002路 · 新设洞站 (06008)",first:"本站首班车",last:"本站末班车",unverified:"尚未确认",daily:"每天",interval:"发车间隔",minutes:"分钟",adult:"成人",child:"儿童",official:"运营公司官网 ↗",origin:"清凉里站发车（官方）",caution:"新设洞站的首末班车时间尚未确认。清凉里站发车时间并非本站乘车时间，请出行前核实。"},
-  zhHant:{heading:"6002路 · 新設洞站 (06008)",first:"本站首班車",last:"本站末班車",unverified:"尚未確認",daily:"每天",interval:"發車間隔",minutes:"分鐘",adult:"成人",child:"兒童",official:"營運公司官網 ↗",origin:"清涼里站發車（官方）",caution:"新設洞站的首末班車時間尚未確認。清涼里站發車時間並非本站乘車時間，請出發前查核。"},
-  ko:{heading:"6002번 · 신설동역 정류장 (06008)",first:"신설동역 첫차",last:"신설동역 막차",unverified:"확인 필요",daily:"매일",interval:"배차간격",minutes:"분",adult:"성인",child:"어린이",official:"공항리무진 공식 ↗",origin:"청량리역 출발 기준(공식)",caution:"신설동역 정류장 첫차·막차는 아직 정확하게 확인되지 않았습니다. 청량리역 출발시간은 신설동역 탑승시간이 아닙니다. 탑승 전 정류장 실시간 정보 또는 운수사에 확인해 주세요."}
+  en:{heading:"Bus 6002 · Sinseol-dong stop (06008)",first:"First bus · from Cheongnyangni",last:"Last bus · from Cheongnyangni",unverified:"Check timetable",daily:"Daily",interval:"Frequency",minutes:"min",adult:"Adult",child:"Child",official:"Official 6002 timetable ↗",caution:"Times above are official departures from Cheongnyangni, NOT boarding times at Sinseol-dong. The bus arrives here later. Check the stop's arrival information before boarding."},
+  ja:{heading:"6002番 · 新設洞停留所 (06008)",first:"始発 · 清凉里駅発",last:"最終 · 清凉里駅発",unverified:"要確認",daily:"毎日",interval:"運行間隔",minutes:"分",adult:"大人",child:"子ども",official:"公式6002時刻表 ↗",caution:"上記は清凉里駅発の公式時刻です。新設洞停留所の乗車時刻ではなく、バスはその後に到着します。乗車前に停留所の到着情報をご確認ください。"},
+  zhHans:{heading:"6002路 · 新设洞站 (06008)",first:"首班车 · 清凉里始发",last:"末班车 · 清凉里始发",unverified:"请确认",daily:"每天",interval:"发车间隔",minutes:"分钟",adult:"成人",child:"儿童",official:"6002路官方时刻表 ↗",caution:"上述时间为清凉里站的官方发车时间，并非新设洞站的乘车时间。车辆稍后到达本站，请乘车前确认本站到站信息。"},
+  zhHant:{heading:"6002路 · 新設洞站 (06008)",first:"首班車 · 清涼里始發",last:"末班車 · 清涼里始發",unverified:"請確認",daily:"每天",interval:"發車間隔",minutes:"分鐘",adult:"成人",child:"兒童",official:"6002路官方時刻表 ↗",caution:"上述時間為清涼里站的官方發車時間，並非新設洞站的乘車時間。車輛稍後到達本站，搭乘前請確認本站到站資訊。"},
+  ko:{heading:"6002번 · 신설동역 정류장 (06008)",first:"첫차 · 청량리역 출발",last:"막차 · 청량리역 출발",unverified:"시간 확인 필요",daily:"매일",interval:"배차간격",minutes:"분",adult:"성인",child:"어린이",official:"6002 공식 시간표 ↗",caution:"위 시간은 청량리역 출발 기준 공식 시간입니다. 신설동역 탑승시간이 아니며, 버스는 신설동역에 이후 도착합니다. 탑승 전 신설동역 정류장 도착정보를 확인해 주세요."}
 }[locale];
 
 const busPaymentUi = {
@@ -338,8 +337,7 @@ const busPaymentUi = {
     transit:"Transportation card accepted",transitValue:"✓ T-money / WOWPASS (T-money function)",
     credit:"Regular credit card (direct payment)",creditValue:"✕ Not accepted",
     wowpass:"WOWPASS: the T-money balance must be topped up separately from the regular WOWPASS balance.",
-    postpaid:"A Korean credit card with an enabled postpaid transportation function can be tapped as a transit card.",
-    change:"Please prepare smaller KRW bills (such as ₩10,000 or ₩5,000) rather than ₩50,000 notes. Acceptance of ₩50,000 notes, cash change and foreign-exchange terms have not been officially confirmed; please ask the driver.",
+    change:"If you pay with a ₩50,000 bill, the driver may not have enough cash to give change. Please prepare smaller ₩10,000 or ₩5,000 bills. Foreign-currency exchange rates have not been confirmed.",
     source:"Official payment information ↗"
   },
   ja:{
@@ -348,8 +346,7 @@ const busPaymentUi = {
     transit:"交通カード",transitValue:"✓ T-money / WOWPASS（T-money機能）",
     credit:"一般のクレジットカード（直接決済）",creditValue:"✕ ご利用不可",
     wowpass:"WOWPASSの交通カード残高（T-money）は、通常のWOWPASS残高とは別にチャージが必要です。",
-    postpaid:"後払い交通機能に対応した韓国のクレジットカードは、交通カードとしてタッチ決済できます。",
-    change:"現金払いの場合は5万ウォン札を避け、1万ウォン札・5千ウォン札などの小額紙幣をご用意ください。5万ウォン札の利用可否、お釣りの現金支払い、外貨の換算条件は公式確認が取れていません。乗車時に運転手へご確認ください。",
+    change:"5万ウォン札で支払う場合、車内の釣り銭が不足し、お釣りをお渡しできないことがあります。できるだけ1万ウォン札・5千ウォン札などの小額紙幣をご用意ください。外貨の適用レートは未確認です。",
     source:"運行会社のお支払い案内 ↗"
   },
   zhHans:{
@@ -358,8 +355,7 @@ const busPaymentUi = {
     transit:"可使用交通卡",transitValue:"✓ T-money / WOWPASS（T-money功能）",
     credit:"普通信用卡（直接刷卡付款）",creditValue:"✕ 不支持",
     wowpass:"WOWPASS 的 T-money 交通卡余额需单独充值，与 WOWPASS 普通余额分开。",
-    postpaid:"支持韩国后付交通卡功能的信用卡可作为交通卡刷卡乘车。",
-    change:"现金支付时，建议避免使用5万韩元纸币，并准备1万或5千韩元等小额纸币。5万韩元纸币是否受理、是否以现金找零以及外币兑换方式尚未获得官方确认，请上车前咨询司机。",
+    change:"使用5万韩元纸币付款时，司机可能因零钱不足而无法找零。建议准备1万或5千韩元等小额纸币。外币适用汇率尚未确认。",
     source:"运营公司官方付款说明 ↗"
   },
   zhHant:{
@@ -368,8 +364,7 @@ const busPaymentUi = {
     transit:"可使用交通卡",transitValue:"✓ T-money / WOWPASS（T-money功能）",
     credit:"一般信用卡（直接刷卡付款）",creditValue:"✕ 不接受",
     wowpass:"WOWPASS 的 T-money 交通卡餘額須另外儲值，與 WOWPASS 一般餘額分開。",
-    postpaid:"具有韓國後付交通卡功能的信用卡，可當交通卡感應搭乘。",
-    change:"現金付款時，建議避免使用5萬韓元紙鈔，並準備1萬或5千韓元等小額紙鈔。是否接受5萬韓元紙鈔、是否以現金找零及外幣換算方式尚未獲得官方確認，請上車前向司機確認。",
+    change:"使用5萬韓元紙鈔付款時，司機可能因零錢不足而無法找零。建議準備1萬或5千韓元等小額紙鈔。外幣適用匯率尚未確認。",
     source:"營運公司官方付款說明 ↗"
   },
   ko:{
@@ -378,8 +373,7 @@ const busPaymentUi = {
     transit:"교통카드 사용 가능",transitValue:"✓ 티머니 / WOWPASS의 티머니 기능",
     credit:"일반 신용카드 직접 결제",creditValue:"✕ 불가",
     wowpass:"WOWPASS는 일반 결제 잔액과 티머니 잔액이 다릅니다. 티머니 잔액을 별도로 충전해 주세요.",
-    postpaid:"후불교통 기능을 지원하는 국내 신용카드는 교통카드 방식으로 결제할 수 있습니다.",
-    change:"현금 결제 시 5만원권보다 1만원권·5천원권 등 소액권을 준비해 주세요. 5만원권 사용 가능 여부, 현금 거스름돈 지급 및 외화 환율은 공식 확인되지 않았으므로 탑승 전 기사님께 문의해 주세요.",
+    change:"5만원권으로 결제할 경우 잔돈이 부족하면 거스름돈 지급이 어려울 수 있습니다. 가급적 1만원권·5천원권 등 소액권을 준비해 주세요. 외화 적용 환율은 아직 확인되지 않았습니다.",
     source:"공항리무진 공식 결제 안내 ↗"
   }
 }[locale];
@@ -444,7 +438,6 @@ const busPaymentTransit = document.getElementById("busPaymentTransit");
 const busPaymentCreditLabel = document.getElementById("busPaymentCreditLabel");
 const busPaymentCredit = document.getElementById("busPaymentCredit");
 const busPaymentWowpass = document.getElementById("busPaymentWowpass");
-const busPaymentPostpaid = document.getElementById("busPaymentPostpaid");
 const busPaymentCashNote = document.getElementById("busPaymentCashNote");
 const busPaymentSource = document.getElementById("busPaymentSource");
 const directionsBtn = document.getElementById("directionsBtn");
@@ -523,19 +516,18 @@ function renderBusSchedule(place){
   busHeading.textContent = busUi.heading;
   busFirstLabel.textContent = busUi.first;
   busLastLabel.textContent = busUi.last;
-  busFirstValue.textContent = schedule.firstDeparture ? "≈ " + schedule.firstDeparture : busUi.unverified;
-  busLastValue.textContent = schedule.lastDeparture ? "≈ " + schedule.lastDeparture : busUi.unverified;
+  const origin = schedule.originSchedule;
+  busFirstValue.textContent = origin && origin.firstDeparture ? origin.firstDeparture : busUi.unverified;
+  busLastValue.textContent = origin && origin.lastDeparture ? origin.lastDeparture : busUi.unverified;
   const range = schedule.approximateIntervalMinutes;
   const intervalText = Array.isArray(range) && range.length === 2
     ? range[0] + "–" + range[1] + " " + busUi.minutes : "";
   const formatWon = amount => Number(amount).toLocaleString("en-US") + " KRW";
-  const origin = schedule.originSchedule;
   busDetails.textContent = [
     busUi.daily,
     busUi.interval + " ≈ " + intervalText,
     busUi.adult + " " + formatWon(schedule.adultFareWon),
-    busUi.child + " " + formatWon(schedule.childFareWon),
-    origin ? busUi.origin + ": " + origin.firstDeparture + " – " + origin.lastDeparture : ""
+    busUi.child + " " + formatWon(schedule.childFareWon)
   ].filter(Boolean).join(" · ");
   busCaution.textContent = busUi.caution;
   busTimetableLink.hidden = true;
@@ -556,8 +548,7 @@ function renderBusPayment(place){
   busPaymentCreditLabel.textContent = busPaymentUi.credit;
   busPaymentCredit.textContent = busPaymentUi.creditValue;
   busPaymentWowpass.textContent = payment.wowpassRequiresSeparateTransitTopUp ? busPaymentUi.wowpass : "";
-  busPaymentPostpaid.textContent = payment.domesticPostpaidTransitEnabledCreditCardAccepted ? busPaymentUi.postpaid : "";
-  busPaymentCashNote.textContent = payment.forexChangeTerms === "not-verified" ? busPaymentUi.change : "";
+  busPaymentCashNote.textContent = payment.cashHandling ? busPaymentUi.change : "";
   busPaymentSource.textContent = busPaymentUi.source;
   busPaymentSource.href = locale === "ko" ? payment.sources.operatorFaq : payment.sources.operatorEnglishFaq;
 }

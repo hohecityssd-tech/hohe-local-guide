@@ -1259,9 +1259,12 @@
             "stopName": "청량리역",
             "firstDeparture": "04:12",
             "lastDeparture": "20:20",
-            "sourceUrl": "https://airportlimousine.co.kr/sub/sub01.php?cat_no=2"
+            "sourceUrl": "https://airportlimousine.co.kr/sub/sub01.php?cat_no=2",
+            "sourceType": "operator-official",
+            "checkedDate": "2026-10-10"
           },
-          "verification": "sinseol-dong-first-last-unverified; origin-officially-verified"
+          "verification": "official-origin-time-only; sinseol-stop-time-not-verified",
+          "displayDepartureBasis": "cheongnyangni-origin"
         },
         "payment": {
           "acceptedCashCurrencies": [
@@ -1277,7 +1280,6 @@
           ],
           "wowpassRequiresSeparateTransitTopUp": true,
           "regularCreditCardDirectPaymentAccepted": false,
-          "domesticPostpaidTransitEnabledCreditCardAccepted": true,
           "forexChangeTerms": "not-verified",
           "applicableDirection": "seoul-to-incheon-airport",
           "verifiedAt": "2026-10-10",
@@ -1287,11 +1289,12 @@
             "wowpassGuide": "https://www.wowpass.io/en/guide"
           },
           "cashHandling": {
-            "fiftyThousandWonNoteAccepted": "unverified",
-            "changeGivenInCash": "unverified",
+            "fiftyThousandWonNoteAccepted": "possible-change-shortage",
+            "changeGivenInCash": "not-guaranteed-for-large-banknote",
             "smallDenominationsRecommended": true,
-            "officialVerificationStatus": "pending",
-            "customerGuidance": "Avoid KRW 50,000 banknotes. Prepare KRW 10,000/5,000 banknotes or a topped-up T-money transit card. Confirm change and foreign exchange terms with the driver."
+            "officialVerificationStatus": "reported-by-hotel-after-phone-inquiry",
+            "customerGuidance": "With a KRW 50,000 bill, the driver may not have enough smaller cash to give change. Prepare KRW 10,000 or KRW 5,000 bills. Foreign cash exchange rates are not yet verified.",
+            "phoneConfirmedDate": "2026-10-10"
           }
         }
       },
