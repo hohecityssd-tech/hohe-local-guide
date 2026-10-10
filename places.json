@@ -1117,6 +1117,67 @@
         "alternateSourceUrl": "https://www.daangn.com/kr/local-profile/%EB%8B%A4%EC%9D%B4%EC%86%8C-%EB%8F%99%EB%AC%98%EC%A0%90-8dvsop1v37a6/",
         "checkedDate": "2026-10-10"
       }
+    },
+    {
+      "name": "올리브영 신설동역점",
+      "enName": "OLIVE YOUNG Sinseol-dong Station",
+      "jaName": "オリーブヤング 新設洞駅店",
+      "zhHansName": "OLIVE YOUNG 新设洞站店",
+      "zhHantName": "OLIVE YOUNG 新設洞站店",
+      "desc": "K-Beauty · Skincare & Cosmetics",
+      "descs": {
+        "en": "K-Beauty · Skincare, Cosmetics & Health Products",
+        "ja": "韓国コスメ · スキンケア・化粧品・健康用品",
+        "zhHans": "韩妆 · 护肤品、化妆品与健康用品",
+        "zhHant": "韓妝 · 保養品、化妝品與健康用品",
+        "ko": "K-뷰티 · 화장품·스킨케어·건강용품"
+      },
+      "category": "shop",
+      "lat": 37.5756456735,
+      "lng": 127.0240943861,
+      "address": "서울특별시 동대문구 왕산로 4, 1층",
+      "icon": "🛍",
+      "naverUrl": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%8B%A0%EC%84%A4%EB%8F%99%EC%97%AD%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EB%8F%99%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EC%99%95%EC%82%B0%EB%A1%9C%204",
+      "naverLinkStatus": "search-fallback",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%8B%A0%EC%84%A4%EB%8F%99%EC%97%AD%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EB%8F%99%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EC%99%95%EC%82%B0%EB%A1%9C%204",
+      "googleLinkStatus": "search-fallback",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "09:00–22:30"
+          ],
+          "tue": [
+            "09:00–22:30"
+          ],
+          "wed": [
+            "09:00–22:30"
+          ],
+          "thu": [
+            "09:00–22:30"
+          ],
+          "fri": [
+            "09:00–22:30"
+          ],
+          "sat": [
+            "10:00–22:30"
+          ],
+          "sun": [
+            "10:00–22:30"
+          ]
+        },
+        "sourceUrl": "https://foxcg.com/oliveyoung-stores-seoul/",
+        "alternateSourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=459&vcontsId=148537",
+        "checkedDate": "2026-10-10",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "공휴일 10:00–22:30 · 일부 관광 안내에는 매일 09:00–22:30으로 표기되어 방문 전 확인 권장",
+          "en": "Public holidays 10:00–22:30. Some listings show 09:00 daily; please confirm before visiting.",
+          "ja": "祝日 10:00–22:30。毎日09:00開店とする案内もあるため、来店前にご確認ください。",
+          "zhHans": "节假日 10:00–22:30。部分平台显示每天09:00开门，建议到店前确认。",
+          "zhHant": "國定假日 10:00–22:30。部分平台顯示每天09:00開門，建議到店前確認。"
+        }
+      }
     }
   ]
 }
