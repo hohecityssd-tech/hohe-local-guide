@@ -96,6 +96,8 @@
     .sheet{
       position:fixed;left:12px;right:12px;
       bottom:max(12px,env(safe-area-inset-bottom));
+      max-height:calc(100dvh - 84px);
+      overflow-y:auto;
       z-index:20;
       background:rgba(255,253,249,.99);
       border:1px solid var(--line);
@@ -114,13 +116,37 @@
       width:34px;height:34px;border:0;background:transparent;
       color:var(--muted);font-size:25px;cursor:pointer;
     }
+    .map-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .map-actions[hidden]{display:none}
     .directions{
       width:100%;height:48px;border:0;border-radius:11px;
       background:var(--text);color:#fff;
       font-size:14px;font-weight:850;letter-spacing:.04em;
       cursor:pointer;
     }
+    .directions.secondary{
+      background:var(--panel);color:var(--text);
+      border:1px solid var(--line);
+    }
     .hotel-note{font-size:12px;color:var(--muted)}
+    .hours-panel{
+      margin:0 0 14px;padding:11px 12px;
+      background:#F8F5EF;border:1px solid var(--line);border-radius:11px;
+      font-size:12px;
+    }
+    .hours-panel[hidden]{display:none}
+    .hours-today{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .hours-today-label{color:var(--muted);font-weight:650}
+    .hours-today-value{font-size:13px;font-weight:800;font-variant-numeric:tabular-nums;text-align:right}
+    .hours-panel details{margin-top:10px;border-top:1px solid var(--line);padding-top:9px}
+    .hours-panel summary{cursor:pointer;font-weight:750;list-style-position:inside}
+    .hours-weekly{display:grid;gap:6px;margin-top:10px}
+    .hour-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .hour-row.today{font-weight:800}
+    .hour-row .time{font-variant-numeric:tabular-nums;text-align:right}
+    .hours-note{margin:9px 0 0;color:var(--muted);font-size:11px;line-height:1.4}
+    .hours-extras{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.5}
+    .hours-extras[hidden]{display:none}
 
     .maplibregl-ctrl-attrib{font-size:9px;opacity:.68}
 
@@ -144,12 +170,120 @@
   <div class="sheet-name" id="sheetName"></div>
   <div class="sheet-local" id="sheetLocal"></div>
   <div class="sheet-desc" id="sheetDesc"></div>
-  <button class="directions" id="directionsBtn">DIRECTIONS</button>
+  <div class="hours-panel" id="hoursPanel" hidden>
+    <div class="hours-today">
+      <span class="hours-today-label" id="hoursTodayLabel"></span>
+      <strong class="hours-today-value" id="hoursTodayValue"></strong>
+    </div>
+    <div class="hours-extras" id="hoursExtras" hidden></div>
+    <details id="weeklyHoursDetails">
+      <summary id="weeklyHoursSummary"></summary>
+      <div class="hours-weekly" id="weeklyHoursRows"></div>
+    </details>
+    <p class="hours-note" id="hoursNote"></p>
+  </div>
+  <div class="map-actions" id="mapActions">
+    <button class="directions" id="directionsBtn">NAVER MAP</button>
+    <button class="directions secondary" id="googleBtn">GOOGLE MAPS</button>
+  </div>
   <div class="hotel-note" id="hotelNote" hidden>This is your hotel.</div>
 </section>
 
 <script>
 let places = [];
+
+function detectLocale(){
+  const forced = new URLSearchParams(window.location.search).get("lang");
+  const raw = (forced || (navigator.languages && navigator.languages[0]) || navigator.language || "en").toLowerCase();
+
+  if(raw.startsWith("ja")) return "ja";
+  if(raw.startsWith("ko")) return "ko";
+  if(raw.startsWith("zh")){
+    if(raw.includes("tw") || raw.includes("hk") || raw.includes("mo") || raw.includes("hant")) return "zhHant";
+    return "zhHans";
+  }
+  return "en";
+}
+
+const locale = detectLocale();
+const htmlLang = {en:"en", ja:"ja", ko:"ko", zhHans:"zh-CN", zhHant:"zh-TW"}[locale] || "en";
+document.documentElement.lang = htmlLang;
+
+const ui = {
+  en:{
+    myLocation:"◎ MY LOCATION",
+    naver:"NAVER MAP",
+    google:"GOOGLE MAPS",
+    hotel:"This is your hotel.",
+    noLocation:"Location is not available on this device.",
+    allowLocation:"Please allow location access to show your position.",
+    loadError:"The local guide could not be loaded. Please try again."
+  },
+  ja:{
+    myLocation:"◎ 現在地",
+    naver:"NAVER MAP",
+    google:"GOOGLE MAPS",
+    hotel:"ここがホテルです。",
+    noLocation:"この端末では現在地を利用できません。",
+    allowLocation:"現在地の利用を許可してください。",
+    loadError:"ローカルガイドを読み込めませんでした。もう一度お試しください。"
+  },
+  zhHans:{
+    myLocation:"◎ 我的位置",
+    naver:"NAVER 地图",
+    google:"GOOGLE 地图",
+    hotel:"这里是您的酒店。",
+    noLocation:"此设备无法使用定位功能。",
+    allowLocation:"请允许定位权限以显示您的位置。",
+    loadError:"无法加载本地指南，请重试。"
+  },
+  zhHant:{
+    myLocation:"◎ 我的位置",
+    naver:"NAVER 地圖",
+    google:"GOOGLE 地圖",
+    hotel:"這裡是您的飯店。",
+    noLocation:"此裝置無法使用定位功能。",
+    allowLocation:"請允許定位權限以顯示您的位置。",
+    loadError:"無法載入周邊指南，請再試一次。"
+  },
+  ko:{
+    myLocation:"◎ 내 위치",
+    naver:"네이버 지도",
+    google:"구글 지도",
+    hotel:"여기가 호텔입니다.",
+    noLocation:"이 기기에서는 현재 위치를 사용할 수 없습니다.",
+    allowLocation:"현재 위치를 표시하려면 위치 권한을 허용해주세요.",
+    loadError:"주변 가이드를 불러오지 못했습니다. 다시 시도해주세요."
+  }
+}[locale];
+
+// Operating hours are displayed in the place's local time (Asia/Seoul).
+const hoursUi = {
+  en:{today:"Today's hours",weekly:"View all opening hours",closed:"Closed",unknown:"Please confirm",nextDay:"next day",note:"Holiday hours may differ. Please check before visiting.",conflict:"Listed hours differ across sources. Please confirm before visiting.",breakTime:"Break",lastOrder:"Last order",days:["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]},
+  ja:{today:"本日の営業時間",weekly:"曜日別の営業時間を見る",closed:"定休日",unknown:"要確認",nextDay:"翌日",note:"祝日などは営業時間が異なる場合があります。",conflict:"掲載サイトによって営業時間が異なります。来店前にご確認ください。",breakTime:"休憩時間",lastOrder:"ラストオーダー",days:["月","火","水","木","金","土","日"]},
+  zhHans:{today:"今日营业时间",weekly:"查看每周营业时间",closed:"休息",unknown:"请确认",nextDay:"次日",note:"节假日营业时间可能有所不同。",conflict:"各平台营业时间信息不一致，建议到店前再次确认。",breakTime:"休息时间",lastOrder:"最后点单",days:["周一","周二","周三","周四","周五","周六","周日"]},
+  zhHant:{today:"今日營業時間",weekly:"查看每週營業時間",closed:"公休",unknown:"請確認",nextDay:"隔日",note:"節假日營業時間可能有所不同。",conflict:"各平台營業時間不一致，建議到店前再次確認。",breakTime:"休息時間",lastOrder:"最後點餐",days:["週一","週二","週三","週四","週五","週六","週日"]},
+  ko:{today:"오늘 영업시간",weekly:"요일별 영업시간 보기",closed:"정기휴무",unknown:"확인 필요",nextDay:"익일",note:"공휴일 및 임시휴무에는 운영시간이 달라질 수 있습니다.",conflict:"플랫폼별 영업시간 정보가 달라 방문 전 재확인이 필요합니다.",breakTime:"브레이크타임",lastOrder:"라스트오더",days:["월","화","수","목","금","토","일"]}
+}[locale];
+
+function primaryName(place){
+  if(locale === "ja") return place.jaName || place.enName || place.name;
+  if(locale === "zhHans") return place.zhHansName || place.enName || place.name;
+  if(locale === "zhHant") return place.zhHantName || place.enName || place.name;
+  if(locale === "ko") return place.name;
+  return place.enName || place.name;
+}
+
+function secondaryName(place){
+  if(locale === "ko"){
+    return place.enName && place.enName !== place.name ? place.enName : "";
+  }
+  return place.name;
+}
+
+function localizedDesc(place){
+  return (place.descs && (place.descs[locale] || place.descs.en)) || place.desc || "";
+}
 
 const map = new maplibregl.Map({
   container:"map",
@@ -165,38 +299,108 @@ const sheet = document.getElementById("sheet");
 const sheetName = document.getElementById("sheetName");
 const sheetLocal = document.getElementById("sheetLocal");
 const sheetDesc = document.getElementById("sheetDesc");
+const hoursPanel = document.getElementById("hoursPanel");
+const hoursTodayLabel = document.getElementById("hoursTodayLabel");
+const hoursTodayValue = document.getElementById("hoursTodayValue");
+const hoursExtras = document.getElementById("hoursExtras");
+const weeklyHoursDetails = document.getElementById("weeklyHoursDetails");
+const weeklyHoursSummary = document.getElementById("weeklyHoursSummary");
+const weeklyHoursRows = document.getElementById("weeklyHoursRows");
+const hoursNote = document.getElementById("hoursNote");
 const directionsBtn = document.getElementById("directionsBtn");
+const googleBtn = document.getElementById("googleBtn");
+const mapActions = document.getElementById("mapActions");
 const hotelNote = document.getElementById("hotelNote");
+
+document.getElementById("locateBtn").textContent = ui.myLocation;
+directionsBtn.textContent = ui.naver;
+googleBtn.textContent = ui.google;
+hotelNote.textContent = ui.hotel;
+
 const bounds = new maplibregl.LngLatBounds();
 let userMarker = null;
 
 function closeSheet(){ sheet.classList.remove("open"); }
 
+function renderHours(place){
+  const hours = place.hours;
+  hoursPanel.hidden = !hours;
+  if(!hours) return;
+
+  const keys = ["mon","tue","wed","thu","fri","sat","sun"];
+  const todayKey = new Intl.DateTimeFormat("en-US", {
+    weekday:"short",timeZone:hours.timeZone || "Asia/Seoul"
+  }).format(new Date()).slice(0,3).toLowerCase();
+
+  const formatted = key => {
+    const slots = hours.weekly && hours.weekly[key];
+    if(slots == null) return hoursUi.unknown;
+    return Array.isArray(slots) && slots.length ? slots.join(" / ").replace(/\s*\(\+1\)/g, " (" + hoursUi.nextDay + ")") : hoursUi.closed;
+  };
+
+  hoursTodayLabel.textContent = hoursUi.today;
+  hoursTodayValue.textContent = formatted(todayKey);
+  weeklyHoursSummary.textContent = hoursUi.weekly;
+  const extraParts = [];
+  if(hours.breakTime) extraParts.push(hoursUi.breakTime + ": " + hours.breakTime);
+  if(hours.lastOrder) extraParts.push(hoursUi.lastOrder + ": " + hours.lastOrder.replace(/\s*\(\+1\)/g, " (" + hoursUi.nextDay + ")"));
+  if(hours.specialHoursNotes){
+    const specialNote = hours.specialHoursNotes[locale] || hours.specialHoursNotes.en;
+    if(specialNote) extraParts.push(specialNote);
+  }
+  hoursExtras.textContent = extraParts.join(" · ");
+  hoursExtras.hidden = !extraParts.length;
+  hoursNote.textContent = hours.verification === "conflicting-sources" ? hoursUi.conflict : hoursUi.note;
+  weeklyHoursDetails.open = false;
+  weeklyHoursRows.replaceChildren();
+  keys.forEach((key,index)=>{
+    const row = document.createElement("div");
+    row.className = "hour-row" + (key === todayKey ? " today" : "");
+    const day = document.createElement("span");
+    day.textContent = hoursUi.days[index];
+    const time = document.createElement("span");
+    time.className = "time";
+    time.textContent = formatted(key);
+    row.append(day,time);
+    weeklyHoursRows.appendChild(row);
+  });
+}
+
 function openPlace(place){
-  sheetName.textContent = place.enName || place.name;
-  sheetLocal.textContent = (place.category === "hotel" || !place.enName || place.enName === place.name) ? "" : place.name;
-  sheetDesc.textContent = place.desc;
+  sheetName.textContent = primaryName(place);
+  sheetLocal.textContent = place.category === "hotel" ? "" : secondaryName(place);
+  sheetDesc.textContent = localizedDesc(place);
+  renderHours(place);
 
   if(place.category === "hotel"){
-    directionsBtn.hidden = true;
+    mapActions.hidden = true;
     hotelNote.hidden = false;
   }else{
-    directionsBtn.hidden = false;
+    mapActions.hidden = false;
     hotelNote.hidden = true;
     directionsBtn.onclick = () => openDirections(place);
+    googleBtn.onclick = () => openGoogleDirections(place);
   }
   sheet.classList.add("open");
 }
 
 function openDirections(place){
-  const dname = encodeURIComponent(place.name);
-  const naverApp = `nmap://route/walk?dlat=${place.lat}&dlng=${place.lng}&dname=${dname}&appname=com.hohecity.nearby`;
-  const naverWeb = `https://map.naver.com/p/search/${encodeURIComponent(place.address)}`;
+  if(place.naverUrl){
+    window.location.href = place.naverUrl;
+    return;
+  }
 
-  window.location.href = naverApp;
-  setTimeout(() => {
-    if(!document.hidden) window.location.href = naverWeb;
-  }, 1100);
+  const naverWeb = `https://map.naver.com/p/search/${encodeURIComponent(place.name + " " + place.address)}`;
+  window.location.href = naverWeb;
+}
+
+function openGoogleDirections(place){
+  if(place.googleUrl){
+    window.location.href = place.googleUrl;
+    return;
+  }
+  const query = encodeURIComponent(`${place.name} ${place.address}`);
+  window.location.href = `https://www.google.com/maps/search/?api=1&query=${query}`;
 }
 
 // Approved category icons: Food/Cafe/Bar/Hotel A, Sightseeing B.
@@ -216,6 +420,7 @@ function markerEl(place){
   if(place.category === "hotel"){
     const wrap = document.createElement("div");
     wrap.className = "hotel-wrap";
+    wrap.setAttribute("aria-label", primaryName(place));
     wrap.innerHTML = `<div class="place-marker hotel">${categoryIcon(place.category)}</div><div class="hotel-label">HOHE CITY</div>`;
     wrap.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
     return wrap;
@@ -224,7 +429,7 @@ function markerEl(place){
   const el = document.createElement("div");
   el.className = `place-marker ${place.category}`;
   el.innerHTML = categoryIcon(place.category);
-  el.setAttribute("aria-label", `${place.enName || place.name} ${place.name}`);
+  el.setAttribute("aria-label", `${primaryName(place)} ${place.name}`);
   el.addEventListener("click",(e)=>{e.stopPropagation();openPlace(place)});
   return el;
 }
@@ -253,7 +458,7 @@ map.on("load", async ()=>{
     }
   } catch (error) {
     console.error(error);
-    alert("The local guide could not be loaded. Please try again.");
+    alert(ui.loadError);
   }
 });
 
@@ -262,7 +467,7 @@ document.getElementById("closeBtn").addEventListener("click", closeSheet);
 
 document.getElementById("locateBtn").addEventListener("click",()=>{
   if(!navigator.geolocation){
-    alert("Location is not available on this device.");
+    alert(ui.noLocation);
     return;
   }
 
@@ -284,7 +489,7 @@ document.getElementById("locateBtn").addEventListener("click",()=>{
       map.flyTo({center:[lng,lat],zoom:17,duration:600});
       closeSheet();
     },
-    ()=>alert("Please allow location access to show your position."),
+    ()=>alert(ui.allowLocation),
     {enableHighAccuracy:true,timeout:8000,maximumAge:30000}
   );
 });
