@@ -1009,12 +1009,12 @@
         "ko": "대형마트 · 식료품 및 기념품"
       },
       "category": "shop",
-      "lat": 37.5707455,
-      "lng": 127.0198431,
+      "lat": 37.5708156,
+      "lng": 127.0214621,
       "address": "서울특별시 중구 청계천로 400 (지하 2층)",
       "icon": "🛍",
       "googleUrl": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%A7%88%ED%8A%B8%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EC%A0%90%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B2%AD%EA%B3%84%EC%B2%9C%EB%A1%9C%20400",
-      "naverLinkStatus": "search-fallback",
+      "naverLinkStatus": "user-provided-entrance-share-link",
       "googleLinkStatus": "search-fallback",
       "hours": {
         "timeZone": "Asia/Seoul",
@@ -1057,7 +1057,9 @@
         },
         "sourceUrl": "https://emartapp.emart.com/branch/view.do?id=1089",
         "checkedDate": "2026-10-10"
-      }
+      },
+      "naverUrl": "https://naver.me/xXnsOLiB",
+      "pinVerification": "approximate-store-location-near-entrance; exact entrance pin not independently verified"
     },
     {
       "name": "다이소 동묘점",
