@@ -252,7 +252,33 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%ED%83%80%EC%9D%BC%EB%9F%AC/data=!3m1!4b1!4m4!3m3!1s0x357ca3013a7792f5:0xef075a2facaf3675!16s%2Fg%2F11rxs03t1r!20s8Q99H2GG%2B2PX",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "17:00–24:00"
+          ],
+          "tue": [
+            "17:00–24:00"
+          ],
+          "wed": [
+            "17:00–24:00"
+          ],
+          "thu": [
+            "17:00–24:00"
+          ],
+          "fri": [
+            "17:00–24:00"
+          ],
+          "sat": [
+            "17:00–24:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd00666de5f0698855205",
+        "checkedDate": "2026-10-10"
+      }
     },
     {
       "name": "동신곱창 신설동본점",
