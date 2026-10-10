@@ -112,6 +112,28 @@
       transition:transform .2s ease;
     }
     .sheet.open{transform:translateY(0)}
+    .photo-gallery{margin:-16px -16px 14px;overflow:hidden;border-radius:15px 15px 0 0;background:#E8E3DC;}
+    .photo-gallery[hidden],.photo-viewer[hidden]{display:none!important}
+    .photo-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;
+      scrollbar-width:none;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y}
+    .photo-track::-webkit-scrollbar{display:none}
+    .photo-slide{width:100%;min-width:100%;flex:0 0 100%;height:clamp(170px,30vh,220px);
+      padding:0;border:0;background:#ECE9E3;scroll-snap-align:start;cursor:zoom-in;display:block;overflow:hidden}
+    .photo-slide img{display:block;width:100%;height:100%;object-fit:cover}
+    .photo-caption-line{display:flex;align-items:center;justify-content:space-between;gap:12px;
+      background:var(--panel);padding:8px 12px;font-size:11px;color:var(--muted)}
+    .photo-caption{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+    .photo-count{font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--text)}
+    .photo-viewer{position:fixed;z-index:99;inset:0;background:rgba(18,18,18,.96);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 12px 30px}
+    .photo-viewer img{display:block;max-width:100%;max-height:75dvh;width:auto;height:auto;object-fit:contain}
+    .photo-viewer-close{position:absolute;right:12px;top:max(12px,env(safe-area-inset-top));width:42px;height:42px;
+      color:#fff;background:rgba(255,255,255,.15);border:0;border-radius:50%;font-size:25px;cursor:pointer}
+    .photo-viewer-bottom{color:#fff;text-align:center;font-size:12px;margin-top:12px;min-height:36px}
+    .photo-viewer-controls{display:flex;align-items:center;gap:18px;justify-content:center;margin-top:10px}
+    .photo-viewer-controls button{background:rgba(255,255,255,.15);border:0;border-radius:9px;padding:8px 17px;color:#fff;font-size:18px;cursor:pointer}
+    .photo-viewer-controls button[hidden]{display:none}
+    .close{z-index:3;background:rgba(255,253,249,.92);border-radius:50%}
     .sheet-name{font-size:18px;font-weight:850;margin-right:36px}
     .sheet-local{font-size:12px;color:var(--muted);margin-top:2px}
     .sheet-desc{font-size:14px;color:var(--muted);margin:4px 0 14px}
@@ -192,6 +214,13 @@
 
 <section class="sheet" id="sheet" aria-live="polite">
   <button class="close" aria-label="Close" id="closeBtn">×</button>
+  <div class="photo-gallery" id="photoGallery" hidden aria-label="Place photos">
+    <div class="photo-track" id="photoTrack"></div>
+    <div class="photo-caption-line">
+      <span class="photo-caption" id="photoCaption"></span>
+      <span class="photo-count" id="photoCount"></span>
+    </div>
+  </div>
   <div class="sheet-name" id="sheetName"></div>
   <div class="sheet-local" id="sheetLocal"></div>
   <div class="sheet-desc" id="sheetDesc"></div>
@@ -244,6 +273,17 @@
   </div>
   <div class="hotel-note" id="hotelNote" hidden>This is your hotel.</div>
 </section>
+
+<div class="photo-viewer" id="photoViewer" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="photo-viewer-close" id="photoViewerClose" type="button" aria-label="Close photo">×</button>
+  <img id="photoViewerImg" alt="">
+  <div class="photo-viewer-bottom" id="photoViewerCaption"></div>
+  <div class="photo-viewer-controls">
+    <button type="button" id="photoViewerPrev" aria-label="Previous photo">‹</button>
+    <span class="photo-count" id="photoViewerCount" style="color:#fff"></span>
+    <button type="button" id="photoViewerNext" aria-label="Next photo">›</button>
+  </div>
+</div>
 
 <script>
 let places = [];
@@ -411,6 +451,17 @@ const sheet = document.getElementById("sheet");
 const sheetName = document.getElementById("sheetName");
 const sheetLocal = document.getElementById("sheetLocal");
 const sheetDesc = document.getElementById("sheetDesc");
+const photoGallery = document.getElementById("photoGallery");
+const photoTrack = document.getElementById("photoTrack");
+const photoCaption = document.getElementById("photoCaption");
+const photoCount = document.getElementById("photoCount");
+const photoViewer = document.getElementById("photoViewer");
+const photoViewerImg = document.getElementById("photoViewerImg");
+const photoViewerCaption = document.getElementById("photoViewerCaption");
+const photoViewerCount = document.getElementById("photoViewerCount");
+const photoViewerPrev = document.getElementById("photoViewerPrev");
+const photoViewerNext = document.getElementById("photoViewerNext");
+const photoViewerClose = document.getElementById("photoViewerClose");
 const hoursPanel = document.getElementById("hoursPanel");
 const hoursTodayLabel = document.getElementById("hoursTodayLabel");
 const hoursTodayValue = document.getElementById("hoursTodayValue");
@@ -553,7 +604,132 @@ function renderBusPayment(place){
   busPaymentSource.href = locale === "ko" ? payment.sources.operatorFaq : payment.sources.operatorEnglishFaq;
 }
 
+// Photos are optional for each place. Guests never see the layout demo unless ?photoDemo=1.
+const photoDemo = new URLSearchParams(window.location.search).get("photoDemo") === "1";
+let currentPhotos = [];
+let currentPhotoIndex = 0;
+let currentViewerIndex = 0;
+let lastPhotoTrigger = null;
+const photoUi = {
+  en:{sample:"LAYOUT DEMO · Not a real hotel photo",front:"Example: exterior image",entrance:"Example: entrance image",photo:"Place photo"},
+  ja:{sample:"表示サンプル · 実際のホテル写真ではありません",front:"サンプル：建物の外観",entrance:"サンプル：入口",photo:"施設の写真"},
+  zhHans:{sample:"界面示例 · 非酒店真实照片",front:"示例：建筑外观",entrance:"示例：入口",photo:"地点照片"},
+  zhHant:{sample:"版面示例 · 非飯店真實照片",front:"範例：建築外觀",entrance:"範例：入口",photo:"地點照片"},
+  ko:{sample:"사진 레이아웃 예시 · 실제 호텔 사진 아님",front:"예시: 건물 외관",entrance:"예시: 입구",photo:"장소 사진"}
+}[locale];
+
+function photoText(value,fallback=""){
+  if(typeof value === "string") return value;
+  if(!value || typeof value !== "object") return fallback;
+  return value[locale] || value.en || value.ko || fallback;
+}
+function demoPhoto(color,variant){
+  const svg='<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">' +
+    '<rect width="1000" height="560" fill="'+color+'"/>'+
+    '<rect x="100" y="65" width="800" height="430" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".45" stroke-width="4"/>'+
+    '<circle cx="500" cy="230" r="55" fill="none" stroke="#ffffff" stroke-width="7"/>'+
+    '<rect x="370" y="169" width="260" height="172" rx="18" fill="none" stroke="#ffffff" stroke-width="7"/>'+
+    '<circle cx="575" cy="196" r="14" fill="#ffffff"/>'+
+    '<text x="500" y="415" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="sans-serif">PHOTO LAYOUT DEMO '+variant+'</text>'+
+    '</svg>';
+  return "data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg);
+}
+function getPhotos(place){
+  if(Array.isArray(place.photos) && place.photos.length){
+    return place.photos.filter(photo=>{
+      const u=photo && (photo.src || photo.url);
+      return typeof u === "string" && (/^https:\/\//.test(u) || /^(\/|\.\/|photos\/)(?!\/)/.test(u));
+    }).slice(0,5).map(photo=>({
+      src:photo.src || photo.url,
+      alt:photoText(photo.alt,primaryName(place)),
+      caption:photoText(photo.caption,"")
+    }));
+  }
+  if(photoDemo && place.category === "hotel"){
+    return [
+      {src:demoPhoto("#706A62","1"),alt:photoUi.sample,caption:photoUi.front+" · "+photoUi.sample},
+      {src:demoPhoto("#967A62","2"),alt:photoUi.sample,caption:photoUi.entrance+" · "+photoUi.sample}
+    ];
+  }
+  return [];
+}
+function updatePhotoMeta(index){
+  if(!currentPhotos.length)return;
+  currentPhotoIndex=Math.max(0,Math.min(index,currentPhotos.length-1));
+  photoCount.textContent=(currentPhotoIndex+1)+" / "+currentPhotos.length;
+  photoCaption.textContent=currentPhotos[currentPhotoIndex].caption || "";
+}
+function renderPhotos(place){
+  closePhotoViewer();
+  currentPhotos=getPhotos(place);
+  photoGallery.hidden=!currentPhotos.length;
+  photoTrack.replaceChildren();
+  if(!currentPhotos.length) return;
+  currentPhotos.forEach((photo,i)=>{
+    const button=document.createElement("button");
+    button.className="photo-slide";
+    button.type="button";
+    button.setAttribute("aria-label",photo.alt || photoUi.photo);
+    const img=document.createElement("img");
+    img.src=photo.src;
+    img.alt=photo.alt;
+    img.loading=i===0?"eager":"lazy";
+    img.decoding="async";
+    button.appendChild(img);
+    button.addEventListener("click",()=>openPhotoViewer(i,button));
+    photoTrack.appendChild(button);
+  });
+  photoTrack.scrollLeft=0;
+  updatePhotoMeta(0);
+}
+photoTrack.addEventListener("scroll",()=>{
+  if(!currentPhotos.length||!photoTrack.clientWidth)return;
+  updatePhotoMeta(Math.round(photoTrack.scrollLeft/photoTrack.clientWidth));
+},{passive:true});
+function updatePhotoViewer(){
+  const photo=currentPhotos[currentViewerIndex];
+  if(!photo)return;
+  photoViewerImg.src=photo.src;
+  photoViewerImg.alt=photo.alt;
+  photoViewerCaption.textContent=photo.caption;
+  photoViewerCount.textContent=(currentViewerIndex+1)+" / "+currentPhotos.length;
+  photoViewerPrev.hidden=currentPhotos.length<=1;
+  photoViewerNext.hidden=currentPhotos.length<=1;
+}
+function openPhotoViewer(index,trigger){
+  lastPhotoTrigger=trigger;
+  currentViewerIndex=index;
+  updatePhotoViewer();
+  photoViewer.hidden=false;
+  photoViewerClose.focus();
+}
+function closePhotoViewer(){
+  if(photoViewer.hidden)return;
+  photoViewer.hidden=true;
+  photoViewerImg.removeAttribute("src");
+  if(lastPhotoTrigger && lastPhotoTrigger.isConnected)lastPhotoTrigger.focus();
+  lastPhotoTrigger=null;
+}
+photoViewerClose.addEventListener("click",closePhotoViewer);
+photoViewerPrev.addEventListener("click",()=>{
+  currentViewerIndex=(currentViewerIndex-1+currentPhotos.length)%currentPhotos.length;
+  updatePhotoViewer();
+});
+photoViewerNext.addEventListener("click",()=>{
+  currentViewerIndex=(currentViewerIndex+1)%currentPhotos.length;
+  updatePhotoViewer();
+});
+photoViewer.addEventListener("click",e=>{if(e.target===photoViewer)closePhotoViewer()});
+document.addEventListener("keydown",e=>{
+  if(photoViewer.hidden)return;
+  if(e.key==="Escape")closePhotoViewer();
+  else if(e.key==="ArrowLeft")photoViewerPrev.click();
+  else if(e.key==="ArrowRight")photoViewerNext.click();
+});
+
 function openPlace(place){
+  renderPhotos(place);
+  sheet.scrollTop=0;
   sheetName.textContent = primaryName(place);
   sheetLocal.textContent = place.category === "hotel" ? "" : secondaryName(place);
   sheetDesc.textContent = localizedDesc(place);
@@ -640,6 +816,10 @@ map.on("load", async ()=>{
       bounds.extend([place.lng,place.lat]);
     });
 
+    if(photoDemo){
+      const demoHotel=places.find(place=>place.category==="hotel");
+      if(demoHotel)openPlace(demoHotel);
+    }
     if (places.length) {
       map.fitBounds(bounds,{
         padding:{top:85,right:44,bottom:90,left:44},
