@@ -343,6 +343,10 @@ function renderHours(place){
   const extraParts = [];
   if(hours.breakTime) extraParts.push(hoursUi.breakTime + ": " + hours.breakTime);
   if(hours.lastOrder) extraParts.push(hoursUi.lastOrder + ": " + hours.lastOrder);
+  if(hours.specialHoursNotes){
+    const specialNote = hours.specialHoursNotes[locale] || hours.specialHoursNotes.en;
+    if(specialNote) extraParts.push(specialNote);
+  }
   hoursExtras.textContent = extraParts.join(" · ");
   hoursExtras.hidden = !extraParts.length;
   hoursNote.textContent = hours.verification === "conflicting-sources" ? hoursUi.conflict : hoursUi.note;
