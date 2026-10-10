@@ -127,6 +127,22 @@
       border:1px solid var(--line);
     }
     .hotel-note{font-size:12px;color:var(--muted)}
+    .hours-panel{
+      margin:0 0 14px;padding:11px 12px;
+      background:#F8F5EF;border:1px solid var(--line);border-radius:11px;
+      font-size:12px;
+    }
+    .hours-panel[hidden]{display:none}
+    .hours-today{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .hours-today-label{color:var(--muted);font-weight:650}
+    .hours-today-value{font-size:13px;font-weight:800;font-variant-numeric:tabular-nums;text-align:right}
+    .hours-panel details{margin-top:10px;border-top:1px solid var(--line);padding-top:9px}
+    .hours-panel summary{cursor:pointer;font-weight:750;list-style-position:inside}
+    .hours-weekly{display:grid;gap:6px;margin-top:10px}
+    .hour-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .hour-row.today{font-weight:800}
+    .hour-row .time{font-variant-numeric:tabular-nums;text-align:right}
+    .hours-note{margin:9px 0 0;color:var(--muted);font-size:11px;line-height:1.4}
 
     .maplibregl-ctrl-attrib{font-size:9px;opacity:.68}
 
@@ -150,6 +166,17 @@
   <div class="sheet-name" id="sheetName"></div>
   <div class="sheet-local" id="sheetLocal"></div>
   <div class="sheet-desc" id="sheetDesc"></div>
+  <div class="hours-panel" id="hoursPanel" hidden>
+    <div class="hours-today">
+      <span class="hours-today-label" id="hoursTodayLabel"></span>
+      <strong class="hours-today-value" id="hoursTodayValue"></strong>
+    </div>
+    <details id="weeklyHoursDetails">
+      <summary id="weeklyHoursSummary"></summary>
+      <div class="hours-weekly" id="weeklyHoursRows"></div>
+    </details>
+    <p class="hours-note" id="hoursNote"></p>
+  </div>
   <div class="map-actions" id="mapActions">
     <button class="directions" id="directionsBtn">NAVER MAP</button>
     <button class="directions secondary" id="googleBtn">GOOGLE MAPS</button>
@@ -225,6 +252,15 @@ const ui = {
   }
 }[locale];
 
+// Operating hours are displayed in the place's local time (Asia/Seoul).
+const hoursUi = {
+  en:{today:"Today's hours",weekly:"View all opening hours",closed:"Closed",note:"Holiday hours may differ. Please check before visiting.",days:["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]},
+  ja:{today:"本日の営業時間",weekly:"曜日別の営業時間を見る",closed:"定休日",note:"祝日などは営業時間が異なる場合があります。",days:["月","火","水","木","金","土","日"]},
+  zhHans:{today:"今日营业时间",weekly:"查看每周营业时间",closed:"休息",note:"节假日营业时间可能有所不同。",days:["周一","周二","周三","周四","周五","周六","周日"]},
+  zhHant:{today:"今日營業時間",weekly:"查看每週營業時間",closed:"公休",note:"節假日營業時間可能有所不同。",days:["週一","週二","週三","週四","週五","週六","週日"]},
+  ko:{today:"오늘 영업시간",weekly:"요일별 영업시간 보기",closed:"정기휴무",note:"공휴일 및 임시휴무에는 운영시간이 달라질 수 있습니다.",days:["월","화","수","목","금","토","일"]}
+}[locale];
+
 function primaryName(place){
   if(locale === "ja") return place.jaName || place.enName || place.name;
   if(locale === "zhHans") return place.zhHansName || place.enName || place.name;
@@ -258,6 +294,13 @@ const sheet = document.getElementById("sheet");
 const sheetName = document.getElementById("sheetName");
 const sheetLocal = document.getElementById("sheetLocal");
 const sheetDesc = document.getElementById("sheetDesc");
+const hoursPanel = document.getElementById("hoursPanel");
+const hoursTodayLabel = document.getElementById("hoursTodayLabel");
+const hoursTodayValue = document.getElementById("hoursTodayValue");
+const weeklyHoursDetails = document.getElementById("weeklyHoursDetails");
+const weeklyHoursSummary = document.getElementById("weeklyHoursSummary");
+const weeklyHoursRows = document.getElementById("weeklyHoursRows");
+const hoursNote = document.getElementById("hoursNote");
 const directionsBtn = document.getElementById("directionsBtn");
 const googleBtn = document.getElementById("googleBtn");
 const mapActions = document.getElementById("mapActions");
@@ -273,10 +316,45 @@ let userMarker = null;
 
 function closeSheet(){ sheet.classList.remove("open"); }
 
+function renderHours(place){
+  const hours = place.hours;
+  hoursPanel.hidden = !hours;
+  if(!hours) return;
+
+  const keys = ["mon","tue","wed","thu","fri","sat","sun"];
+  const todayKey = new Intl.DateTimeFormat("en-US", {
+    weekday:"short",timeZone:hours.timeZone || "Asia/Seoul"
+  }).format(new Date()).slice(0,3).toLowerCase();
+
+  const formatted = key => {
+    const slots = hours.weekly && hours.weekly[key];
+    return Array.isArray(slots) && slots.length ? slots.join(" / ") : hoursUi.closed;
+  };
+
+  hoursTodayLabel.textContent = hoursUi.today;
+  hoursTodayValue.textContent = formatted(todayKey);
+  weeklyHoursSummary.textContent = hoursUi.weekly;
+  hoursNote.textContent = hoursUi.note;
+  weeklyHoursDetails.open = false;
+  weeklyHoursRows.replaceChildren();
+  keys.forEach((key,index)=>{
+    const row = document.createElement("div");
+    row.className = "hour-row" + (key === todayKey ? " today" : "");
+    const day = document.createElement("span");
+    day.textContent = hoursUi.days[index];
+    const time = document.createElement("span");
+    time.className = "time";
+    time.textContent = formatted(key);
+    row.append(day,time);
+    weeklyHoursRows.appendChild(row);
+  });
+}
+
 function openPlace(place){
   sheetName.textContent = primaryName(place);
   sheetLocal.textContent = place.category === "hotel" ? "" : secondaryName(place);
   sheetDesc.textContent = localizedDesc(place);
+  renderHours(place);
 
   if(place.category === "hotel"){
     mapActions.hidden = true;
