@@ -160,6 +160,16 @@
     .bus-caution{color:var(--muted);font-size:11px;line-height:1.5;margin:8px 0 0}
     .bus-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:9px}
     .bus-links a{color:#275877;font-weight:750;text-decoration:underline;text-underline-offset:2px}
+    .bus-payment{border-top:1px solid #D8E1E8;margin-top:13px;padding-top:12px}
+    .bus-payment[hidden]{display:none}
+    .bus-payment-title{font-size:13px;font-weight:850;margin-bottom:8px}
+    .bus-payment-row{display:grid;grid-template-columns:1fr;gap:3px;margin:8px 0}
+    .bus-payment-label{font-size:11px;color:var(--muted)}
+    .bus-payment-value{font-weight:750;font-size:12px;line-height:1.5}
+    .bus-payment-yes{color:#236A4C}
+    .bus-payment-no{color:#A13F3F}
+    .bus-payment-note{font-size:11px;color:var(--muted);line-height:1.5;margin:7px 0 0}
+    .bus-payment-source{display:inline-block;margin-top:9px;font-size:11px;font-weight:750;color:#275877;text-decoration:underline;text-underline-offset:2px}
     .hours-extras{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.5}
     .hours-extras[hidden]{display:none}
 
@@ -205,6 +215,25 @@
     </div>
     <div class="bus-details" id="busDetails"></div>
     <p class="bus-caution" id="busCaution"></p>
+    <section class="bus-payment" id="busPaymentPanel" hidden aria-label="Bus payment methods">
+      <div class="bus-payment-title" id="busPaymentTitle"></div>
+      <div class="bus-payment-row">
+        <span class="bus-payment-label" id="busPaymentCashLabel"></span>
+        <strong class="bus-payment-value bus-payment-yes" id="busPaymentCash"></strong>
+      </div>
+      <div class="bus-payment-row">
+        <span class="bus-payment-label" id="busPaymentTransitLabel"></span>
+        <strong class="bus-payment-value bus-payment-yes" id="busPaymentTransit"></strong>
+      </div>
+      <div class="bus-payment-row">
+        <span class="bus-payment-label" id="busPaymentCreditLabel"></span>
+        <strong class="bus-payment-value bus-payment-no" id="busPaymentCredit"></strong>
+      </div>
+      <p class="bus-payment-note" id="busPaymentWowpass"></p>
+      <p class="bus-payment-note" id="busPaymentPostpaid"></p>
+      <p class="bus-payment-note" id="busPaymentCashNote"></p>
+      <a class="bus-payment-source" id="busPaymentSource" target="_blank" rel="noopener noreferrer"></a>
+    </section>
     <div class="bus-links">
       <a id="busTimetableLink" href="#" target="_blank" rel="noopener noreferrer"></a>
       <a id="busOfficialLink" href="#" target="_blank" rel="noopener noreferrer"></a>
@@ -302,6 +331,59 @@ const busUi = {
   ko:{heading:"6002번 · 신설동역 정류장 (06008)",first:"신설동역 첫차",last:"신설동역 막차",unverified:"확인 필요",daily:"매일",interval:"배차간격",minutes:"분",adult:"성인",child:"어린이",official:"공항리무진 공식 ↗",origin:"청량리역 출발 기준(공식)",caution:"신설동역 정류장 첫차·막차는 아직 정확하게 확인되지 않았습니다. 청량리역 출발시간은 신설동역 탑승시간이 아닙니다. 탑승 전 정류장 실시간 정보 또는 운수사에 확인해 주세요."}
 }[locale];
 
+const busPaymentUi = {
+  en:{
+    heading:"Payment methods · To Incheon Airport",
+    cash:"Cash accepted",cashValue:"✓ KRW · USD · CNY · EUR · JPY",
+    transit:"Transportation card accepted",transitValue:"✓ T-money / WOWPASS (T-money function)",
+    credit:"Regular credit card (direct payment)",creditValue:"✕ Not accepted",
+    wowpass:"WOWPASS: the T-money balance must be topped up separately from the regular WOWPASS balance.",
+    postpaid:"A Korean credit card with an enabled postpaid transportation function can be tapped as a transit card.",
+    change:"Foreign-currency exchange rates and change-giving conditions are not confirmed; ask the driver before paying.",
+    source:"Official payment information ↗"
+  },
+  ja:{
+    heading:"お支払い方法 · 仁川空港行き",
+    cash:"現金",cashValue:"✓ KRW · USD · CNY · EUR · JPY",
+    transit:"交通カード",transitValue:"✓ T-money / WOWPASS（T-money機能）",
+    credit:"一般のクレジットカード（直接決済）",creditValue:"✕ ご利用不可",
+    wowpass:"WOWPASSの交通カード残高（T-money）は、通常のWOWPASS残高とは別にチャージが必要です。",
+    postpaid:"後払い交通機能に対応した韓国のクレジットカードは、交通カードとしてタッチ決済できます。",
+    change:"外貨の適用レート・お釣りの取り扱いは未確認です。お支払い前に運転手へご確認ください。",
+    source:"運行会社のお支払い案内 ↗"
+  },
+  zhHans:{
+    heading:"付款方式 · 前往仁川机场",
+    cash:"可使用现金",cashValue:"✓ KRW · USD · CNY · EUR · JPY",
+    transit:"可使用交通卡",transitValue:"✓ T-money / WOWPASS（T-money功能）",
+    credit:"普通信用卡（直接刷卡付款）",creditValue:"✕ 不支持",
+    wowpass:"WOWPASS 的 T-money 交通卡余额需单独充值，与 WOWPASS 普通余额分开。",
+    postpaid:"支持韩国后付交通卡功能的信用卡可作为交通卡刷卡乘车。",
+    change:"外币汇率和找零方式尚未确认，请付款前咨询司机。",
+    source:"运营公司官方付款说明 ↗"
+  },
+  zhHant:{
+    heading:"付款方式 · 前往仁川機場",
+    cash:"可使用現金",cashValue:"✓ KRW · USD · CNY · EUR · JPY",
+    transit:"可使用交通卡",transitValue:"✓ T-money / WOWPASS（T-money功能）",
+    credit:"一般信用卡（直接刷卡付款）",creditValue:"✕ 不接受",
+    wowpass:"WOWPASS 的 T-money 交通卡餘額須另外儲值，與 WOWPASS 一般餘額分開。",
+    postpaid:"具有韓國後付交通卡功能的信用卡，可當交通卡感應搭乘。",
+    change:"外幣換算匯率及找零方式尚未確認，付款前請洽詢司機。",
+    source:"營運公司官方付款說明 ↗"
+  },
+  ko:{
+    heading:"결제수단 · 인천공항행",
+    cash:"현금 사용 가능",cashValue:"✓ 원화(KRW) · 달러(USD) · 위안(CNY) · 유로(EUR) · 엔화(JPY)",
+    transit:"교통카드 사용 가능",transitValue:"✓ 티머니 / WOWPASS의 티머니 기능",
+    credit:"일반 신용카드 직접 결제",creditValue:"✕ 불가",
+    wowpass:"WOWPASS는 일반 결제 잔액과 티머니 잔액이 다릅니다. 티머니 잔액을 별도로 충전해 주세요.",
+    postpaid:"후불교통 기능을 지원하는 국내 신용카드는 교통카드 방식으로 결제할 수 있습니다.",
+    change:"외화 적용 환율 및 거스름돈 지급 방식은 확인되지 않았으니 결제 전 기사님께 문의해 주세요.",
+    source:"공항리무진 공식 결제 안내 ↗"
+  }
+}[locale];
+
 function primaryName(place){
   if(locale === "ja") return place.jaName || place.enName || place.name;
   if(locale === "zhHans") return place.zhHansName || place.enName || place.name;
@@ -353,6 +435,18 @@ const busDetails = document.getElementById("busDetails");
 const busCaution = document.getElementById("busCaution");
 const busTimetableLink = document.getElementById("busTimetableLink");
 const busOfficialLink = document.getElementById("busOfficialLink");
+const busPaymentPanel = document.getElementById("busPaymentPanel");
+const busPaymentTitle = document.getElementById("busPaymentTitle");
+const busPaymentCashLabel = document.getElementById("busPaymentCashLabel");
+const busPaymentCash = document.getElementById("busPaymentCash");
+const busPaymentTransitLabel = document.getElementById("busPaymentTransitLabel");
+const busPaymentTransit = document.getElementById("busPaymentTransit");
+const busPaymentCreditLabel = document.getElementById("busPaymentCreditLabel");
+const busPaymentCredit = document.getElementById("busPaymentCredit");
+const busPaymentWowpass = document.getElementById("busPaymentWowpass");
+const busPaymentPostpaid = document.getElementById("busPaymentPostpaid");
+const busPaymentCashNote = document.getElementById("busPaymentCashNote");
+const busPaymentSource = document.getElementById("busPaymentSource");
 const directionsBtn = document.getElementById("directionsBtn");
 const googleBtn = document.getElementById("googleBtn");
 const mapActions = document.getElementById("mapActions");
@@ -450,12 +544,31 @@ function renderBusSchedule(place){
   busOfficialLink.href = schedule.officialRouteUrl;
 }
 
+function renderBusPayment(place){
+  const payment = place.transport && place.transport.payment;
+  busPaymentPanel.hidden = !payment;
+  if(!payment) return;
+  busPaymentTitle.textContent = busPaymentUi.heading;
+  busPaymentCashLabel.textContent = busPaymentUi.cash;
+  busPaymentCash.textContent = busPaymentUi.cashValue;
+  busPaymentTransitLabel.textContent = busPaymentUi.transit;
+  busPaymentTransit.textContent = busPaymentUi.transitValue;
+  busPaymentCreditLabel.textContent = busPaymentUi.credit;
+  busPaymentCredit.textContent = busPaymentUi.creditValue;
+  busPaymentWowpass.textContent = payment.wowpassRequiresSeparateTransitTopUp ? busPaymentUi.wowpass : "";
+  busPaymentPostpaid.textContent = payment.domesticPostpaidTransitEnabledCreditCardAccepted ? busPaymentUi.postpaid : "";
+  busPaymentCashNote.textContent = payment.forexChangeTerms === "not-verified" ? busPaymentUi.change : "";
+  busPaymentSource.textContent = busPaymentUi.source;
+  busPaymentSource.href = locale === "ko" ? payment.sources.operatorFaq : payment.sources.operatorEnglishFaq;
+}
+
 function openPlace(place){
   sheetName.textContent = primaryName(place);
   sheetLocal.textContent = place.category === "hotel" ? "" : secondaryName(place);
   sheetDesc.textContent = localizedDesc(place);
   renderHours(place);
   renderBusSchedule(place);
+  renderBusPayment(place);
 
   if(place.category === "hotel"){
     mapActions.hidden = true;
