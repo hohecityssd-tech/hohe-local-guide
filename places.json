@@ -45,7 +45,36 @@
       "naverUrl": "https://naver.me/xP8mIZAQ",
       "googleUrl": "https://www.google.com/maps/place/%EC%8B%A0%EC%86%94%EB%8F%88/data=!3m1!4b1!4m4!3m3!1s0x357ca3e3a9538749:0x4d7cde22ce4f6b33!16s%2Fg%2F11vr1_wjv0!20s8Q99H2GG%2B8GQ",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–22:30"
+          ],
+          "tue": [
+            "11:00–22:30"
+          ],
+          "wed": [
+            "11:00–22:30"
+          ],
+          "thu": [
+            "11:00–22:30"
+          ],
+          "fri": [
+            "11:00–22:30"
+          ],
+          "sat": [
+            "11:00–22:30"
+          ],
+          "sun": [
+            "11:00–22:30"
+          ]
+        },
+        "sourceUrl": "https://autoreserve.com/ko/restaurants/2wkutBKs5MFSNk7jjBp4",
+        "checkedDate": "2026-10-10",
+        "lastOrder": "22:00"
+      }
     },
     {
       "name": "엔드롱",
@@ -68,7 +97,35 @@
       "naverUrl": "https://naver.me/xk18oFj1",
       "googleUrl": "https://www.google.com/maps/place/%EC%97%94%EB%93%9C%EB%A1%B1/data=!3m1!4b1!4m4!3m3!1s0x357ca3c0c9c48f13:0x829710d8afb67606!16s%2Fg%2F11hyd3chbq!20s8Q99H2GG%2B2MC",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "08:00–19:00"
+          ],
+          "tue": [
+            "08:00–19:00"
+          ],
+          "wed": [
+            "08:00–19:00"
+          ],
+          "thu": [
+            "08:00–19:00"
+          ],
+          "fri": [
+            "08:00–19:00"
+          ],
+          "sat": [
+            "10:00–19:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=0DVxZhMcXB3i",
+        "checkedDate": "2026-10-10",
+        "verification": "conflicting-sources",
+        "lastOrder": "18:50"
+      }
     },
     {
       "name": "재벌국수",
@@ -91,7 +148,34 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%EC%9E%AC%EB%B2%8C%EA%B5%AD%EC%88%98/data=!3m1!4b1!4m4!3m3!1s0x357ca35f1ff43913:0x21f90883e920a126!16s%2Fg%2F11rw79dfxy!20s8Q99H2GG%2B5GF",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–21:00"
+          ],
+          "tue": [
+            "11:30–21:00"
+          ],
+          "wed": [
+            "11:30–21:00"
+          ],
+          "thu": [
+            "11:30–21:00"
+          ],
+          "fri": [
+            "11:30–21:00"
+          ],
+          "sat": [
+            "11:30–21:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://www.daangn.com/kr/local-profile/%EC%9E%AC%EB%B2%8C%EA%B5%AD%EC%88%98-xszdrbj52q29/",
+        "checkedDate": "2026-10-10",
+        "verification": "conflicting-sources"
+      }
     },
     {
       "name": "육전식당 신설동본점",
@@ -114,7 +198,36 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%EC%9C%A1%EC%A0%84%EC%8B%9D%EB%8B%B9+%EC%8B%A0%EC%84%A4%EB%8F%99%EB%B3%B8%EC%A0%90/data=!4m5!3m4!1s0x357ca34da702bec5:0x6140d0792cbeb166!16s%2Fg%2F11c2r7v84l!19sChIJxb4Cp02jfDURZrG-LHnQQGE!20s8Q99H2FG%2BJQP",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–23:00"
+          ],
+          "tue": [
+            "11:00–23:00"
+          ],
+          "wed": [
+            "11:00–23:00"
+          ],
+          "thu": [
+            "11:00–23:00"
+          ],
+          "fri": [
+            "11:00–23:00"
+          ],
+          "sat": [
+            "11:00–23:00"
+          ],
+          "sun": [
+            "11:00–23:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=FltHxpzEE8i8",
+        "checkedDate": "2026-10-10",
+        "lastOrder": "21:50"
+      }
     },
     {
       "name": "오모 브런치 바",
@@ -137,7 +250,37 @@
       "naverUrl": "https://naver.me/5HkaIOAC",
       "googleUrl": "https://www.google.com/maps/place/%EC%98%A4%EB%AA%A8/data=!3m1!4b1!4m4!3m3!1s0x357ca38a6562027d:0xd8444edab9ea40af!16s%2Fg%2F11y3hwv3c8!20s8Q99H2FH%2BX3C",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–16:00 / 17:30–21:00"
+          ],
+          "tue": [
+            "11:30–16:00 / 17:30–21:00"
+          ],
+          "wed": [
+            "11:30–16:00 / 17:30–21:00"
+          ],
+          "thu": [
+            "11:30–16:00 / 17:30–21:00"
+          ],
+          "fri": [
+            "11:30–16:00 / 17:30–21:00"
+          ],
+          "sat": [
+            "11:30–16:00 / 17:30–21:00"
+          ],
+          "sun": [
+            "11:30–16:00 / 17:30–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=EsrWF0rXPESR",
+        "checkedDate": "2026-10-10",
+        "breakTime": "16:00–17:30",
+        "lastOrder": "15:00 / 20:00"
+      }
     },
     {
       "name": "비비밀",
