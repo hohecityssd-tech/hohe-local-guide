@@ -1237,12 +1237,12 @@
         "exits": [
           "7"
         ],
-        "timetableStatus": "reference-hours-available",
+        "timetableStatus": "pending-stop-specific-verification",
         "schedule": {
           "timeZone": "Asia/Seoul",
           "serviceDays": "daily",
-          "firstDeparture": "04:10",
-          "lastDeparture": "20:35",
+          "firstDeparture": null,
+          "lastDeparture": null,
           "approximateIntervalMinutes": [
             12,
             20
@@ -1250,11 +1250,18 @@
           "approximate": true,
           "sourceStopName": "신설동(호텔부티크나인, 서울풍물시장)",
           "checkedDate": "2026-10-10",
-          "sourceUrl": "https://airportbus.bebop81.com/6002%EB%B2%88-%EC%9D%B8%EC%B2%9C%EA%B3%B5%ED%95%AD%EB%B2%84%EC%8A%A4-%EC%8B%A0%EC%84%A4%EB%8F%99%20%28%ED%98%B8%ED%85%94%EB%B6%80%ED%8B%B0%ED%81%AC%EB%82%98%EC%9D%B8%2C%20%EC%84%9C%EC%9A%B8%ED%92%8D%EB%AC%BC%EC%8B%9C%EC%9E%A5%29-%EA%B3%B5%ED%95%AD%EB%B0%A9%EB%A9%B4-%EC%8B%9C%EA%B0%84%ED%91%9C/",
           "alternateSourceUrl": "https://airportbusguide.com/en/routes/6002",
           "officialRouteUrl": "https://airportlimousine.co.kr/sub/sub01.php?cat_no=2",
           "adultFareWon": 17000,
-          "childFareWon": 12000
+          "childFareWon": 12000,
+          "disputedThirdPartySourceUrl": "https://airportbus.bebop81.com/6002%EB%B2%88-%EC%9D%B8%EC%B2%9C%EA%B3%B5%ED%95%AD%EB%B2%84%EC%8A%A4-%EC%8B%A0%EC%84%A4%EB%8F%99%20%28%ED%98%B8%ED%85%94%EB%B6%80%ED%8B%B0%ED%81%AC%EB%82%98%EC%9D%B8%2C%20%EC%84%9C%EC%9A%B8%ED%92%8D%EB%AC%BC%EC%8B%9C%EC%9E%A5%29-%EA%B3%B5%ED%95%AD%EB%B0%A9%EB%A9%B4-%EC%8B%9C%EA%B0%84%ED%91%9C/",
+          "originSchedule": {
+            "stopName": "청량리역",
+            "firstDeparture": "04:12",
+            "lastDeparture": "20:20",
+            "sourceUrl": "https://airportlimousine.co.kr/sub/sub01.php?cat_no=2"
+          },
+          "verification": "sinseol-dong-first-last-unverified; origin-officially-verified"
         }
       },
       "naverUrl": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%A4%EB%8F%99%EC%97%AD.%EC%84%9C%EC%9A%B8%ED%92%8D%EB%AC%BC%EC%8B%9C%EC%9E%A5%2006008%206002%20%EA%B3%B5%ED%95%AD%EB%B2%84%EC%8A%A4",
@@ -1263,7 +1270,7 @@
       "googleLinkStatus": "government-stop-coordinate",
       "pinVerification": "2025-10-31-MOLIT-bus-stop-coordinate",
       "pinSourceUrl": "https://gsg.purpleo.kr/article/216234",
-      "notes": "Stop 06008 to Incheon Airport T1/T2. First/last reference times are stop-specific (Sep 2026). Official operator timetable shows origin departure times; actual arrivals may vary. Confirm on travel day."
+      "notes": "Airport-bound bus stop 06008. Current schedule first/last at Sinseol-dong are unverified. Official first/last times 04:12/20:20 are specifically Cheongnyangni origin departures, NOT Sinseol-dong departures. Previous third-party schedule 04:10/20:35 conflicted with official origin time. Do not present third-party times as confirmed."
     }
   ]
 }

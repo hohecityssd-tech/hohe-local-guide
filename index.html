@@ -295,11 +295,11 @@ const hoursUi = {
 }[locale];
 
 const busUi = {
-  en:{heading:"Bus 6002 · Sinseol-dong stop (06008)",first:"First departure",last:"Last departure",daily:"Daily",interval:"Frequency",minutes:"min",adult:"Adult",child:"Child",stopTimes:"Stop timetable ↗",official:"Operator website ↗",caution:"Approximate scheduled times at this stop, not live arrivals. Actual departures can change; check before travelling."},
-  ja:{heading:"6002番 · 新設洞停留所 (06008)",first:"始発",last:"最終",daily:"毎日",interval:"運行間隔",minutes:"分",adult:"大人",child:"子ども",stopTimes:"停留所の時刻表 ↗",official:"運行会社公式 ↗",caution:"この停留所の参考時刻です。実際の到着・出発時刻は異なる場合があります。乗車前にご確認ください。"},
-  zhHans:{heading:"6002路 · 新设洞站 (06008)",first:"首班车",last:"末班车",daily:"每天",interval:"发车间隔",minutes:"分钟",adult:"成人",child:"儿童",stopTimes:"本站时刻表 ↗",official:"运营公司官网 ↗",caution:"仅供参考，非实时到站信息。实际发车时间可能变化，请出行前确认。"},
-  zhHant:{heading:"6002路 · 新設洞站 (06008)",first:"首班車",last:"末班車",daily:"每天",interval:"發車間隔",minutes:"分鐘",adult:"成人",child:"兒童",stopTimes:"本站時刻表 ↗",official:"營運公司官網 ↗",caution:"僅供參考，非即時到站資訊。實際發車時間可能變動，出發前請確認。"},
-  ko:{heading:"6002번 · 신설동역 정류장 (06008)",first:"첫차",last:"막차",daily:"매일",interval:"배차간격",minutes:"분",adult:"성인",child:"어린이",stopTimes:"정류장 시간표 ↗",official:"공항리무진 공식 ↗",caution:"신설동역 정류장 기준 참고시간이며 실시간 도착정보가 아닙니다. 도로 상황 및 운행 변경에 따라 달라질 수 있으니 탑승 전 확인해 주세요."}
+  en:{heading:"Bus 6002 · Sinseol-dong stop (06008)",first:"First bus at this stop",last:"Last bus at this stop",unverified:"Not verified",daily:"Daily",interval:"Frequency",minutes:"min",adult:"Adult",child:"Child",official:"Operator website ↗",origin:"Cheongnyangni departures (official)",caution:"The Sinseol-dong stop's first/last bus times are not yet verified. Cheongnyangni is an earlier stop, so its listed departure times are NOT the boarding times here. Check before travelling."},
+  ja:{heading:"6002番 · 新設洞停留所 (06008)",first:"この停留所の始発",last:"この停留所の最終",unverified:"確認中",daily:"毎日",interval:"運行間隔",minutes:"分",adult:"大人",child:"子ども",official:"運行会社公式 ↗",origin:"清凉里駅発（公式）",caution:"新設洞停留所の始発・最終時刻は未確認です。清凉里駅の発車時刻はこの停留所の乗車時刻ではありません。出発前にご確認ください。"},
+  zhHans:{heading:"6002路 · 新设洞站 (06008)",first:"本站首班车",last:"本站末班车",unverified:"尚未确认",daily:"每天",interval:"发车间隔",minutes:"分钟",adult:"成人",child:"儿童",official:"运营公司官网 ↗",origin:"清凉里站发车（官方）",caution:"新设洞站的首末班车时间尚未确认。清凉里站发车时间并非本站乘车时间，请出行前核实。"},
+  zhHant:{heading:"6002路 · 新設洞站 (06008)",first:"本站首班車",last:"本站末班車",unverified:"尚未確認",daily:"每天",interval:"發車間隔",minutes:"分鐘",adult:"成人",child:"兒童",official:"營運公司官網 ↗",origin:"清涼里站發車（官方）",caution:"新設洞站的首末班車時間尚未確認。清涼里站發車時間並非本站乘車時間，請出發前查核。"},
+  ko:{heading:"6002번 · 신설동역 정류장 (06008)",first:"신설동역 첫차",last:"신설동역 막차",unverified:"확인 필요",daily:"매일",interval:"배차간격",minutes:"분",adult:"성인",child:"어린이",official:"공항리무진 공식 ↗",origin:"청량리역 출발 기준(공식)",caution:"신설동역 정류장 첫차·막차는 아직 정확하게 확인되지 않았습니다. 청량리역 출발시간은 신설동역 탑승시간이 아닙니다. 탑승 전 정류장 실시간 정보 또는 운수사에 확인해 주세요."}
 }[locale];
 
 function primaryName(place){
@@ -429,21 +429,23 @@ function renderBusSchedule(place){
   busHeading.textContent = busUi.heading;
   busFirstLabel.textContent = busUi.first;
   busLastLabel.textContent = busUi.last;
-  busFirstValue.textContent = "≈ " + schedule.firstDeparture;
-  busLastValue.textContent = "≈ " + schedule.lastDeparture;
+  busFirstValue.textContent = schedule.firstDeparture ? "≈ " + schedule.firstDeparture : busUi.unverified;
+  busLastValue.textContent = schedule.lastDeparture ? "≈ " + schedule.lastDeparture : busUi.unverified;
   const range = schedule.approximateIntervalMinutes;
   const intervalText = Array.isArray(range) && range.length === 2
     ? range[0] + "–" + range[1] + " " + busUi.minutes : "";
   const formatWon = amount => Number(amount).toLocaleString("en-US") + " KRW";
+  const origin = schedule.originSchedule;
   busDetails.textContent = [
     busUi.daily,
     busUi.interval + " ≈ " + intervalText,
     busUi.adult + " " + formatWon(schedule.adultFareWon),
-    busUi.child + " " + formatWon(schedule.childFareWon)
-  ].join(" · ");
+    busUi.child + " " + formatWon(schedule.childFareWon),
+    origin ? busUi.origin + ": " + origin.firstDeparture + " – " + origin.lastDeparture : ""
+  ].filter(Boolean).join(" · ");
   busCaution.textContent = busUi.caution;
-  busTimetableLink.textContent = busUi.stopTimes;
-  busTimetableLink.href = schedule.sourceUrl;
+  busTimetableLink.hidden = true;
+  busTimetableLink.removeAttribute("href");
   busOfficialLink.textContent = busUi.official;
   busOfficialLink.href = schedule.officialRouteUrl;
 }
