@@ -1209,7 +1209,95 @@
       "pinSourceUrl": "user-provided-map-pin",
       "notes": "Exact entrance stairs near Jeil Advertising across Wangsan-ro, at the junction of Cheonho-daero 7-gil and Wangsan-ro. Coordinates supplied by guide operator.",
       "oppositeBuildingGoogleUrl": "https://maps.app.goo.gl/YKdPTvSrkcigCkzp8",
-      "pendingLocationVerification": false
+      "pendingLocationVerification": false,
+      "photos": [
+        {
+          "src": "./photos/seongbukcheon-1.avif",
+          "alt": {
+            "ko": "성북천의 봄 풍경과 징검다리",
+            "en": "Seongbukcheon in spring · Stream stepping stones",
+            "ja": "城北川の春景色・飛び石",
+            "zhHans": "城北川春日溪景与踏脚石",
+            "zhHant": "城北川春日溪景與踏腳石"
+          },
+          "caption": {
+            "ko": "성북천의 봄 풍경과 징검다리",
+            "en": "Seongbukcheon in spring · Stream stepping stones",
+            "ja": "城北川の春景色・飛び石",
+            "zhHans": "城北川春日溪景与踏脚石",
+            "zhHant": "城北川春日溪景與踏腳石"
+          }
+        },
+        {
+          "src": "./photos/seongbukcheon-2.avif",
+          "alt": {
+            "ko": "벚꽃이 가득한 산책길",
+            "en": "Cherry blossom-lined promenade",
+            "ja": "桜が咲く散策路",
+            "zhHans": "樱花盛开的步道",
+            "zhHant": "櫻花盛開的步道"
+          },
+          "caption": {
+            "ko": "벚꽃이 가득한 산책길",
+            "en": "Cherry blossom-lined promenade",
+            "ja": "桜が咲く散策路",
+            "zhHans": "樱花盛开的步道",
+            "zhHant": "櫻花盛開的步道"
+          }
+        },
+        {
+          "src": "./photos/seongbukcheon-3.avif",
+          "alt": {
+            "ko": "하천과 벚꽃길 전경",
+            "en": "Stream and cherry blossom panorama",
+            "ja": "川沿いの桜並木",
+            "zhHans": "溪流与樱花全景",
+            "zhHant": "溪流與櫻花全景"
+          },
+          "caption": {
+            "ko": "하천과 벚꽃길 전경",
+            "en": "Stream and cherry blossom panorama",
+            "ja": "川沿いの桜並木",
+            "zhHans": "溪流与樱花全景",
+            "zhHant": "溪流與櫻花全景"
+          }
+        },
+        {
+          "src": "./photos/seongbukcheon-4.avif",
+          "alt": {
+            "ko": "징검다리에서 즐기는 봄",
+            "en": "Spring by the stepping stones",
+            "ja": "飛び石で楽しむ春",
+            "zhHans": "踏脚石上的春日风景",
+            "zhHant": "踏腳石上的春日風景"
+          },
+          "caption": {
+            "ko": "징검다리에서 즐기는 봄",
+            "en": "Spring by the stepping stones",
+            "ja": "飛び石で楽しむ春",
+            "zhHans": "踏脚石上的春日风景",
+            "zhHant": "踏腳石上的春日風景"
+          }
+        },
+        {
+          "src": "./photos/seongbukcheon-5.avif",
+          "alt": {
+            "ko": "여름철 성북천 수변 산책로",
+            "en": "Summer streamside boardwalk",
+            "ja": "夏の水辺遊歩道",
+            "zhHans": "夏日溪边木栈道",
+            "zhHant": "夏日溪邊木棧道"
+          },
+          "caption": {
+            "ko": "여름철 성북천 수변 산책로",
+            "en": "Summer streamside boardwalk",
+            "ja": "夏の水辺遊歩道",
+            "zhHans": "夏日溪边木栈道",
+            "zhHant": "夏日溪邊木棧道"
+          }
+        }
+      ],
+      "photoAttributionNote": "Photos of Seongbukcheon stream, not necessarily of the precise entry steps."
     },
     {
       "name": "6002 인천공항행 정류장",
