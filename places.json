@@ -303,7 +303,38 @@
       "naverUrl": "https://naver.me/5UEcQeSc",
       "googleUrl": "https://www.google.com/maps/place/%EB%B9%84%EB%B9%84%EB%B0%80/data=!3m1!4b1!4m4!3m3!1s0x357ca3000f079035:0x9a841cbc2ebded11!16s%2Fg%2F11y3vxnjtc!20s8Q99H2GF%2B3V2",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–21:00"
+          ],
+          "tue": [
+            "10:00–21:00"
+          ],
+          "wed": [
+            "10:00–21:00"
+          ],
+          "thu": [
+            "10:00–21:00"
+          ],
+          "fri": [
+            "10:00–21:00"
+          ],
+          "sat": [
+            "10:00–21:00"
+          ],
+          "sun": [
+            "10:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd76566de5f069892acec",
+        "checkedDate": "2026-10-10",
+        "lastOrder": "20:30",
+        "verification": "conflicting-sources",
+        "alternateSourceUrl": "https://autoreserve.com/ko/restaurants/t14QnkkC3mv4Wd4qVVaG"
+      }
     },
     {
       "name": "육전제면소",
@@ -326,7 +357,43 @@
       "naverUrl": "https://naver.me/xyTGXUZC",
       "googleUrl": "https://www.google.com/maps/place/%EC%9C%A1%EC%A0%84%EC%A0%9C%EB%A9%B4%EC%86%8C/data=!3m1!4b1!4m4!3m3!1s0x357ca34ca47c1855:0x747d2f24e4bfec27!16s%2Fg%2F11bbth_hcs!20s8Q99H2FF%2BMPV",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–15:20",
+            "17:00–22:00"
+          ],
+          "tue": [
+            "11:00–15:20",
+            "17:00–22:00"
+          ],
+          "wed": [
+            "11:00–15:20",
+            "17:00–22:00"
+          ],
+          "thu": [
+            "11:00–15:20",
+            "17:00–22:00"
+          ],
+          "fri": [
+            "11:00–15:20",
+            "17:00–22:00"
+          ],
+          "sat": [
+            "11:00–15:20",
+            "17:00–22:00"
+          ],
+          "sun": [
+            "11:00–20:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=qMKsnl7jfGal",
+        "checkedDate": "2026-10-10",
+        "verification": "conflicting-sources",
+        "alternateSourceUrl": "https://autoreserve.com/ko/restaurants/J8vciUtVopog9XJyTXzs"
+      }
     },
     {
       "name": "나정순할매쭈꾸미",
@@ -349,7 +416,41 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%EB%82%98%EC%A0%95%EC%88%9C%ED%95%A0%EB%A7%A4%EC%AD%88%EA%BE%B8%EB%AF%B8/data=!3m1!4b1!4m4!3m3!1s0x357cbcad0b1e8ecd:0xb92e4d2befed4c15!16s%2Fg%2F1tmphgf4!20s8Q99H2GJ%2BR7H",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "tue": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "wed": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "thu": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "fri": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "sat": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=PZKwzgh1ULiN",
+        "checkedDate": "2026-10-10",
+        "breakTime": "15:00–17:00",
+        "lastOrder": "14:00 / 20:00"
+      }
     },
     {
       "name": "아후아",
@@ -372,7 +473,35 @@
       "naverUrl": "https://naver.me/FM9XBP1k",
       "googleUrl": "https://www.google.com/maps/place/%EC%95%84%ED%9B%84%EC%95%84/data=!3m1!4b1!4m4!3m3!1s0x357ca3006919750d:0x505816df27ac196a!16s%2Fg%2F11z6q3bq4j!20s8Q99H2FH%2BV3G",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "12:00–21:00"
+          ],
+          "tue": [
+            "12:00–21:00"
+          ],
+          "wed": [
+            "12:00–21:00"
+          ],
+          "thu": [
+            "12:00–21:00"
+          ],
+          "fri": [
+            "12:00–21:00"
+          ],
+          "sat": [
+            "12:00–21:00"
+          ],
+          "sun": [
+            "12:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=1HzkDRhWrGkL",
+        "checkedDate": "2026-10-10"
+      }
     },
     {
       "name": "타일러",
@@ -446,7 +575,37 @@
       "naverLinkStatus": "verified-share-link",
       "googleUrl": "https://www.google.com/maps/place/%EB%8F%99%EC%8B%A0%EA%B3%B1%EC%B0%BD+%EC%8B%A0%EC%84%A4%EB%8F%99%EB%B3%B8%EC%A0%90/data=!3m1!4b1!4m4!3m3!1s0x357ca3000ca0371d:0xf6f47f85979b3f0e!16s%2Fg%2F11w7s11y66!20s8Q99H2GF%2BF4M",
       "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09"
+      "googleVerifiedAt": "2026-10-09",
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–22:00"
+          ],
+          "tue": [
+            "11:30–22:00"
+          ],
+          "wed": [
+            "11:30–22:00"
+          ],
+          "thu": [
+            "11:30–22:00"
+          ],
+          "fri": [
+            "11:30–22:00"
+          ],
+          "sat": [
+            "11:30–22:00"
+          ],
+          "sun": [
+            "11:30–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd68566de5f0698911ff5",
+        "checkedDate": "2026-10-10",
+        "lastOrder": "21:30",
+        "alternateSourceUrl": "https://www.diningcode.com/profile.php?rid=ejyFpwJRvFpL"
+      }
     },
     {
       "name": "미옥숯불구이",
