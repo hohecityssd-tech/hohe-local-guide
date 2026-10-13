@@ -471,7 +471,145 @@
         "sourceUrl": "https://www.diningcode.com/profile.php?rid=FltHxpzEE8i8",
         "checkedDate": "2026-10-10",
         "lastOrder": "21:50"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/육전식당1.png",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 1",
+            "en": "Yukjeon Sikdang food and restaurant 1",
+            "ja": "ユクチョン食堂の料理と店内 1",
+            "zhHans": "肉店食堂的餐点与店内 1",
+            "zhHant": "肉店食堂的餐點與店內 1"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 1",
+            "en": "Yukjeon Sikdang food and restaurant 1",
+            "ja": "ユクチョン食堂の料理と店内 1",
+            "zhHans": "肉店食堂的餐点与店内 1",
+            "zhHant": "肉店食堂的餐點與店內 1"
+          }
+        },
+        {
+          "src": "./photos/육전식당2.png",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 2",
+            "en": "Yukjeon Sikdang food and restaurant 2",
+            "ja": "ユクチョン食堂の料理と店内 2",
+            "zhHans": "肉店食堂的餐点与店内 2",
+            "zhHant": "肉店食堂的餐點與店內 2"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 2",
+            "en": "Yukjeon Sikdang food and restaurant 2",
+            "ja": "ユクチョン食堂の料理と店内 2",
+            "zhHans": "肉店食堂的餐点与店内 2",
+            "zhHant": "肉店食堂的餐點與店內 2"
+          }
+        },
+        {
+          "src": "./photos/육전식당3.png",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 3",
+            "en": "Yukjeon Sikdang food and restaurant 3",
+            "ja": "ユクチョン食堂の料理と店内 3",
+            "zhHans": "肉店食堂的餐点与店内 3",
+            "zhHant": "肉店食堂的餐點與店內 3"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 3",
+            "en": "Yukjeon Sikdang food and restaurant 3",
+            "ja": "ユクチョン食堂の料理と店内 3",
+            "zhHans": "肉店食堂的餐点与店内 3",
+            "zhHant": "肉店食堂的餐點與店內 3"
+          }
+        },
+        {
+          "src": "./photos/육전식당4.png",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 4",
+            "en": "Yukjeon Sikdang food and restaurant 4",
+            "ja": "ユクチョン食堂の料理と店内 4",
+            "zhHans": "肉店食堂的餐点与店内 4",
+            "zhHant": "肉店食堂的餐點與店內 4"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 4",
+            "en": "Yukjeon Sikdang food and restaurant 4",
+            "ja": "ユクチョン食堂の料理と店内 4",
+            "zhHans": "肉店食堂的餐点与店内 4",
+            "zhHant": "肉店食堂的餐點與店內 4"
+          }
+        },
+        {
+          "src": "./photos/육전식당5.png",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 5",
+            "en": "Yukjeon Sikdang food and restaurant 5",
+            "ja": "ユクチョン食堂の料理と店内 5",
+            "zhHans": "肉店食堂的餐点与店内 5",
+            "zhHant": "肉店食堂的餐點與店內 5"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 5",
+            "en": "Yukjeon Sikdang food and restaurant 5",
+            "ja": "ユクチョン食堂の料理と店内 5",
+            "zhHans": "肉店食堂的餐点与店内 5",
+            "zhHant": "肉店食堂的餐點與店內 5"
+          }
+        },
+        {
+          "src": "./photos/육전식당6.jpg",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 6",
+            "en": "Yukjeon Sikdang food and restaurant 6",
+            "ja": "ユクチョン食堂の料理と店内 6",
+            "zhHans": "肉店食堂的餐点与店内 6",
+            "zhHant": "肉店食堂的餐點與店內 6"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 6",
+            "en": "Yukjeon Sikdang food and restaurant 6",
+            "ja": "ユクチョン食堂の料理と店内 6",
+            "zhHans": "肉店食堂的餐点与店内 6",
+            "zhHant": "肉店食堂的餐點與店內 6"
+          }
+        },
+        {
+          "src": "./photos/육전식당7.jpg",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 7",
+            "en": "Yukjeon Sikdang food and restaurant 7",
+            "ja": "ユクチョン食堂の料理と店内 7",
+            "zhHans": "肉店食堂的餐点与店内 7",
+            "zhHant": "肉店食堂的餐點與店內 7"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 7",
+            "en": "Yukjeon Sikdang food and restaurant 7",
+            "ja": "ユクチョン食堂の料理と店内 7",
+            "zhHans": "肉店食堂的餐点与店内 7",
+            "zhHant": "肉店食堂的餐點與店內 7"
+          }
+        },
+        {
+          "src": "./photos/육전식당8.jpg",
+          "alt": {
+            "ko": "육전식당 음식 및 매장 사진 8",
+            "en": "Yukjeon Sikdang food and restaurant 8",
+            "ja": "ユクチョン食堂の料理と店内 8",
+            "zhHans": "肉店食堂的餐点与店内 8",
+            "zhHant": "肉店食堂的餐點與店內 8"
+          },
+          "caption": {
+            "ko": "육전식당 음식 및 매장 사진 8",
+            "en": "Yukjeon Sikdang food and restaurant 8",
+            "ja": "ユクチョン食堂の料理と店内 8",
+            "zhHans": "肉店食堂的餐点与店内 8",
+            "zhHant": "肉店食堂的餐點與店內 8"
+          }
+        }
+      ]
     },
     {
       "name": "오모 브런치 바",
@@ -1372,7 +1510,77 @@
         "lastOrder": "23:00",
         "verification": "conflicting-sources",
         "alternateSourceUrl": "https://meat.infomama.kr/%EB%8F%99%EB%8C%80%EB%AC%B8-%EC%8B%A0%EC%84%A4%EB%8F%99-%EC%9A%A9%EB%91%90%EB%8F%99-%EC%82%BC%EA%B2%B9%EC%82%B4-%EB%A7%9B%EC%A7%91-%EB%B2%A0%EC%8A%A4%ED%8A%B8-4-%EC%B6%94%EC%B2%9C-%EC%88%99%EC%84%B1/"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/미옥1.jpg",
+          "alt": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 1",
+            "en": "Miok charcoal grill food and restaurant 1",
+            "ja": "ミオク炭火焼きの料理と店内 1",
+            "zhHans": "Miok 炭火烤肉餐点与店内 1",
+            "zhHant": "Miok 炭火烤肉餐點與店內 1"
+          },
+          "caption": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 1",
+            "en": "Miok charcoal grill food and restaurant 1",
+            "ja": "ミオク炭火焼きの料理と店内 1",
+            "zhHans": "Miok 炭火烤肉餐点与店内 1",
+            "zhHant": "Miok 炭火烤肉餐點與店內 1"
+          }
+        },
+        {
+          "src": "./photos/미옥2.jpg",
+          "alt": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 2",
+            "en": "Miok charcoal grill food and restaurant 2",
+            "ja": "ミオク炭火焼きの料理と店内 2",
+            "zhHans": "Miok 炭火烤肉餐点与店内 2",
+            "zhHant": "Miok 炭火烤肉餐點與店內 2"
+          },
+          "caption": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 2",
+            "en": "Miok charcoal grill food and restaurant 2",
+            "ja": "ミオク炭火焼きの料理と店内 2",
+            "zhHans": "Miok 炭火烤肉餐点与店内 2",
+            "zhHant": "Miok 炭火烤肉餐點與店內 2"
+          }
+        },
+        {
+          "src": "./photos/미옥3.jpg",
+          "alt": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 3",
+            "en": "Miok charcoal grill food and restaurant 3",
+            "ja": "ミオク炭火焼きの料理と店内 3",
+            "zhHans": "Miok 炭火烤肉餐点与店内 3",
+            "zhHant": "Miok 炭火烤肉餐點與店內 3"
+          },
+          "caption": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 3",
+            "en": "Miok charcoal grill food and restaurant 3",
+            "ja": "ミオク炭火焼きの料理と店内 3",
+            "zhHans": "Miok 炭火烤肉餐点与店内 3",
+            "zhHant": "Miok 炭火烤肉餐點與店內 3"
+          }
+        },
+        {
+          "src": "./photos/미옥4.jpg",
+          "alt": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 4",
+            "en": "Miok charcoal grill food and restaurant 4",
+            "ja": "ミオク炭火焼きの料理と店内 4",
+            "zhHans": "Miok 炭火烤肉餐点与店内 4",
+            "zhHant": "Miok 炭火烤肉餐點與店內 4"
+          },
+          "caption": {
+            "ko": "미옥숯불구이 음식 및 매장 사진 4",
+            "en": "Miok charcoal grill food and restaurant 4",
+            "ja": "ミオク炭火焼きの料理と店内 4",
+            "zhHans": "Miok 炭火烤肉餐点与店内 4",
+            "zhHant": "Miok 炭火烤肉餐點與店內 4"
+          }
+        }
+      ]
     },
     {
       "name": "서울풍물시장",
