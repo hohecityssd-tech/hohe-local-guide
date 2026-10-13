@@ -125,7 +125,94 @@
         "checkedDate": "2026-10-10",
         "verification": "conflicting-sources",
         "lastOrder": "18:50"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/엔드롱1.jpg",
+          "alt": {
+            "ko": "엔드롱 커피",
+            "en": "Coffee at Endlong",
+            "ja": "エンドロンのコーヒー",
+            "zhHans": "Endlong 咖啡",
+            "zhHant": "Endlong 咖啡"
+          },
+          "caption": {
+            "ko": "엔드롱 커피",
+            "en": "Coffee at Endlong",
+            "ja": "エンドロンのコーヒー",
+            "zhHans": "Endlong 咖啡",
+            "zhHant": "Endlong 咖啡"
+          }
+        },
+        {
+          "src": "./photos/엔드롱5.jpg",
+          "alt": {
+            "ko": "핸드드립 커피 추출",
+            "en": "Hand-drip coffee preparation",
+            "ja": "ハンドドリップコーヒーの抽出",
+            "zhHans": "手冲咖啡制作过程",
+            "zhHant": "手沖咖啡製作過程"
+          },
+          "caption": {
+            "ko": "핸드드립 커피 추출",
+            "en": "Hand-drip coffee preparation",
+            "ja": "ハンドドリップコーヒーの抽出",
+            "zhHans": "手冲咖啡制作过程",
+            "zhHant": "手沖咖啡製作過程"
+          }
+        },
+        {
+          "src": "./photos/엔드롱2.jpg",
+          "alt": {
+            "ko": "엔드롱 실내 좌석",
+            "en": "Seating area at Endlong",
+            "ja": "エンドロンの店内席",
+            "zhHans": "Endlong 室内座位",
+            "zhHant": "Endlong 室內座位"
+          },
+          "caption": {
+            "ko": "엔드롱 실내 좌석",
+            "en": "Seating area at Endlong",
+            "ja": "エンドロンの店内席",
+            "zhHans": "Endlong 室内座位",
+            "zhHant": "Endlong 室內座位"
+          }
+        },
+        {
+          "src": "./photos/엔드롱3.jpg",
+          "alt": {
+            "ko": "엔드롱 외관과 입구",
+            "en": "Endlong exterior and entrance",
+            "ja": "エンドロンの外観と入口",
+            "zhHans": "Endlong 店铺外观与入口",
+            "zhHant": "Endlong 店舖外觀與入口"
+          },
+          "caption": {
+            "ko": "엔드롱 외관과 입구",
+            "en": "Endlong exterior and entrance",
+            "ja": "エンドロンの外観と入口",
+            "zhHans": "Endlong 店铺外观与入口",
+            "zhHant": "Endlong 店舖外觀與入口"
+          }
+        },
+        {
+          "src": "./photos/엔드롱4.jpg",
+          "alt": {
+            "ko": "원두와 커피 안내",
+            "en": "Coffee beans and tasting notes",
+            "ja": "コーヒー豆と案内",
+            "zhHans": "咖啡豆与风味介绍",
+            "zhHant": "咖啡豆與風味介紹"
+          },
+          "caption": {
+            "ko": "원두와 커피 안내",
+            "en": "Coffee beans and tasting notes",
+            "ja": "コーヒー豆と案内",
+            "zhHans": "咖啡豆与风味介绍",
+            "zhHant": "咖啡豆與風味介紹"
+          }
+        }
+      ]
     },
     {
       "name": "재벌국수",
