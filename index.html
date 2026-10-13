@@ -639,7 +639,7 @@ function getPhotos(place){
     return place.photos.filter(photo=>{
       const u=photo && (photo.src || photo.url);
       return typeof u === "string" && (/^https:\/\//.test(u) || /^(\/|\.\/|photos\/)(?!\/)/.test(u));
-    }).slice(0,5).map(photo=>({
+    }).slice(0,10).map(photo=>({
       src:photo.src || photo.url,
       alt:photoText(photo.alt,primaryName(place)),
       caption:photoText(photo.caption,"")
