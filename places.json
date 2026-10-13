@@ -74,7 +74,77 @@
         "sourceUrl": "https://autoreserve.com/ko/restaurants/2wkutBKs5MFSNk7jjBp4",
         "checkedDate": "2026-10-10",
         "lastOrder": "22:00"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/신솔돈1.jpg",
+          "alt": {
+            "ko": "돼지고기 구이와 다양한 반찬",
+            "en": "Pork barbecue with side dishes",
+            "ja": "豚肉の焼肉とおかず",
+            "zhHans": "烤猪肉与配菜",
+            "zhHant": "烤豬肉與配菜"
+          },
+          "caption": {
+            "ko": "돼지고기 구이와 다양한 반찬",
+            "en": "Pork barbecue with side dishes",
+            "ja": "豚肉の焼肉とおかず",
+            "zhHans": "烤猪肉与配菜",
+            "zhHant": "烤豬肉與配菜"
+          }
+        },
+        {
+          "src": "./photos/신솔돈2.jpg",
+          "alt": {
+            "ko": "매장에서 즐기는 시원한 음료",
+            "en": "Chilled drinks served at the restaurant",
+            "ja": "お店で楽しめる冷たいドリンク",
+            "zhHans": "店内冰饮",
+            "zhHant": "店內冰飲"
+          },
+          "caption": {
+            "ko": "매장에서 즐기는 시원한 음료",
+            "en": "Chilled drinks served at the restaurant",
+            "ja": "お店で楽しめる冷たいドリンク",
+            "zhHans": "店内冰饮",
+            "zhHant": "店內冰飲"
+          }
+        },
+        {
+          "src": "./photos/신솔돈3.jpg",
+          "alt": {
+            "ko": "테이블과 숯불구이 시설이 있는 실내",
+            "en": "Restaurant seating and barbecue tables",
+            "ja": "焼肉テーブルのある店内",
+            "zhHans": "烤肉餐桌与店内座位",
+            "zhHant": "烤肉餐桌與店內座位"
+          },
+          "caption": {
+            "ko": "테이블과 숯불구이 시설이 있는 실내",
+            "en": "Restaurant seating and barbecue tables",
+            "ja": "焼肉テーブルのある店内",
+            "zhHans": "烤肉餐桌与店内座位",
+            "zhHant": "烤肉餐桌與店內座位"
+          }
+        },
+        {
+          "src": "./photos/신솔돈4.jpg",
+          "alt": {
+            "ko": "신솔돈 외관과 간판",
+            "en": "Sinsoldon exterior and sign",
+            "ja": "シンソルドンの外観と看板",
+            "zhHans": "新设洞烤肉店外观与招牌",
+            "zhHant": "新設洞烤肉店外觀與招牌"
+          },
+          "caption": {
+            "ko": "신솔돈 외관과 간판",
+            "en": "Sinsoldon exterior and sign",
+            "ja": "シンソルドンの外観と看板",
+            "zhHans": "新设洞烤肉店外观与招牌",
+            "zhHant": "新設洞烤肉店外觀與招牌"
+          }
+        }
+      ]
     },
     {
       "name": "엔드롱",
@@ -612,7 +682,94 @@
         "lastOrder": "20:30",
         "verification": "conflicting-sources",
         "alternateSourceUrl": "https://autoreserve.com/ko/restaurants/t14QnkkC3mv4Wd4qVVaG"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/비비밀1.jpg",
+          "alt": {
+            "ko": "다양한 비빔밥과 만두",
+            "en": "Bibimbap dishes and dumplings",
+            "ja": "ビビンバと餃子",
+            "zhHans": "各式拌饭与饺子",
+            "zhHant": "各式拌飯與餃子"
+          },
+          "caption": {
+            "ko": "다양한 비빔밥과 만두",
+            "en": "Bibimbap dishes and dumplings",
+            "ja": "ビビンバと餃子",
+            "zhHans": "各式拌饭与饺子",
+            "zhHant": "各式拌飯與餃子"
+          }
+        },
+        {
+          "src": "./photos/비비밀5.jpg",
+          "alt": {
+            "ko": "돌솥비빔밥 한 상",
+            "en": "Hot stone-pot bibimbap meal",
+            "ja": "石焼ビビンバのセット",
+            "zhHans": "石锅拌饭套餐",
+            "zhHant": "石鍋拌飯套餐"
+          },
+          "caption": {
+            "ko": "돌솥비빔밥 한 상",
+            "en": "Hot stone-pot bibimbap meal",
+            "ja": "石焼ビビンバのセット",
+            "zhHans": "石锅拌饭套餐",
+            "zhHant": "石鍋拌飯套餐"
+          }
+        },
+        {
+          "src": "./photos/비비밀2.jpg",
+          "alt": {
+            "ko": "창가 테이블과 실내 공간",
+            "en": "Window-side tables and interior",
+            "ja": "窓際のテーブルと店内",
+            "zhHans": "靠窗座位与店内环境",
+            "zhHant": "靠窗座位與店內環境"
+          },
+          "caption": {
+            "ko": "창가 테이블과 실내 공간",
+            "en": "Window-side tables and interior",
+            "ja": "窓際のテーブルと店内",
+            "zhHans": "靠窗座位与店内环境",
+            "zhHant": "靠窗座位與店內環境"
+          }
+        },
+        {
+          "src": "./photos/비비밀3.jpg",
+          "alt": {
+            "ko": "창가 바 좌석",
+            "en": "Window-side counter seats",
+            "ja": "窓際のカウンター席",
+            "zhHans": "靠窗吧台座位",
+            "zhHant": "靠窗吧台座位"
+          },
+          "caption": {
+            "ko": "창가 바 좌석",
+            "en": "Window-side counter seats",
+            "ja": "窓際のカウンター席",
+            "zhHans": "靠窗吧台座位",
+            "zhHant": "靠窗吧台座位"
+          }
+        },
+        {
+          "src": "./photos/비비밀4.jpg",
+          "alt": {
+            "ko": "주문 카운터와 매장 좌석",
+            "en": "Order counter and seating area",
+            "ja": "注文カウンターと客席",
+            "zhHans": "点餐柜台与座位区",
+            "zhHant": "點餐櫃台與座位區"
+          },
+          "caption": {
+            "ko": "주문 카운터와 매장 좌석",
+            "en": "Order counter and seating area",
+            "ja": "注文カウンターと客席",
+            "zhHans": "点餐柜台与座位区",
+            "zhHant": "點餐櫃台與座位區"
+          }
+        }
+      ]
     },
     {
       "name": "육전제면소",
@@ -671,7 +828,128 @@
         "checkedDate": "2026-10-10",
         "verification": "conflicting-sources",
         "alternateSourceUrl": "https://autoreserve.com/ko/restaurants/J8vciUtVopog9XJyTXzs"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/육전제면소1.png",
+          "alt": {
+            "ko": "얼큰한 국물 면요리",
+            "en": "Spicy broth noodle dish",
+            "ja": "辛いスープの麺料理",
+            "zhHans": "香辣汤面",
+            "zhHant": "香辣湯麵"
+          },
+          "caption": {
+            "ko": "얼큰한 국물 면요리",
+            "en": "Spicy broth noodle dish",
+            "ja": "辛いスープの麺料理",
+            "zhHans": "香辣汤面",
+            "zhHant": "香辣湯麵"
+          }
+        },
+        {
+          "src": "./photos/육전제면소2.png",
+          "alt": {
+            "ko": "따뜻한 국물 면요리",
+            "en": "Warm noodle soup",
+            "ja": "温かいスープの麺料理",
+            "zhHans": "热汤面",
+            "zhHant": "熱湯麵"
+          },
+          "caption": {
+            "ko": "따뜻한 국물 면요리",
+            "en": "Warm noodle soup",
+            "ja": "温かいスープの麺料理",
+            "zhHans": "热汤面",
+            "zhHant": "熱湯麵"
+          }
+        },
+        {
+          "src": "./photos/육전제면소3.png",
+          "alt": {
+            "ko": "바삭한 고명이 올라간 비빔면",
+            "en": "Mixed noodles with crispy topping",
+            "ja": "サクサクの具がのった混ぜ麺",
+            "zhHans": "酥脆配料拌面",
+            "zhHant": "酥脆配料拌麵"
+          },
+          "caption": {
+            "ko": "바삭한 고명이 올라간 비빔면",
+            "en": "Mixed noodles with crispy topping",
+            "ja": "サクサクの具がのった混ぜ麺",
+            "zhHans": "酥脆配料拌面",
+            "zhHant": "酥脆配料拌麵"
+          }
+        },
+        {
+          "src": "./photos/육전제면소4.png",
+          "alt": {
+            "ko": "튀김이 올라간 시원한 면요리",
+            "en": "Cold noodles topped with tempura",
+            "ja": "天ぷらのせ冷たい麺",
+            "zhHans": "炸物配冷面",
+            "zhHant": "炸物配冷麵"
+          },
+          "caption": {
+            "ko": "튀김이 올라간 시원한 면요리",
+            "en": "Cold noodles topped with tempura",
+            "ja": "天ぷらのせ冷たい麺",
+            "zhHans": "炸物配冷面",
+            "zhHant": "炸物配冷麵"
+          }
+        },
+        {
+          "src": "./photos/육전제면소5.png",
+          "alt": {
+            "ko": "육전제면소 메뉴 이미지",
+            "en": "Yukjeon Jemyeonso menu photo",
+            "ja": "ユクジョン製麺所のメニュー写真",
+            "zhHans": "육전제면소 菜品图片",
+            "zhHant": "육전제면소 菜色圖片"
+          },
+          "caption": {
+            "ko": "육전제면소 메뉴 이미지",
+            "en": "Yukjeon Jemyeonso menu photo",
+            "ja": "ユクジョン製麺所のメニュー写真",
+            "zhHans": "육전제면소 菜品图片",
+            "zhHant": "육전제면소 菜色圖片"
+          }
+        },
+        {
+          "src": "./photos/육전제면소7.jpg",
+          "alt": {
+            "ko": "매장 내부와 좌석",
+            "en": "Restaurant interior and seating",
+            "ja": "店内と客席",
+            "zhHans": "餐厅内部与座位",
+            "zhHant": "餐廳內部與座位"
+          },
+          "caption": {
+            "ko": "매장 내부와 좌석",
+            "en": "Restaurant interior and seating",
+            "ja": "店内と客席",
+            "zhHans": "餐厅内部与座位",
+            "zhHant": "餐廳內部與座位"
+          }
+        },
+        {
+          "src": "./photos/육전제면소6.jpg",
+          "alt": {
+            "ko": "레트로 소품이 있는 매장 내부",
+            "en": "Retro-style restaurant interior",
+            "ja": "レトロな雰囲気の店内",
+            "zhHans": "复古风格餐厅内部",
+            "zhHant": "復古風格餐廳內部"
+          },
+          "caption": {
+            "ko": "레트로 소품이 있는 매장 내부",
+            "en": "Retro-style restaurant interior",
+            "ja": "レトロな雰囲気の店内",
+            "zhHans": "复古风格餐厅内部",
+            "zhHant": "復古風格餐廳內部"
+          }
+        }
+      ]
     },
     {
       "name": "나정순할매쭈꾸미",
@@ -1308,7 +1586,94 @@
         "lastOrder": "03:20 (+1)",
         "verification": "conflicting-sources",
         "alternateSourceUrl": "https://www.diningcode.com/profile.php?rid=akU70fkwhpwg"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/신술동5.jpg",
+          "alt": {
+            "ko": "모둠 해산물과 회 한 접시",
+            "en": "Assorted seafood and sashimi platter",
+            "ja": "海鮮と刺身の盛り合わせ",
+            "zhHans": "海鲜与生鱼片拼盘",
+            "zhHant": "海鮮與生魚片拼盤"
+          },
+          "caption": {
+            "ko": "모둠 해산물과 회 한 접시",
+            "en": "Assorted seafood and sashimi platter",
+            "ja": "海鮮と刺身の盛り合わせ",
+            "zhHans": "海鲜与生鱼片拼盘",
+            "zhHant": "海鮮與生魚片拼盤"
+          }
+        },
+        {
+          "src": "./photos/신술동2.jpg",
+          "alt": {
+            "ko": "회와 조개류가 담긴 해산물 모둠",
+            "en": "Sashimi and shellfish platter",
+            "ja": "刺身と貝類の盛り合わせ",
+            "zhHans": "生鱼片与贝类拼盘",
+            "zhHant": "生魚片與貝類拼盤"
+          },
+          "caption": {
+            "ko": "회와 조개류가 담긴 해산물 모둠",
+            "en": "Sashimi and shellfish platter",
+            "ja": "刺身と貝類の盛り合わせ",
+            "zhHans": "生鱼片与贝类拼盘",
+            "zhHant": "生魚片與貝類拼盤"
+          }
+        },
+        {
+          "src": "./photos/신술동4.jpg",
+          "alt": {
+            "ko": "해산물이 듬뿍 들어간 탕",
+            "en": "Hot seafood soup",
+            "ja": "具だくさんの海鮮鍋",
+            "zhHans": "海鲜汤锅",
+            "zhHant": "海鮮湯鍋"
+          },
+          "caption": {
+            "ko": "해산물이 듬뿍 들어간 탕",
+            "en": "Hot seafood soup",
+            "ja": "具だくさんの海鮮鍋",
+            "zhHans": "海鲜汤锅",
+            "zhHant": "海鮮湯鍋"
+          }
+        },
+        {
+          "src": "./photos/신술동3.jpg",
+          "alt": {
+            "ko": "바 카운터와 실내 좌석",
+            "en": "Bar counter and indoor seating",
+            "ja": "バーカウンターと店内の席",
+            "zhHans": "酒吧吧台与室内座位",
+            "zhHant": "酒吧吧台與室內座位"
+          },
+          "caption": {
+            "ko": "바 카운터와 실내 좌석",
+            "en": "Bar counter and indoor seating",
+            "ja": "バーカウンターと店内の席",
+            "zhHans": "酒吧吧台与室内座位",
+            "zhHant": "酒吧吧台與室內座位"
+          }
+        },
+        {
+          "src": "./photos/신술동1.jpg",
+          "alt": {
+            "ko": "신술동 매장 외관",
+            "en": "Sinsuldong storefront",
+            "ja": "シンスルドンの外観",
+            "zhHans": "新设洞酒吧外观",
+            "zhHant": "新設洞酒吧外觀"
+          },
+          "caption": {
+            "ko": "신술동 매장 외관",
+            "en": "Sinsuldong storefront",
+            "ja": "シンスルドンの外観",
+            "zhHans": "新设洞酒吧外观",
+            "zhHant": "新設洞酒吧外觀"
+          }
+        }
+      ]
     },
     {
       "name": "갗bar",
@@ -1693,7 +2058,60 @@
           "zhHans": "节假日 10:00–22:30。部分平台显示每天09:00开门，建议到店前确认。",
           "zhHant": "國定假日 10:00–22:30。部分平台顯示每天09:00開門，建議到店前確認。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/올리브영2.jpg",
+          "alt": {
+            "ko": "올리브영 신설동역점 매장 외관",
+            "en": "Olive Young Sinseol-dong Station storefront",
+            "ja": "オリーブヤング新設洞駅店の外観",
+            "zhHans": "Olive Young 新设洞站店外观",
+            "zhHant": "Olive Young 新設洞站店外觀"
+          },
+          "caption": {
+            "ko": "올리브영 신설동역점 매장 외관",
+            "en": "Olive Young Sinseol-dong Station storefront",
+            "ja": "オリーブヤング新設洞駅店の外観",
+            "zhHans": "Olive Young 新设洞站店外观",
+            "zhHant": "Olive Young 新設洞站店外觀"
+          }
+        },
+        {
+          "src": "./photos/올리브영3.jpg",
+          "alt": {
+            "ko": "스킨케어 제품 진열대",
+            "en": "Skincare products on display",
+            "ja": "スキンケア商品の売り場",
+            "zhHans": "护肤产品货架",
+            "zhHant": "護膚產品貨架"
+          },
+          "caption": {
+            "ko": "스킨케어 제품 진열대",
+            "en": "Skincare products on display",
+            "ja": "スキンケア商品の売り場",
+            "zhHans": "护肤产品货架",
+            "zhHant": "護膚產品貨架"
+          }
+        },
+        {
+          "src": "./photos/올리브영1.png",
+          "alt": {
+            "ko": "올리브영 브랜드 로고",
+            "en": "Olive Young brand logo",
+            "ja": "オリーブヤングのロゴ",
+            "zhHans": "Olive Young 品牌标识",
+            "zhHant": "Olive Young 品牌標誌"
+          },
+          "caption": {
+            "ko": "올리브영 브랜드 로고",
+            "en": "Olive Young brand logo",
+            "ja": "オリーブヤングのロゴ",
+            "zhHans": "Olive Young 品牌标识",
+            "zhHant": "Olive Young 品牌標誌"
+          }
+        }
+      ]
     },
     {
       "name": "성북천 입구",
@@ -1905,7 +2323,43 @@
       "googleLinkStatus": "government-stop-coordinate",
       "pinVerification": "2025-10-31-MOLIT-bus-stop-coordinate",
       "pinSourceUrl": "https://gsg.purpleo.kr/article/216234",
-      "notes": "Airport-bound bus stop 06008. Current schedule first/last at Sinseol-dong are unverified. Official first/last times 04:12/20:20 are specifically Cheongnyangni origin departures, NOT Sinseol-dong departures. Previous third-party schedule 04:10/20:35 conflicted with official origin time. Do not present third-party times as confirmed."
+      "notes": "Airport-bound bus stop 06008. Current schedule first/last at Sinseol-dong are unverified. Official first/last times 04:12/20:20 are specifically Cheongnyangni origin departures, NOT Sinseol-dong departures. Previous third-party schedule 04:10/20:35 conflicted with official origin time. Do not present third-party times as confirmed.",
+      "photos": [
+        {
+          "src": "./photos/공항버스1.png",
+          "alt": {
+            "ko": "공항버스 6002 안내 이미지 1",
+            "en": "Airport bus 6002 information image 1",
+            "ja": "空港バス6002案内画像1",
+            "zhHans": "机场巴士6002信息图片1",
+            "zhHant": "機場巴士6002資訊圖片1"
+          },
+          "caption": {
+            "ko": "공항버스 6002 안내 이미지 1",
+            "en": "Airport bus 6002 information image 1",
+            "ja": "空港バス6002案内画像1",
+            "zhHans": "机场巴士6002信息图片1",
+            "zhHant": "機場巴士6002資訊圖片1"
+          }
+        },
+        {
+          "src": "./photos/공항버스2.png",
+          "alt": {
+            "ko": "공항버스 6002 안내 이미지 2",
+            "en": "Airport bus 6002 information image 2",
+            "ja": "空港バス6002案内画像2",
+            "zhHans": "机场巴士6002信息图片2",
+            "zhHant": "機場巴士6002資訊圖片2"
+          },
+          "caption": {
+            "ko": "공항버스 6002 안내 이미지 2",
+            "en": "Airport bus 6002 information image 2",
+            "ja": "空港バス6002案内画像2",
+            "zhHans": "机场巴士6002信息图片2",
+            "zhHant": "機場巴士6002資訊圖片2"
+          }
+        }
+      ]
     }
   ]
 }
