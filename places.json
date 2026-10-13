@@ -1430,6 +1430,40 @@
       },
       "photos": [
         {
+          "src": "./photos/갗2.jpg",
+          "alt": {
+            "ko": "갗bar 외관",
+            "en": "Gat Bar exterior",
+            "ja": "ギャッバーの外観",
+            "zhHans": "Gat Bar 店面",
+            "zhHant": "Gat Bar 店面"
+          },
+          "caption": {
+            "ko": "갗bar 외관",
+            "en": "Gat Bar exterior",
+            "ja": "ギャッバーの外観",
+            "zhHans": "Gat Bar 店面",
+            "zhHant": "Gat Bar 店面"
+          }
+        },
+        {
+          "src": "./photos/갗4.jpg",
+          "alt": {
+            "ko": "바 내부와 카운터",
+            "en": "Bar interior and counter",
+            "ja": "バーの店内とカウンター",
+            "zhHans": "酒吧内部与吧台",
+            "zhHant": "酒吧內部與吧台"
+          },
+          "caption": {
+            "ko": "바 내부와 카운터",
+            "en": "Bar interior and counter",
+            "ja": "バーの店内とカウンター",
+            "zhHans": "酒吧内部与吧台",
+            "zhHant": "酒吧內部與吧台"
+          }
+        },
+        {
           "src": "./photos/갗8.jpg",
           "alt": {
             "ko": "음료와 디저트",
@@ -1481,37 +1515,20 @@
           }
         },
         {
-          "src": "./photos/갗4.jpg",
+          "src": "./photos/갗11.jpg",
           "alt": {
-            "ko": "바 내부와 카운터",
-            "en": "Bar interior and counter",
-            "ja": "バーの店内とカウンター",
-            "zhHans": "酒吧内部与吧台",
-            "zhHant": "酒吧內部與吧台"
+            "ko": "바 실내 좌석",
+            "en": "Bar seating",
+            "ja": "バーの店内席",
+            "zhHans": "酒吧座位",
+            "zhHant": "酒吧座位"
           },
           "caption": {
-            "ko": "바 내부와 카운터",
-            "en": "Bar interior and counter",
-            "ja": "バーの店内とカウンター",
-            "zhHans": "酒吧内部与吧台",
-            "zhHant": "酒吧內部與吧台"
-          }
-        },
-        {
-          "src": "./photos/갗2.jpg",
-          "alt": {
-            "ko": "갗bar 외관",
-            "en": "Gat Bar exterior",
-            "ja": "ギャッバーの外観",
-            "zhHans": "Gat Bar 店面",
-            "zhHant": "Gat Bar 店面"
-          },
-          "caption": {
-            "ko": "갗bar 외관",
-            "en": "Gat Bar exterior",
-            "ja": "ギャッバーの外観",
-            "zhHans": "Gat Bar 店面",
-            "zhHant": "Gat Bar 店面"
+            "ko": "바 실내 좌석",
+            "en": "Bar seating",
+            "ja": "バーの店内席",
+            "zhHans": "酒吧座位",
+            "zhHant": "酒吧座位"
           }
         },
         {
@@ -1529,23 +1546,6 @@
             "ja": "チョコレートデザートの調理",
             "zhHans": "巧克力甜点制作",
             "zhHant": "巧克力甜點製作"
-          }
-        },
-        {
-          "src": "./photos/갗11.jpg",
-          "alt": {
-            "ko": "바 실내 좌석",
-            "en": "Bar seating",
-            "ja": "バーの店内席",
-            "zhHans": "酒吧座位",
-            "zhHant": "酒吧座位"
-          },
-          "caption": {
-            "ko": "바 실내 좌석",
-            "en": "Bar seating",
-            "ja": "バーの店内席",
-            "zhHans": "酒吧座位",
-            "zhHant": "酒吧座位"
           }
         },
         {
