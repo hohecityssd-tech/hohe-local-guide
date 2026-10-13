@@ -1583,6 +1583,23 @@
       },
       "photos": [
         {
+          "src": "./photos/미옥1.jpg",
+          "alt": {
+            "ko": "미옥숯불구이 매장 입구",
+            "en": "Miok restaurant entrance",
+            "ja": "ミオクの外観と入口",
+            "zhHans": "Miok 店面入口",
+            "zhHant": "Miok 店面入口"
+          },
+          "caption": {
+            "ko": "미옥숯불구이 매장 입구",
+            "en": "Miok restaurant entrance",
+            "ja": "ミオクの外観と入口",
+            "zhHans": "Miok 店面入口",
+            "zhHant": "Miok 店面入口"
+          }
+        },
+        {
           "src": "./photos/미옥4.jpg",
           "alt": {
             "ko": "미옥숯불구이 고기 모둠",
@@ -1631,23 +1648,6 @@
             "ja": "ミオクの店内とテーブル",
             "zhHans": "Miok 店内座位",
             "zhHant": "Miok 店內座位"
-          }
-        },
-        {
-          "src": "./photos/미옥1.jpg",
-          "alt": {
-            "ko": "미옥숯불구이 매장 입구",
-            "en": "Miok restaurant entrance",
-            "ja": "ミオクの外観と入口",
-            "zhHans": "Miok 店面入口",
-            "zhHant": "Miok 店面入口"
-          },
-          "caption": {
-            "ko": "미옥숯불구이 매장 입구",
-            "en": "Miok restaurant entrance",
-            "ja": "ミオクの外観と入口",
-            "zhHans": "Miok 店面入口",
-            "zhHant": "Miok 店面入口"
           }
         }
       ],
