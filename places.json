@@ -1769,57 +1769,6 @@
       }
     },
     {
-      "name": "한상차림밥상 신설동",
-      "enName": "Hansang Charim Bapsang",
-      "jaName": "ハンサンチャリム・パプサン",
-      "desc": "Korean Set Meals & Bossam",
-      "descs": {
-        "en": "Korean Set Meals & Bossam",
-        "ja": "韓定食 & ポッサム",
-        "zhHans": "韩式套餐 & 菜包肉",
-        "zhHant": "韓式套餐 & 菜包肉",
-        "ko": "한상차림 정식 & 보쌈"
-      },
-      "category": "food",
-      "lat": 37.5778721,
-      "lng": 127.025956,
-      "address": "서울 동대문구 한빛로 28 1층",
-      "icon": "🍴",
-      "naverUrl": "https://naver.me/52R5vdIL",
-      "naverLinkStatus": "verified-share-link",
-      "googleUrl": "https://www.google.com/maps/place/%ED%95%9C%EC%83%81%EC%B0%A8%EB%A6%BC%EB%B0%A5%EC%83%81/data=!3m1!4b1!4m4!3m3!1s0x357cbcb701e7e5f1:0xf94b858097a4b5c4!16s%2Fg%2F11f54qp8lf!20s8Q99H2HG%2B49W",
-      "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09",
-      "hours": {
-        "timeZone": "Asia/Seoul",
-        "weekly": {
-          "mon": [],
-          "tue": [
-            "10:45–21:30"
-          ],
-          "wed": [
-            "10:45–21:30"
-          ],
-          "thu": [
-            "10:45–21:30"
-          ],
-          "fri": [
-            "10:45–21:30"
-          ],
-          "sat": [
-            "10:45–21:30"
-          ],
-          "sun": [
-            "10:45–21:30"
-          ]
-        },
-        "sourceUrl": "https://www.ktriptips.com/kor/food/2839360",
-        "checkedDate": "2026-10-10",
-        "lastOrder": "20:30",
-        "alternateSourceUrl": "https://www.ktourmap.com/spotDetails.jsp?contentId=2839360"
-      }
-    },
-    {
       "name": "신술동",
       "enName": "Sinsooldong",
       "jaName": "シンスルドン",
