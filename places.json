@@ -553,92 +553,91 @@
       },
       "photos": [
         {
-          "src": "./photos/tyler-1.jpg",
+          "src": "./photos/타일러3.jpg",
           "alt": {
-            "ko": "크래프트 맥주 · 맥주 1",
-            "en": "Craft beer · Beer 1",
-            "ja": "クラフトビール · 1",
-            "zhHans": "精酿啤酒 · 1",
-            "zhHant": "精釀啤酒 · 1"
+            "ko": "호피 라거 · 크래프트 맥주",
+            "en": "Hoppy Lager · Craft beer",
+            "ja": "ホッピーラガー · クラフトビール",
+            "zhHans": "Hoppy Lager · 精酿啤酒",
+            "zhHant": "Hoppy Lager · 精釀啤酒"
           },
           "caption": {
-            "ko": "크래프트 맥주 · 맥주 1",
-            "en": "Craft beer · Beer 1",
-            "ja": "クラフトビール · 1",
-            "zhHans": "精酿啤酒 · 1",
-            "zhHant": "精釀啤酒 · 1"
+            "ko": "호피 라거 · 크래프트 맥주",
+            "en": "Hoppy Lager · Craft beer",
+            "ja": "ホッピーラガー · クラフトビール",
+            "zhHans": "Hoppy Lager · 精酿啤酒",
+            "zhHant": "Hoppy Lager · 精釀啤酒"
           }
         },
         {
-          "src": "./photos/tyler-2.jpg",
+          "src": "./photos/타일러2.jpg",
           "alt": {
-            "ko": "음식 메뉴 · 메뉴 1",
-            "en": "Food menu · Dish 1",
-            "ja": "料理 · 1",
-            "zhHans": "餐点 · 1",
-            "zhHant": "餐點 · 1"
+            "ko": "타일러 음식 메뉴",
+            "en": "Food at Tyler",
+            "ja": "タイラーの料理",
+            "zhHans": "Tyler 的餐点",
+            "zhHant": "Tyler 的餐點"
           },
           "caption": {
-            "ko": "음식 메뉴 · 메뉴 1",
-            "en": "Food menu · Dish 1",
-            "ja": "料理 · 1",
-            "zhHans": "餐点 · 1",
-            "zhHant": "餐點 · 1"
+            "ko": "타일러 음식 메뉴",
+            "en": "Food at Tyler",
+            "ja": "タイラーの料理",
+            "zhHans": "Tyler 的餐点",
+            "zhHant": "Tyler 的餐點"
           }
         },
         {
-          "src": "./photos/tyler-3.jpg",
+          "src": "./photos/타일러1.jpg",
           "alt": {
             "ko": "타일러 외관과 입구",
-            "en": "Tyler · Exterior and entrance",
-            "ja": "タイラー · 外観と入口",
-            "zhHans": "Tyler · 店铺外观与入口",
-            "zhHant": "Tyler · 店舖外觀與入口"
+            "en": "Tyler exterior and entrance",
+            "ja": "タイラーの外観と入口",
+            "zhHans": "Tyler 店铺外观与入口",
+            "zhHant": "Tyler 店舖外觀與入口"
           },
           "caption": {
             "ko": "타일러 외관과 입구",
-            "en": "Tyler · Exterior and entrance",
-            "ja": "タイラー · 外観と入口",
-            "zhHans": "Tyler · 店铺外观与入口",
-            "zhHant": "Tyler · 店舖外觀與入口"
+            "en": "Tyler exterior and entrance",
+            "ja": "タイラーの外観と入口",
+            "zhHans": "Tyler 店铺外观与入口",
+            "zhHant": "Tyler 店舖外觀與入口"
           }
         },
         {
-          "src": "./photos/tyler-4.jpg",
+          "src": "./photos/타일러5.jpg",
           "alt": {
-            "ko": "크래프트 맥주 · 맥주 2",
-            "en": "Craft beer · Beer 2",
-            "ja": "クラフトビール · 2",
-            "zhHans": "精酿啤酒 · 2",
-            "zhHant": "精釀啤酒 · 2"
+            "ko": "타일러 수제맥주",
+            "en": "Craft beer at Tyler",
+            "ja": "タイラーのクラフトビール",
+            "zhHans": "Tyler 精酿啤酒",
+            "zhHant": "Tyler 精釀啤酒"
           },
           "caption": {
-            "ko": "크래프트 맥주 · 맥주 2",
-            "en": "Craft beer · Beer 2",
-            "ja": "クラフトビール · 2",
-            "zhHans": "精酿啤酒 · 2",
-            "zhHant": "精釀啤酒 · 2"
+            "ko": "타일러 수제맥주",
+            "en": "Craft beer at Tyler",
+            "ja": "タイラーのクラフトビール",
+            "zhHans": "Tyler 精酿啤酒",
+            "zhHant": "Tyler 精釀啤酒"
           }
         },
         {
-          "src": "./photos/tyler-5.jpg",
+          "src": "./photos/타일러4.jpg",
           "alt": {
-            "ko": "음식 메뉴 · 메뉴 2",
-            "en": "Food menu · Dish 2",
-            "ja": "料理 · 2",
-            "zhHans": "餐点 · 2",
-            "zhHant": "餐點 · 2"
+            "ko": "타일러 음식 메뉴",
+            "en": "Food at Tyler",
+            "ja": "タイラーの料理",
+            "zhHans": "Tyler 的餐点",
+            "zhHant": "Tyler 的餐點"
           },
           "caption": {
-            "ko": "음식 메뉴 · 메뉴 2",
-            "en": "Food menu · Dish 2",
-            "ja": "料理 · 2",
-            "zhHans": "餐点 · 2",
-            "zhHant": "餐點 · 2"
+            "ko": "타일러 음식 메뉴",
+            "en": "Food at Tyler",
+            "ja": "タイラーの料理",
+            "zhHans": "Tyler 的餐点",
+            "zhHant": "Tyler 的餐點"
           }
         }
-      ],
-      "photoPublishStatus": "pending-image-uploads"
+      ]
     },
     {
       "name": "동신곱창 신설동본점",
