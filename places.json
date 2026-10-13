@@ -1650,7 +1650,14 @@
             "zhHant": "Miok 店面入口"
           }
         }
-      ]
+      ],
+      "tip": {
+        "en": "We recommend the counter seats, where the staff grill your meat; there may be a wait.",
+        "ja": "スタッフがお肉を焼いてくれるカウンター席がおすすめです。待ち時間が発生する場合があります。",
+        "zhHans": "推荐坐在吧台，由店员为您烤肉；可能需要等位。",
+        "zhHant": "推薦坐在吧台，由店員為您烤肉；可能需要候位。",
+        "ko": "직원이 고기를 구워주는 바 좌석을 추천해요. 웨이팅이 있을 수 있습니다."
+      }
     },
     {
       "name": "서울풍물시장",
