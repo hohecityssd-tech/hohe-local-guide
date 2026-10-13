@@ -1456,7 +1456,77 @@
         "checkedDate": "2026-10-10",
         "lastOrder": "21:30",
         "alternateSourceUrl": "https://www.diningcode.com/profile.php?rid=ejyFpwJRvFpL"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/동신1.jpg",
+          "alt": {
+            "ko": "동신곱창 음식 및 매장 사진 1",
+            "en": "Dongshin Gopchang food and restaurant 1",
+            "ja": "トンシンコプチャンの料理と店内 1",
+            "zhHans": "东信烤肠餐点与店内 1",
+            "zhHant": "東信烤腸餐點與店內 1"
+          },
+          "caption": {
+            "ko": "동신곱창 음식 및 매장 사진 1",
+            "en": "Dongshin Gopchang food and restaurant 1",
+            "ja": "トンシンコプチャンの料理と店内 1",
+            "zhHans": "东信烤肠餐点与店内 1",
+            "zhHant": "東信烤腸餐點與店內 1"
+          }
+        },
+        {
+          "src": "./photos/동신2.jpg",
+          "alt": {
+            "ko": "동신곱창 음식 및 매장 사진 2",
+            "en": "Dongshin Gopchang food and restaurant 2",
+            "ja": "トンシンコプチャンの料理と店内 2",
+            "zhHans": "东信烤肠餐点与店内 2",
+            "zhHant": "東信烤腸餐點與店內 2"
+          },
+          "caption": {
+            "ko": "동신곱창 음식 및 매장 사진 2",
+            "en": "Dongshin Gopchang food and restaurant 2",
+            "ja": "トンシンコプチャンの料理と店内 2",
+            "zhHans": "东信烤肠餐点与店内 2",
+            "zhHant": "東信烤腸餐點與店內 2"
+          }
+        },
+        {
+          "src": "./photos/동신3.png",
+          "alt": {
+            "ko": "동신곱창 음식 및 매장 사진 3",
+            "en": "Dongshin Gopchang food and restaurant 3",
+            "ja": "トンシンコプチャンの料理と店内 3",
+            "zhHans": "东信烤肠餐点与店内 3",
+            "zhHant": "東信烤腸餐點與店內 3"
+          },
+          "caption": {
+            "ko": "동신곱창 음식 및 매장 사진 3",
+            "en": "Dongshin Gopchang food and restaurant 3",
+            "ja": "トンシンコプチャンの料理と店内 3",
+            "zhHans": "东信烤肠餐点与店内 3",
+            "zhHant": "東信烤腸餐點與店內 3"
+          }
+        },
+        {
+          "src": "./photos/동신4.jpg",
+          "alt": {
+            "ko": "동신곱창 음식 및 매장 사진 4",
+            "en": "Dongshin Gopchang food and restaurant 4",
+            "ja": "トンシンコプチャンの料理と店内 4",
+            "zhHans": "东信烤肠餐点与店内 4",
+            "zhHant": "東信烤腸餐點與店內 4"
+          },
+          "caption": {
+            "ko": "동신곱창 음식 및 매장 사진 4",
+            "en": "Dongshin Gopchang food and restaurant 4",
+            "ja": "トンシンコプチャンの料理と店内 4",
+            "zhHans": "东信烤肠餐点与店内 4",
+            "zhHant": "東信烤腸餐點與店內 4"
+          }
+        }
+      ]
     },
     {
       "name": "미옥숯불구이",
