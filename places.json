@@ -262,7 +262,94 @@
         "sourceUrl": "https://www.daangn.com/kr/local-profile/%EC%9E%AC%EB%B2%8C%EA%B5%AD%EC%88%98-xszdrbj52q29/",
         "checkedDate": "2026-10-10",
         "verification": "conflicting-sources"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/재벌국수1.jpg",
+          "alt": {
+            "ko": "고기가 올라간 국수",
+            "en": "Noodles topped with sliced pork",
+            "ja": "豚肉のせ麺",
+            "zhHans": "猪肉面",
+            "zhHant": "豬肉麵"
+          },
+          "caption": {
+            "ko": "고기가 올라간 국수",
+            "en": "Noodles topped with sliced pork",
+            "ja": "豚肉のせ麺",
+            "zhHans": "猪肉面",
+            "zhHant": "豬肉麵"
+          }
+        },
+        {
+          "src": "./photos/재벌국수4.jpg",
+          "alt": {
+            "ko": "매콤한 비빔국수",
+            "en": "Spicy mixed noodles",
+            "ja": "ピリ辛混ぜ麺",
+            "zhHans": "韩式辣拌面",
+            "zhHant": "韓式辣拌麵"
+          },
+          "caption": {
+            "ko": "매콤한 비빔국수",
+            "en": "Spicy mixed noodles",
+            "ja": "ピリ辛混ぜ麺",
+            "zhHans": "韩式辣拌面",
+            "zhHant": "韓式辣拌麵"
+          }
+        },
+        {
+          "src": "./photos/재벌국수2.jpg",
+          "alt": {
+            "ko": "수육 한 접시",
+            "en": "Sliced boiled pork",
+            "ja": "ゆで豚肉",
+            "zhHans": "白切猪肉",
+            "zhHant": "白切豬肉"
+          },
+          "caption": {
+            "ko": "수육 한 접시",
+            "en": "Sliced boiled pork",
+            "ja": "ゆで豚肉",
+            "zhHans": "白切猪肉",
+            "zhHant": "白切豬肉"
+          }
+        },
+        {
+          "src": "./photos/재벌국수3.jpg",
+          "alt": {
+            "ko": "순대 한 접시",
+            "en": "Korean blood sausage",
+            "ja": "韓国式スンデ",
+            "zhHans": "韩式血肠",
+            "zhHant": "韓式血腸"
+          },
+          "caption": {
+            "ko": "순대 한 접시",
+            "en": "Korean blood sausage",
+            "ja": "韓国式スンデ",
+            "zhHans": "韩式血肠",
+            "zhHant": "韓式血腸"
+          }
+        },
+        {
+          "src": "./photos/재벌국수5.jpg",
+          "alt": {
+            "ko": "재벌국수 매장 외관",
+            "en": "Jaebeol Guksu storefront",
+            "ja": "チェボルグクスの外観",
+            "zhHans": "Jaebeol Guksu 店面",
+            "zhHant": "Jaebeol Guksu 店面"
+          },
+          "caption": {
+            "ko": "재벌국수 매장 외관",
+            "en": "Jaebeol Guksu storefront",
+            "ja": "チェボルグクスの外観",
+            "zhHans": "Jaebeol Guksu 店面",
+            "zhHant": "Jaebeol Guksu 店面"
+          }
+        }
+      ]
     },
     {
       "name": "육전식당 신설동본점",
@@ -367,7 +454,111 @@
         "checkedDate": "2026-10-10",
         "breakTime": "16:00–17:30",
         "lastOrder": "15:00 / 20:00"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/오모2.jpg",
+          "alt": {
+            "ko": "브런치와 커피",
+            "en": "Brunch and coffee",
+            "ja": "ブランチとコーヒー",
+            "zhHans": "早午餐与咖啡",
+            "zhHant": "早午餐與咖啡"
+          },
+          "caption": {
+            "ko": "브런치와 커피",
+            "en": "Brunch and coffee",
+            "ja": "ブランチとコーヒー",
+            "zhHans": "早午餐与咖啡",
+            "zhHant": "早午餐與咖啡"
+          }
+        },
+        {
+          "src": "./photos/오모1.jpg",
+          "alt": {
+            "ko": "파스타 메뉴",
+            "en": "Pasta dishes",
+            "ja": "パスタ料理",
+            "zhHans": "意大利面",
+            "zhHant": "義大利麵"
+          },
+          "caption": {
+            "ko": "파스타 메뉴",
+            "en": "Pasta dishes",
+            "ja": "パスタ料理",
+            "zhHans": "意大利面",
+            "zhHant": "義大利麵"
+          }
+        },
+        {
+          "src": "./photos/오모3.jpg",
+          "alt": {
+            "ko": "커리 라이스",
+            "en": "Curry rice",
+            "ja": "カレーライス",
+            "zhHans": "咖喱饭",
+            "zhHant": "咖哩飯"
+          },
+          "caption": {
+            "ko": "커리 라이스",
+            "en": "Curry rice",
+            "ja": "カレーライス",
+            "zhHans": "咖喱饭",
+            "zhHant": "咖哩飯"
+          }
+        },
+        {
+          "src": "./photos/오모6.jpg",
+          "alt": {
+            "ko": "매장 외관과 입구",
+            "en": "Restaurant exterior and entrance",
+            "ja": "お店の外観と入口",
+            "zhHans": "餐厅外观与入口",
+            "zhHant": "餐廳外觀與入口"
+          },
+          "caption": {
+            "ko": "매장 외관과 입구",
+            "en": "Restaurant exterior and entrance",
+            "ja": "お店の外観と入口",
+            "zhHans": "餐厅外观与入口",
+            "zhHant": "餐廳外觀與入口"
+          }
+        },
+        {
+          "src": "./photos/오모5.jpg",
+          "alt": {
+            "ko": "오모 실내 좌석",
+            "en": "OMO interior seating",
+            "ja": "オモの店内席",
+            "zhHans": "OMO 店内座位",
+            "zhHant": "OMO 店內座位"
+          },
+          "caption": {
+            "ko": "오모 실내 좌석",
+            "en": "OMO interior seating",
+            "ja": "オモの店内席",
+            "zhHans": "OMO 店内座位",
+            "zhHant": "OMO 店內座位"
+          }
+        },
+        {
+          "src": "./photos/오모4.jpg",
+          "alt": {
+            "ko": "오모 브런치 바 로고",
+            "en": "OMO Brunch Bar sign",
+            "ja": "オモ・ブランチバーの看板",
+            "zhHans": "OMO Brunch Bar 标识",
+            "zhHant": "OMO Brunch Bar 標誌"
+          },
+          "caption": {
+            "ko": "오모 브런치 바 로고",
+            "en": "OMO Brunch Bar sign",
+            "ja": "オモ・ブランチバーの看板",
+            "zhHans": "OMO Brunch Bar 标识",
+            "zhHant": "OMO Brunch Bar 標誌"
+          }
+        }
+      ]
     },
     {
       "name": "비비밀",
@@ -588,7 +779,77 @@
         },
         "sourceUrl": "https://www.diningcode.com/profile.php?rid=1HzkDRhWrGkL",
         "checkedDate": "2026-10-10"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/아후아2.jpg",
+          "alt": {
+            "ko": "과일 디저트",
+            "en": "Fruit dessert",
+            "ja": "フルーツデザート",
+            "zhHans": "水果甜点",
+            "zhHant": "水果甜點"
+          },
+          "caption": {
+            "ko": "과일 디저트",
+            "en": "Fruit dessert",
+            "ja": "フルーツデザート",
+            "zhHans": "水果甜点",
+            "zhHant": "水果甜點"
+          }
+        },
+        {
+          "src": "./photos/아후아5.jpg",
+          "alt": {
+            "ko": "감귤 타르트",
+            "en": "Citrus tart",
+            "ja": "柑橘のタルト",
+            "zhHans": "柑橘挞",
+            "zhHant": "柑橘塔"
+          },
+          "caption": {
+            "ko": "감귤 타르트",
+            "en": "Citrus tart",
+            "ja": "柑橘のタルト",
+            "zhHans": "柑橘挞",
+            "zhHant": "柑橘塔"
+          }
+        },
+        {
+          "src": "./photos/아후아4.jpg",
+          "alt": {
+            "ko": "과일 타르트",
+            "en": "Fruit tart",
+            "ja": "フルーツタルト",
+            "zhHans": "水果挞",
+            "zhHant": "水果塔"
+          },
+          "caption": {
+            "ko": "과일 타르트",
+            "en": "Fruit tart",
+            "ja": "フルーツタルト",
+            "zhHans": "水果挞",
+            "zhHant": "水果塔"
+          }
+        },
+        {
+          "src": "./photos/아후아3.jpg",
+          "alt": {
+            "ko": "카페 내부와 입구",
+            "en": "Cafe interior and entrance",
+            "ja": "カフェの店内と入口",
+            "zhHans": "咖啡馆内部与入口",
+            "zhHant": "咖啡廳內部與入口"
+          },
+          "caption": {
+            "ko": "카페 내부와 입구",
+            "en": "Cafe interior and entrance",
+            "ja": "カフェの店内と入口",
+            "zhHans": "咖啡馆内部与入口",
+            "zhHant": "咖啡廳內部與入口"
+          }
+        }
+      ]
     },
     {
       "name": "타일러",
@@ -1166,7 +1427,145 @@
           "zhHant": "週一是否營業及開店時間（10:00或12:00）各平台不一致，請到店前於地圖確認。"
         },
         "thirdSourceUrl": "https://www.diningcode.com/profile.php?rid=42C77rYa57pJ"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/갗8.jpg",
+          "alt": {
+            "ko": "음료와 디저트",
+            "en": "Drinks and desserts",
+            "ja": "ドリンクとデザート",
+            "zhHans": "饮品与甜点",
+            "zhHant": "飲品與甜點"
+          },
+          "caption": {
+            "ko": "음료와 디저트",
+            "en": "Drinks and desserts",
+            "ja": "ドリンクとデザート",
+            "zhHans": "饮品与甜点",
+            "zhHant": "飲品與甜點"
+          }
+        },
+        {
+          "src": "./photos/갗10.jpg",
+          "alt": {
+            "ko": "바의 칵테일",
+            "en": "Cocktails at the bar",
+            "ja": "バーのカクテル",
+            "zhHans": "酒吧鸡尾酒",
+            "zhHant": "酒吧雞尾酒"
+          },
+          "caption": {
+            "ko": "바의 칵테일",
+            "en": "Cocktails at the bar",
+            "ja": "バーのカクテル",
+            "zhHans": "酒吧鸡尾酒",
+            "zhHant": "酒吧雞尾酒"
+          }
+        },
+        {
+          "src": "./photos/갗9.jpg",
+          "alt": {
+            "ko": "시그니처 칵테일",
+            "en": "Specialty cocktail",
+            "ja": "オリジナルカクテル",
+            "zhHans": "特色鸡尾酒",
+            "zhHant": "特色雞尾酒"
+          },
+          "caption": {
+            "ko": "시그니처 칵테일",
+            "en": "Specialty cocktail",
+            "ja": "オリジナルカクテル",
+            "zhHans": "特色鸡尾酒",
+            "zhHant": "特色雞尾酒"
+          }
+        },
+        {
+          "src": "./photos/갗4.jpg",
+          "alt": {
+            "ko": "바 내부와 카운터",
+            "en": "Bar interior and counter",
+            "ja": "バーの店内とカウンター",
+            "zhHans": "酒吧内部与吧台",
+            "zhHant": "酒吧內部與吧台"
+          },
+          "caption": {
+            "ko": "바 내부와 카운터",
+            "en": "Bar interior and counter",
+            "ja": "バーの店内とカウンター",
+            "zhHans": "酒吧内部与吧台",
+            "zhHant": "酒吧內部與吧台"
+          }
+        },
+        {
+          "src": "./photos/갗2.jpg",
+          "alt": {
+            "ko": "갗bar 외관",
+            "en": "Gat Bar exterior",
+            "ja": "ギャッバーの外観",
+            "zhHans": "Gat Bar 店面",
+            "zhHant": "Gat Bar 店面"
+          },
+          "caption": {
+            "ko": "갗bar 외관",
+            "en": "Gat Bar exterior",
+            "ja": "ギャッバーの外観",
+            "zhHans": "Gat Bar 店面",
+            "zhHant": "Gat Bar 店面"
+          }
+        },
+        {
+          "src": "./photos/갗1.jpg",
+          "alt": {
+            "ko": "초콜릿 디저트 제작",
+            "en": "Chocolate dessert preparation",
+            "ja": "チョコレートデザートの調理",
+            "zhHans": "巧克力甜点制作",
+            "zhHant": "巧克力甜點製作"
+          },
+          "caption": {
+            "ko": "초콜릿 디저트 제작",
+            "en": "Chocolate dessert preparation",
+            "ja": "チョコレートデザートの調理",
+            "zhHans": "巧克力甜点制作",
+            "zhHant": "巧克力甜點製作"
+          }
+        },
+        {
+          "src": "./photos/갗11.jpg",
+          "alt": {
+            "ko": "바 실내 좌석",
+            "en": "Bar seating",
+            "ja": "バーの店内席",
+            "zhHans": "酒吧座位",
+            "zhHant": "酒吧座位"
+          },
+          "caption": {
+            "ko": "바 실내 좌석",
+            "en": "Bar seating",
+            "ja": "バーの店内席",
+            "zhHans": "酒吧座位",
+            "zhHant": "酒吧座位"
+          }
+        },
+        {
+          "src": "./photos/갗6.jpg",
+          "alt": {
+            "ko": "갗bar 입구의 디테일",
+            "en": "Entrance details",
+            "ja": "入口のディテール",
+            "zhHans": "入口细节",
+            "zhHant": "入口細節"
+          },
+          "caption": {
+            "ko": "갗bar 입구의 디테일",
+            "en": "Entrance details",
+            "ja": "入口のディテール",
+            "zhHans": "入口细节",
+            "zhHant": "入口細節"
+          }
+        }
+      ]
     },
     {
       "name": "이마트 청계천점",
