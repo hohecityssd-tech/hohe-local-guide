@@ -1186,7 +1186,60 @@
         "ja": "1981年創業の老舗イイダコ店。かなり辛く、待ち時間が発生することがあります。",
         "zhHans": "始于1981年的老字号小章鱼店，口味较辣，可能需要排队。",
         "zhHant": "始於1981年的老字號小章魚店，口味較辣，可能需要排隊。"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/나정순할매1.jpg",
+          "alt": {
+            "ko": "나정순할매쭈꾸미 매장 외관",
+            "en": "Na Jeong-sun Halmae Jjukkumi storefront",
+            "ja": "ナ・ジョンスン・ハルメ・チュクミの外観",
+            "zhHans": "奶奶辣炒小章鱼店外观",
+            "zhHant": "奶奶辣炒小章魚店外觀"
+          },
+          "caption": {
+            "ko": "나정순할매쭈꾸미 매장 외관",
+            "en": "Na Jeong-sun Halmae Jjukkumi storefront",
+            "ja": "ナ・ジョンスン・ハルメ・チュクミの外観",
+            "zhHans": "奶奶辣炒小章鱼店外观",
+            "zhHant": "奶奶辣炒小章魚店外觀"
+          }
+        },
+        {
+          "src": "./photos/나정순할매2.jpg",
+          "alt": {
+            "ko": "마늘을 곁들인 매콤한 쭈꾸미볶음",
+            "en": "Spicy stir-fried webfoot octopus with garlic",
+            "ja": "ニンニクを添えたピリ辛イイダコ炒め",
+            "zhHans": "蒜瓣配辣炒小章鱼",
+            "zhHant": "蒜瓣搭配辣炒小章魚"
+          },
+          "caption": {
+            "ko": "마늘을 곁들인 매콤한 쭈꾸미볶음",
+            "en": "Spicy stir-fried webfoot octopus with garlic",
+            "ja": "ニンニクを添えたピリ辛イイダコ炒め",
+            "zhHans": "蒜瓣配辣炒小章鱼",
+            "zhHant": "蒜瓣搭配辣炒小章魚"
+          }
+        },
+        {
+          "src": "./photos/나정순할매3.png",
+          "alt": {
+            "ko": "쭈꾸미볶음과 김 주먹밥",
+            "en": "Spicy octopus with seaweed rice balls",
+            "ja": "イイダコ炒めと海苔入りおにぎり",
+            "zhHans": "辣炒小章鱼与海苔饭团",
+            "zhHant": "辣炒小章魚與海苔飯糰"
+          },
+          "caption": {
+            "ko": "쭈꾸미볶음과 김 주먹밥",
+            "en": "Spicy octopus with seaweed rice balls",
+            "ja": "イイダコ炒めと海苔入りおにぎり",
+            "zhHans": "辣炒小章鱼与海苔饭团",
+            "zhHant": "辣炒小章魚與海苔飯糰"
+          }
+        }
+      ]
     },
     {
       "name": "아후아",
@@ -1822,7 +1875,77 @@
         "ja": "ボリューム満点のプデチゲがおすすめ。コクのあるピリ辛スープが特徴です。",
         "zhHans": "推荐分量十足的韩式部队锅，汤底浓郁又香辣。",
         "zhHant": "推薦份量十足的韓式部隊鍋，湯底濃郁又香辣。"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/오팔식당4.jpg",
+          "alt": {
+            "ko": "오팔식당 신설역점 외관",
+            "en": "Opal Sikdang Sinseol Station branch storefront",
+            "ja": "オパル食堂・新設駅店の外観",
+            "zhHans": "欧八食堂新设站店外观",
+            "zhHant": "歐八食堂新設站店外觀"
+          },
+          "caption": {
+            "ko": "오팔식당 신설역점 외관",
+            "en": "Opal Sikdang Sinseol Station branch storefront",
+            "ja": "オパル食堂・新設駅店の外観",
+            "zhHans": "欧八食堂新设站店外观",
+            "zhHant": "歐八食堂新設站店外觀"
+          }
+        },
+        {
+          "src": "./photos/오팔식당3.jpg",
+          "alt": {
+            "ko": "햄과 소시지가 가득한 부대찌개",
+            "en": "Korean army stew with ham and sausage",
+            "ja": "ハムとソーセージ入りプデチゲ",
+            "zhHans": "火腿香肠部队锅",
+            "zhHant": "火腿香腸部隊鍋"
+          },
+          "caption": {
+            "ko": "햄과 소시지가 가득한 부대찌개",
+            "en": "Korean army stew with ham and sausage",
+            "ja": "ハムとソーセージ入りプデチゲ",
+            "zhHans": "火腿香肠部队锅",
+            "zhHant": "火腿香腸部隊鍋"
+          }
+        },
+        {
+          "src": "./photos/오팔식당2.png",
+          "alt": {
+            "ko": "치즈를 얹은 볶음밥",
+            "en": "Fried rice topped with melted cheese",
+            "ja": "とろけるチーズのせ炒飯",
+            "zhHans": "芝士炒饭",
+            "zhHant": "起司炒飯"
+          },
+          "caption": {
+            "ko": "치즈를 얹은 볶음밥",
+            "en": "Fried rice topped with melted cheese",
+            "ja": "とろけるチーズのせ炒飯",
+            "zhHans": "芝士炒饭",
+            "zhHant": "起司炒飯"
+          }
+        },
+        {
+          "src": "./photos/오팔식당4.png",
+          "alt": {
+            "ko": "오팔식당 스페셜 세트 안내 이미지",
+            "en": "Opal Sikdang special set menu image",
+            "ja": "オパル食堂のスペシャルセット案内",
+            "zhHans": "欧八食堂招牌套餐宣传图",
+            "zhHant": "歐八食堂招牌套餐介紹圖"
+          },
+          "caption": {
+            "ko": "오팔식당 스페셜 세트 안내 이미지",
+            "en": "Opal Sikdang special set menu image",
+            "ja": "オパル食堂のスペシャルセット案内",
+            "zhHans": "欧八食堂招牌套餐宣传图",
+            "zhHant": "歐八食堂招牌套餐介紹圖"
+          }
+        }
+      ]
     },
     {
       "name": "신술동",
@@ -2724,7 +2847,94 @@
         "ja": "イイダコ炒めに豚バラ肉を追加して、最後は炒飯で締めるのがおすすめです。",
         "zhHans": "推荐在辣炒小章鱼中加一份五花肉，最后用炒饭收尾。",
         "zhHant": "推薦在辣炒小章魚中加一份五花肉，最後用炒飯收尾。"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/용두동쭈꾸미1.jpg",
+          "alt": {
+            "ko": "용두동 쭈꾸미 본점 외관",
+            "en": "Yongdu-dong Jjukkumi main branch exterior",
+            "ja": "ヨンドゥドン・チュクミ本店の外観",
+            "zhHans": "龙头洞辣炒小章鱼总店外观",
+            "zhHant": "龍頭洞辣炒小章魚總店外觀"
+          },
+          "caption": {
+            "ko": "용두동 쭈꾸미 본점 외관",
+            "en": "Yongdu-dong Jjukkumi main branch exterior",
+            "ja": "ヨンドゥドン・チュクミ本店の外観",
+            "zhHans": "龙头洞辣炒小章鱼总店外观",
+            "zhHant": "龍頭洞辣炒小章魚總店外觀"
+          }
+        },
+        {
+          "src": "./photos/용두동쭈꾸미3.jpg",
+          "alt": {
+            "ko": "쭈꾸미와 삼겹살 숯불 팬 요리",
+            "en": "Spicy octopus and pork belly served on a grill pan",
+            "ja": "イイダコと豚バラ肉の鉄板料理",
+            "zhHans": "铁盘辣炒小章鱼和五花肉",
+            "zhHant": "鐵盤辣炒小章魚和五花肉"
+          },
+          "caption": {
+            "ko": "쭈꾸미와 삼겹살 숯불 팬 요리",
+            "en": "Spicy octopus and pork belly served on a grill pan",
+            "ja": "イイダコと豚バラ肉の鉄板料理",
+            "zhHans": "铁盘辣炒小章鱼和五花肉",
+            "zhHant": "鐵盤辣炒小章魚和五花肉"
+          }
+        },
+        {
+          "src": "./photos/용두동쭈꾸미2.jpg",
+          "alt": {
+            "ko": "깻잎에 싸 먹는 쭈꾸미와 삼겹살",
+            "en": "Octopus and pork belly wrapped in a perilla leaf",
+            "ja": "エゴマの葉で包んだイイダコと豚バラ肉",
+            "zhHans": "苏子叶包小章鱼和五花肉",
+            "zhHant": "蘇子葉包小章魚和五花肉"
+          },
+          "caption": {
+            "ko": "깻잎에 싸 먹는 쭈꾸미와 삼겹살",
+            "en": "Octopus and pork belly wrapped in a perilla leaf",
+            "ja": "エゴマの葉で包んだイイダコと豚バラ肉",
+            "zhHans": "苏子叶包小章鱼和五花肉",
+            "zhHant": "蘇子葉包小章魚和五花肉"
+          }
+        },
+        {
+          "src": "./photos/용두동쭈꾸미4.jpg",
+          "alt": {
+            "ko": "쭈꾸미와 삼겹살 한 상",
+            "en": "Octopus and pork belly set meal",
+            "ja": "イイダコと豚バラ肉のセット料理",
+            "zhHans": "小章鱼五花肉套餐",
+            "zhHant": "小章魚五花肉套餐"
+          },
+          "caption": {
+            "ko": "쭈꾸미와 삼겹살 한 상",
+            "en": "Octopus and pork belly set meal",
+            "ja": "イイダコと豚バラ肉のセット料理",
+            "zhHans": "小章鱼五花肉套餐",
+            "zhHant": "小章魚五花肉套餐"
+          }
+        },
+        {
+          "src": "./photos/용두동쭈꾸미5.jpg",
+          "alt": {
+            "ko": "버섯을 곁들인 매콤한 쭈꾸미 한 상",
+            "en": "Spicy octopus set meal with mushrooms",
+            "ja": "キノコ入りピリ辛イイダコのセット料理",
+            "zhHans": "蘑菇辣炒小章鱼套餐",
+            "zhHant": "蘑菇辣炒小章魚套餐"
+          },
+          "caption": {
+            "ko": "버섯을 곁들인 매콤한 쭈꾸미 한 상",
+            "en": "Spicy octopus set meal with mushrooms",
+            "ja": "キノコ入りピリ辛イイダコのセット料理",
+            "zhHans": "蘑菇辣炒小章鱼套餐",
+            "zhHant": "蘑菇辣炒小章魚套餐"
+          }
+        }
+      ]
     }
   ]
 }
