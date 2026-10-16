@@ -1240,23 +1240,6 @@
       },
       "photos": [
         {
-          "src": "./photos/아후아2.jpg",
-          "alt": {
-            "ko": "과일 디저트",
-            "en": "Fruit dessert",
-            "ja": "フルーツデザート",
-            "zhHans": "水果甜点",
-            "zhHant": "水果甜點"
-          },
-          "caption": {
-            "ko": "과일 디저트",
-            "en": "Fruit dessert",
-            "ja": "フルーツデザート",
-            "zhHans": "水果甜点",
-            "zhHant": "水果甜點"
-          }
-        },
-        {
           "src": "./photos/아후아5.jpg",
           "alt": {
             "ko": "감귤 타르트",
@@ -1271,6 +1254,23 @@
             "ja": "柑橘のタルト",
             "zhHans": "柑橘挞",
             "zhHant": "柑橘塔"
+          }
+        },
+        {
+          "src": "./photos/아후아2.jpg",
+          "alt": {
+            "ko": "과일 디저트",
+            "en": "Fruit dessert",
+            "ja": "フルーツデザート",
+            "zhHans": "水果甜点",
+            "zhHant": "水果甜點"
+          },
+          "caption": {
+            "ko": "과일 디저트",
+            "en": "Fruit dessert",
+            "ja": "フルーツデザート",
+            "zhHans": "水果甜点",
+            "zhHant": "水果甜點"
           }
         },
         {
