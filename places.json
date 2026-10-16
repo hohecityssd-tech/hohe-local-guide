@@ -780,7 +780,14 @@
             "zhHant": "OMO Brunch Bar 標誌"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "성북천 옆에서 호주식 브런치와 커피를 즐겨보세요. 점심시간에는 웨이팅이 있을 수 있어요.",
+        "en": "Enjoy Australian-style brunch and coffee beside Seongbukcheon Stream. There may be a wait at lunchtime.",
+        "ja": "城北川沿いでオーストラリア風ブランチとコーヒーを楽しんでください。ランチタイムは待ち時間がある場合があります。",
+        "zhHans": "在城北川旁享用澳式早午餐和咖啡吧。午餐时段可能需要排队。",
+        "zhHant": "在城北川旁享用澳式早午餐和咖啡吧。午餐時段可能需要排隊。"
+      }
     },
     {
       "name": "비비밀",
@@ -1680,11 +1687,11 @@
         }
       ],
       "tip": {
-        "en": "We recommend the counter seats, where the staff grill your meat; there may be a wait.",
-        "ja": "スタッフがお肉を焼いてくれるカウンター席がおすすめです。待ち時間が発生する場合があります。",
-        "zhHans": "推荐坐在吧台，由店员为您烤肉；可能需要等位。",
-        "zhHant": "推薦坐在吧台，由店員為您烤肉；可能需要候位。",
-        "ko": "직원이 고기를 구워주는 바 좌석을 추천해요. 웨이팅이 있을 수 있습니다."
+        "ko": "336시간 숙성한 옥목살을 바 좌석에서 즐겨보세요. 매장이 아담해 사전 예약을 추천해요.",
+        "en": "Try the 336-hour-aged pork neck at the counter, where staff grill it for you. The cozy venue is worth booking ahead.",
+        "ja": "336時間熟成の肩ロースを、スタッフが焼いてくれるカウンター席でどうぞ。小さなお店なので事前予約がおすすめです。",
+        "zhHans": "推荐在吧台品尝熟成336小时的猪梅花肉，由店员帮忙烤制。店面较小，建议提前预订。",
+        "zhHant": "推薦在吧台品嚐熟成336小時的豬梅花肉，由店員幫忙烤製。店面較小，建議提前預訂。"
       }
     },
     {
