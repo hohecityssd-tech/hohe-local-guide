@@ -289,7 +289,14 @@
             "zhHant": "咖啡豆與風味介紹"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "여러 대회에서 수상한 실력파 바리스타가 운영해요. 수준 높은 커피는 물론 계절 음료도 추천해요.",
+        "en": "Run by an award-winning barista with multiple competition accolades. Enjoy the exceptional coffee and seasonal drinks.",
+        "ja": "数々の大会で受賞歴のある実力派バリスタが営むカフェ。こだわりのコーヒーはもちろん、季節限定ドリンクもおすすめです。",
+        "zhHans": "由多次在比赛中获奖的实力派咖啡师经营。推荐高水准的咖啡，也别错过季节限定饮品。",
+        "zhHant": "由多次在比賽中獲獎的實力派咖啡師經營。推薦高水準的咖啡，也別錯過季節限定飲品。"
+      }
     },
     {
       "name": "재벌국수",
@@ -1300,7 +1307,14 @@
             "zhHant": "咖啡廳內部與入口"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "성북천 옆에서 여유롭게 즐기는 카페예요. 호주식 롱블랙과 제철 과일 케이크를 추천해요.",
+        "en": "Relax at this café beside Seongbukcheon Stream. Try the Australian-style long black and seasonal fruit cake.",
+        "ja": "城北川沿いでゆったり過ごせるカフェ。オーストラリアスタイルのロングブラックと季節のフルーツケーキがおすすめです。",
+        "zhHans": "这家咖啡馆就在城北川旁，适合悠闲小憩。推荐澳式长黑咖啡和当季水果蛋糕。",
+        "zhHant": "這家咖啡館就在城北川旁，適合悠閒小憩。推薦澳式長黑咖啡和當季水果蛋糕。"
+      }
     },
     {
       "name": "타일러",
@@ -1949,7 +1963,14 @@
             "zhHant": "新設洞酒吧外觀"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "두 분이 방문한다면 해물한상차림(소)에 한국 전통주를 곁들여 보세요.",
+        "en": "For two people, try the small seafood platter with Korean traditional liquor.",
+        "ja": "2名で訪れるなら、海鮮盛り合わせ（小）に韓国の伝統酒を合わせてみてください。",
+        "zhHans": "两人同行的话，推荐点一份小份海鲜拼盘，搭配韩国传统酒。",
+        "zhHant": "兩人同行的話，推薦點一份小份海鮮拼盤，搭配韓國傳統酒。"
+      }
     },
     {
       "name": "갗bar",
@@ -2146,7 +2167,14 @@
             "zhHant": "入口細節"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "낮에는 카페, 밤에는 바로 즐길 수 있어요. 시그니처 위스키 라떼는 알코올·논알코올 중 선택할 수 있어요.",
+        "en": "A café by day and a bar by night. Its signature whiskey latte comes in alcoholic and non-alcoholic versions.",
+        "ja": "昼はカフェ、夜はバーとして楽しめます。名物のウイスキーラテはアルコール入り・ノンアルコールから選べます。",
+        "zhHans": "白天是咖啡馆，夜晚变身酒吧。招牌威士忌拿铁可选择含酒精或无酒精版本。",
+        "zhHant": "白天是咖啡館，夜晚變身酒吧。招牌威士忌拿鐵可選擇含酒精或無酒精版本。"
+      }
     },
     {
       "name": "이마트 청계천점",
