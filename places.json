@@ -144,7 +144,14 @@
             "zhHant": "新設洞烤肉店外觀與招牌"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "직원이 직접 구워주는 뼈삼겹살을 추천해요. 저녁에는 웨이팅이 있을 수 있어요.",
+        "en": "Try the bone-in pork belly grilled by the staff. There may be a wait in the evening.",
+        "ja": "スタッフが焼いてくれる骨付きサムギョプサルがおすすめ。夕方以降は待ち時間がある場合があります。",
+        "zhHans": "推荐由店员帮忙烤制的带骨五花肉，晚餐时段可能需要排队。",
+        "zhHant": "推薦由店員幫忙烤製的帶骨五花肉，晚餐時段可能需要排隊。"
+      }
     },
     {
       "name": "엔드롱",
@@ -419,7 +426,14 @@
             "zhHant": "Jaebeol Guksu 店面"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "제주식 고기국수를 추천해요. 두 분이 방문한다면 돔베고기도 함께 주문해 보세요.",
+        "en": "Try the Jeju-style pork noodle soup. If you're dining as a pair, consider sharing an order of dombe-gogi (sliced boiled pork).",
+        "ja": "済州風の豚肉麺がおすすめ。2名ならドンベゴギ（茹で豚の薄切り）も一緒にどうぞ。",
+        "zhHans": "推荐济州风味猪肉汤面。两人用餐的话，可以再点一份济州白切猪肉一起分享。",
+        "zhHant": "推薦濟州風味豬肉湯麵。兩人用餐的話，可以再點一份濟州白切豬肉一起分享。"
+      }
     },
     {
       "name": "육전식당 신설동본점",
@@ -1087,7 +1101,14 @@
             "zhHant": "復古風格餐廳內部"
           }
         }
-      ]
+      ],
+      "tip": {
+        "ko": "들기름막국수와 육전을 함께 추천해요. 맵지 않은 한식을 찾는 분께 좋아요.",
+        "en": "Try the perilla-oil buckwheat noodles with Korean beef pancakes—a great choice if you prefer non-spicy Korean food.",
+        "ja": "えごま油のマッククス（そば麺）と牛肉のチヂミがおすすめ。辛くない韓国料理をお探しの方にもぴったりです。",
+        "zhHans": "推荐搭配紫苏油荞麦面和韩式煎牛肉，适合想吃不辣韩餐的客人。",
+        "zhHant": "推薦搭配紫蘇油蕎麥麵和韓式煎牛肉，適合想吃不辣韓餐的旅客。"
+      }
     },
     {
       "name": "나정순할매쭈꾸미",
@@ -1144,6 +1165,13 @@
         "checkedDate": "2026-10-10",
         "breakTime": "15:00–17:00",
         "lastOrder": "14:00 / 20:00"
+      },
+      "tip": {
+        "ko": "1981년부터 이어온 쭈꾸미 노포예요. 꽤 매운 편이며 웨이팅이 있을 수 있어요.",
+        "en": "A long-running octopus spot dating back to 1981. It's quite spicy, and you may have to wait.",
+        "ja": "1981年創業の老舗イイダコ店。かなり辛く、待ち時間が発生することがあります。",
+        "zhHans": "始于1981年的老字号小章鱼店，口味较辣，可能需要排队。",
+        "zhHant": "始於1981年的老字號小章魚店，口味較辣，可能需要排隊。"
       }
     },
     {
@@ -1766,6 +1794,13 @@
         },
         "sourceUrl": "https://www.tabling.co.kr/place/677cd61366de5f0698905884",
         "checkedDate": "2026-10-10"
+      },
+      "tip": {
+        "ko": "푸짐한 부대찌개를 추천해요. 진하고 얼큰한 국물 맛이 특징이에요.",
+        "en": "Go for the generous budae-jjigae (Korean army stew), known for its rich, spicy broth.",
+        "ja": "ボリューム満点のプデチゲがおすすめ。コクのあるピリ辛スープが特徴です。",
+        "zhHans": "推荐分量十足的韩式部队锅，汤底浓郁又香辣。",
+        "zhHant": "推薦份量十足的韓式部隊鍋，湯底濃郁又香辣。"
       }
     },
     {
@@ -2649,11 +2684,11 @@
         "checkedDate": "2026-10-16"
       },
       "tip": {
-        "en": "Try the spicy octopus with the curry dipping sauce, and finish with fried rice.",
-        "ja": "辛いイイダコをカレーソースにつけて、最後は炒飯で締めるのがおすすめです。",
-        "zhHans": "推荐把辣炒小章鱼蘸咖喱酱吃，最后再点一份炒饭。",
-        "zhHant": "推薦將辣炒小章魚沾咖哩醬吃，最後再點一份炒飯。",
-        "ko": "매콤한 쭈꾸미를 카레 소스에 찍어 먹고, 볶음밥으로 마무리해 보세요."
+        "ko": "쭈꾸미에 삼겹살을 추가해 드시고, 마지막은 볶음밥으로 마무리해 보세요.",
+        "en": "Add pork belly to the spicy webfoot octopus, and finish your meal with fried rice.",
+        "ja": "イイダコ炒めに豚バラ肉を追加して、最後は炒飯で締めるのがおすすめです。",
+        "zhHans": "推荐在辣炒小章鱼中加一份五花肉，最后用炒饭收尾。",
+        "zhHant": "推薦在辣炒小章魚中加一份五花肉，最後用炒飯收尾。"
       }
     }
   ]
