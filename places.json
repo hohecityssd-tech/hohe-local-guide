@@ -1762,64 +1762,6 @@
       }
     },
     {
-      "name": "서울풍물시장",
-      "desc": "Flea Market",
-      "category": "spot",
-      "lat": 37.5727219,
-      "lng": 127.0255127,
-      "address": "서울 동대문구 천호대로4길 21",
-      "icon": "🏛",
-      "enName": "Seoul Folk Flea Market",
-      "jaName": "ソウル風物市場",
-      "descs": {
-        "en": "Flea Market",
-        "ja": "蚤の市",
-        "zhHans": "跳蚤市场",
-        "zhHant": "跳蚤市場",
-        "ko": "벼룩시장"
-      },
-      "zhHansName": "首尔风物市场",
-      "zhHantName": "首爾風物市場",
-      "naverUrl": "https://naver.me/FG7xgJRq",
-      "naverLinkStatus": "verified-share-link",
-      "googleUrl": "https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%92%8D%EB%AC%BC%EC%8B%9C%EC%9E%A5/data=!3m1!4b1!4m4!3m3!1s0x357ca34c23126fdd:0x1f2f44177f2a4cef!16s%2Fg%2F11jgf8t75!20s8Q99H2FG%2B36C",
-      "googleLinkStatus": "verified-address",
-      "googleVerifiedAt": "2026-10-09",
-      "hours": {
-        "timeZone": "Asia/Seoul",
-        "weekly": {
-          "mon": [
-            "10:00–19:00"
-          ],
-          "tue": [],
-          "wed": [
-            "10:00–19:00"
-          ],
-          "thu": [
-            "10:00–19:00"
-          ],
-          "fri": [
-            "10:00–19:00"
-          ],
-          "sat": [
-            "10:00–19:00"
-          ],
-          "sun": [
-            "10:00–19:00"
-          ]
-        },
-        "sourceUrl": "https://news.seoul.go.kr/economy/pungmul-time",
-        "checkedDate": "2026-10-10",
-        "specialHoursNotes": {
-          "ko": "시장 점포는 19:00까지, 식당가는 22:00까지 운영합니다.",
-          "en": "Market shops close at 19:00; food court open until 22:00.",
-          "ja": "市場の店舗は19:00まで、飲食店街は22:00まで営業します。",
-          "zhHans": "市场店铺营业至19:00，美食区营业至22:00。",
-          "zhHant": "市場店鋪營業至19:00，美食區營業至22:00。"
-        }
-      }
-    },
-    {
       "name": "오팔식당 신설역점",
       "enName": "Opal Sikdang",
       "jaName": "オパル食堂",
