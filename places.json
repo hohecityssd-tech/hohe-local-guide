@@ -2877,6 +2877,39 @@
           }
         }
       ]
+    },
+    {
+      "name": "프루스트",
+      "enName": "PROUST Perfume Workshop",
+      "jaName": "プルースト 香水工房",
+      "zhHansName": "PROUST 香水工坊",
+      "zhHantName": "PROUST 香水工坊",
+      "desc": "Perfume-Making Workshop in a Hanok",
+      "descs": {
+        "en": "Make your own signature perfume in a traditional Korean hanok, with expert guidance. Approx. 90 minutes · English available.",
+        "ko": "한옥에서 조향사의 안내를 받으며 나만의 향수를 만드는 체험. 약 90분 · 영어 진행 가능.",
+        "ja": "韓屋で専門家のアドバイスを受けながら自分だけの香水を作る体験。約90分・英語対応可。",
+        "zhHans": "在传统韩屋内，在专业调香师指导下调配属于自己的香水。约90分钟，提供英语指导。",
+        "zhHant": "在傳統韓屋內，由專業調香師指導，調配專屬於自己的香水。約90分鐘，提供英語指導。"
+      },
+      "category": "experience",
+      "lat": 37.581781049711,
+      "lng": 126.99980103603,
+      "address": "서울 종로구 창경궁로26길 38-3",
+      "icon": "✦",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Proust%2C+140-4+Myeongnyun+4%28sa%29-ga%2C+Jongno+District%2C+Seoul%2C+South+Korea&query_place_id=ChIJ_5KSvUKjfDURIA3CxKTCqCI",
+      "googleLinkStatus": "verified-official-place-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1111017200101400004008596/서울특별시-종로구-창경궁로26길-38-3-명륜4가",
+      "bookingUrl": "https://creatrip.com/en/spot/14826",
+      "bookingSourceUrl": "https://www.proustscent.com/visit-and-book/",
+      "tip": {
+        "en": "Book ahead and avoid wearing strong perfume on the day, so you can enjoy exploring the different scents.",
+        "ko": "사전에 예약하고 방문 당일에는 강한 향수를 피하세요. 다양한 향을 더 잘 구별할 수 있습니다.",
+        "ja": "事前予約がおすすめ。香りを比べやすいよう、当日は強い香水を控えましょう。",
+        "zhHans": "建议提前预约，体验当天尽量不要喷浓香水，以便更好地分辨不同香气。",
+        "zhHant": "建議提前預約，體驗當天盡量避免噴濃香水，以便更好地分辨不同香氣。"
+      }
     }
   ]
 }
