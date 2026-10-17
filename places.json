@@ -2909,7 +2909,94 @@
         "ja": "事前予約がおすすめ。香りを比べやすいよう、当日は強い香水を控えましょう。",
         "zhHans": "建议提前预约，体验当天尽量不要喷浓香水，以便更好地分辨不同香气。",
         "zhHant": "建議提前預約，體驗當天盡量避免噴濃香水，以便更好地分辨不同香氣。"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/프루스트1.png",
+          "alt": {
+            "ko": "프루스트 향수 공방 실내 조향 바",
+            "en": "PROUST perfume workshop fragrance blending bar",
+            "ja": "PROUSTの調香カウンター",
+            "zhHans": "PROUST 香水工坊调香吧台",
+            "zhHant": "PROUST 香水工坊調香吧台"
+          },
+          "caption": {
+            "ko": "프루스트의 조향 체험 공간",
+            "en": "Inside the PROUST perfume workshop",
+            "ja": "PROUSTの調香体験スペース",
+            "zhHans": "PROUST 香水调配体验空间",
+            "zhHant": "PROUST 香水調配體驗空間"
+          }
+        },
+        {
+          "src": "./photos/프루스트2.jpg",
+          "alt": {
+            "ko": "프루스트 공방의 유리 온실과 정원",
+            "en": "PROUST glass-walled courtyard garden",
+            "ja": "PROUSTのガラス張りの中庭",
+            "zhHans": "PROUST 玻璃庭院花园",
+            "zhHant": "PROUST 玻璃庭院花園"
+          },
+          "caption": {
+            "ko": "햇살이 드는 유리 정원",
+            "en": "Sunlit glass courtyard garden",
+            "ja": "陽光が差し込むガラスの中庭",
+            "zhHans": "阳光洒入的玻璃庭院",
+            "zhHant": "陽光灑入的玻璃庭院"
+          }
+        },
+        {
+          "src": "./photos/프루스트3.jpg",
+          "alt": {
+            "ko": "프루스트 공방 한옥 외관과 마당",
+            "en": "Traditional hanok exterior and courtyard at PROUST",
+            "ja": "PROUSTの韓屋外観と中庭",
+            "zhHans": "PROUST 传统韩屋外观与庭院",
+            "zhHant": "PROUST 傳統韓屋外觀與庭院"
+          },
+          "caption": {
+            "ko": "한옥 외관과 정원",
+            "en": "Traditional Korean hanok and garden",
+            "ja": "韓屋の外観と庭",
+            "zhHans": "传统韩屋与庭院",
+            "zhHant": "傳統韓屋與庭院"
+          }
+        },
+        {
+          "src": "./photos/프루스트4.jpg",
+          "alt": {
+            "ko": "Netflix 19/20 프루스트 향수 제작 장면",
+            "en": "Netflix 19/20 perfume-making scene at PROUST",
+            "ja": "Netflix 19/20、PROUSTでの香水作りの場面",
+            "zhHans": "Netflix《19/20》在 PROUST 制作香水的画面",
+            "zhHant": "Netflix《19/20》在 PROUST 製作香水的畫面"
+          },
+          "caption": {
+            "ko": "Netflix 19/20 · 프루스트에서 향수 만들기",
+            "en": "Netflix 19/20 · making perfume at PROUST",
+            "ja": "Netflix 19/20 · PROUSTで香水作り",
+            "zhHans": "Netflix 19/20 · 在 PROUST 制作香水",
+            "zhHant": "Netflix 19/20 · 在 PROUST 製作香水"
+          }
+        },
+        {
+          "src": "./photos/프루스트5.jpg",
+          "alt": {
+            "ko": "선미가 프루스트에서 향료를 탐색하는 장면",
+            "en": "SUNMI exploring fragrance materials at PROUST",
+            "ja": "SUNMIがPROUSTで香料を探る場面",
+            "zhHans": "SUNMI 在 PROUST 探索香料的画面",
+            "zhHant": "SUNMI 在 PROUST 探索香料的畫面"
+          },
+          "caption": {
+            "ko": "SUNMI · 프루스트에서 향료 탐색하기",
+            "en": "SUNMI · exploring fragrance materials at PROUST",
+            "ja": "SUNMI · PROUSTで香料を探る",
+            "zhHans": "SUNMI · 在 PROUST 探索香料",
+            "zhHant": "SUNMI · 在 PROUST 探索香料"
+          }
+        }
+      ]
     },
     {
       "name": "동묘벼룩시장",
