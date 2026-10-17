@@ -2910,6 +2910,108 @@
         "zhHans": "建议提前预约，体验当天尽量不要喷浓香水，以便更好地分辨不同香气。",
         "zhHant": "建議提前預約，體驗當天盡量避免噴濃香水，以便更好地分辨不同香氣。"
       }
+    },
+    {
+      "name": "동묘벼룩시장",
+      "enName": "Dongmyo Flea Market",
+      "jaName": "東廟蚤の市",
+      "zhHansName": "东庙跳蚤市场",
+      "zhHantName": "東廟跳蚤市場",
+      "desc": "Vintage Flea Market · Thrift Shopping & Hidden Treasures",
+      "descs": {
+        "en": "Vintage Flea Market · Thrift Shopping & Hidden Treasures",
+        "ja": "ヴィンテージ蚤の市 · 古着と掘り出し物探し",
+        "zhHans": "复古跳蚤市场 · 二手服饰与淘货",
+        "zhHant": "復古跳蚤市場 · 二手服飾與尋寶",
+        "ko": "빈티지 벼룩시장 · 구제 의류와 골동품 구경"
+      },
+      "category": "spot",
+      "lat": 37.5731,
+      "lng": 127.0177,
+      "address": "서울특별시 종로구 숭인동 102-8",
+      "icon": "📷",
+      "naverUrl": "https://map.naver.com/p/search/%EB%8F%99%EB%AC%98%EB%B2%BC%EB%A3%A9%EC%8B%9C%EC%9E%A5%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%88%AD%EC%9D%B8%EB%8F%99%20102-8",
+      "naverLinkStatus": "search-fallback",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Dongmyo%20Flea%20Market%2C%20102-8%20Sungin-dong%2C%20Jongno-gu%2C%20Seoul",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "market-area-center",
+      "pinSourceUrl": "https://commons.wikimedia.org/wiki/Category:Dongmyo_Flea_Market",
+      "sourceUrl": "https://korean.visitseoul.net/area/%EB%8F%99%EB%AC%98-%EB%B2%BC%EB%A3%A9%EC%8B%9C%EC%9E%A5-KR/KOP009646",
+      "tip": {
+        "ko": "주말 낮에는 노점이 더 활기차요. 작은 현금을 준비하고 빈티지 상품을 천천히 구경해보세요.",
+        "en": "Visit during the day on a weekend for livelier stalls. Bring some cash and take your time treasure hunting.",
+        "ja": "週末の昼間は露店がよりにぎやかです。現金を少し用意して、掘り出し物を探してみましょう。",
+        "zhHans": "周末白天摊位更热闹。带一点现金，慢慢淘选复古好物吧。",
+        "zhHant": "週末白天攤位更熱鬧。帶一點現金，慢慢尋找復古好物吧。"
+      }
+    },
+    {
+      "name": "경동시장",
+      "enName": "Gyeongdong Market",
+      "jaName": "京東市場",
+      "zhHansName": "京东市场",
+      "zhHantName": "京東市場",
+      "desc": "Traditional Market · Herbs, Ginseng & Retro Café",
+      "descs": {
+        "en": "Traditional Market · Herbal Ingredients, Ginseng & Retro Café",
+        "ja": "伝統市場 · 韓方薬材・高麗人参・レトロカフェ",
+        "zhHans": "传统市场 · 韩方药材、人参与复古咖啡馆",
+        "zhHant": "傳統市場 · 韓方藥材、人參與復古咖啡館",
+        "ko": "전통시장 · 한약재·인삼·옛 극장 카페"
+      },
+      "category": "spot",
+      "lat": 37.579089988,
+      "lng": 127.0391568047,
+      "address": "서울특별시 동대문구 고산자로36길 3",
+      "icon": "📷",
+      "naverUrl": "https://map.naver.com/p/search/%EA%B2%BD%EB%8F%99%EC%8B%9C%EC%9E%A5%20%EC%84%9C%EC%9A%B8%20%EB%8F%99%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EA%B3%A0%EC%82%B0%EC%9E%90%EB%A1%9C36%EA%B8%B8%203",
+      "naverLinkStatus": "search-fallback",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gyeongdong%20Market%2C%203%20Gosanja-ro%2036-gil%2C%20Seoul",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "tourism-board-location",
+      "pinSourceUrl": "https://data.visitkorea.or.kr/page/948730",
+      "sourceUrl": "https://korean.visitseoul.net/dongdaemun-around/kyungdong-market/KOP3rjtd6",
+      "tip": {
+        "ko": "시장 구경 후 옛 극장을 개조한 스타벅스 경동1960에도 들러보세요.",
+        "en": "After exploring the market, visit Starbucks Gyeongdong 1960, set inside a renovated old theater.",
+        "ja": "市場を巡った後は、昔の劇場を改装したスターバックス京東1960にも立ち寄ってみてください。",
+        "zhHans": "逛完市场，不妨去由老剧院改造的星巴克京东1960店坐坐。",
+        "zhHant": "逛完市場，不妨到由老劇院改建的星巴克京東1960店坐坐。"
+      }
+    },
+    {
+      "name": "광장시장",
+      "enName": "Gwangjang Market",
+      "jaName": "広蔵市場",
+      "zhHansName": "广藏市场",
+      "zhHantName": "廣藏市場",
+      "desc": "Traditional Market · Korean Street Food",
+      "descs": {
+        "en": "Traditional Market · Bindaetteok, Gimbap & Noodles",
+        "ja": "伝統市場 · ピンデトッ・キンパ・カルグクス",
+        "zhHans": "传统市场 · 绿豆煎饼、紫菜包饭与刀切面",
+        "zhHant": "傳統市場 · 綠豆煎餅、紫菜飯捲與刀切麵",
+        "ko": "전통시장 · 빈대떡·김밥·칼국수"
+      },
+      "category": "spot",
+      "lat": 37.57046742,
+      "lng": 127.00033716,
+      "address": "서울특별시 종로구 창경궁로 88",
+      "icon": "📷",
+      "naverUrl": "https://map.naver.com/p/search/%EA%B4%91%EC%9E%A5%EC%8B%9C%EC%9E%A5%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%B0%BD%EA%B2%BD%EA%B6%81%EB%A1%9C%2088",
+      "naverLinkStatus": "search-fallback",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gwangjang%20Market%2C%2088%20Changgyeonggung-ro%2C%20Jongno-gu%2C%20Seoul",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "market-area-center",
+      "pinSourceUrl": "https://mmt.purpleo.kr/article/1005",
+      "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106345",
+      "tip": {
+        "ko": "빈대떡·꼬마김밥·칼국수 등을 조금씩 맛보세요. 주문 전에 가격을 확인하면 좋아요.",
+        "en": "Sample mung-bean pancakes, mini gimbap and noodles. Check prices before ordering.",
+        "ja": "ピンデトッ、ミニキンパ、カルグクスなどを少しずつ味わってみて。注文前に値段も確認しましょう。",
+        "zhHans": "推荐少量多样地品尝绿豆煎饼、迷你紫菜包饭和刀切面，点餐前先确认价格。",
+        "zhHant": "推薦少量多樣地品嚐綠豆煎餅、迷你紫菜飯捲和刀切麵，點餐前先確認價格。"
+      }
     }
   ]
 }
