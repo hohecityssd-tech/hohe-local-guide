@@ -25,6 +25,7 @@
       --spot:#FEF3E2;
       --shop:#728E82;
       --transport:#426F91;
+      --experience:#D9C7D8;
     }
 
     *{box-sizing:border-box}
@@ -149,6 +150,7 @@
     .place-marker.spot.seongbukcheon-entrance{background:#F7E1E4;color:#2A1A0E}
     .place-marker.shop{background:var(--shop);color:#fff}
     .place-marker.transport{background:var(--transport);color:#fff}
+    .place-marker.experience{background:var(--experience);color:#2A1A0E}
 
     .hotel-wrap{display:flex;align-items:center;gap:6px}
     .hotel-label{
@@ -177,6 +179,23 @@
       cursor:pointer;
     }
 
+    .experience-jump{
+      position:absolute;left:12px;top:74px;z-index:9;
+      min-height:40px;border:1px solid var(--line);border-radius:11px;
+      background:rgba(255,253,249,.97);color:var(--text);
+      font-size:12px;font-weight:800;padding:0 12px;
+      box-shadow:0 3px 12px rgba(0,0,0,.10);cursor:pointer;
+    }
+    .experience-jump[hidden]{display:none}
+    .experience-jump:focus-visible,.booking-action:focus-visible{outline:2px solid #8E6551;outline-offset:3px}
+    .booking-action{
+      display:flex;align-items:center;justify-content:center;
+      width:100%;min-height:48px;margin:0 0 9px;padding:12px 15px;
+      border-radius:11px;background:var(--hotel);color:#fff;
+      font-size:14px;font-weight:800;text-align:center;text-decoration:none;
+      letter-spacing:.02em;
+    }
+    .booking-action[hidden]{display:none}
     .sheet{
       position:fixed;left:12px;right:12px;
       bottom:max(12px,env(safe-area-inset-bottom));
@@ -295,6 +314,7 @@
 <main class="app">
   <header><div class="brand">HOHE CITY <span>LOCAL GUIDE</span></div><button type="button" class="about-button" id="aboutBtn" aria-label="About this guide" aria-controls="introOverlay" aria-haspopup="dialog" title="About this guide">ⓘ</button></header>
   <div id="map"></div>
+  <button type="button" class="experience-jump" id="experienceBtn" hidden></button>
   <button class="locate" id="locateBtn">◎ MY LOCATION</button>
 </main>
 
@@ -381,6 +401,7 @@
       <a id="busOfficialLink" href="#" target="_blank" rel="noopener noreferrer"></a>
     </div>
   </div>
+  <a class="booking-action" id="bookingLink" hidden target="_blank" rel="noopener noreferrer"></a>
   <div class="map-actions" id="mapActions">
     <button class="directions" id="directionsBtn">NAVER MAP</button>
     <button class="directions secondary" id="googleBtn">GOOGLE MAPS</button>
@@ -467,6 +488,14 @@ const ui = {
   }
 }[locale];
 
+
+const experienceUi = {
+  en:{jump:"✦ EXPERIENCE",back:"← NEAR HOTEL",book:"BOOK THE EXPERIENCE ↗"},
+  ko:{jump:"✦ 체험",back:"← 호텔 주변",book:"체험 예약하기 ↗"},
+  ja:{jump:"✦ 体験",back:"← ホテル周辺",book:"体験を予約 ↗"},
+  zhHans:{jump:"✦ 体验",back:"← 酒店附近",book:"预约体验 ↗"},
+  zhHant:{jump:"✦ 體驗",back:"← 飯店附近",book:"預約體驗 ↗"}
+}[locale];
 
 const introUi = {
   en:{
@@ -659,12 +688,15 @@ const busPaymentSource = document.getElementById("busPaymentSource");
 const directionsBtn = document.getElementById("directionsBtn");
 const googleBtn = document.getElementById("googleBtn");
 const mapActions = document.getElementById("mapActions");
+const bookingLink = document.getElementById("bookingLink");
+const experienceBtn = document.getElementById("experienceBtn");
 const hotelNote = document.getElementById("hotelNote");
 
 document.getElementById("locateBtn").textContent = ui.myLocation;
 directionsBtn.textContent = ui.naver;
 googleBtn.textContent = ui.google;
 hotelNote.textContent = ui.hotel;
+experienceBtn.textContent = experienceUi.jump;
 
 const aboutBtn = document.getElementById("aboutBtn");
 const introOverlay = document.getElementById("introOverlay");
@@ -961,6 +993,14 @@ function openPlace(place){
   renderHours(place);
   renderBusSchedule(place);
   renderBusPayment(place);
+  const bookingUrl = typeof place.bookingUrl === "string" && /^https:\/\//.test(place.bookingUrl) ? place.bookingUrl : "";
+  bookingLink.hidden = !bookingUrl;
+  if(bookingUrl){
+    bookingLink.href = bookingUrl;
+    bookingLink.textContent = experienceUi.book;
+  }else{
+    bookingLink.removeAttribute("href");
+  }
 
   if(place.category === "hotel"){
     mapActions.hidden = true;
@@ -995,6 +1035,7 @@ function openGoogleDirections(place){
 
 // Approved category icons: Food/Cafe/Bar/Hotel A, Sightseeing B.
 const categoryIcons = {
+  "experience": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"6\" y=\"10\" width=\"12\" height=\"11\" rx=\"2\"/><path d=\"M10 10V7h4v3M9 3h6v4M9 16h6M12 13v6\"/></svg>",
   "transport": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"15\" rx=\"3\"/><path d=\"M5 11h14M8 7h3m2 0h3M7 18v3m10-3v3M8 15h.01M16 15h.01\"/></svg>",
   "shop": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M4 8h16l-1.3 12H5.3L4 8Z\"/><path d=\"M9 9V6a3 3 0 0 1 6 0v3\"/></svg>",
   "bar": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" focusable=\"false\">\n  <path d=\"m3 4 9 10 9-10H3Zm3.6 4h10.8M12 14v7M8 21h8\"/>\n</svg>",
@@ -1039,9 +1080,10 @@ map.on("load", async ()=>{
       new maplibregl.Marker({element:markerEl(place),anchor:"center"})
         .setLngLat([place.lng,place.lat])
         .addTo(map);
-      bounds.extend([place.lng,place.lat]);
+      if(place.category !== "experience") bounds.extend([place.lng,place.lat]);
     });
 
+    experienceBtn.hidden = !places.some(place=>place.category==="experience");
     if(photoDemo){
       const demoHotel=places.find(place=>place.category==="hotel");
       if(demoHotel)openPlace(demoHotel);
@@ -1059,6 +1101,20 @@ map.on("load", async ()=>{
   }
 });
 
+let showingExperience = false;
+experienceBtn.addEventListener("click",()=>{
+  const experience = places.find(place=>place.category==="experience");
+  if(!experience)return;
+  if(showingExperience){
+    map.fitBounds(bounds,{padding:{top:85,right:44,bottom:90,left:44},maxZoom:16.8,duration:500});
+    closeSheet();
+  }else{
+    map.flyTo({center:[experience.lng,experience.lat],zoom:16.4,duration:600});
+    openPlace(experience);
+  }
+  showingExperience = !showingExperience;
+  experienceBtn.textContent = showingExperience ? experienceUi.back : experienceUi.jump;
+});
 map.on("click", closeSheet);
 document.getElementById("closeBtn").addEventListener("click", closeSheet);
 
