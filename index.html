@@ -48,6 +48,58 @@
     .brand{font-size:14px;font-weight:850;letter-spacing:.08em}
     .brand span{margin-left:7px;color:var(--muted);font-weight:650}
 
+    /* Short first-visit introduction; the map remains the main page. */
+    .about-button{
+      margin-left:auto;width:36px;height:36px;flex:none;
+      border:1px solid var(--line);border-radius:50%;
+      color:var(--hotel);background:var(--panel);
+      font-size:19px;font-weight:650;cursor:pointer;
+    }
+    .about-button:focus-visible,.intro-close:focus-visible,.intro-explore:focus-visible{
+      outline:2px solid #8E6551;outline-offset:3px;
+    }
+    .intro-overlay{
+      position:fixed;top:60px;left:0;right:0;bottom:0;
+      z-index:45;display:flex;align-items:center;justify-content:center;
+      padding:16px;background:rgba(29,29,27,.38);
+    }
+    .intro-overlay[hidden]{display:none!important}
+    .intro-dialog{
+      position:relative;width:100%;max-width:440px;
+      max-height:calc(100dvh - 92px);overflow-y:auto;
+      background:#fff;border-radius:14px;
+      box-shadow:0 14px 38px rgba(0,0,0,.17);
+      padding:32px 25px 25px;
+    }
+    .intro-close{
+      position:absolute;top:9px;right:10px;width:36px;height:36px;
+      border:0;background:transparent;color:#827D76;
+      font-size:26px;font-weight:400;cursor:pointer;
+    }
+    .intro-title{
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(24px,6vw,29px);font-weight:600;
+      line-height:1.18;letter-spacing:-.035em;color:var(--hotel);
+      margin:4px 20px 22px 0;
+    }
+    .intro-paragraph{
+      font-size:14px;line-height:1.7;color:#514C47;margin:0;
+      overflow-wrap:break-word;
+    }
+    .intro-divider{height:1px;background:var(--line);margin:20px 0}
+    .intro-explore{
+      display:block;width:100%;min-height:48px;
+      margin-top:24px;padding:12px 14px;border:0;border-radius:7px;
+      background:var(--hotel);color:#fff;
+      font-size:13px;font-weight:750;letter-spacing:.035em;cursor:pointer;
+    }
+    @media(max-height:530px){
+      .intro-overlay{align-items:flex-start}
+    }
+    @media(min-width:800px){
+      .intro-overlay{left:50%;right:auto;width:580px;transform:translateX(-50%)}
+    }
+
     #map{flex:1;min-height:0}
 
     .place-marker{
@@ -213,10 +265,22 @@
 
 <body>
 <main class="app">
-  <header><div class="brand">HOHE CITY <span>LOCAL GUIDE</span></div></header>
+  <header><div class="brand">HOHE CITY <span>LOCAL GUIDE</span></div><button type="button" class="about-button" id="aboutBtn" aria-label="About this guide" aria-controls="introOverlay" aria-haspopup="dialog" title="About this guide">ⓘ</button></header>
   <div id="map"></div>
   <button class="locate" id="locateBtn">◎ MY LOCATION</button>
 </main>
+
+
+<div class="intro-overlay" id="introOverlay" hidden>
+  <section class="intro-dialog" role="dialog" aria-modal="true" aria-labelledby="introTitle" aria-describedby="introDesc introHelp">
+    <button type="button" class="intro-close" id="introClose" aria-label="Close introduction">×</button>
+    <h1 class="intro-title" id="introTitle">Discover Our Neighborhood</h1>
+    <p class="intro-paragraph" id="introDesc">Our hotel manager has visited and selected the places on this map, focusing on spots popular with local residents.</p>
+    <div class="intro-divider" aria-hidden="true"></div>
+    <p class="intro-paragraph" id="introHelp">Need help during your stay? Our front desk can assist with restaurant reservations, online orders, and communication in Korean.</p>
+    <button type="button" class="intro-explore" id="introExplore">EXPLORE THE MAP →</button>
+  </section>
+</div>
 
 <section class="sheet" id="sheet" aria-live="polite">
   <button class="close" aria-label="Close" id="closeBtn">×</button>
@@ -360,6 +424,40 @@ const ui = {
     noLocation:"이 기기에서는 현재 위치를 사용할 수 없습니다.",
     allowLocation:"현재 위치를 표시하려면 위치 권한을 허용해주세요.",
     loadError:"주변 가이드를 불러오지 못했습니다. 다시 시도해주세요."
+  }
+}[locale];
+
+
+const introUi = {
+  en:{
+    title:"Discover Our Neighborhood",
+    description:"Our hotel manager has visited and selected the places on this map, focusing on spots popular with local residents.",
+    help:"Need help during your stay? Our front desk can assist with restaurant reservations, online orders, and communication in Korean.",
+    explore:"EXPLORE THE MAP →",about:"About this guide",close:"Close introduction"
+  },
+  ko:{
+    title:"우리 동네를 만나보세요",
+    description:"호텔 매니저가 직접 방문하고 선정한 장소들입니다. 지역 주민들이 즐겨 찾는 식당, 카페, 바 등을 중심으로 소개합니다.",
+    help:"식당 예약, 온라인 주문 등 한국어 도움이 필요하거나 여행 중 궁금한 점이 있다면 프런트에 문의해 주세요.",
+    explore:"지도 둘러보기 →",about:"가이드 소개",close:"소개창 닫기"
+  },
+  ja:{
+    title:"ホテル周辺を散策しよう",
+    description:"この地図には、ホテルのマネージャーが実際に訪れて選んだ場所を掲載しています。地元の人がよく訪れる飲食店やカフェ、バーなどを中心にご紹介します。",
+    help:"レストランの予約、オンライン注文、韓国語でのやり取りなど、ご滞在中にお困りのことがあればフロントにお声がけください。",
+    explore:"地図を見る →",about:"ガイドについて",close:"案内を閉じる"
+  },
+  zhHans:{
+    title:"探索酒店周边",
+    description:"地图上的地点均由酒店经理亲自探访并挑选，主要介绍当地居民常去的餐厅、咖啡馆和酒吧等。",
+    help:"住宿期间如需餐厅预约、线上下单、韩语沟通等方面的帮助，欢迎咨询前台。",
+    explore:"查看地图 →",about:"关于本指南",close:"关闭介绍"
+  },
+  zhHant:{
+    title:"探索飯店周邊",
+    description:"地圖上的地點均由飯店經理親自探訪並挑選，主要介紹當地居民常去的餐廳、咖啡館和酒吧等。",
+    help:"住宿期間如需餐廳訂位、線上下單、韓語溝通等方面的協助，歡迎洽詢櫃檯。",
+    explore:"查看地圖 →",about:"關於本指南",close:"關閉介紹"
   }
 }[locale];
 
@@ -512,6 +610,59 @@ document.getElementById("locateBtn").textContent = ui.myLocation;
 directionsBtn.textContent = ui.naver;
 googleBtn.textContent = ui.google;
 hotelNote.textContent = ui.hotel;
+
+const aboutBtn = document.getElementById("aboutBtn");
+const introOverlay = document.getElementById("introOverlay");
+const introClose = document.getElementById("introClose");
+const introExplore = document.getElementById("introExplore");
+const introStorageKey = "hohe-local-guide-intro-seen-v1";
+
+document.getElementById("introTitle").textContent = introUi.title;
+document.getElementById("introDesc").textContent = introUi.description;
+document.getElementById("introHelp").textContent = introUi.help;
+introExplore.textContent = introUi.explore;
+introClose.setAttribute("aria-label",introUi.close);
+aboutBtn.setAttribute("aria-label",introUi.about);
+aboutBtn.title = introUi.about;
+
+function showIntro(){
+  introOverlay.hidden = false;
+  introClose.focus({preventScroll:true});
+}
+function dismissIntro(){
+  if(introOverlay.hidden) return;
+  introOverlay.hidden = true;
+  try { localStorage.setItem(introStorageKey,"1"); } catch (_) {}
+  aboutBtn.focus({preventScroll:true});
+}
+aboutBtn.addEventListener("click",showIntro);
+introClose.addEventListener("click",dismissIntro);
+introExplore.addEventListener("click",dismissIntro);
+introOverlay.addEventListener("click",event=>{
+  if(event.target === introOverlay) dismissIntro();
+});
+introOverlay.addEventListener("keydown",event=>{
+  if(event.key === "Escape"){
+    event.preventDefault();
+    dismissIntro();
+  }
+  if(event.key === "Tab"){
+    const first = introClose;
+    const last = introExplore;
+    if(event.shiftKey && document.activeElement === first){
+      event.preventDefault();last.focus();
+    } else if(!event.shiftKey && document.activeElement === last){
+      event.preventDefault();first.focus();
+    }
+  }
+});
+const introQuery = new URLSearchParams(window.location.search);
+let introSeen = false;
+try { introSeen = localStorage.getItem(introStorageKey) === "1"; } catch (_) {}
+if(introQuery.get("intro") === "1" ||
+   (!introSeen && introQuery.get("intro") !== "0" && introQuery.get("photoDemo") !== "1")){
+  showIntro();
+}
 
 const bounds = new maplibregl.LngLatBounds();
 let userMarker = null;
