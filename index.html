@@ -211,7 +211,7 @@
       transition:transform .2s ease;
     }
     .sheet.open{transform:translateY(0)}
-    .photo-gallery{margin:-16px -16px 14px;overflow:hidden;border-radius:15px 15px 0 0;background:#E8E3DC;}
+    .photo-gallery{margin:0 -16px 14px;overflow:hidden;background:#E8E3DC;}
     .photo-gallery[hidden],.photo-viewer[hidden]{display:none!important}
     .photo-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;
       scrollbar-width:none;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y}
@@ -224,16 +224,27 @@
     .photo-caption{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
     .photo-count{font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--text)}
     .photo-viewer{position:fixed;z-index:99;inset:0;background:rgba(18,18,18,.96);
-      display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 12px 30px}
-    .photo-viewer img{display:block;max-width:100%;max-height:75dvh;width:auto;height:auto;object-fit:contain}
-    .photo-viewer-close{position:absolute;right:12px;top:max(12px,env(safe-area-inset-top));width:42px;height:42px;
-      color:#fff;background:rgba(255,255,255,.15);border:0;border-radius:50%;font-size:25px;cursor:pointer}
-    .photo-viewer-bottom{color:#fff;text-align:center;font-size:12px;margin-top:12px;min-height:36px}
-    .photo-viewer-controls{display:flex;align-items:center;gap:18px;justify-content:center;margin-top:10px}
+      display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:0}
+    .photo-viewer-header{width:100%;height:calc(62px + env(safe-area-inset-top));flex:none;
+      display:flex;align-items:center;justify-content:flex-end;
+      padding:env(safe-area-inset-top) 16px 0;background:#202020;
+      border-bottom:1px solid rgba(255,255,255,.12)}
+    .photo-viewer-stage{width:100%;flex:1;min-height:0;padding:12px;
+      display:flex;align-items:center;justify-content:center}
+    .photo-viewer img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+    .photo-viewer-close{width:44px;height:44px;flex:none;color:#fff;background:#383838;
+      border:1px solid rgba(255,255,255,.23);border-radius:50%;
+      font-size:26px;line-height:1;cursor:pointer}
+    .photo-viewer-close:focus-visible,.close:focus-visible{outline:2px solid #F4AE52;outline-offset:2px}
+    .photo-viewer-bottom{color:#fff;text-align:center;font-size:12px;margin:6px 12px 0;min-height:22px}
+    .photo-viewer-controls{display:flex;align-items:center;gap:18px;justify-content:center;
+      margin-top:6px;padding-bottom:calc(20px + env(safe-area-inset-bottom))}
     .photo-viewer-controls button{background:rgba(255,255,255,.15);border:0;border-radius:9px;padding:8px 17px;color:#fff;font-size:18px;cursor:pointer}
     .photo-viewer-controls button[hidden]{display:none}
-    .close{z-index:3;background:rgba(255,253,249,.92);border-radius:50%}
-    .sheet-name{font-size:18px;font-weight:850;margin-right:36px}
+    .sheet-header{position:sticky;top:-16px;z-index:4;display:flex;align-items:center;
+      justify-content:flex-end;height:54px;margin:-16px -16px 0;padding:0 12px;
+      background:var(--panel);border-bottom:1px solid var(--line)}
+    .sheet-name{font-size:18px;font-weight:850}
     .sheet-local{font-size:12px;color:var(--muted);margin-top:2px}
     .place-tip{display:flex;align-items:flex-start;gap:8px;margin:-2px 0 14px;font-size:12px;line-height:1.5;color:var(--text)}
     .place-tip[hidden]{display:none}
@@ -242,11 +253,8 @@
       border-radius:5px;padding:2px 6px;font-size:10px;font-weight:850;letter-spacing:.06em}
     .place-tip-text{min-width:0}
     .sheet-desc{font-size:14px;color:var(--muted);margin:4px 0 14px}
-    .close{
-      position:absolute;right:10px;top:8px;
-      width:34px;height:34px;border:0;background:transparent;
-      color:var(--muted);font-size:25px;cursor:pointer;
-    }
+    .close{width:42px;height:42px;flex:none;border:0;border-radius:50%;
+      background:var(--hotel);color:#fff;font-size:26px;line-height:1;cursor:pointer}
     .map-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
     .map-actions[hidden]{display:none}
     .directions{
@@ -343,7 +351,9 @@
 </div>
 
 <section class="sheet" id="sheet" aria-live="polite">
-  <button class="close" aria-label="Close" id="closeBtn">×</button>
+  <div class="sheet-header">
+    <button class="close" type="button" aria-label="Close" id="closeBtn">×</button>
+  </div>
   <div class="photo-gallery" id="photoGallery" hidden aria-label="Place photos">
     <div class="photo-track" id="photoTrack"></div>
     <div class="photo-caption-line">
@@ -410,8 +420,12 @@
 </section>
 
 <div class="photo-viewer" id="photoViewer" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
-  <button class="photo-viewer-close" id="photoViewerClose" type="button" aria-label="Close photo">×</button>
-  <img id="photoViewerImg" alt="">
+  <div class="photo-viewer-header">
+    <button class="photo-viewer-close" id="photoViewerClose" type="button" aria-label="Close photo">×</button>
+  </div>
+  <div class="photo-viewer-stage" id="photoViewerStage">
+    <img id="photoViewerImg" alt="">
+  </div>
   <div class="photo-viewer-bottom" id="photoViewerCaption"></div>
   <div class="photo-viewer-controls">
     <button type="button" id="photoViewerPrev" aria-label="Previous photo">‹</button>
@@ -973,7 +987,7 @@ photoViewerNext.addEventListener("click",()=>{
   currentViewerIndex=(currentViewerIndex+1)%currentPhotos.length;
   updatePhotoViewer();
 });
-photoViewer.addEventListener("click",e=>{if(e.target===photoViewer)closePhotoViewer()});
+photoViewer.addEventListener("click",e=>{if(e.target===photoViewer || e.target.id==="photoViewerStage")closePhotoViewer()});
 document.addEventListener("keydown",e=>{
   if(photoViewer.hidden)return;
   if(e.key==="Escape")closePhotoViewer();
