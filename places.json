@@ -4122,6 +4122,398 @@
           "zhHant": "部分舊資訊仍顯示會南路83號，較新的地址為26號。"
         }
       }
+    },
+    {
+      "name": "힐즈앤유로파",
+      "enName": "Hills & Europa",
+      "jaName": "ヒルズ＆ヨーロッパ",
+      "zhHansName": "Hills & Europa 酒吧",
+      "zhHantName": "Hills & Europa 酒吧",
+      "desc": "Music Lounge · Cocktails & Caramel Pudding",
+      "descs": {
+        "ko": "LP 음악이 흐르는 해방촌 라운지 · 칵테일과 캐러멜 푸딩",
+        "en": "Haebangchon music lounge · Cocktails and caramel pudding",
+        "ja": "レコード音楽が流れる解放村のラウンジ · カクテルとキャラメルプリン",
+        "zhHans": "解放村黑胶音乐酒廊 · 鸡尾酒与焦糖布丁",
+        "zhHant": "解放村黑膠音樂酒廊 · 雞尾酒與焦糖布丁"
+      },
+      "category": "bar",
+      "lat": 37.5416434416,
+      "lng": 126.9871173627,
+      "address": "서울 용산구 신흥로 35 2층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/FHlXJ5La",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://www.holidaykr.com/attractions/113944",
+      "tip": {
+        "ko": "LP 음악과 아늑한 분위기가 매력이에요. 낮에는 캐러멜 푸딩, 밤에는 시그니처 칵테일을 추천해요.",
+        "en": "Come for the vinyl music and cozy atmosphere. Try caramel pudding during the day or a signature cocktail at night.",
+        "ja": "レコード音楽と居心地の良い空間が魅力。昼はキャラメルプリン、夜はシグネチャーカクテルがおすすめです。",
+        "zhHans": "黑胶音乐和温馨氛围是亮点。白天尝焦糖布丁，晚上试试招牌鸡尾酒。",
+        "zhHant": "黑膠音樂和溫馨氛圍是亮點。白天嚐焦糖布丁，晚上試試招牌雞尾酒。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "19:00–02:00 (+1)"
+          ],
+          "tue": [
+            "19:00–02:00 (+1)"
+          ],
+          "wed": [
+            "19:00–02:00 (+1)"
+          ],
+          "thu": [
+            "19:00–02:00 (+1)"
+          ],
+          "fri": [
+            "19:00–02:00 (+1)"
+          ],
+          "sat": [
+            "12:00–17:00",
+            "18:00–02:00 (+1)"
+          ],
+          "sun": [
+            "12:00–17:00",
+            "18:00–02:00 (+1)"
+          ]
+        },
+        "sourceUrl": "https://japanese.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=215305",
+        "checkedDate": "2026-10-26",
+        "lastOrder": "01:40",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "일부 안내 자료에서 낮 운영 및 브레이크타임이 다르게 표시됩니다. 방문 전 확인하세요.",
+          "en": "Daytime opening and break hours vary across listings. Confirm before visiting.",
+          "ja": "昼の営業時間と休憩時間は情報源により異なります。来店前にご確認ください。",
+          "zhHans": "不同资料标注的白天营业及休息时间不一致，请提前确认。",
+          "zhHant": "不同資料標示的白天營業及休息時間不一致，請提前確認。"
+        }
+      }
+    },
+    {
+      "name": "유어네이키드치즈",
+      "enName": "Your Naked Cheese",
+      "jaName": "ユア・ネイキッド・チーズ",
+      "zhHansName": "Your Naked Cheese 芝士与葡萄酒",
+      "zhHantName": "Your Naked Cheese 起司與葡萄酒",
+      "desc": "Cheese Bar & Wine · Seasonal Cheese Platters",
+      "descs": {
+        "ko": "제철 치즈 플래터와 와인을 즐기는 치즈 바",
+        "en": "Cheese-focused wine bar · Seasonal cheese platters",
+        "ja": "季節のチーズ盛り合わせとワインを楽しめるチーズバー",
+        "zhHans": "芝士葡萄酒吧 · 季节限定芝士拼盘",
+        "zhHant": "起司葡萄酒吧 · 季節限定起司拼盤"
+      },
+      "category": "bar",
+      "lat": 37.546788812676,
+      "lng": 127.04533114238,
+      "address": "서울 성동구 왕십리로10길 6 서울숲비즈포레 1층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/5IS9aFkQ",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400106560439008214/",
+      "tip": {
+        "ko": "제철 치즈플래터는 구성이 달라지는 대표 메뉴예요. 좋아하는 와인 스타일을 직원에게 알려주고 함께 즐겨보세요.",
+        "en": "The signature cheese platter changes seasonally. Tell the staff your wine preferences and ask for a pairing.",
+        "ja": "季節ごとに内容が変わるチーズ盛り合わせが名物。ワインの好みを伝えてペアリングを相談しましょう。",
+        "zhHans": "招牌芝士拼盘会随季节变化。告诉店员喜欢的葡萄酒风格，请他们推荐搭配。",
+        "zhHant": "招牌起司拼盤會隨季節變化。告訴店員喜歡的葡萄酒風格，請他們推薦搭配。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [],
+          "wed": [
+            "12:00–23:00"
+          ],
+          "thu": [
+            "12:00–23:00"
+          ],
+          "fri": [
+            "12:00–23:00"
+          ],
+          "sat": [
+            "12:00–23:00"
+          ],
+          "sun": [
+            "12:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://english.visitseoul.net/area/yournakedcheese/ENP04d1r9",
+        "checkedDate": "2026-10-26",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "서울 관광 공식 안내 기준 12~14시는 포장만 가능해요. 일부 다른 자료의 화요일 운영정보와 시간이 다릅니다.",
+          "en": "Seoul's official guide lists takeaway only from 12:00–14:00; Tuesday opening and some hours differ across listings.",
+          "ja": "ソウル公式観光案内では12〜14時は持ち帰りのみ。火曜営業や一部の時間は情報源により異なります。",
+          "zhHans": "首尔官方旅游指南注明12–14点仅供外带；周二营业及部分时段各来源不一致。",
+          "zhHant": "首爾官方旅遊指南註明12–14點僅供外帶；週二營業及部分時段各來源不一致。"
+        }
+      }
+    },
+    {
+      "name": "브루어리을를 서울숲",
+      "enName": "Brewery Eulreul Seoul Forest",
+      "jaName": "ブルワリーウルル ソウルの森",
+      "zhHansName": "Brewery Eulreul 首尔林",
+      "zhHantName": "Brewery Eulreul 首爾林",
+      "desc": "Craft Beer Taproom · British-Style Pub Food",
+      "descs": {
+        "ko": "다양한 수제맥주와 영국식 펍 음식을 즐기는 탭룸",
+        "en": "Craft beer taproom · British-style pub food",
+        "ja": "多彩なクラフトビールと英国風パブ料理を楽しめるタップルーム",
+        "zhHans": "精酿啤酒酒馆 · 英式酒吧餐点",
+        "zhHant": "精釀啤酒酒館 · 英式酒吧餐點"
+      },
+      "category": "bar",
+      "lat": 37.546859216124,
+      "lng": 127.04239347415,
+      "address": "서울 성동구 서울숲4길 16-25 2·3층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/5465SBRi",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400106680084027726/",
+      "tip": {
+        "ko": "맥주 스타일이 다양해요. 취향에 맞는 탭을 추천받고, 피시앤칩스나 감자튀김을 곁들여 보세요.",
+        "en": "Ask the staff to recommend a draft beer for your tastes, and pair it with fish and chips or fries.",
+        "ja": "好みに合う樽生ビールをスタッフに相談して、フィッシュ＆チップスやフライドポテトと一緒に。",
+        "zhHans": "告诉店员你的啤酒喜好，请他们推荐生啤，再搭配炸鱼薯条或薯条。",
+        "zhHant": "告訴店員你的啤酒喜好，請他們推薦生啤，再搭配炸魚薯條或薯條。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "17:00–23:00"
+          ],
+          "wed": [
+            "17:00–23:00"
+          ],
+          "thu": [
+            "17:00–23:00"
+          ],
+          "fri": [
+            "17:00–23:00"
+          ],
+          "sat": [
+            "14:30–23:00"
+          ],
+          "sun": [
+            "14:30–23:00"
+          ]
+        },
+        "sourceUrl": "https://gilpost.com/ko/서울/성수동1가/맛집/브루어리을를-서울숲/",
+        "checkedDate": "2026-10-26",
+        "lastOrder": "22:30"
+      }
+    },
+    {
+      "name": "주신당",
+      "enName": "Zoo Sindang",
+      "jaName": "ズーシンダン",
+      "zhHansName": "Zoo Sindang 十二生肖鸡尾酒吧",
+      "zhHantName": "Zoo Sindang 十二生肖雞尾酒吧",
+      "desc": "Korean Zodiac-Themed Speakeasy Cocktail Bar",
+      "descs": {
+        "ko": "십이지신을 테마로 한 한국식 스피크이지 칵테일바",
+        "en": "Korean zodiac-themed speakeasy · Signature cocktails",
+        "ja": "十二支をテーマにした韓国風スピークイージーバー",
+        "zhHans": "韩国十二生肖主题隐秘鸡尾酒吧",
+        "zhHant": "韓國十二生肖主題隱密雞尾酒吧"
+      },
+      "category": "bar",
+      "lat": 37.565628736725,
+      "lng": 127.01729266262,
+      "address": "서울 중구 퇴계로 411 1층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/5MVzZEpK",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1114016300100720000009770/",
+      "tip": {
+        "ko": "입구의 고양이 조형물에서 숨겨진 문을 찾아보세요. 자신의 띠를 테마로 만든 칵테일을 고르는 재미가 있어요.",
+        "en": "Look for the hidden entrance by the cat figure, then try a cocktail themed after your birth-year zodiac animal.",
+        "ja": "猫のオブジェ近くの隠れた入口を探してみて。自分の干支をテーマにしたカクテルもおすすめです。",
+        "zhHans": "寻找猫咪摆件旁的隐藏入口，再试试以自己生肖为主题的鸡尾酒。",
+        "zhHant": "尋找貓咪擺件旁的隱藏入口，再試試以自己生肖為主題的雞尾酒。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "18:00–01:00 (+1)"
+          ],
+          "tue": [
+            "18:00–01:00 (+1)"
+          ],
+          "wed": [
+            "18:00–01:00 (+1)"
+          ],
+          "thu": [
+            "18:00–01:00 (+1)"
+          ],
+          "fri": [
+            "18:00–01:00 (+1)"
+          ],
+          "sat": [
+            "18:00–01:00 (+1)"
+          ],
+          "sun": [
+            "18:00–01:00 (+1)"
+          ]
+        },
+        "sourceUrl": "https://english.visitseoul.net/area/2024-joosindang/ENP32nfdl",
+        "checkedDate": "2026-10-26",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "서울 관광 공식 안내는 01:00 마감이지만 최근 일부 자료는 02:00 마감 또는 수요일 휴무로 표시합니다. 방문 전 확인하세요.",
+          "en": "Seoul's official guide lists 01:00 closing; newer listings sometimes show 02:00 closing or Wednesday closure. Verify before visiting.",
+          "ja": "ソウル公式観光案内は1時閉店ですが、他の情報では2時閉店や水曜休業と記載されています。事前確認を。",
+          "zhHans": "首尔官方旅游指南标示凌晨1点关门，其他资料有凌晨2点或周三休息的说法，建议提前确认。",
+          "zhHant": "首爾官方旅遊指南標示凌晨1點關門，其他資料有凌晨2點或週三休息的說法，建議提前確認。"
+        }
+      }
+    },
+    {
+      "name": "코끼리브루어리 신당",
+      "enName": "Kokkiri Brewery Sindang",
+      "jaName": "コッキリブルワリー 新堂",
+      "zhHansName": "Kokkiri 精酿啤酒吧 新堂",
+      "zhHantName": "Kokkiri 精釀啤酒吧 新堂",
+      "desc": "Craft Beer Pub · Korean-Inspired Bar Snacks",
+      "descs": {
+        "ko": "수제맥주와 개성 있는 한식 퓨전 안주를 즐기는 펍",
+        "en": "Craft beer bar · Creative Korean-inspired pub food",
+        "ja": "クラフトビールと韓国風創作おつまみが楽しめるパブ",
+        "zhHans": "精酿啤酒吧 · 创意韩式下酒菜",
+        "zhHant": "精釀啤酒吧 · 創意韓式下酒菜"
+      },
+      "category": "bar",
+      "lat": 37.566593566767,
+      "lng": 127.01945662657,
+      "address": "서울 중구 퇴계로83길 22-37 1층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/GyYbMNCZ",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1114016500103660000002669/",
+      "tip": {
+        "ko": "첫 잔으로 ESC 비엔나 라거를 추천해요. 깻잎크림순대 같은 한국식 퓨전 안주도 함께 즐겨보세요.",
+        "en": "Start with the ESC Vienna Lager, then explore creative Korean bar snacks like perilla-cream sundae sausage.",
+        "ja": "最初の一杯はESCウィンナーラガーがおすすめ。エゴマクリームのスンデなど韓国風創作料理もぜひ。",
+        "zhHans": "第一杯可选 ESC 维也纳拉格啤酒，搭配紫苏叶奶油韩式血肠等创意下酒菜。",
+        "zhHant": "第一杯可選 ESC 維也納拉格啤酒，搭配紫蘇葉奶油韓式血腸等創意下酒菜。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "17:00–00:00 (+1)"
+          ],
+          "tue": [
+            "17:00–00:00 (+1)"
+          ],
+          "wed": [
+            "17:00–00:00 (+1)"
+          ],
+          "thu": [
+            "17:00–00:00 (+1)"
+          ],
+          "fri": [
+            "17:00–00:00 (+1)"
+          ],
+          "sat": [
+            "15:00–00:00 (+1)"
+          ],
+          "sun": [
+            "15:00–00:00 (+1)"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd42366de5f06988cd8e0",
+        "checkedDate": "2026-10-26",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "일부 자료는 토요일 01:00, 일요일 23:00 마감으로 표시합니다. 방문 전 확인하세요.",
+          "en": "Some listings show Saturday closing at 01:00 and Sunday at 23:00. Confirm before visiting.",
+          "ja": "土曜1時、日曜23時閉店と記載する情報もあります。来店前に確認してください。",
+          "zhHans": "部分资料标示周六凌晨1点、周日23点关门，请提前确认。",
+          "zhHant": "部分資料標示週六凌晨1點、週日23點關門，請提前確認。"
+        }
+      }
+    },
+    {
+      "name": "사테",
+      "enName": "SATE",
+      "jaName": "サテ",
+      "zhHansName": "SATE 葡萄酒餐吧",
+      "zhHantName": "SATE 葡萄酒餐酒館",
+      "desc": "Asian Fusion Wine Bar · Creative Small Plates",
+      "descs": {
+        "ko": "아시안 퓨전 요리와 다양한 와인을 즐기는 해방촌 와인바",
+        "en": "Asian-fusion dining and a wide wine selection · Haebangchon",
+        "ja": "アジアンフュージョン料理と幅広いワインが楽しめる解放村のワインバー",
+        "zhHans": "解放村亚洲融合料理与葡萄酒吧",
+        "zhHant": "解放村亞洲融合料理與葡萄酒吧"
+      },
+      "category": "bar",
+      "lat": 37.5408555,
+      "lng": 126.9868113,
+      "address": "서울 용산구 신흥로 25 1층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/x1VkNle8",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04338-111703102005-st-652c0a49f27008be2c4fe08b",
+      "tip": {
+        "ko": "아시아 여러 나라의 향신료를 활용한 요리가 특징이에요. 메뉴를 고른 뒤 직원에게 어울리는 와인을 추천받아보세요.",
+        "en": "The menu blends bold Asian flavors. Pick your dishes first, then ask the staff for a wine pairing.",
+        "ja": "アジア各国のスパイスを生かした料理が魅力。料理を選んでから、合うワインを相談しましょう。",
+        "zhHans": "菜肴融合多国亚洲香料风味。先选好菜，再请店员推荐搭配的葡萄酒。",
+        "zhHant": "菜餚融合多國亞洲香料風味。先選好菜，再請店員推薦搭配的葡萄酒。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "17:00–01:00 (+1)"
+          ],
+          "tue": [
+            "17:00–01:00 (+1)"
+          ],
+          "wed": [
+            "17:00–01:00 (+1)"
+          ],
+          "thu": [
+            "17:00–01:00 (+1)"
+          ],
+          "fri": [
+            "17:00–02:00 (+1)"
+          ],
+          "sat": [
+            "16:00–02:00 (+1)"
+          ],
+          "sun": [
+            "16:00–02:00 (+1)"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=e4u2u70ScOtv",
+        "checkedDate": "2026-10-26",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "과거 자료에는 수요일 휴무로 표시된 적이 있습니다. 방문 전 최신 영업시간을 확인하세요.",
+          "en": "Older listings mention Wednesday closure. Check current opening days before visiting.",
+          "ja": "過去の情報では水曜定休との記載もあります。訪問前に最新の営業日を確認してください。",
+          "zhHans": "较早资料曾标示周三休息，建议到店前确认最新营业日。",
+          "zhHant": "較早資料曾標示週三休息，建議到店前確認最新營業日。"
+        }
+      }
     }
   ]
 }
