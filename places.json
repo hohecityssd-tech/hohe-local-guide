@@ -5014,6 +5014,201 @@
         "sourceUrl": "https://korean.visitseoul.net/entertainment/2024-monamiss/KOPk0r1d9",
         "checkedDate": "2026-10-26"
       }
+    },
+    {
+      "name": "하우스 노웨어 서울",
+      "enName": "HAUS NOWHERE SEOUL",
+      "jaName": "ハウス ノーウェア ソウル",
+      "zhHansName": "HAUS NOWHERE SEOUL 首尔",
+      "zhHantName": "HAUS NOWHERE SEOUL 首爾",
+      "desc": "Immersive Design & Art Destination · Creative Flagship Spaces",
+      "descs": {
+        "ko": "건축·미디어 아트·브랜드 쇼룸을 경험하는 성수의 복합문화공간",
+        "en": "Futuristic architecture, immersive installations and creative brand spaces",
+        "ja": "近未来的な建築・没入型アート・ブランド空間を楽しめる複合施設",
+        "zhHans": "集未来感建筑、沉浸式艺术和品牌展厅于一体的复合空间",
+        "zhHant": "集未來感建築、沉浸式藝術和品牌展廳於一體的複合空間"
+      },
+      "category": "spot",
+      "lat": 37.53814,
+      "lng": 127.05895,
+      "address": "서울 성동구 뚝섬로 433",
+      "icon": "📷",
+      "naverUrl": "https://naver.me/F3Y9bCIv",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "venue-building-centroid",
+      "pinSourceUrl": "https://mapcarta.com/W1480619745",
+      "sourceUrl": "https://www.gentlemonster.com/kr/en/customercare",
+      "tip": {
+        "ko": "건물 밖 독특한 건축물부터 1층 프로젝트 공간, 2층 젠틀몬스터, 3층 브랜드 쇼룸, 5층 누데이크 티하우스까지 둘러보세요. 4층은 방문객 출입이 불가해요.",
+        "en": "Start with the dramatic exterior, then explore the project space (1F), Gentle Monster (2F), brand showrooms (3F) and NUDAKE Tea House (5F). The 4th floor is not open to visitors.",
+        "ja": "特徴的な外観に加え、1階の展示スペース、2階のジェントルモンスター、3階のブランド店舗、5階のNUDAKEティーハウスへ。4階は一般入場不可です。",
+        "zhHans": "先欣赏独特建筑外观，再参观1楼企划空间、2楼GENTLE MONSTER、3楼品牌展厅和5楼NUDAKE茶屋。4楼不对游客开放。",
+        "zhHant": "先欣賞獨特建築外觀，再參觀1樓企劃空間、2樓GENTLE MONSTER、3樓品牌展廳和5樓NUDAKE茶屋。4樓不對旅客開放。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–21:00"
+          ],
+          "tue": [
+            "11:00–21:00"
+          ],
+          "wed": [
+            "11:00–21:00"
+          ],
+          "thu": [
+            "11:00–21:00"
+          ],
+          "fri": [
+            "11:00–21:00"
+          ],
+          "sat": [
+            "11:00–21:00"
+          ],
+          "sun": [
+            "11:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.gentlemonster.com/kr/ko/stores/detail/779149716700285432",
+        "checkedDate": "2026-10-26"
+      },
+      "sharedVenueWith": "젠틀몬스터 성수"
+    },
+    {
+      "name": "디뮤지엄",
+      "enName": "D MUSEUM",
+      "jaName": "Dミュージアム",
+      "zhHansName": "D MUSEUM 迪美术馆",
+      "zhHantName": "D MUSEUM 藝術博物館",
+      "desc": "Contemporary Art & Design Museum · Rotating Exhibitions",
+      "descs": {
+        "ko": "서울숲 인근 현대미술·디자인 전시 공간 · 전시별 운영 일정 확인 필요",
+        "en": "Contemporary art and design museum near Seoul Forest · Check the current exhibition",
+        "ja": "ソウルの森近くの現代アート・デザイン美術館 · 展覧会日程の確認を",
+        "zhHans": "首尔林附近的当代艺术与设计美术馆 · 请确认当前展览",
+        "zhHant": "首爾林附近的當代藝術與設計美術館 · 請確認當前展覽"
+      },
+      "category": "spot",
+      "lat": 37.5441547484979,
+      "lng": 127.043357753557,
+      "address": "서울 성동구 왕십리로 83-21 아크로 서울포레스트",
+      "icon": "📷",
+      "naverUrl": "https://naver.me/5DDl3yQQ",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400106850700000001/",
+      "sourceUrl": "https://www.daelimmuseum.org/visit",
+      "tip": {
+        "ko": "전시 주제가 수시로 바뀌고 전시 사이에는 휴관할 수 있어요. 현재 전시·예매 가능 여부를 공식 홈페이지에서 확인한 뒤 방문하세요.",
+        "en": "Exhibitions change, and the museum may close between shows. Check the current program and ticket availability on its official website before visiting.",
+        "ja": "展示内容は入れ替わり、会期の間は休館する場合があります。公式サイトで開催中の展示とチケット販売状況をご確認ください。",
+        "zhHans": "展览会定期更换，换展期间可能闭馆。出发前请在官网确认当期展览及门票情况。",
+        "zhHant": "展覽會定期更換，換展期間可能休館。出發前請在官網確認當期展覽及門票情況。"
+      },
+      "hoursVerificationNote": "2026-10-26: last confirmed temporary exhibition ended 2026-09-20; business listing says temporarily closed; no current weekly hours entered.",
+      "currentProgramSourceUrl": "https://www.daelimmuseum.org/visit"
+    },
+    {
+      "name": "에스팩토리",
+      "enName": "SFACTORY Seongsu",
+      "jaName": "SFACTORY 聖水",
+      "zhHansName": "SFACTORY 圣水",
+      "zhHantName": "SFACTORY 聖水",
+      "desc": "Industrial Cultural Complex · Pop-Ups, Exhibitions & Events",
+      "descs": {
+        "ko": "옛 공장 공간에서 전시·브랜드 팝업·공연·마켓 등이 열리는 복합문화공간",
+        "en": "Former industrial complex hosting rotating pop-ups, exhibitions, festivals and events",
+        "ja": "工場跡を活用した、ポップアップ・展覧会・イベントの大型複合施設",
+        "zhHans": "旧工厂改造的大型文化空间 · 快闪店、展览与活动",
+        "zhHant": "舊工廠改造的大型文化空間 · 快閃店、展覽與活動"
+      },
+      "category": "spot",
+      "lat": 37.54282,
+      "lng": 127.05891,
+      "address": "서울 성동구 연무장15길 11",
+      "icon": "📷",
+      "naverUrl": "https://naver.me/IGJY8Oxw",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "published-venue-coordinates",
+      "pinSourceUrl": "https://place.reopt.ai/places/seongsu-sfactory",
+      "sourceUrl": "https://www.sfactory.co.kr/",
+      "tip": {
+        "ko": "상설 전시장보다 행사 공간에 가까워요. 방문 전 열리는 팝업·전시와 진행 동, 입장료 및 사전예약 필요 여부를 확인하세요.",
+        "en": "This is an event venue rather than a permanent exhibition. Check what's on, the building, admission fee and any reservation requirements before visiting.",
+        "ja": "常設展示よりイベント中心の施設です。訪問前に開催内容、会場の棟、入場料や予約の有無を確認しましょう。",
+        "zhHans": "这里以活动场地为主，并非固定展馆。请提前查看快闪或展览日程、具体楼栋、门票和预约要求。",
+        "zhHant": "這裡以活動場地為主，並非固定展館。請提前查看快閃或展覽日程、具體棟別、門票和預約要求。"
+      },
+      "hoursVerificationNote": "No general visitor hours. Opening depends on event and tenant, per official SFACTORY website."
+    },
+    {
+      "name": "LCDC SEOUL",
+      "enName": "LCDC SEOUL",
+      "jaName": "LCDC SEOUL",
+      "zhHansName": "LCDC SEOUL 复合文化空间",
+      "zhHantName": "LCDC SEOUL 複合文化空間",
+      "desc": "Multi-Brand Cultural Space · Lifestyle Shops, Café & Pop-Ups",
+      "descs": {
+        "ko": "다양한 독립 브랜드와 카페, 팝업 공간을 한 곳에서 만나는 복합문화공간",
+        "en": "Multi-floor creative space with independent brands, a café and rotating pop-ups",
+        "ja": "独立ブランドのショップ、カフェ、ポップアップが集まる複合施設",
+        "zhHans": "集合独立品牌、咖啡馆与快闪活动的多层文化空间",
+        "zhHant": "集合獨立品牌、咖啡館與快閃活動的多層文化空間"
+      },
+      "category": "spot",
+      "lat": 37.541547523539,
+      "lng": 127.0613234607,
+      "address": "서울 성동구 연무장17길 10",
+      "icon": "📷",
+      "naverUrl": "https://naver.me/FhULoWVz",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011500102750028004574/",
+      "sourceUrl": "https://www.lcdc-seoul.com/lcdc/about/about.html",
+      "tip": {
+        "ko": "1층 카페에서 시작해 2층 편집숍과 3층 작은 브랜드 숍을 둘러보세요. 층마다 운영시간이 다르며 3층은 월요일 휴무예요.",
+        "en": "Start at the ground-floor café, then explore curated shops on 2F and independent brands on 3F. Hours vary by floor, and 3F is closed on Mondays.",
+        "ja": "1階のカフェから始めて、2階のセレクトショップと3階の個性派ショップへ。フロアごとに営業時間が異なり、3階は月曜休業です。",
+        "zhHans": "可从1楼咖啡馆开始，再逛2楼买手店和3楼独立品牌。各楼层时间不同，3楼周一休息。",
+        "zhHant": "可從1樓咖啡館開始，再逛2樓選品店和3樓獨立品牌。各樓層時間不同，3樓週一休息。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–21:00"
+          ],
+          "tue": [
+            "10:00–21:00"
+          ],
+          "wed": [
+            "10:00–21:00"
+          ],
+          "thu": [
+            "10:00–21:00"
+          ],
+          "fri": [
+            "10:00–21:00"
+          ],
+          "sat": [
+            "10:00–21:00"
+          ],
+          "sun": [
+            "10:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://m.lcdc-seoul.com/lcdc/information.html",
+        "checkedDate": "2026-10-26",
+        "specialHoursNotes": {
+          "ko": "전체 시설의 운영시간 범위입니다. 1층 10–20시, 2층 11–20시, 3층 12–19시(월요일 휴무·입점 업체별 상이), 4층 11–21시(15:30–17:30 브레이크).",
+          "en": "Overall venue range. 1F 10:00–20:00; 2F 11:00–20:00; 3F 12:00–19:00 (closed Mon; tenant hours vary); 4F 11:00–21:00 (break 15:30–17:30).",
+          "ja": "施設全体の時間帯。1階10–20時、2階11–20時、3階12–19時（月曜休・店舗により異なる）、4階11–21時（15:30–17:30休憩）。",
+          "zhHans": "为整栋设施的时间范围：1楼10–20点；2楼11–20点；3楼12–19点（周一休、各店不同）；4楼11–21点（15:30–17:30休息）。",
+          "zhHant": "為整棟設施的時間範圍：1樓10–20點；2樓11–20點；3樓12–19點（週一休、各店不同）；4樓11–21點（15:30–17:30休息）。"
+        }
+      }
     }
   ]
 }
