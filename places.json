@@ -3453,6 +3453,304 @@
         "zhHans": "推荐少量多样地品尝绿豆煎饼、迷你紫菜包饭和刀切面，点餐前先确认价格。",
         "zhHant": "推薦少量多樣地品嚐綠豆煎餅、迷你紫菜飯捲和刀切麵，點餐前先確認價格。"
       }
+    },
+    {
+      "name": "SOJI BREAD&COFFEE",
+      "enName": "SOJI BREAD & COFFEE",
+      "jaName": "ソジ ブレッド＆コーヒー",
+      "zhHansName": "SOJI 面包与咖啡",
+      "zhHantName": "SOJI 麵包與咖啡",
+      "desc": "Bakery & Coffee · Curated Breads",
+      "descs": {
+        "ko": "신설동의 베이커리 카페 · 엄선한 다양한 빵과 커피",
+        "en": "Neighborhood bakery café · Curated breads and coffee",
+        "ja": "新設洞のベーカリーカフェ · 厳選したパンとコーヒー",
+        "zhHans": "新设洞的面包咖啡馆 · 精选面包与咖啡",
+        "zhHant": "新設洞的麵包咖啡館 · 精選麵包與咖啡"
+      },
+      "category": "bakery",
+      "lat": 37.5770493164021,
+      "lng": 127.027101526909,
+      "address": "서울 동대문구 왕산로 33 1층",
+      "icon": "🥐",
+      "naverUrl": "https://naver.me/FRLN3MTP",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://bav.purpleo.kr/article/14368",
+      "tip": {
+        "ko": "호텔과 가까운 신설동역 근처예요. 여러 베이커리에서 고른 빵과 커피를 함께 즐겨보세요.",
+        "en": "Near Sinseol-dong Station and the hotel. Stop in for a coffee and a selection of breads from different bakeries.",
+        "ja": "ホテル近くの新設洞駅そば。さまざまなベーカリーのパンとコーヒーを楽しめます。",
+        "zhHans": "靠近酒店与新设洞站，可以在这里搭配咖啡品尝来自不同面包店的精选面包。",
+        "zhHant": "靠近飯店與新設洞站，可以在這裡搭配咖啡品嚐來自不同麵包店的精選麵包。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "08:30–20:00"
+          ],
+          "tue": [
+            "08:30–20:00"
+          ],
+          "wed": [
+            "08:30–20:00"
+          ],
+          "thu": [
+            "08:30–20:00"
+          ],
+          "fri": [
+            "08:30–20:00"
+          ],
+          "sat": [
+            "09:00–19:00"
+          ],
+          "sun": [
+            "09:00–19:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=rTigdzdXUo1z",
+        "secondarySourceUrl": "https://www.daangn.com/kr/local-profile/soji-bread-coffee-8gphvp75du8m/",
+        "checkedDate": "2026-10-26",
+        "verification": "conflicting-sources"
+      }
+    },
+    {
+      "name": "베통 성수",
+      "enName": "BETON Seongsu",
+      "jaName": "ベトン 聖水",
+      "zhHansName": "BETON 圣水店",
+      "zhHantName": "BETON 聖水店",
+      "desc": "Salt Bread Specialty Bakery",
+      "descs": {
+        "ko": "소금빵 전문 베이커리 · 다양한 맛의 소금빵",
+        "en": "Salt bread specialty bakery · Classic and flavored varieties",
+        "ja": "塩パン専門ベーカリー · 定番から多彩なフレーバーまで",
+        "zhHans": "盐面包专门店 · 原味及多种口味",
+        "zhHant": "鹽麵包專門店 · 原味及多種口味"
+      },
+      "category": "bakery",
+      "lat": 37.5429356,
+      "lng": 127.0552214,
+      "address": "서울 성동구 연무장7가길 8",
+      "icon": "🥐",
+      "naverUrl": "https://naver.me/FQVGKBbb",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04782-112004109410-st-652bf0dd4e0223ae18065d34",
+      "tip": {
+        "ko": "처음이라면 기본 소금빵과 다른 맛 한 가지를 비교해보세요. 인기 메뉴는 일찍 품절될 수 있어요.",
+        "en": "Start with the classic salt bread, then try a flavored version. Popular varieties can sell out early.",
+        "ja": "まずは定番の塩パンとアレンジ味を食べ比べて。人気商品は早めに売り切れることがあります。",
+        "zhHans": "先尝原味盐面包，再选一种特色口味比较。热门口味可能提早售罄。",
+        "zhHant": "先嚐原味鹽麵包，再選一種特色口味比較。熱門口味可能提早售罄。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "09:00–18:30"
+          ],
+          "tue": [
+            "09:00–18:30"
+          ],
+          "wed": [
+            "09:00–18:30"
+          ],
+          "thu": [
+            "09:00–18:30"
+          ],
+          "fri": [
+            "09:00–18:30"
+          ],
+          "sat": [
+            "09:00–18:30"
+          ],
+          "sun": [
+            "09:00–18:30"
+          ]
+        },
+        "sourceUrl": "https://breadly.kr/bakeries/cmmx1j6b90boppej1d6dw4cql",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "심세정 신당",
+      "enName": "Simsejeong Sindang",
+      "jaName": "シムセジョン 新堂",
+      "zhHansName": "Simsejeong 新堂店",
+      "zhHantName": "Simsejeong 新堂店",
+      "desc": "Bakery Café · Pastries in a Converted Warehouse",
+      "descs": {
+        "ko": "옛 창고 분위기의 베이커리 카페 · 페이스트리와 커피",
+        "en": "Converted warehouse-style bakery café · Pastries and coffee",
+        "ja": "倉庫を改装した雰囲気のベーカリーカフェ · ペストリーとコーヒー",
+        "zhHans": "旧仓库风格的面包咖啡馆 · 酥皮点心与咖啡",
+        "zhHant": "舊倉庫風格的麵包咖啡館 · 酥皮點心與咖啡"
+      },
+      "category": "bakery",
+      "lat": 37.566105498121,
+      "lng": 127.01706425808,
+      "address": "서울 중구 퇴계로 409-11 1층",
+      "icon": "🥐",
+      "naverUrl": "https://naver.me/GQ15zGkt",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1114016300100880000009667/서울특별시-중구-퇴계로-409-11-흥인동",
+      "tip": {
+        "ko": "빵 종류가 다양하고 옛 창고의 분위기를 살린 공간이 매력적이에요. 날씨가 좋으면 야외 자리도 살펴보세요.",
+        "en": "Browse the wide pastry selection and the converted warehouse space. Check the outdoor seats when the weather is nice.",
+        "ja": "種類豊富なパンと倉庫を改装した空間が魅力。天気が良ければ屋外席もおすすめです。",
+        "zhHans": "面包种类丰富，旧仓库改造的空间很有特色。天气好时不妨看看室外座位。",
+        "zhHant": "麵包種類豐富，舊倉庫改造的空間很有特色。天氣好時不妨看看室外座位。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "09:00–21:30"
+          ],
+          "tue": [
+            "09:00–21:30"
+          ],
+          "wed": [
+            "09:00–21:30"
+          ],
+          "thu": [
+            "09:00–21:30"
+          ],
+          "fri": [
+            "09:00–21:30"
+          ],
+          "sat": [
+            "10:00–21:30"
+          ],
+          "sun": [
+            "10:00–21:30"
+          ]
+        },
+        "lastOrder": "21:00",
+        "sourceUrl": "https://dessertnow.j-curve.co.kr/서울/중구/심세정-신당/",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "런던베이글뮤지엄 안국",
+      "enName": "London Bagel Museum Anguk",
+      "jaName": "ロンドンベーグルミュージアム 安国",
+      "zhHansName": "伦敦贝果博物馆 安国店",
+      "zhHantName": "倫敦貝果博物館 安國店",
+      "desc": "Popular Bagel Bakery · Bagels & Cream Cheese",
+      "descs": {
+        "ko": "다양한 베이글과 크림치즈 · 안국의 인기 베이글 전문점",
+        "en": "Popular bagel bakery · Bagels, cream cheese and sandwiches",
+        "ja": "人気のベーグル専門店 · ベーグルとクリームチーズ",
+        "zhHans": "热门贝果专门店 · 贝果、奶油奶酪及三明治",
+        "zhHant": "熱門貝果專門店 · 貝果、奶油乳酪及三明治"
+      },
+      "category": "bakery",
+      "lat": 37.579206766762,
+      "lng": 126.98623617528,
+      "address": "서울 종로구 북촌로4길 20",
+      "icon": "🥐",
+      "naverUrl": "https://naver.me/xNLZDTek",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1111014800101030004019058/서울특별시-종로구-북촌로4길-20-계동",
+      "tip": {
+        "ko": "대기가 길 수 있으니 방문 전 대기 등록 방법을 확인하세요. 포장 줄이 더 빠를 때도 있어요.",
+        "en": "Queues can be long. Check the waitlist procedure before visiting; takeaway may be faster.",
+        "ja": "行列が長くなることも。事前に順番待ちの方法を確認しましょう。テイクアウトの方が早い場合もあります。",
+        "zhHans": "可能需要排队，建议提前了解取号方式；外带有时会更快。",
+        "zhHant": "可能需要排隊，建議提前了解取號方式；外帶有時會更快。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "07:00–18:00"
+          ],
+          "tue": [
+            "07:00–18:00"
+          ],
+          "wed": [
+            "07:00–18:00"
+          ],
+          "thu": [
+            "07:00–18:00"
+          ],
+          "fri": [
+            "07:00–18:00"
+          ],
+          "sat": [
+            "07:00–18:00"
+          ],
+          "sun": [
+            "07:00–18:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=xOAPSFIxvqdP",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "런던베이글뮤지엄 도산",
+      "enName": "London Bagel Museum Dosan",
+      "jaName": "ロンドンベーグルミュージアム 島山",
+      "zhHansName": "伦敦贝果博物馆 岛山店",
+      "zhHantName": "倫敦貝果博物館 島山店",
+      "desc": "Popular Bagel Bakery · London-Inspired Interior",
+      "descs": {
+        "ko": "다양한 베이글과 크림치즈 · 런던풍 인테리어",
+        "en": "Bagel bakery with many flavors · London-inspired décor",
+        "ja": "種類豊富なベーグル · ロンドン風の店内",
+        "zhHans": "多种口味的贝果 · 伦敦风格室内设计",
+        "zhHant": "多種口味的貝果 · 倫敦風格室內設計"
+      },
+      "category": "bakery",
+      "lat": 37.526050696098,
+      "lng": 127.03642939755,
+      "address": "서울 강남구 언주로168길 33 1·2층",
+      "icon": "🥐",
+      "naverUrl": "https://naver.me/x3jFNMoV",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1168010700106420025010040/서울특별시-강남구-언주로168길-33-신사동",
+      "tip": {
+        "ko": "도산공원·압구정로데오 방문과 함께 들르기 좋아요. 인기 베이글은 이른 시간에 선택 폭이 넓을 수 있어요.",
+        "en": "Pair this stop with Dosan Park or Apgujeong Rodeo. Visit earlier for a better selection of popular bagels.",
+        "ja": "島山公園や狎鴎亭ロデオと合わせて訪問を。人気のベーグルは早い時間ほど選びやすいです。",
+        "zhHans": "可与岛山公园或狎鸥亭罗德奥一起安排；早点到店更容易选到热门口味。",
+        "zhHant": "可與島山公園或狎鷗亭羅德奧一起安排；早點到店更容易選到熱門口味。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "08:00–18:00"
+          ],
+          "tue": [
+            "08:00–18:00"
+          ],
+          "wed": [
+            "08:00–18:00"
+          ],
+          "thu": [
+            "08:00–18:00"
+          ],
+          "fri": [
+            "08:00–18:00"
+          ],
+          "sat": [
+            "08:00–18:00"
+          ],
+          "sun": [
+            "08:00–18:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=CXs4Fzz5hGpj",
+        "checkedDate": "2026-10-26"
+      }
     }
   ]
 }
