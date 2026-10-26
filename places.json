@@ -3751,6 +3751,377 @@
         "sourceUrl": "https://www.diningcode.com/profile.php?rid=CXs4Fzz5hGpj",
         "checkedDate": "2026-10-26"
       }
+    },
+    {
+      "name": "안목 성수",
+      "enName": "Anmok Seongsu",
+      "jaName": "アンモク 聖水",
+      "zhHansName": "Anmok 圣水店",
+      "zhHantName": "Anmok 聖水店",
+      "desc": "Korean Pork Soup with Rice · Dwaeji Gukbap",
+      "descs": {
+        "ko": "깔끔한 돼지국밥과 수육을 즐기는 한식당",
+        "en": "Korean pork soup with rice · Pork slices and boiled pork",
+        "ja": "豚肉のクッパと茹で豚肉を味わえる韓国料理店",
+        "zhHans": "韩式猪肉汤饭与白切猪肉",
+        "zhHant": "韓式豬肉湯飯與白切豬肉"
+      },
+      "category": "food",
+      "lat": 37.5411906,
+      "lng": 127.0579599,
+      "address": "서울 성동구 뚝섬로13길 34 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5QiPD9S9",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04785-112004109151-st-652bf0de4e0223ae18065f8f",
+      "tip": {
+        "ko": "기본 돼지국밥은 맵지 않아 부담이 적어요. 더 진한 맛을 원하면 취향에 따라 양념을 추가해보세요.",
+        "en": "The classic pork soup is not spicy. Add seasoning to taste if you prefer a bolder broth.",
+        "ja": "定番の豚クッパは辛くありません。濃い味が好きなら、調味料を好みで加えてみてください。",
+        "zhHans": "经典猪肉汤饭不辣，想要更浓郁的味道可按喜好添加调味料。",
+        "zhHant": "經典豬肉湯飯不辣，想要更濃郁的味道可依喜好添加調味料。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–22:00"
+          ],
+          "tue": [
+            "10:00–22:00"
+          ],
+          "wed": [
+            "10:00–22:00"
+          ],
+          "thu": [
+            "10:00–22:00"
+          ],
+          "fri": [
+            "10:00–22:00"
+          ],
+          "sat": [
+            "10:00–22:00"
+          ],
+          "sun": [
+            "10:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/69365b147dadbfe8d3e99cf8",
+        "checkedDate": "2026-10-26",
+        "lastOrder": "21:10"
+      }
+    },
+    {
+      "name": "루루피피글루글루",
+      "enName": "Lulu Pipi Glou Glou",
+      "jaName": "ルルピピグルグル",
+      "zhHansName": "Lulu Pipi Glou Glou",
+      "zhHantName": "Lulu Pipi Glou Glou",
+      "desc": "French-Inspired Bistro · Natural Wine & Small Plates",
+      "descs": {
+        "ko": "내추럴 와인과 프렌치풍 요리를 즐기는 작은 비스트로",
+        "en": "Intimate French-inspired bistro · Natural wine and small plates",
+        "ja": "ナチュラルワインとフレンチ風の小皿料理が楽しめるビストロ",
+        "zhHans": "温馨法式小酒馆 · 自然葡萄酒与精致小盘菜",
+        "zhHant": "溫馨法式小酒館 · 自然葡萄酒與精緻小盤菜"
+      },
+      "category": "food",
+      "lat": 37.543401614451,
+      "lng": 127.05565484334,
+      "address": "서울 성동구 연무장5가길 25 104호",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/53lK0QTz",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011500103150061005205/",
+      "tip": {
+        "ko": "내추럴 와인을 잘 몰라도 직원에게 취향을 말하고 음식과 어울리는 한 잔을 추천받아보세요.",
+        "en": "New to natural wine? Tell the staff what flavors you enjoy and ask for a glass to pair with your food.",
+        "ja": "ナチュラルワインが初めてでも、好みを伝えて料理に合う一杯を相談してみましょう。",
+        "zhHans": "不了解自然葡萄酒也没关系，告诉店员喜欢的口味，请他们推荐适合配餐的一杯。",
+        "zhHant": "不了解自然葡萄酒也沒關係，告訴店員喜歡的口味，請他們推薦適合配餐的一杯。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "17:00–00:00 (+1)"
+          ],
+          "wed": [
+            "17:00–00:00 (+1)"
+          ],
+          "thu": [
+            "17:00–00:00 (+1)"
+          ],
+          "fri": [
+            "17:00–00:00 (+1)"
+          ],
+          "sat": [
+            "17:00–00:00 (+1)"
+          ],
+          "sun": [
+            "17:00–00:00 (+1)"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd41566de5f06988cbeaa",
+        "checkedDate": "2026-10-26",
+        "lastOrder": "22:00"
+      }
+    },
+    {
+      "name": "뇨끼룸",
+      "enName": "Gnocchi Room",
+      "jaName": "ニョッキルーム",
+      "zhHansName": "Gnocchi Room 手工意餐厅",
+      "zhHantName": "Gnocchi Room 手工義餐廳",
+      "desc": "Italian Gnocchi & Fresh Pasta · Open Kitchen",
+      "descs": {
+        "ko": "수제 뇨끼와 생면 파스타를 선보이는 아담한 이탈리안 레스토랑",
+        "en": "Handmade gnocchi and fresh pasta · Intimate open kitchen",
+        "ja": "手作りニョッキと生パスタ · オープンキッチンの小さなイタリアン",
+        "zhHans": "手工意式团子与鲜制意面 · 开放式厨房",
+        "zhHant": "手工義式麵疙瘩與鮮製義大利麵 · 開放式廚房"
+      },
+      "category": "food",
+      "lat": 37.541698161115,
+      "lng": 127.04775613359,
+      "address": "서울 성동구 성수일로1길 8 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/G9r5Wkxy",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400106560574008702/",
+      "tip": {
+        "ko": "트러플 크림 또는 훈제 치즈 뇨끼가 인기예요. 자리가 적은 편이라 방문 전 예약을 추천해요.",
+        "en": "Try the truffle cream or smoked-cheese gnocchi. The restaurant is small, so booking ahead is recommended.",
+        "ja": "トリュフクリームやスモークチーズのニョッキが人気。席数が少ないため事前予約がおすすめです。",
+        "zhHans": "推荐松露奶油或烟熏芝士意式团子。座位不多，建议提前预约。",
+        "zhHant": "推薦松露奶油或煙燻起司義式麵疙瘩。座位不多，建議提前預約。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–15:00",
+            "17:30–22:00"
+          ],
+          "tue": [
+            "11:30–15:00",
+            "17:30–22:00"
+          ],
+          "wed": [
+            "11:30–15:00",
+            "17:30–22:00"
+          ],
+          "thu": [
+            "11:30–15:00",
+            "17:30–22:00"
+          ],
+          "fri": [
+            "11:30–15:00",
+            "17:30–22:00"
+          ],
+          "sat": [
+            "11:30–15:00",
+            "17:30–22:00"
+          ],
+          "sun": [
+            "11:30–15:00",
+            "17:30–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Gnocchi+Room+Seongsu",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "진작다이닝 성수점",
+      "enName": "Jinjak Dining Seongsu",
+      "jaName": "ジンジャクダイニング 聖水店",
+      "zhHansName": "Jinjak Dining 圣水店",
+      "zhHantName": "Jinjak Dining 聖水店",
+      "desc": "Modern Japanese Fusion · Futomaki, Rice Bowls & Pasta",
+      "descs": {
+        "ko": "후토마키와 일식 덮밥, 파스타를 즐기는 퓨전 다이닝",
+        "en": "Modern Japanese fusion · Futomaki, rice bowls and pasta",
+        "ja": "太巻き・和風丼・パスタを楽しめるモダンな和食ダイニング",
+        "zhHans": "现代日式融合料理 · 粗卷寿司、盖饭及意面",
+        "zhHant": "現代日式融合料理 · 粗卷壽司、蓋飯及義大利麵"
+      },
+      "category": "food",
+      "lat": 37.549398091499,
+      "lng": 127.0456537615,
+      "address": "서울 성동구 왕십리로14나길 10 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/GgWkGkCK",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400106561250007758/",
+      "tip": {
+        "ko": "처음 방문한다면 대표 메뉴인 후토마키를 추천해요. 주말 식사시간에는 대기가 있을 수 있어요.",
+        "en": "Try the signature futomaki on your first visit. Expect possible queues at busy weekend mealtimes.",
+        "ja": "初めてなら名物の太巻きがおすすめ。週末の食事時は待ち時間が発生することがあります。",
+        "zhHans": "第一次来推荐招牌粗卷寿司，周末用餐高峰可能需要排队。",
+        "zhHant": "第一次來推薦招牌粗卷壽司，週末用餐尖峰可能需要排隊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–21:00"
+          ],
+          "tue": [
+            "11:30–21:00"
+          ],
+          "wed": [
+            "11:30–21:00"
+          ],
+          "thu": [
+            "11:30–21:00"
+          ],
+          "fri": [
+            "11:30–21:00"
+          ],
+          "sat": [
+            "11:30–21:00"
+          ],
+          "sun": [
+            "11:30–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.koreatriptips.com/dining/2845592.html",
+        "checkedDate": "2026-10-26",
+        "lastOrder": "20:30"
+      }
+    },
+    {
+      "name": "소문난성수감자탕",
+      "enName": "Somunnan Seongsu Gamjatang",
+      "jaName": "ソムンナン聖水カムジャタン",
+      "zhHansName": "闻名圣水脊骨汤",
+      "zhHantName": "聞名聖水脊骨湯",
+      "desc": "Korean Pork Backbone Stew · Gamjatang · 24 Hours",
+      "descs": {
+        "ko": "돼지등뼈 감자탕 전문점 · 1인 감자국과 함께 나누는 감자탕",
+        "en": "Korean pork-backbone stew · Individual soup or shared hot pot",
+        "ja": "豚背骨のカムジャタン · 一人用スープと鍋料理",
+        "zhHans": "韩式猪脊骨汤 · 可单人用餐或多人共享锅料理",
+        "zhHant": "韓式豬脊骨湯 · 可單人用餐或多人共享鍋料理"
+      },
+      "category": "food",
+      "lat": 37.54278651048,
+      "lng": 127.05440004645,
+      "address": "서울 성동구 연무장길 45",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/GgWkGs9y",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011500103150100004746/",
+      "tip": {
+        "ko": "혼자라면 1인용 감자국을, 여럿이라면 감자탕을 주문해보세요. 식사 후 볶음밥도 인기예요.",
+        "en": "Dining solo? Order the individual pork-bone soup. With a group, share gamjatang and finish with fried rice.",
+        "ja": "一人なら一人前の骨付き豚スープ、グループならカムジャタン鍋を。締めの炒めご飯も人気です。",
+        "zhHans": "独自用餐可点单人猪骨汤，多人可分享脊骨锅，最后别忘了炒饭。",
+        "zhHant": "獨自用餐可點單人豬骨湯，多人可分享脊骨鍋，最後別忘了炒飯。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "00:00–24:00"
+          ],
+          "tue": [
+            "00:00–24:00"
+          ],
+          "wed": [
+            "00:00–24:00"
+          ],
+          "thu": [
+            "00:00–24:00"
+          ],
+          "fri": [
+            "00:00–24:00"
+          ],
+          "sat": [
+            "00:00–24:00"
+          ],
+          "sun": [
+            "00:00–24:00"
+          ]
+        },
+        "sourceUrl": "https://delistationkorea.com/seongsu-gamjatang-somunnan/",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "로코스비비큐 경리단길본점",
+      "enName": "LOCOS BBQ Gyeongnidan",
+      "jaName": "ロコスBBQ 経理団通り本店",
+      "zhHansName": "LOCOS BBQ 庆理团路总店",
+      "zhHantName": "LOCOS BBQ 慶理團路總店",
+      "desc": "Texas-Style Smoked BBQ · Meat Sampler Platters",
+      "descs": {
+        "ko": "텍사스식 훈연 바비큐 · 여러 고기를 맛보는 샘플러",
+        "en": "Texas-style smoked barbecue · Meat sampler platters",
+        "ja": "テキサス式スモークBBQ · 肉の盛り合わせプレート",
+        "zhHans": "德州风味烟熏烧烤 · 多种肉类拼盘",
+        "zhHant": "德州風味煙燻燒烤 · 多種肉類拼盤"
+      },
+      "category": "food",
+      "lat": 37.5393163,
+      "lng": 126.9895519,
+      "address": "서울 용산구 회나무로 26 2층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/G1wS036m",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04345-111703102012-st-652c0a70f27008be2c504e35",
+      "tip": {
+        "ko": "처음이라면 여러 종류의 훈연 고기를 맛볼 수 있는 바비큐 샘플러를 추천해요. 매장은 2층에 있어요.",
+        "en": "For a first visit, try a BBQ sampler to taste several smoked meats. The restaurant is on the second floor.",
+        "ja": "初めてなら数種類のスモーク肉を味わえるBBQ盛り合わせがおすすめ。お店は2階です。",
+        "zhHans": "第一次来推荐烧烤拼盘，可一次品尝多种烟熏肉。餐厅位于二楼。",
+        "zhHant": "第一次來推薦燒烤拼盤，可一次品嚐多種煙燻肉。餐廳位於二樓。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–22:00"
+          ],
+          "tue": [
+            "11:30–22:00"
+          ],
+          "wed": [
+            "11:30–22:00"
+          ],
+          "thu": [
+            "11:30–22:00"
+          ],
+          "fri": [
+            "11:30–22:00"
+          ],
+          "sat": [
+            "11:30–22:00"
+          ],
+          "sun": [
+            "11:30–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.daangn.com/kr/local-profile/로코스비비큐-경리단길본점-9nimm2rhdujm/",
+        "checkedDate": "2026-10-26",
+        "lastOrder": "21:00",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "이전 주소인 회나무로 83으로 안내하는 자료가 남아 있습니다. 현재 안내 주소는 회나무로 26입니다.",
+          "en": "Some older listings still show 83 Hoenamu-ro. The newer listed address is 26 Hoenamu-ro.",
+          "ja": "古い情報には会ナム路83と記載されています。新しい案内住所は26です。",
+          "zhHans": "部分旧信息仍显示会南路83号，较新的地址为26号。",
+          "zhHant": "部分舊資訊仍顯示會南路83號，較新的地址為26號。"
+        }
+      }
     }
   ]
 }
