@@ -1370,6 +1370,360 @@
       }
     },
     {
+      "name": "프릳츠 장충점",
+      "enName": "Fritz Coffee Company Jangchung",
+      "jaName": "フリッツコーヒー 長忠店",
+      "zhHansName": "Fritz 咖啡 长忠店",
+      "zhHantName": "Fritz 咖啡 長忠店",
+      "desc": "Courtyard Garden Café · Specialty Coffee & Bakery",
+      "descs": {
+        "en": "Courtyard garden café · Specialty coffee and fresh bakery",
+        "ko": "정원이 있는 카페 · 스페셜티 커피와 베이커리",
+        "ja": "中庭のあるカフェ · スペシャルティコーヒーとパン",
+        "zhHans": "庭院咖啡馆 · 精品咖啡与烘焙面包",
+        "zhHant": "庭院咖啡館 · 精品咖啡與烘焙麵包"
+      },
+      "category": "cafe",
+      "lat": 37.5600176,
+      "lng": 127.0051816,
+      "address": "서울 중구 동호로24길 11",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/FivjCp9l",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://place.clariosync.com/p/6728558/",
+      "tip": {
+        "ko": "여러 건물 사이 정원과 야외 좌석이 이곳의 매력이에요. 날씨가 좋다면 정원 자리를 추천해요.",
+        "en": "The courtyard between the buildings is the highlight. On a nice day, try a garden seat.",
+        "ja": "建物に囲まれた中庭が魅力。天気の良い日は庭の席がおすすめです。",
+        "zhHans": "几栋建筑之间的庭院是亮点。天气好时推荐坐在庭院里。",
+        "zhHant": "幾棟建築之間的庭院是亮點。天氣好時推薦坐在庭院裡。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "08:00–22:00"
+          ],
+          "tue": [
+            "08:00–22:00"
+          ],
+          "wed": [
+            "08:00–22:00"
+          ],
+          "thu": [
+            "08:00–22:00"
+          ],
+          "fri": [
+            "08:00–22:00"
+          ],
+          "sat": [
+            "08:00–22:00"
+          ],
+          "sun": [
+            "08:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://m.fritz.co.kr/contact.html",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "성수동대림창고갤러리",
+      "enName": "Daelim Changgo Gallery Café",
+      "jaName": "聖水洞 大林倉庫ギャラリー",
+      "zhHansName": "圣水洞大林仓库画廊",
+      "zhHantName": "聖水洞大林倉庫畫廊",
+      "desc": "Industrial Warehouse Gallery Café",
+      "descs": {
+        "en": "Converted warehouse · Gallery café with a dramatic interior",
+        "ko": "옛 창고를 개조한 넓은 갤러리 카페",
+        "ja": "古い倉庫を改装した広々としたギャラリーカフェ",
+        "zhHans": "旧仓库改造的大型画廊咖啡馆",
+        "zhHant": "舊倉庫改造的大型畫廊咖啡館"
+      },
+      "category": "cafe",
+      "lat": 37.541953359393,
+      "lng": 127.05628987076,
+      "address": "서울 성동구 성수이로 78",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/5z5YMxoV",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011500103220032005300/",
+      "tip": {
+        "ko": "커피뿐 아니라 높은 천장과 옛 창고 구조를 살린 공간 자체를 천천히 둘러보세요.",
+        "en": "Take time to explore the soaring ceilings and preserved warehouse architecture—not just the coffee.",
+        "ja": "コーヒーだけでなく、高い天井や倉庫の面影を残す空間もじっくり楽しんでください。",
+        "zhHans": "除了咖啡，也值得慢慢欣赏高挑的天花板和保留旧仓库特色的空间。",
+        "zhHant": "除了咖啡，也值得慢慢欣賞高挑的天花板和保留舊倉庫特色的空間。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–22:00"
+          ],
+          "tue": [
+            "11:00–22:00"
+          ],
+          "wed": [
+            "11:00–22:00"
+          ],
+          "thu": [
+            "11:00–22:00"
+          ],
+          "fri": [
+            "11:00–22:00"
+          ],
+          "sat": [
+            "11:00–22:00"
+          ],
+          "sun": [
+            "11:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://gajaseoul.com/ko/store/seongsudong_daerimchanggo_gallery",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "로우키 성수점",
+      "enName": "Lowkey Seongsu",
+      "jaName": "ロウキー 聖水店",
+      "zhHansName": "Lowkey 圣水店",
+      "zhHantName": "Lowkey 聖水店",
+      "desc": "Specialty Coffee Roastery",
+      "descs": {
+        "en": "Specialty coffee roastery · Carefully selected beans",
+        "ko": "원두의 개성을 즐기는 스페셜티 커피 로스터리",
+        "ja": "豆の個性を楽しめるスペシャルティコーヒーのロースタリー",
+        "zhHans": "以特色咖啡豆闻名的精品咖啡烘焙店",
+        "zhHant": "以特色咖啡豆聞名的精品咖啡烘焙店"
+      },
+      "category": "cafe",
+      "lat": 37.544179376604,
+      "lng": 127.05153561891,
+      "address": "서울 성동구 연무장3길 6",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/5N15kFIf",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011500103020016005045/",
+      "tip": {
+        "ko": "커피 취향을 바리스타에게 알려주고 원두를 추천받아보세요. 핸드드립을 좋아한다면 특히 추천해요.",
+        "en": "Tell the barista your flavor preferences and ask for a bean recommendation—especially if you enjoy pour-over coffee.",
+        "ja": "好みの味をバリスタに伝えて豆を選んでもらいましょう。ハンドドリップ好きに特におすすめです。",
+        "zhHans": "告诉咖啡师你喜欢的风味，请他们推荐咖啡豆。尤其适合喜欢手冲的人。",
+        "zhHant": "告訴咖啡師你喜歡的風味，請他們推薦咖啡豆。尤其適合喜歡手沖的人。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–20:00"
+          ],
+          "tue": [
+            "10:00–20:00"
+          ],
+          "wed": [
+            "10:00–20:00"
+          ],
+          "thu": [
+            "10:00–20:00"
+          ],
+          "fri": [
+            "10:00–20:00"
+          ],
+          "sat": [
+            "10:00–20:00"
+          ],
+          "sun": [
+            "10:00–20:00"
+          ]
+        },
+        "sourceUrl": "https://lowkeycoffee.com/store",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "로우키 헤이그라운드점",
+      "enName": "Lowkey Heyground",
+      "jaName": "ロウキー ヘイグラウンド店",
+      "zhHansName": "Lowkey Heyground 店",
+      "zhHantName": "Lowkey Heyground 店",
+      "desc": "Specialty Coffee in HEYGROUND",
+      "descs": {
+        "en": "Specialty coffee inside the HEYGROUND community space",
+        "ko": "헤이그라운드 건물 안의 스페셜티 커피 카페",
+        "ja": "HEYGROUND内にあるスペシャルティコーヒーカフェ",
+        "zhHans": "位于 HEYGROUND 内的精品咖啡馆",
+        "zhHant": "位於 HEYGROUND 內的精品咖啡館"
+      },
+      "category": "cafe",
+      "lat": 37.544367997147,
+      "lng": 127.04769487425,
+      "address": "서울 성동구 뚝섬로1나길 5 1층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/GHvqC1QV",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400100220008010039/",
+      "tip": {
+        "ko": "헤이그라운드 1층에 있어요. 서울숲 산책 전후에 좋은 커피를 즐기기 좋습니다.",
+        "en": "Find it on the first floor of HEYGROUND—a convenient coffee stop before or after a Seoul Forest walk.",
+        "ja": "HEYGROUNDの1階にあります。ソウルの森の散歩前後に立ち寄りやすいカフェです。",
+        "zhHans": "位于 HEYGROUND 一楼，适合在首尔林散步前后顺路喝杯咖啡。",
+        "zhHant": "位於 HEYGROUND 一樓，適合在首爾林散步前後順路喝杯咖啡。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "09:00–18:00"
+          ],
+          "tue": [
+            "09:00–18:00"
+          ],
+          "wed": [
+            "09:00–18:00"
+          ],
+          "thu": [
+            "09:00–18:00"
+          ],
+          "fri": [
+            "09:00–18:00"
+          ],
+          "sat": [
+            "09:00–18:00"
+          ],
+          "sun": [
+            "09:00–18:00"
+          ]
+        },
+        "sourceUrl": "https://lowkeycoffee.com/store",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "프릳츠 원서점",
+      "enName": "Fritz Coffee Company Wonseo",
+      "jaName": "フリッツコーヒー 苑西店",
+      "zhHansName": "Fritz 咖啡 苑西店",
+      "zhHantName": "Fritz 咖啡 苑西店",
+      "desc": "Hanok Courtyard Café · Coffee & Bakery",
+      "descs": {
+        "en": "Traditional hanok courtyard · Specialty coffee and bakery",
+        "ko": "한옥 마당에서 즐기는 스페셜티 커피와 빵",
+        "ja": "韓屋の中庭で楽しむスペシャルティコーヒーとパン",
+        "zhHans": "传统韩屋庭院 · 精品咖啡与烘焙面包",
+        "zhHant": "傳統韓屋庭院 · 精品咖啡與烘焙麵包"
+      },
+      "category": "cafe",
+      "lat": 37.57780971872,
+      "lng": 126.98829136606,
+      "address": "서울 종로구 율곡로 83 아라리오뮤지엄",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/FzSZPU8k",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1111014900102190000018617/",
+      "tip": {
+        "ko": "한옥 마당과 석탑이 아름다운 곳이에요. 창덕궁 방문 전후에 들러 커피와 빵을 즐겨보세요.",
+        "en": "Enjoy coffee and pastries by the hanok courtyard and stone pagoda, before or after visiting nearby Changdeokgung Palace.",
+        "ja": "韓屋の中庭と石塔を眺めながらコーヒーとパンを。近くの昌徳宮観光と合わせるのもおすすめです。",
+        "zhHans": "在韩屋庭院与石塔旁享用咖啡和面包，可与附近的昌德宫安排在同一天。",
+        "zhHant": "在韓屋庭院與石塔旁享用咖啡和麵包，可與附近的昌德宮安排在同一天。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "09:00–19:30"
+          ],
+          "tue": [
+            "09:00–19:30"
+          ],
+          "wed": [
+            "09:00–19:30"
+          ],
+          "thu": [
+            "09:00–19:30"
+          ],
+          "fri": [
+            "09:00–19:30"
+          ],
+          "sat": [
+            "09:00–19:30"
+          ],
+          "sun": [
+            "09:00–19:30"
+          ]
+        },
+        "sourceUrl": "https://m.fritz.co.kr/contact.html",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
+      "name": "블루보틀 성수 카페",
+      "enName": "Blue Bottle Coffee Seongsu",
+      "jaName": "ブルーボトルコーヒー 聖水カフェ",
+      "zhHansName": "蓝瓶咖啡 圣水店",
+      "zhHantName": "藍瓶咖啡 聖水店",
+      "desc": "Specialty Coffee · Industrial-Inspired Design",
+      "descs": {
+        "en": "Specialty coffee · Minimalist café inspired by Seongsu's industrial heritage",
+        "ko": "성수의 산업적 분위기를 살린 미니멀한 스페셜티 카페",
+        "ja": "聖水の工業的な街並みに着想を得たミニマルなカフェ",
+        "zhHans": "融入圣水工业风格的极简精品咖啡馆",
+        "zhHant": "融入聖水工業風格的極簡精品咖啡館"
+      },
+      "category": "cafe",
+      "lat": 37.548050979548,
+      "lng": 127.04564367033,
+      "address": "서울 성동구 아차산로 7",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/5XJIYguc",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400106560302008010/",
+      "tip": {
+        "ko": "비교적 한적한 아침 방문을 추천해요. 커피를 마시고 원두와 브랜드 굿즈도 구경해보세요.",
+        "en": "Try visiting in the morning for a calmer atmosphere, and browse the coffee beans and merchandise.",
+        "ja": "比較的落ち着いた朝の訪問がおすすめ。コーヒーの後は豆やオリジナルグッズも見てみましょう。",
+        "zhHans": "推荐早上前往，氛围通常更悠闲。喝完咖啡也可以看看咖啡豆和品牌周边。",
+        "zhHant": "推薦早上前往，氛圍通常更悠閒。喝完咖啡也可以看看咖啡豆和品牌周邊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "08:00–20:00"
+          ],
+          "tue": [
+            "08:00–20:00"
+          ],
+          "wed": [
+            "08:00–20:00"
+          ],
+          "thu": [
+            "08:00–20:00"
+          ],
+          "fri": [
+            "08:00–20:00"
+          ],
+          "sat": [
+            "08:00–20:00"
+          ],
+          "sun": [
+            "08:00–20:00"
+          ]
+        },
+        "sourceUrl": "https://kr.bluebottlecoffee.com/blogs/locator/bluebottle-seongsu-cafe",
+        "checkedDate": "2026-10-26"
+      }
+    },
+    {
       "name": "타일러",
       "desc": "Craft Beer Pub",
       "category": "bar",
