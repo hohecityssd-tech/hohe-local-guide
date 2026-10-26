@@ -4514,6 +4514,129 @@
           "zhHant": "較早資料曾標示週三休息，建議到店前確認最新營業日。"
         }
       }
+    },
+    {
+      "name": "닷노트",
+      "enName": ".NOTE Seongsu Perfume Workshop",
+      "jaName": ".NOTE（ドットノート）聖水 香水工房",
+      "zhHansName": ".NOTE 圣水香水工坊",
+      "zhHantName": ".NOTE 聖水香水工坊",
+      "desc": "Self-Guided Perfume Workshop · Multilingual Video Instructions",
+      "descs": {
+        "ko": "다국어 영상 안내를 따라 60여 가지 향을 시향하고 직접 조합하는 향수 만들기 체험 · 약 75분",
+        "en": "Self-guided perfume making with multilingual video instructions · Explore 60+ scents · About 75 minutes",
+        "ja": "多言語の動画ガイドで60種類以上の香りを試し、自分で香水を調合する体験 · 約75分",
+        "zhHans": "通过多语言视频指导，试闻60多种香料并自行调配专属香水 · 约75分钟",
+        "zhHant": "透過多語言影片指導，試聞60多種香料並自行調配專屬香水 · 約75分鐘"
+      },
+      "category": "experience",
+      "lat": 37.5439084,
+      "lng": 127.0502084,
+      "address": "서울 성동구 연무장길 6 2층",
+      "icon": "✦",
+      "naverUrl": "https://naver.me/Gdlx6Zoz",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04781-112004109413-st-652bf0cb4e0223ae18063a37",
+      "bookingUrl": "https://www.airbnb.co.kr/experiences/7171029?utm_campaign=profile_bio&utm_content=airbnb_seongsu&utm_medium=linktree&utm_source=instagram",
+      "bookingSourceUrl": "https://linktr.ee/dotnote.perfume_",
+      "tip": {
+        "ko": "다국어 영상을 따라 내 속도로 향을 조합하는 체험이에요. 세 가지 시제품을 비교한 뒤 가장 마음에 드는 향을 선택해보세요. 외국인 예약 링크 이용 가능.",
+        "en": "Follow multilingual videos at your own pace. Compare three test blends before choosing your favorite. International booking is available.",
+        "ja": "多言語の動画を見ながら自分のペースで調香できます。3つの試作品を比べてお気に入りを選びましょう。外国人向けの予約も可能です。",
+        "zhHans": "可跟随多语言视频按自己的节奏调香。比较三款试香样品，再选最喜欢的配方。提供外国游客预约入口。",
+        "zhHant": "可跟隨多語言影片按自己的節奏調香。比較三款試香樣品，再選最喜歡的配方。提供外國旅客預約入口。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–22:00"
+          ],
+          "tue": [
+            "11:00–22:00"
+          ],
+          "wed": [
+            "11:00–22:00"
+          ],
+          "thu": [
+            "11:00–22:00"
+          ],
+          "fri": [
+            "11:00–22:00"
+          ],
+          "sat": [
+            "11:00–22:00"
+          ],
+          "sun": [
+            "11:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://linktr.ee/dotnote.perfume_",
+        "checkedDate": "2026-10-26"
+      },
+      "hoursVerificationNote": "Store hours from publicly indexed business listing; verify session times on booking page."
+    },
+    {
+      "name": "향수공방 뤼미에르퍼퓸 성수",
+      "enName": "Lumiere Parfum Seongsu",
+      "jaName": "リュミエールパルファム 聖水",
+      "zhHansName": "Lumiere Parfum 圣水香水工坊",
+      "zhHantName": "Lumiere Parfum 聖水香水工坊",
+      "desc": "Perfumer-Guided Fragrance Workshop · About 60 Minutes",
+      "descs": {
+        "ko": "전문가의 안내를 받아 향료를 시향하고 나만의 향수를 만드는 약 60분 체험 · 사전 예약 필수",
+        "en": "Guided perfume-making class · Blend your own fragrance in about 60 minutes · Advance booking required",
+        "ja": "専門家の指導で香りを選び、オリジナル香水を作る約60分の体験 · 事前予約必須",
+        "zhHans": "由专业调香师指导的约60分钟香水调配体验 · 需提前预约",
+        "zhHant": "由專業調香師指導的約60分鐘香水調配體驗 · 須提前預約"
+      },
+      "category": "experience",
+      "lat": 37.5428033,
+      "lng": 127.0549189,
+      "address": "서울 성동구 연무장길 49 원창실업 나동 301호",
+      "icon": "✦",
+      "naverUrl": "https://naver.me/5D8tWYd8",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04782-112004109413-st-652bf0cc4e0223ae18063bc7",
+      "bookingUrl": "https://m.booking.naver.com/booking/6/bizes/1398477/items",
+      "bookingSourceUrl": "https://mom-mom.net/travel/places/6ab366113ba70f4524d1415c",
+      "tip": {
+        "ko": "첫 향수 만들기라면 A 클래스를, 개성 있는 니치 향을 원하면 B 클래스를 추천해요. 100% 예약제이며 외국어 안내 가능 여부는 미리 확인하세요.",
+        "en": "Try Class A for your first perfume, or Class B for more distinctive niche scents. Book ahead and confirm language support.",
+        "ja": "初めての香水作りならAクラス、個性的なニッチな香りを求めるならBクラスがおすすめ。事前予約と対応言語の確認を。",
+        "zhHans": "初次制作香水推荐A课程，想尝试独特的小众香气可选B课程。请提前预约并确认语言服务。",
+        "zhHant": "初次製作香水推薦A課程，想嘗試獨特的小眾香氣可選B課程。請提前預約並確認語言服務。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "13:00–20:00"
+          ],
+          "tue": [
+            "13:00–20:00"
+          ],
+          "wed": [
+            "13:00–20:00"
+          ],
+          "thu": [
+            "13:00–20:00"
+          ],
+          "fri": [
+            "13:00–20:00"
+          ],
+          "sat": [
+            "13:00–20:00"
+          ],
+          "sun": [
+            "13:00–20:00"
+          ]
+        },
+        "sourceUrl": "https://mom-mom.net/travel/places/6ab366113ba70f4524d1415c",
+        "checkedDate": "2026-10-26"
+      }
     }
   ]
 }
