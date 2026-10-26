@@ -4881,6 +4881,139 @@
         "sourceUrl": "https://www.gentlemonster.com/kr/ko/stores/detail/779149716700285432",
         "checkedDate": "2026-10-26"
       }
+    },
+    {
+      "name": "USA브랜드빈티지",
+      "enName": "USA Brand Vintage Dongmyo",
+      "jaName": "USAブランドヴィンテージ 東廟",
+      "zhHansName": "USA品牌复古服饰 东庙",
+      "zhHantName": "USA品牌復古服飾 東廟",
+      "desc": "American-Style Vintage Clothing · Dongmyo",
+      "descs": {
+        "ko": "동묘 지역에서 미국 브랜드 빈티지 의류를 찾아보는 구제숍",
+        "en": "American-brand vintage clothing and secondhand finds near Dongmyo",
+        "ja": "東廟エリアでアメリカンブランドの古着を探せるヴィンテージショップ",
+        "zhHans": "东庙一带的美式品牌复古服饰与二手衣物店",
+        "zhHant": "東廟一帶的美式品牌復古服飾與二手衣物店"
+      },
+      "category": "shop",
+      "lat": 37.573167891494,
+      "lng": 127.017172465632,
+      "address": "서울특별시 종로구 종로 358",
+      "icon": "🛍️",
+      "naverUrl": "https://naver.me/GtJA6iF8",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://xju.purpleo.kr/article/13440",
+      "addressSourceUrl": "https://gujemap.com/area/dongmyo",
+      "tip": {
+        "ko": "빈티지 의류는 한 벌씩 상태가 달라요. 구매 전 사이즈, 얼룩, 봉제 상태와 교환 가능 여부를 꼭 확인해보세요.",
+        "en": "Each vintage piece is different. Check the fit, stains, seams and exchange policy before buying.",
+        "ja": "古着は一点ずつ状態が異なります。購入前にサイズ、シミ、縫製、交換可否を確認しましょう。",
+        "zhHans": "每件古着的状态都不同。购买前请仔细检查尺码、污渍、缝线和换货规则。",
+        "zhHant": "每件古著的狀態都不同。購買前請仔細檢查尺寸、污漬、縫線和換貨規則。"
+      },
+      "hoursVerificationNote": "Opening hours not confidently verified; check the user's Naver place link before visiting."
+    },
+    {
+      "name": "알비",
+      "enName": "ARBY Vintage Poster Gallery",
+      "jaName": "ARBY ヴィンテージポスターショップ",
+      "zhHansName": "ARBY 复古海报画廊",
+      "zhHantName": "ARBY 復古海報畫廊",
+      "desc": "Vintage Poster Shop · Original Prints, Art Goods & Exhibitions",
+      "descs": {
+        "ko": "유럽 빈티지 포스터·아트 굿즈를 만나는 작은 갤러리형 숍",
+        "en": "European vintage posters, art prints and small exhibitions",
+        "ja": "ヨーロッパのヴィンテージポスターやアート雑貨を扱うギャラリーショップ",
+        "zhHans": "欧洲复古海报、艺术印刷品与小型展览空间",
+        "zhHant": "歐洲復古海報、藝術印刷品與小型展覽空間"
+      },
+      "category": "shop",
+      "lat": 37.54768372,
+      "lng": 127.04248047,
+      "address": "서울 성동구 서울숲6길 8-1 3층",
+      "icon": "🛍️",
+      "naverUrl": "https://naver.me/GyppIkkk",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "published-municipal-coordinates",
+      "pinSourceUrl": "https://map.sd.go.kr/trip_new/tMap.jsp",
+      "tip": {
+        "ko": "오리지널 포스터가 부담스럽다면 엽서나 작은 아트 굿즈를 살펴보세요. 전시와 영업시간은 방문 전 확인이 필요해요.",
+        "en": "If an original poster feels too big a purchase, browse postcards and small art goods. Check opening hours and exhibitions before visiting.",
+        "ja": "オリジナルポスターが高価に感じたら、ポストカードや小さなアート雑貨もおすすめ。営業時間と展示情報は事前確認を。",
+        "zhHans": "如果不打算购买原版海报，可以看看明信片和小件艺术周边。营业时间和展览安排请提前确认。",
+        "zhHant": "如果不打算購買原版海報，可以看看明信片和小件藝術周邊。營業時間和展覽安排請提前確認。"
+      },
+      "hoursVerificationNote": "Hours vary daily per Seoul Beauty Travel Week; no fixed weekly schedule entered.",
+      "hoursSourceUrl": "https://www.seoulbeautytravel.com/bbs/board.php?bo_table=participation&wr_id=79"
+    },
+    {
+      "name": "모나미스토어 성수점",
+      "enName": "MONAMI STORE Seongsu",
+      "jaName": "モナミストア 聖水店",
+      "zhHansName": "MONAMI 文具体验店 圣水",
+      "zhHantName": "MONAMI 文具體驗店 聖水",
+      "desc": "Korean Stationery Flagship · DIY Pens & Ink Lab",
+      "descs": {
+        "ko": "나만의 볼펜 만들기와 잉크랩을 체험할 수 있는 한국 문구 브랜드 스토어",
+        "en": "Korean stationery flagship · DIY pens and custom ink experiences",
+        "ja": "オリジナルペン作りやインクラボを体験できる韓国文具ブランドの店舗",
+        "zhHans": "韩国文具品牌体验店 · DIY圆珠笔和专属墨水调配",
+        "zhHant": "韓國文具品牌體驗店 · DIY原子筆和專屬墨水調配"
+      },
+      "category": "shop",
+      "lat": 37.5444452,
+      "lng": 127.0554511,
+      "address": "서울 성동구 아차산로 104 스탈릿성수 1층",
+      "icon": "🛍️",
+      "naverUrl": "https://naver.me/IItcRHpR",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04782-112003000002-st-652bf0ee4e0223ae1806825e",
+      "tip": {
+        "ko": "나만의 DIY 볼펜은 현장에서 만들어볼 수 있어요. 직접 색을 만드는 잉크랩은 사전 예약이 필요해요.",
+        "en": "Make your own DIY pen in-store. Book ahead if you want to blend a custom ink color at the Ink Lab.",
+        "ja": "店頭ではオリジナルペンを作れます。インクラボで自分だけのインク色を作る体験は事前予約が必要です。",
+        "zhHans": "可在店内现场DIY圆珠笔。想在Ink Lab调配专属墨水颜色，请提前预约。",
+        "zhHant": "可在店內現場DIY原子筆。想在Ink Lab調配專屬墨水顏色，請提前預約。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–21:00"
+          ],
+          "tue": [
+            "10:00–21:00"
+          ],
+          "wed": [
+            "10:00–21:00"
+          ],
+          "thu": [
+            "10:00–21:00"
+          ],
+          "fri": [
+            "10:00–21:00"
+          ],
+          "sat": [
+            "10:00–21:00"
+          ],
+          "sun": [
+            "10:00–21:00"
+          ]
+        },
+        "monthlySpecialHours": "Third Monday of each month: 12:00–21:00",
+        "specialHoursNotes": {
+          "ko": "매월 셋째 주 월요일은 12:00에 개점합니다. 공휴일 및 특별 운영은 방문 전 확인해 주세요.",
+          "en": "Opens at 12:00 on the third Monday of each month. Check holiday and special hours before visiting.",
+          "ja": "毎月第3月曜日は12:00開店です。祝日・特別営業時間は事前にご確認ください。",
+          "zhHans": "每月第三个周一12:00开门，节假日及特殊营业时间请提前确认。",
+          "zhHant": "每月第三個週一12:00開門，假日及特殊營業時間請提前確認。"
+        },
+        "sourceUrl": "https://korean.visitseoul.net/entertainment/2024-monamiss/KOPk0r1d9",
+        "checkedDate": "2026-10-26"
+      }
     }
   ]
 }
