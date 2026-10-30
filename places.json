@@ -1485,7 +1485,77 @@
         },
         "sourceUrl": "https://gajaseoul.com/ko/store/seongsudong_daerimchanggo_gallery",
         "checkedDate": "2026-10-26"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/성수동대림창고갤러리2.jpg",
+          "alt": {
+            "ko": "옛 창고를 개조한 높은 천장의 카페 내부",
+            "en": "Spacious café inside a converted industrial warehouse",
+            "ja": "倉庫を改装した天井の高いカフェ店内",
+            "zhHans": "旧仓库改建的高挑咖啡馆内部",
+            "zhHant": "舊倉庫改建的挑高咖啡館內部"
+          },
+          "caption": {
+            "ko": "옛 창고를 개조한 높은 천장의 카페 내부",
+            "en": "Spacious café inside a converted industrial warehouse",
+            "ja": "倉庫を改装した天井の高いカフェ店内",
+            "zhHans": "旧仓库改建的高挑咖啡馆内部",
+            "zhHant": "舊倉庫改建的挑高咖啡館內部"
+          }
+        },
+        {
+          "src": "./photos/성수동대림창고갤러리4.jpg",
+          "alt": {
+            "ko": "카페에서 판매하는 다양한 베이커리와 디저트",
+            "en": "Bakery and dessert display at the gallery café",
+            "ja": "ギャラリーカフェのパンとデザート",
+            "zhHans": "画廊咖啡馆的面包及甜点",
+            "zhHant": "畫廊咖啡館的麵包及甜點"
+          },
+          "caption": {
+            "ko": "카페에서 판매하는 다양한 베이커리와 디저트",
+            "en": "Bakery and dessert display at the gallery café",
+            "ja": "ギャラリーカフェのパンとデザート",
+            "zhHans": "画廊咖啡馆的面包及甜点",
+            "zhHant": "畫廊咖啡館的麵包及甜點"
+          }
+        },
+        {
+          "src": "./photos/성수동대림창고갤러리3.jpg",
+          "alt": {
+            "ko": "창고 건축을 배경으로 한 설치 작품",
+            "en": "Art installation inside the former warehouse",
+            "ja": "倉庫空間のアートインスタレーション",
+            "zhHans": "仓库空间中的艺术装置",
+            "zhHant": "倉庫空間中的藝術裝置"
+          },
+          "caption": {
+            "ko": "창고 건축을 배경으로 한 설치 작품",
+            "en": "Art installation inside the former warehouse",
+            "ja": "倉庫空間のアートインスタレーション",
+            "zhHans": "仓库空间中的艺术装置",
+            "zhHant": "倉庫空間中的藝術裝置"
+          }
+        },
+        {
+          "src": "./photos/성수동대림창고갤러리1.jpg",
+          "alt": {
+            "ko": "붉은 벽돌 창고 건물 외관",
+            "en": "Red-brick warehouse exterior",
+            "ja": "赤レンガ倉庫の外観",
+            "zhHans": "红砖仓库建筑外观",
+            "zhHant": "紅磚倉庫建築外觀"
+          },
+          "caption": {
+            "ko": "붉은 벽돌 창고 건물 외관",
+            "en": "Red-brick warehouse exterior",
+            "ja": "赤レンガ倉庫の外観",
+            "zhHans": "红砖仓库建筑外观",
+            "zhHant": "紅磚倉庫建築外觀"
+          }
+        }
+      ]
     },
     {
       "name": "로우키 성수점",
@@ -1544,7 +1614,77 @@
         },
         "sourceUrl": "https://lowkeycoffee.com/store",
         "checkedDate": "2026-10-26"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/로우키성수4.jpg",
+          "alt": {
+            "ko": "로우키 성수점 매장 입구",
+            "en": "Lowkey Seongsu storefront",
+            "ja": "ロウキー聖水店の外観",
+            "zhHans": "Lowkey 圣水店外观",
+            "zhHant": "Lowkey 聖水店外觀"
+          },
+          "caption": {
+            "ko": "로우키 성수점 매장 입구",
+            "en": "Lowkey Seongsu storefront",
+            "ja": "ロウキー聖水店の外観",
+            "zhHans": "Lowkey 圣水店外观",
+            "zhHant": "Lowkey 聖水店外觀"
+          }
+        },
+        {
+          "src": "./photos/로우키성수2.jpg",
+          "alt": {
+            "ko": "로우키에서 판매하는 커피 원두와 굿즈",
+            "en": "Coffee beans and merchandise at Lowkey",
+            "ja": "ロウキーのコーヒー豆とグッズ",
+            "zhHans": "Lowkey 咖啡豆与周边商品",
+            "zhHant": "Lowkey 咖啡豆與周邊商品"
+          },
+          "caption": {
+            "ko": "로우키에서 판매하는 커피 원두와 굿즈",
+            "en": "Coffee beans and merchandise at Lowkey",
+            "ja": "ロウキーのコーヒー豆とグッズ",
+            "zhHans": "Lowkey 咖啡豆与周边商品",
+            "zhHant": "Lowkey 咖啡豆與周邊商品"
+          }
+        },
+        {
+          "src": "./photos/로우키성수1.jpg",
+          "alt": {
+            "ko": "창가에서 바라본 로우키 간판",
+            "en": "Lowkey sign viewed through the window",
+            "ja": "窓越しに見えるロウキーの看板",
+            "zhHans": "透过橱窗看到的 Lowkey 招牌",
+            "zhHant": "透過櫥窗看到的 Lowkey 招牌"
+          },
+          "caption": {
+            "ko": "창가에서 바라본 로우키 간판",
+            "en": "Lowkey sign viewed through the window",
+            "ja": "窓越しに見えるロウキーの看板",
+            "zhHans": "透过橱窗看到的 Lowkey 招牌",
+            "zhHant": "透過櫥窗看到的 Lowkey 招牌"
+          }
+        },
+        {
+          "src": "./photos/로우키성수3.jpg",
+          "alt": {
+            "ko": "원두와 드립백 제품 진열대",
+            "en": "Coffee beans and drip bag display",
+            "ja": "コーヒー豆とドリップバッグの陳列",
+            "zhHans": "咖啡豆与挂耳咖啡陈列",
+            "zhHant": "咖啡豆與掛耳咖啡陳列"
+          },
+          "caption": {
+            "ko": "원두와 드립백 제품 진열대",
+            "en": "Coffee beans and drip bag display",
+            "ja": "コーヒー豆とドリップバッグの陳列",
+            "zhHans": "咖啡豆与挂耳咖啡陈列",
+            "zhHant": "咖啡豆與掛耳咖啡陳列"
+          }
+        }
+      ]
     },
     {
       "name": "로우키 헤이그라운드점",
@@ -1603,7 +1743,60 @@
         },
         "sourceUrl": "https://lowkeycoffee.com/store",
         "checkedDate": "2026-10-26"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/로우키헤이그라운드3.jpg",
+          "alt": {
+            "ko": "헤이그라운드 로우키 카페 내부",
+            "en": "Lowkey café interior at HEYGROUND",
+            "ja": "HEYGROUND内のロウキーカフェ",
+            "zhHans": "HEYGROUND 内的 Lowkey 咖啡馆",
+            "zhHant": "HEYGROUND 內的 Lowkey 咖啡館"
+          },
+          "caption": {
+            "ko": "헤이그라운드 로우키 카페 내부",
+            "en": "Lowkey café interior at HEYGROUND",
+            "ja": "HEYGROUND内のロウキーカフェ",
+            "zhHans": "HEYGROUND 内的 Lowkey 咖啡馆",
+            "zhHant": "HEYGROUND 內的 Lowkey 咖啡館"
+          }
+        },
+        {
+          "src": "./photos/로우키헤이그라운드2.jpg",
+          "alt": {
+            "ko": "카페 바에서 커피를 준비하는 직원",
+            "en": "Barista preparing coffee behind the counter",
+            "ja": "カウンターでコーヒーを淹れるバリスタ",
+            "zhHans": "吧台正在制作咖啡的咖啡师",
+            "zhHant": "吧台正在製作咖啡的咖啡師"
+          },
+          "caption": {
+            "ko": "카페 바에서 커피를 준비하는 직원",
+            "en": "Barista preparing coffee behind the counter",
+            "ja": "カウンターでコーヒーを淹れるバリスタ",
+            "zhHans": "吧台正在制作咖啡的咖啡师",
+            "zhHant": "吧台正在製作咖啡的咖啡師"
+          }
+        },
+        {
+          "src": "./photos/로우키헤이그라운드1.jpg",
+          "alt": {
+            "ko": "헤이그라운드 로우키 매장 외관",
+            "en": "Lowkey HEYGROUND storefront",
+            "ja": "ロウキーHEYGROUND店の外観",
+            "zhHans": "Lowkey HEYGROUND 店外观",
+            "zhHant": "Lowkey HEYGROUND 店外觀"
+          },
+          "caption": {
+            "ko": "헤이그라운드 로우키 매장 외관",
+            "en": "Lowkey HEYGROUND storefront",
+            "ja": "ロウキーHEYGROUND店の外観",
+            "zhHans": "Lowkey HEYGROUND 店外观",
+            "zhHant": "Lowkey HEYGROUND 店外觀"
+          }
+        }
+      ]
     },
     {
       "name": "프릳츠 원서점",
@@ -5183,7 +5376,94 @@
         "zhHans": "这里不是普通咖啡馆，而是需要提前预约的咖啡展览体验。请先在官网确认当期主题和预约名额。",
         "zhHant": "這裡不是一般咖啡館，而是需要事先預約的咖啡展覽體驗。請先在官網確認當期主題和預約名額。"
       },
-      "hoursVerificationNote": "Reservation-only guided sessions. Official support hours are not visitor opening hours; refer to current booking availability."
+      "hoursVerificationNote": "Reservation-only guided sessions. Official support hours are not visitor opening hours; refer to current booking availability.",
+      "photos": [
+        {
+          "src": "./photos/블랙로드커피3.jpg",
+          "alt": {
+            "ko": "세 가지 희소 커피를 비교하는 테이스팅",
+            "en": "Tasting flight comparing three rare coffees",
+            "ja": "希少なコーヒー3種類の飲み比べ",
+            "zhHans": "三款稀有咖啡品鉴",
+            "zhHant": "三款稀有咖啡品鑑"
+          },
+          "caption": {
+            "ko": "세 가지 희소 커피를 비교하는 테이스팅",
+            "en": "Tasting flight comparing three rare coffees",
+            "ja": "希少なコーヒー3種類の飲み比べ",
+            "zhHans": "三款稀有咖啡品鉴",
+            "zhHant": "三款稀有咖啡品鑑"
+          }
+        },
+        {
+          "src": "./photos/블랙로드커피4.png",
+          "alt": {
+            "ko": "바리스타의 핸드드립 커피 추출",
+            "en": "Barista preparing pour-over coffee",
+            "ja": "バリスタによるハンドドリップ",
+            "zhHans": "咖啡师现场手冲咖啡",
+            "zhHant": "咖啡師現場手沖咖啡"
+          },
+          "caption": {
+            "ko": "바리스타의 핸드드립 커피 추출",
+            "en": "Barista preparing pour-over coffee",
+            "ja": "バリスタによるハンドドリップ",
+            "zhHans": "咖啡师现场手冲咖啡",
+            "zhHant": "咖啡師現場手沖咖啡"
+          }
+        },
+        {
+          "src": "./photos/블랙로드커피1.jpg",
+          "alt": {
+            "ko": "다양한 커피 품종과 로스팅 단계 전시",
+            "en": "Coffee varieties and roasting levels on display",
+            "ja": "コーヒーの品種と焙煎度の展示",
+            "zhHans": "咖啡品种及烘焙程度展示",
+            "zhHant": "咖啡品種及烘焙程度展示"
+          },
+          "caption": {
+            "ko": "다양한 커피 품종과 로스팅 단계 전시",
+            "en": "Coffee varieties and roasting levels on display",
+            "ja": "コーヒーの品種と焙煎度の展示",
+            "zhHans": "咖啡品种及烘焙程度展示",
+            "zhHant": "咖啡品種及烘焙程度展示"
+          }
+        },
+        {
+          "src": "./photos/블랙로드커피7.jpg",
+          "alt": {
+            "ko": "식물을 활용한 커피 테이스팅 공간",
+            "en": "Coffee tasting setting with lush greenery",
+            "ja": "植物に囲まれたコーヒーテイスティング空間",
+            "zhHans": "绿植环绕的咖啡品鉴空间",
+            "zhHant": "綠植環繞的咖啡品鑑空間"
+          },
+          "caption": {
+            "ko": "식물을 활용한 커피 테이스팅 공간",
+            "en": "Coffee tasting setting with lush greenery",
+            "ja": "植物に囲まれたコーヒーテイスティング空間",
+            "zhHans": "绿植环绕的咖啡品鉴空间",
+            "zhHant": "綠植環繞的咖啡品鑑空間"
+          }
+        },
+        {
+          "src": "./photos/블랙로드커피5.jpg",
+          "alt": {
+            "ko": "블랙로드커피의 핸드드립 바",
+            "en": "Black Road Coffee's pour-over counter",
+            "ja": "ブラックロードコーヒーのドリップカウンター",
+            "zhHans": "Black Road Coffee 手冲吧台",
+            "zhHant": "Black Road Coffee 手沖吧台"
+          },
+          "caption": {
+            "ko": "블랙로드커피의 핸드드립 바",
+            "en": "Black Road Coffee's pour-over counter",
+            "ja": "ブラックロードコーヒーのドリップカウンター",
+            "zhHans": "Black Road Coffee 手冲吧台",
+            "zhHant": "Black Road Coffee 手沖吧台"
+          }
+        }
+      ]
     },
     {
       "name": "하우스오브 비닐",
@@ -5243,7 +5523,94 @@
         },
         "sourceUrl": "https://www.tabling.co.kr/place/67c6c40b4306a889d2c23830",
         "checkedDate": "2026-10-30"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/하우스오브바이닐1.png",
+          "alt": {
+            "ko": "빈티지 오디오 시스템과 턴테이블",
+            "en": "Vintage speakers and turntable at House of Vinyl",
+            "ja": "ハウスオブバイナルのヴィンテージ音響設備",
+            "zhHans": "House of Vinyl 复古音响与唱机",
+            "zhHant": "House of Vinyl 復古音響與唱機"
+          },
+          "caption": {
+            "ko": "빈티지 오디오 시스템과 턴테이블",
+            "en": "Vintage speakers and turntable at House of Vinyl",
+            "ja": "ハウスオブバイナルのヴィンテージ音響設備",
+            "zhHans": "House of Vinyl 复古音响与唱机",
+            "zhHant": "House of Vinyl 復古音響與唱機"
+          }
+        },
+        {
+          "src": "./photos/하우스오브바이닐4.png",
+          "alt": {
+            "ko": "따뜻한 조명 아래의 하우스오브비닐 카페 공간",
+            "en": "Warmly lit seating at House of Vinyl",
+            "ja": "温かい照明のハウスオブバイナル店内",
+            "zhHans": "House of Vinyl 暖光咖啡馆座位",
+            "zhHant": "House of Vinyl 暖光咖啡館座位"
+          },
+          "caption": {
+            "ko": "따뜻한 조명 아래의 하우스오브비닐 카페 공간",
+            "en": "Warmly lit seating at House of Vinyl",
+            "ja": "温かい照明のハウスオブバイナル店内",
+            "zhHans": "House of Vinyl 暖光咖啡馆座位",
+            "zhHant": "House of Vinyl 暖光咖啡館座位"
+          }
+        },
+        {
+          "src": "./photos/하우스오브바이닐2.png",
+          "alt": {
+            "ko": "다양한 레코드를 전시한 LP 진열장",
+            "en": "Wall of vinyl records",
+            "ja": "レコードが並ぶLPディスプレイ",
+            "zhHans": "黑胶唱片展示墙",
+            "zhHant": "黑膠唱片展示牆"
+          },
+          "caption": {
+            "ko": "다양한 레코드를 전시한 LP 진열장",
+            "en": "Wall of vinyl records",
+            "ja": "レコードが並ぶLPディスプレイ",
+            "zhHans": "黑胶唱片展示墙",
+            "zhHant": "黑膠唱片展示牆"
+          }
+        },
+        {
+          "src": "./photos/하우스오브바이닐5.png",
+          "alt": {
+            "ko": "바삭한 머랭과 크림이 어우러진 디저트",
+            "en": "Dessert with crisp meringue and cream",
+            "ja": "メレンゲとクリームを使ったデザート",
+            "zhHans": "蛋白霜与奶油甜点",
+            "zhHant": "蛋白霜與鮮奶油甜點"
+          },
+          "caption": {
+            "ko": "바삭한 머랭과 크림이 어우러진 디저트",
+            "en": "Dessert with crisp meringue and cream",
+            "ja": "メレンゲとクリームを使ったデザート",
+            "zhHans": "蛋白霜与奶油甜点",
+            "zhHant": "蛋白霜與鮮奶油甜點"
+          }
+        },
+        {
+          "src": "./photos/하우스오브바이닐6.png",
+          "alt": {
+            "ko": "분위기 있는 테이블의 블랙커피",
+            "en": "Black coffee served at a warmly lit table",
+            "ja": "落ち着いた店内で楽しむブラックコーヒー",
+            "zhHans": "暖光桌面上的黑咖啡",
+            "zhHant": "暖光桌面上的黑咖啡"
+          },
+          "caption": {
+            "ko": "분위기 있는 테이블의 블랙커피",
+            "en": "Black coffee served at a warmly lit table",
+            "ja": "落ち着いた店内で楽しむブラックコーヒー",
+            "zhHans": "暖光桌面上的黑咖啡",
+            "zhHant": "暖光桌面上的黑咖啡"
+          }
+        }
+      ]
     },
     {
       "name": "포어 플랜",
@@ -5312,7 +5679,94 @@
           "zhHans": "不同资料的关门时间为21:00至21:30不等，请提前确认。",
           "zhHant": "不同資料的關門時間為21:00至21:30不等，請提前確認。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/포어플랜6.jpg",
+          "alt": {
+            "ko": "건축 디자인을 반영한 포어플랜 카페 실내",
+            "en": "Foreplan interior with architectural details",
+            "ja": "建築デザインが印象的なフォアプラン店内",
+            "zhHans": "具有建筑设计特色的 Foreplan 咖啡馆内部",
+            "zhHant": "具有建築設計特色的 Foreplan 咖啡館內部"
+          },
+          "caption": {
+            "ko": "건축 디자인을 반영한 포어플랜 카페 실내",
+            "en": "Foreplan interior with architectural details",
+            "ja": "建築デザインが印象的なフォアプラン店内",
+            "zhHans": "具有建筑设计特色的 Foreplan 咖啡馆内部",
+            "zhHant": "具有建築設計特色的 Foreplan 咖啡館內部"
+          }
+        },
+        {
+          "src": "./photos/포어플랜7.jpg",
+          "alt": {
+            "ko": "벽돌과 목재를 활용한 카페 좌석 공간",
+            "en": "Foreplan seating area with brick and timber",
+            "ja": "レンガと木材を生かした客席",
+            "zhHans": "砖墙与木材打造的座位空间",
+            "zhHant": "磚牆與木材打造的座位空間"
+          },
+          "caption": {
+            "ko": "벽돌과 목재를 활용한 카페 좌석 공간",
+            "en": "Foreplan seating area with brick and timber",
+            "ja": "レンガと木材を生かした客席",
+            "zhHans": "砖墙与木材打造的座位空间",
+            "zhHant": "磚牆與木材打造的座位空間"
+          }
+        },
+        {
+          "src": "./photos/포어플랜4.jpg",
+          "alt": {
+            "ko": "포어플랜 카페 입구와 바 좌석",
+            "en": "Foreplan storefront and counter seating",
+            "ja": "フォアプランの外観とカウンター席",
+            "zhHans": "Foreplan 店面与吧台座位",
+            "zhHant": "Foreplan 店面與吧台座位"
+          },
+          "caption": {
+            "ko": "포어플랜 카페 입구와 바 좌석",
+            "en": "Foreplan storefront and counter seating",
+            "ja": "フォアプランの外観とカウンター席",
+            "zhHans": "Foreplan 店面与吧台座位",
+            "zhHant": "Foreplan 店面與吧台座位"
+          }
+        },
+        {
+          "src": "./photos/포어플랜5.jpg",
+          "alt": {
+            "ko": "모형 건축물이 돋보이는 카페 바",
+            "en": "Coffee bar with a miniature architectural installation",
+            "ja": "建築模型をあしらったカフェカウンター",
+            "zhHans": "配有建筑模型装置的咖啡吧台",
+            "zhHant": "配有建築模型裝置的咖啡吧台"
+          },
+          "caption": {
+            "ko": "모형 건축물이 돋보이는 카페 바",
+            "en": "Coffee bar with a miniature architectural installation",
+            "ja": "建築模型をあしらったカフェカウンター",
+            "zhHans": "配有建筑模型装置的咖啡吧台",
+            "zhHant": "配有建築模型裝置的咖啡吧台"
+          }
+        },
+        {
+          "src": "./photos/포어플랜2.jpg",
+          "alt": {
+            "ko": "계단과 아치형 벽감이 있는 건축 디자인",
+            "en": "Architectural feature wall with arches and stairs",
+            "ja": "アーチと階段を模した建築ディテール",
+            "zhHans": "带有拱形与阶梯的建筑装饰墙",
+            "zhHant": "帶有拱形與階梯的建築裝飾牆"
+          },
+          "caption": {
+            "ko": "계단과 아치형 벽감이 있는 건축 디자인",
+            "en": "Architectural feature wall with arches and stairs",
+            "ja": "アーチと階段を模した建築ディテール",
+            "zhHans": "带有拱形与阶梯的建筑装饰墙",
+            "zhHant": "帶有拱形與階梯的建築裝飾牆"
+          }
+        }
+      ]
     }
   ]
 }
