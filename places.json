@@ -5209,6 +5209,169 @@
           "zhHant": "為整棟設施的時間範圍：1樓10–20點；2樓11–20點；3樓12–19點（週一休、各店不同）；4樓11–21點（15:30–17:30休息）。"
         }
       }
+    },
+    {
+      "name": "블랙로드커피 성수",
+      "enName": "Black Road Coffee Seongsu",
+      "jaName": "ブラックロードコーヒー 聖水",
+      "zhHansName": "Black Road Coffee 圣水",
+      "zhHantName": "Black Road Coffee 聖水",
+      "desc": "Reservation-Only Fine Coffee Exhibition & Tasting",
+      "descs": {
+        "ko": "희소 원두의 산지와 이야기를 함께 경험하는 예약제 파인 커피 전시",
+        "en": "Reservation-only fine coffee exhibition · Guided tastings of rare specialty coffees",
+        "ja": "希少なスペシャルティコーヒーの背景や風味を学べる予約制のコーヒー展示・試飲体験",
+        "zhHans": "预约制精品咖啡展览 · 了解稀有咖啡豆的产地故事并参加导览品鉴",
+        "zhHant": "預約制精品咖啡展覽 · 認識稀有咖啡豆的產地故事並參加導覽品鑑"
+      },
+      "category": "cafe",
+      "lat": 37.54744578432,
+      "lng": 127.04113709236,
+      "address": "서울 성동구 서울숲2길 19-18 2층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/G4W5AJEI",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400106850325027670/",
+      "sourceUrl": "https://www.blackroadss.kr/",
+      "bookingInfoUrl": "https://www.blackroadss.kr/",
+      "tip": {
+        "ko": "일반 카페가 아닌 사전예약제 커피 전시예요. 공식 홈페이지에서 현재 전시와 예약 가능 여부를 확인하고 방문하세요.",
+        "en": "This is a reservation-only coffee exhibition, not a walk-in café. Check the current exhibition and booking availability on the official website.",
+        "ja": "一般的なカフェではなく、事前予約制のコーヒー展示体験です。公式サイトで開催内容と予約状況を確認してから訪れましょう。",
+        "zhHans": "这里不是普通咖啡馆，而是需要提前预约的咖啡展览体验。请先在官网确认当期主题和预约名额。",
+        "zhHant": "這裡不是一般咖啡館，而是需要事先預約的咖啡展覽體驗。請先在官網確認當期主題和預約名額。"
+      },
+      "hoursVerificationNote": "Reservation-only guided sessions. Official support hours are not visitor opening hours; refer to current booking availability."
+    },
+    {
+      "name": "하우스오브 비닐",
+      "enName": "House of Vinyl Seongsu",
+      "jaName": "ハウス・オブ・ヴァイナル 聖水",
+      "zhHansName": "House of Vinyl 圣水",
+      "zhHantName": "House of Vinyl 聖水",
+      "desc": "Vinyl Listening Café · Retro Atmosphere & Pavlova",
+      "descs": {
+        "ko": "LP 음악과 홍콩 영화 감성 인테리어, 파블로바를 즐기는 카페",
+        "en": "Vinyl listening café · Hong Kong film-inspired interior and pavlova desserts",
+        "ja": "レコード音楽と香港映画風の空間を楽しめるカフェ · パブロバも人気",
+        "zhHans": "黑胶音乐咖啡馆 · 香港电影风格空间与帕芙洛娃蛋白甜点",
+        "zhHant": "黑膠音樂咖啡館 · 香港電影風格空間與帕芙洛娃蛋白甜點"
+      },
+      "category": "cafe",
+      "lat": 37.547857575875,
+      "lng": 127.05522797206,
+      "address": "서울 성동구 아차산로7길 29 성광빌딩 2층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/5z587AjA",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011500102990200003871/",
+      "sourceUrl": "https://www.tabling.co.kr/place/67c6c40b4306a889d2c23830",
+      "tip": {
+        "ko": "LP 음악과 홍콩 영화 분위기가 매력이에요. 파블로바와 필터커피를 추천하며, 입구는 성광빌딩 2층에 있어요.",
+        "en": "Enjoy the vinyl soundtrack and Hong Kong cinema atmosphere. Try pavlova with filter coffee, and look for the entrance on the second floor.",
+        "ja": "レコード音楽と香港映画の雰囲気が魅力。パブロバとフィルターコーヒーがおすすめ。入口は建物の2階です。",
+        "zhHans": "可以边听黑胶唱片边感受香港电影氛围。推荐帕芙洛娃甜点配手冲咖啡，入口位于大楼二楼。",
+        "zhHant": "可以邊聽黑膠唱片邊感受香港電影氛圍。推薦帕芙洛娃甜點配手沖咖啡，入口位於大樓二樓。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–22:00"
+          ],
+          "tue": [
+            "11:00–22:00"
+          ],
+          "wed": [
+            "11:00–22:00"
+          ],
+          "thu": [
+            "11:00–22:00"
+          ],
+          "fri": [
+            "11:00–22:00"
+          ],
+          "sat": [
+            "11:00–22:00"
+          ],
+          "sun": [
+            "11:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/67c6c40b4306a889d2c23830",
+        "checkedDate": "2026-10-30"
+      }
+    },
+    {
+      "name": "포어 플랜",
+      "enName": "Foreplan",
+      "jaName": "フォアプラン",
+      "zhHansName": "Foreplan 咖啡馆",
+      "zhHantName": "Foreplan 咖啡館",
+      "desc": "Architecture Studio-Inspired Café · Coffee & Creative Desserts",
+      "descs": {
+        "ko": "건축사무소를 연상시키는 인테리어와 이색 디저트가 특징인 카페",
+        "en": "Architecture-studio-inspired café · Coffee and playful design-themed desserts",
+        "ja": "建築設計事務所をイメージした空間 · コーヒーとユニークなデザート",
+        "zhHans": "建筑设计工作室风格咖啡馆 · 咖啡与创意主题甜点",
+        "zhHant": "建築設計工作室風格咖啡館 · 咖啡與創意主題甜點"
+      },
+      "category": "cafe",
+      "lat": 37.5482007,
+      "lng": 127.0475587,
+      "address": "서울 성동구 왕십리로14길 30-11 1층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/GZZuCCKb",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04789-112004109422-st-652bf0ba4e0223ae180617e0",
+      "sourceUrl": "https://gilpost.com/ko/서울/성수동1가/맛집/포어플랜/",
+      "tip": {
+        "ko": "건축 도면과 작업실 같은 공간을 구경해보세요. 집 모양 디저트도 재미있고, 노트북 이용 시 3시간 이용 제한을 확인하세요.",
+        "en": "Explore the architectural drawings and studio-like interior. Try a house-shaped dessert, and note the reported three-hour limit for laptop visits.",
+        "ja": "建築図面や設計事務所のような空間が見どころ。家の形のデザートもぜひ。ノートPC利用時は3時間の制限があるか確認しましょう。",
+        "zhHans": "可以欣赏建筑图纸与设计工作室风格的空间，试试房屋造型甜点。用电脑时请确认是否有三小时使用限制。",
+        "zhHant": "可以欣賞建築圖紙與設計工作室風格的空間，試試房屋造型甜點。使用電腦時請確認是否有三小時使用限制。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–21:00"
+          ],
+          "tue": [
+            "10:00–21:00"
+          ],
+          "wed": [
+            "10:00–21:00"
+          ],
+          "thu": [
+            "10:00–21:00"
+          ],
+          "fri": [
+            "10:00–21:00"
+          ],
+          "sat": [
+            "10:00–21:00"
+          ],
+          "sun": [
+            "10:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=iStzyTXmRpS4",
+        "checkedDate": "2026-10-30",
+        "lastOrder": "20:40",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "자료에 따라 마감시간이 21:00~21:30으로 다릅니다. 방문 전 확인하세요.",
+          "en": "Closing times differ across listings (21:00–21:30). Please confirm before visiting.",
+          "ja": "掲載情報により閉店時間が21:00〜21:30と異なります。来店前にご確認ください。",
+          "zhHans": "不同资料的关门时间为21:00至21:30不等，请提前确认。",
+          "zhHant": "不同資料的關門時間為21:00至21:30不等，請提前確認。"
+        }
+      }
     }
   ]
 }
