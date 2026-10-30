@@ -1665,65 +1665,6 @@
       }
     },
     {
-      "name": "블루보틀 성수 카페",
-      "enName": "Blue Bottle Coffee Seongsu",
-      "jaName": "ブルーボトルコーヒー 聖水カフェ",
-      "zhHansName": "蓝瓶咖啡 圣水店",
-      "zhHantName": "藍瓶咖啡 聖水店",
-      "desc": "Specialty Coffee · Industrial-Inspired Design",
-      "descs": {
-        "en": "Specialty coffee · Minimalist café inspired by Seongsu's industrial heritage",
-        "ko": "성수의 산업적 분위기를 살린 미니멀한 스페셜티 카페",
-        "ja": "聖水の工業的な街並みに着想を得たミニマルなカフェ",
-        "zhHans": "融入圣水工业风格的极简精品咖啡馆",
-        "zhHant": "融入聖水工業風格的極簡精品咖啡館"
-      },
-      "category": "cafe",
-      "lat": 37.548050979548,
-      "lng": 127.04564367033,
-      "address": "서울 성동구 아차산로 7",
-      "icon": "☕",
-      "naverUrl": "https://naver.me/5XJIYguc",
-      "naverLinkStatus": "user-provided-share-link",
-      "pinVerification": "address-geocoded",
-      "pinSourceUrl": "https://jusoga.com/b/1120011400106560302008010/",
-      "tip": {
-        "ko": "비교적 한적한 아침 방문을 추천해요. 커피를 마시고 원두와 브랜드 굿즈도 구경해보세요.",
-        "en": "Try visiting in the morning for a calmer atmosphere, and browse the coffee beans and merchandise.",
-        "ja": "比較的落ち着いた朝の訪問がおすすめ。コーヒーの後は豆やオリジナルグッズも見てみましょう。",
-        "zhHans": "推荐早上前往，氛围通常更悠闲。喝完咖啡也可以看看咖啡豆和品牌周边。",
-        "zhHant": "推薦早上前往，氛圍通常更悠閒。喝完咖啡也可以看看咖啡豆和品牌周邊。"
-      },
-      "hours": {
-        "timeZone": "Asia/Seoul",
-        "weekly": {
-          "mon": [
-            "08:00–20:00"
-          ],
-          "tue": [
-            "08:00–20:00"
-          ],
-          "wed": [
-            "08:00–20:00"
-          ],
-          "thu": [
-            "08:00–20:00"
-          ],
-          "fri": [
-            "08:00–20:00"
-          ],
-          "sat": [
-            "08:00–20:00"
-          ],
-          "sun": [
-            "08:00–20:00"
-          ]
-        },
-        "sourceUrl": "https://kr.bluebottlecoffee.com/blogs/locator/bluebottle-seongsu-cafe",
-        "checkedDate": "2026-10-26"
-      }
-    },
-    {
       "name": "타일러",
       "desc": "Craft Beer Pub",
       "category": "bar",
