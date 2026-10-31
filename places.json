@@ -6776,6 +6776,308 @@
           }
         }
       ]
+    },
+    {
+      "name": "롯데백화점 본점",
+      "enName": "LOTTE Department Store Main Branch",
+      "jaName": "ロッテ百貨店 本店",
+      "zhHansName": "乐天百货总店",
+      "zhHantName": "樂天百貨總店",
+      "desc": "Myeongdong Department Store · K-Beauty, Fashion & Tax Refund",
+      "descs": {
+        "ko": "명동 중심 대형 백화점 · 뷰티·패션·럭셔리 브랜드와 식품관",
+        "en": "Major Myeongdong department store · K-beauty, fashion, luxury labels and food hall",
+        "ja": "明洞中心部の大型百貨店 · Kビューティー、ファッション、ブランド、食品売場",
+        "zhHans": "明洞市中心大型百货商店 · 韩妆、时装、奢侈品牌及美食区",
+        "zhHant": "明洞市中心大型百貨公司 · 韓妝、時裝、精品品牌及美食區"
+      },
+      "category": "shop",
+      "lat": 37.564615998958,
+      "lng": 126.98206477432,
+      "address": "서울 중구 남대문로 81",
+      "icon": "🛍️",
+      "naverUrl": "https://naver.me/Gsj23L5e",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1114011100100010000022218/",
+      "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=106961",
+      "tip": {
+        "ko": "명동 쇼핑 중 한 번에 다양한 한국 브랜드를 둘러보기 좋아요. 여권을 챙겨 구매 전 외국인 택스리펀드 대상인지 확인해보세요.",
+        "en": "A convenient stop for Korean beauty and fashion while in Myeongdong. Bring your passport and check tax-refund eligibility before purchasing.",
+        "ja": "明洞で韓国コスメやファッションをまとめて見られます。パスポートを持参し、購入前に免税還付の対象か確認しましょう。",
+        "zhHans": "在明洞可一次逛韩妆与时装品牌。带好护照，并在结账前确认是否符合退税条件。",
+        "zhHant": "在明洞可一次逛韓妝與時裝品牌。帶好護照，並在結帳前確認是否符合退稅條件。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:30–20:00"
+          ],
+          "tue": [
+            "10:30–20:00"
+          ],
+          "wed": [
+            "10:30–20:00"
+          ],
+          "thu": [
+            "10:30–20:00"
+          ],
+          "fri": [
+            "10:30–20:30"
+          ],
+          "sat": [
+            "10:30–20:30"
+          ],
+          "sun": [
+            "10:30–20:30"
+          ]
+        },
+        "sourceUrl": "https://korean.visitseoul.net/shopping/롯데백화점-본점/KOP000217",
+        "checkedDate": "2026-10-31",
+        "specialHoursNotes": {
+          "ko": "월 1회 등 비정기 휴점 및 연장영업이 있으므로 방문 전 공식 지점 일정을 확인하세요.",
+          "en": "Monthly closures and extended opening days vary. Check the branch's official calendar.",
+          "ja": "月1回程度の不定休や延長営業があります。来店前に公式営業カレンダーをご確認ください。",
+          "zhHans": "每月可能有临时休店或延长营业，出发前请查看官方营业日历。",
+          "zhHant": "每月可能有臨時休店或延長營業，出發前請查看官方營業日曆。"
+        }
+      }
+    },
+    {
+      "name": "신세계백화점 본점 더 리저브",
+      "enName": "Shinsegae Department Store Main Branch – The Reserve",
+      "jaName": "新世界百貨店 本店 ザ・リザーブ",
+      "zhHansName": "新世界百货总店 The Reserve",
+      "zhHantName": "新世界百貨總店 The Reserve",
+      "desc": "Luxury Shopping · Shinsegae Main Store's The Reserve Building",
+      "descs": {
+        "ko": "신세계 본점 더 리저브관 · 럭셔리 브랜드와 특별한 쇼핑 경험",
+        "en": "Luxury shopping in The Reserve building of Shinsegae's main department store",
+        "ja": "新世界百貨店本店のザ・リザーブ館 · ラグジュアリーブランドのショッピング",
+        "zhHans": "新世界百货总店 The Reserve 馆 · 奢侈品牌购物体验",
+        "zhHant": "新世界百貨總店 The Reserve 館 · 精品品牌購物體驗"
+      },
+      "category": "shop",
+      "lat": 37.560980126241,
+      "lng": 126.98108486086,
+      "address": "서울 중구 소공로 63 신세계백화점 본점 더 리저브",
+      "icon": "🛍️",
+      "naverUrl": "https://naver.me/5PVarIDw",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1114012400100520005000001/",
+      "sourceUrl": "https://addir.shinsegae.com/store/floor.do?storeCd=SC00001",
+      "tip": {
+        "ko": "더 리저브는 신세계 본점의 여러 건물 중 한 곳이에요. 방문하려는 브랜드의 건물·층을 먼저 확인하고, 택스리펀드 대상이라면 여권을 챙기세요.",
+        "en": "The Reserve is one of several Shinsegae Main Store buildings. Check your brand's building and floor first, and bring a passport for eligible tax refunds.",
+        "ja": "ザ・リザーブは本店の複数ある館の一つです。ブランドの所在館・階を確認し、免税還付の対象ならパスポートを持参しましょう。",
+        "zhHans": "The Reserve 是新世界总店的其中一栋楼。先确认想逛的品牌所在楼栋及楼层，符合退税条件请携带护照。",
+        "zhHant": "The Reserve 是新世界總店的其中一棟樓。先確認想逛的品牌所在棟別及樓層，符合退稅條件請攜帶護照。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:30–20:00"
+          ],
+          "tue": [
+            "10:30–20:00"
+          ],
+          "wed": [
+            "10:30–20:00"
+          ],
+          "thu": [
+            "10:30–20:00"
+          ],
+          "fri": [
+            "10:30–20:30"
+          ],
+          "sat": [
+            "10:30–20:30"
+          ],
+          "sun": [
+            "10:30–20:30"
+          ]
+        },
+        "sourceUrl": "https://us.louisvuitton.com/eng-us/point-of-sale/korea/louis-vuitton-seoul-shinsegae-main-reserve",
+        "checkedDate": "2026-10-31",
+        "specialHoursNotes": {
+          "ko": "백화점 정기 휴점·명절에 따라 변동될 수 있어요. 개별 매장과 식음시설은 시간이 다를 수 있습니다.",
+          "en": "Department store holidays can change the schedule. Individual boutiques and dining venues may have different hours.",
+          "ja": "百貨店の休業日・祝日により変更されます。各店舗や飲食施設の営業時間は異なる場合があります。",
+          "zhHans": "百货店休息日及节假日可能调整营业时间，各品牌店及餐饮设施时间可能不同。",
+          "zhHant": "百貨公司休息日及假日可能調整營業時間，各品牌店及餐飲設施時間可能不同。"
+        }
+      }
+    },
+    {
+      "name": "더 스팟 패뷸러스",
+      "enName": "The Spot Fabulous",
+      "jaName": "ザ・スポット・ファビュラス",
+      "zhHansName": "The Spot Fabulous 复古咖啡馆",
+      "zhHantName": "The Spot Fabulous 復古咖啡館",
+      "desc": "Historic Myeongdong Café · Handmade Desserts & Window Views",
+      "descs": {
+        "ko": "명동의 근대 건축물을 개조한 빈티지 카페 · 수제 디저트와 넓은 창가",
+        "en": "Historic building café in Myeongdong · Handmade desserts and large windows",
+        "ja": "明洞の近代建築を改装したカフェ · 手作りスイーツと大きな窓",
+        "zhHans": "明洞历史建筑改造的复古咖啡馆 · 手工甜点与大窗景",
+        "zhHant": "明洞歷史建築改造的復古咖啡館 · 手工甜點與大窗景"
+      },
+      "category": "cafe",
+      "lat": 37.562371489038,
+      "lng": 126.9826056931,
+      "address": "서울 중구 명동2길 22 1·2층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/xucpDp5E",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1114012700101050000019826/",
+      "sourceUrl": "https://korean.visitseoul.net/citycenter/더-스팟-패뷸러스/KOP039727",
+      "tip": {
+        "ko": "근대 건축과 높은 천장이 매력적인 카페예요. 1층에서 디저트를 고르고 2층 창가 좌석에서 명동 풍경을 감상해보세요.",
+        "en": "Enjoy the historic architecture and high ceilings. Choose your dessert downstairs, then take in Myeongdong views from a second-floor window seat.",
+        "ja": "歴史ある建築と高い天井が魅力。1階でスイーツを選び、2階の窓際席から明洞の景色を楽しんでください。",
+        "zhHans": "欣赏历史建筑和高挑的天花板，先在一楼挑选甜点，再去二楼窗边欣赏明洞街景。",
+        "zhHant": "欣賞歷史建築和挑高的天花板，先在一樓挑選甜點，再去二樓窗邊欣賞明洞街景。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–22:50"
+          ],
+          "tue": [
+            "10:00–22:50"
+          ],
+          "wed": [
+            "10:00–22:35"
+          ],
+          "thu": [
+            "10:00–22:50"
+          ],
+          "fri": [
+            "10:00–22:50"
+          ],
+          "sat": [
+            "10:00–22:50"
+          ],
+          "sun": [
+            "10:00–22:50"
+          ]
+        },
+        "sourceUrl": "https://korean.visitseoul.net/citycenter/더-스팟-패뷸러스/KOP039727",
+        "checkedDate": "2026-10-31",
+        "specialHoursNotes": {
+          "ko": "1층에서 주문하고 음료는 2층에서 수령하는 방식으로 안내되어 있습니다. 현장 상황에 따라 변경될 수 있어요.",
+          "en": "The venue guide describes ordering on 1F and collecting drinks on 2F. This may change on site.",
+          "ja": "案内上は1階で注文し、飲み物を2階で受け取ります。現地で変更される場合があります。",
+          "zhHans": "店铺指南提示在一楼点单、二楼取饮品，现场安排可能调整。",
+          "zhHant": "店鋪指南提示在一樓點餐、二樓取飲品，現場安排可能調整。"
+        }
+      }
+    },
+    {
+      "name": "어니언 안국",
+      "enName": "Cafe Onion Anguk",
+      "jaName": "カフェ オニオン 安国",
+      "zhHansName": "Onion 咖啡馆 安国店",
+      "zhHantName": "Onion 咖啡館 安國店",
+      "desc": "Traditional Hanok Café · Pandoro, Salt Bread & Coffee",
+      "descs": {
+        "ko": "1920년대 한옥의 마당과 대청마루를 살린 베이커리 카페",
+        "en": "Renovated 1920s hanok café · Traditional courtyard, pandoro and fresh bread",
+        "ja": "1920年代の韓屋を改装したカフェ · 中庭、パンドーロ、焼きたてパン",
+        "zhHans": "由1920年代传统韩屋改建的咖啡馆 · 庭院、潘多洛和面包",
+        "zhHant": "由1920年代傳統韓屋改建的咖啡館 · 庭院、潘多洛和麵包"
+      },
+      "category": "cafe",
+      "lat": 37.577520355559,
+      "lng": 126.98667801923,
+      "address": "서울 종로구 계동길 5",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/xeAflRKM",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1111014700100930001018600/",
+      "sourceUrl": "https://www.onionkr.com/category/contact/26/",
+      "tip": {
+        "ko": "전통 한옥 마당에서 파티셰의 파빵도로(판도로)와 커피를 즐겨보세요. 평일은 오전 7시부터 열어 궁궐 관광 전 들르기 좋아요.",
+        "en": "Enjoy a pandoro pastry and coffee in the hanok courtyard. It opens at 7 AM on weekdays—ideal before palace sightseeing.",
+        "ja": "韓屋の中庭でパンドーロとコーヒーを。平日は朝7時開店なので、宮殿観光前にも立ち寄れます。",
+        "zhHans": "在韩屋庭院享用潘多洛面包和咖啡。工作日早上7点开门，适合参观宫殿前顺路来访。",
+        "zhHant": "在韓屋庭院享用潘多洛麵包和咖啡。平日早上7點開門，適合參觀宮殿前順路來訪。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "07:00–22:00"
+          ],
+          "tue": [
+            "07:00–22:00"
+          ],
+          "wed": [
+            "07:00–22:00"
+          ],
+          "thu": [
+            "07:00–22:00"
+          ],
+          "fri": [
+            "07:00–22:00"
+          ],
+          "sat": [
+            "09:00–22:00"
+          ],
+          "sun": [
+            "09:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.onionkr.com/category/contact/26/",
+        "checkedDate": "2026-10-31",
+        "lastOrder": "21:30",
+        "specialHoursNotes": {
+          "ko": "공휴일은 주말 운영시간(09:00 개점)이 적용될 수 있어요. 인기 시간대 대기가 있을 수 있습니다.",
+          "en": "Holidays may follow weekend hours (9 AM opening). Queues are possible at busy times.",
+          "ja": "祝日は週末と同じ9時開店になる場合があります。混雑時は待ち時間が発生することがあります。",
+          "zhHans": "节假日可能按周末时间9点开门，高峰时段可能排队。",
+          "zhHant": "假日可能按週末時間9點開門，尖峰時段可能排隊。"
+        }
+      }
+    },
+    {
+      "name": "해방촌 신흥시장",
+      "enName": "Haebangchon Sinheung Market",
+      "jaName": "解放村 新興市場",
+      "zhHansName": "解放村新兴市场",
+      "zhHantName": "解放村新興市場",
+      "desc": "Retro Market Alley · Cafés, Restaurants & Nightlife",
+      "descs": {
+        "ko": "오래된 시장 골목에 카페·식당·바가 어우러진 해방촌 복합 상권",
+        "en": "Revitalized market alleys with retro character, cafés, restaurants and bars",
+        "ja": "昔ながらの市場の路地にカフェ、レストラン、バーが集まる解放村の人気エリア",
+        "zhHans": "复古市场巷弄与新潮咖啡馆、餐厅、酒吧交织的解放村街区",
+        "zhHant": "復古市場巷弄與新潮咖啡館、餐廳、酒吧交織的解放村街區"
+      },
+      "category": "spot",
+      "lat": 37.5453122,
+      "lng": 126.9850672,
+      "address": "서울 용산구 신흥로 95-9 일대",
+      "icon": "📷",
+      "naverUrl": "https://naver.me/GPdowgGH",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04337-111703102005-st-652c0a49f27008be2c4fdec5",
+      "sourceUrl": "https://mediahub.seoul.go.kr/archives/2019546",
+      "tip": {
+        "ko": "장보기보다는 옛 시장 골목을 탐방하며 카페와 식당을 찾아보는 곳이에요. 언덕이 가파르니 편한 신발을 신고, 개별 매장 영업시간을 확인하세요.",
+        "en": "Come for retro alleys, cafés and dining rather than a traditional grocery market. The hill is steep, so wear comfortable shoes and check individual shop hours.",
+        "ja": "昔ながらの市場での買い物より、レトロな路地とカフェ・飲食店巡りが魅力。坂が急なので歩きやすい靴で。営業時間は店舗ごとに確認を。",
+        "zhHans": "这里更适合逛复古小巷、咖啡馆和餐厅，而非传统买菜市场。坡道较陡，建议穿舒适的鞋并确认各店营业时间。",
+        "zhHant": "這裡更適合逛復古小巷、咖啡館和餐廳，而非傳統買菜市場。坡道較陡，建議穿舒適的鞋並確認各店營業時間。"
+      },
+      "hoursVerificationNote": "Public market alley with independently operated shops; hours vary by venue."
     }
   ]
 }
