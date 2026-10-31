@@ -3709,7 +3709,94 @@
         "ja": "ピンデトッ、ミニキンパ、カルグクスなどを少しずつ味わってみて。注文前に値段も確認しましょう。",
         "zhHans": "推荐少量多样地品尝绿豆煎饼、迷你紫菜包饭和刀切面，点餐前先确认价格。",
         "zhHant": "推薦少量多樣地品嚐綠豆煎餅、迷你紫菜飯捲和刀切麵，點餐前先確認價格。"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/광장시장1.jpg",
+          "alt": {
+            "ko": "먹거리 노점과 방문객으로 활기찬 광장시장 내부",
+            "en": "Gwangjang Market's lively food stalls and visitors",
+            "ja": "食べ物の屋台と来場者でにぎわう広蔵市場",
+            "zhHans": "热闹的广藏市场美食摊位与游客",
+            "zhHant": "熱鬧的廣藏市場美食攤位與遊客"
+          },
+          "caption": {
+            "ko": "먹거리 노점과 방문객으로 활기찬 광장시장 내부",
+            "en": "Gwangjang Market's lively food stalls and visitors",
+            "ja": "食べ物の屋台と来場者でにぎわう広蔵市場",
+            "zhHans": "热闹的广藏市场美食摊位与游客",
+            "zhHant": "熱鬧的廣藏市場美食攤位與遊客"
+          }
+        },
+        {
+          "src": "./photos/광장시장5.png",
+          "alt": {
+            "ko": "떡볶이와 어묵을 판매하는 광장시장 먹거리 노점",
+            "en": "Street-food counter serving tteokbokki and fish cakes",
+            "ja": "トッポッキとおでんが並ぶ屋台",
+            "zhHans": "售卖辣炒年糕与鱼饼的小吃摊",
+            "zhHant": "販售辣炒年糕與魚板的小吃攤"
+          },
+          "caption": {
+            "ko": "떡볶이와 어묵을 판매하는 광장시장 먹거리 노점",
+            "en": "Street-food counter serving tteokbokki and fish cakes",
+            "ja": "トッポッキとおでんが並ぶ屋台",
+            "zhHans": "售卖辣炒年糕与鱼饼的小吃摊",
+            "zhHant": "販售辣炒年糕與魚板的小吃攤"
+          }
+        },
+        {
+          "src": "./photos/광장시장3.jpg",
+          "alt": {
+            "ko": "광장시장 노점에서 식사를 즐기는 방문객들",
+            "en": "Visitors enjoying food at a market counter",
+            "ja": "広蔵市場の屋台で食事を楽しむ来場者",
+            "zhHans": "在市场摊位用餐的游客",
+            "zhHant": "在市場攤位用餐的遊客"
+          },
+          "caption": {
+            "ko": "광장시장 노점에서 식사를 즐기는 방문객들",
+            "en": "Visitors enjoying food at a market counter",
+            "ja": "広蔵市場の屋台で食事を楽しむ来場者",
+            "zhHans": "在市场摊位用餐的游客",
+            "zhHant": "在市場攤位用餐的遊客"
+          }
+        },
+        {
+          "src": "./photos/광장시장6.png",
+          "alt": {
+            "ko": "천장 조명 아래 붐비는 광장시장 먹거리 골목",
+            "en": "Crowded food alley under bright market lights",
+            "ja": "照明の下でにぎわう市場の飲食エリア",
+            "zhHans": "灯光下热闹的广藏市场美食街",
+            "zhHant": "燈光下熱鬧的廣藏市場美食街"
+          },
+          "caption": {
+            "ko": "천장 조명 아래 붐비는 광장시장 먹거리 골목",
+            "en": "Crowded food alley under bright market lights",
+            "ja": "照明の下でにぎわう市場の飲食エリア",
+            "zhHans": "灯光下热闹的广藏市场美食街",
+            "zhHant": "燈光下熱鬧的廣藏市場美食街"
+          }
+        },
+        {
+          "src": "./photos/광장시장2.jpg",
+          "alt": {
+            "ko": "식재료와 먹거리를 판매하는 광장시장 상점 골목",
+            "en": "Market aisle lined with food and grocery stalls",
+            "ja": "食品や食材を販売する広蔵市場の商店通り",
+            "zhHans": "售卖食品和食材的市场巷道",
+            "zhHant": "販售食品和食材的市場巷道"
+          },
+          "caption": {
+            "ko": "식재료와 먹거리를 판매하는 광장시장 상점 골목",
+            "en": "Market aisle lined with food and grocery stalls",
+            "ja": "食品や食材を販売する広蔵市場の商店通り",
+            "zhHans": "售卖食品和食材的市场巷道",
+            "zhHant": "販售食品和食材的市場巷道"
+          }
+        }
+      ]
     },
     {
       "name": "SOJI BREAD&COFFEE",
