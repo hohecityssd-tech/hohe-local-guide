@@ -7063,7 +7063,77 @@
           "zhHans": "店铺指南提示在一楼点单、二楼取饮品，现场安排可能调整。",
           "zhHant": "店鋪指南提示在一樓點餐、二樓取飲品，現場安排可能調整。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/더스팟패뷸러스1.jpg",
+          "alt": {
+            "ko": "더 스팟 패뷸러스 · 사진 1",
+            "en": "The Spot Fabulous · Photo 1",
+            "ja": "ザ・スポット・ファビュラス · 写真 1",
+            "zhHans": "The Spot Fabulous · 照片 1",
+            "zhHant": "The Spot Fabulous · 照片 1"
+          },
+          "caption": {
+            "ko": "더 스팟 패뷸러스 · 사진 1",
+            "en": "The Spot Fabulous · Photo 1",
+            "ja": "ザ・スポット・ファビュラス · 写真 1",
+            "zhHans": "The Spot Fabulous · 照片 1",
+            "zhHant": "The Spot Fabulous · 照片 1"
+          }
+        },
+        {
+          "src": "./photos/더스팟패뷸러스2.jpg",
+          "alt": {
+            "ko": "더 스팟 패뷸러스 · 사진 2",
+            "en": "The Spot Fabulous · Photo 2",
+            "ja": "ザ・スポット・ファビュラス · 写真 2",
+            "zhHans": "The Spot Fabulous · 照片 2",
+            "zhHant": "The Spot Fabulous · 照片 2"
+          },
+          "caption": {
+            "ko": "더 스팟 패뷸러스 · 사진 2",
+            "en": "The Spot Fabulous · Photo 2",
+            "ja": "ザ・スポット・ファビュラス · 写真 2",
+            "zhHans": "The Spot Fabulous · 照片 2",
+            "zhHant": "The Spot Fabulous · 照片 2"
+          }
+        },
+        {
+          "src": "./photos/더스팟패뷸러스3.jpg",
+          "alt": {
+            "ko": "더 스팟 패뷸러스 · 사진 3",
+            "en": "The Spot Fabulous · Photo 3",
+            "ja": "ザ・スポット・ファビュラス · 写真 3",
+            "zhHans": "The Spot Fabulous · 照片 3",
+            "zhHant": "The Spot Fabulous · 照片 3"
+          },
+          "caption": {
+            "ko": "더 스팟 패뷸러스 · 사진 3",
+            "en": "The Spot Fabulous · Photo 3",
+            "ja": "ザ・スポット・ファビュラス · 写真 3",
+            "zhHans": "The Spot Fabulous · 照片 3",
+            "zhHant": "The Spot Fabulous · 照片 3"
+          }
+        },
+        {
+          "src": "./photos/더스팟패뷸러스4.png",
+          "alt": {
+            "ko": "더 스팟 패뷸러스 · 사진 4",
+            "en": "The Spot Fabulous · Photo 4",
+            "ja": "ザ・スポット・ファビュラス · 写真 4",
+            "zhHans": "The Spot Fabulous · 照片 4",
+            "zhHant": "The Spot Fabulous · 照片 4"
+          },
+          "caption": {
+            "ko": "더 스팟 패뷸러스 · 사진 4",
+            "en": "The Spot Fabulous · Photo 4",
+            "ja": "ザ・スポット・ファビュラス · 写真 4",
+            "zhHans": "The Spot Fabulous · 照片 4",
+            "zhHant": "The Spot Fabulous · 照片 4"
+          }
+        }
+      ]
     },
     {
       "name": "어니언 안국",
@@ -7165,7 +7235,60 @@
         "zhHant": "這裡更適合逛復古小巷、咖啡館和餐廳，而非傳統買菜市場。坡道較陡，建議穿舒適的鞋並確認各店營業時間。"
       },
       "hoursVerificationNote": "Public market alley with independently operated shops; hours vary by venue.",
-      "instagramReelUrl": "https://www.instagram.com/reel/DeBM4OUR77N/"
+      "instagramReelUrl": "https://www.instagram.com/reel/DeBM4OUR77N/",
+      "photos": [
+        {
+          "src": "./photos/해방촌신흥시장1.webp",
+          "alt": {
+            "ko": "카페와 식당이 이어진 신흥시장 골목",
+            "en": "Restaurants and cafés along Sinheung Market alley",
+            "ja": "新興市場のカフェと飲食店が並ぶ路地",
+            "zhHans": "新兴市场的餐厅与咖啡馆小巷",
+            "zhHant": "新興市場的餐廳與咖啡館小巷"
+          },
+          "caption": {
+            "ko": "카페와 식당이 이어진 신흥시장 골목",
+            "en": "Restaurants and cafés along Sinheung Market alley",
+            "ja": "新興市場のカフェと飲食店が並ぶ路地",
+            "zhHans": "新兴市场的餐厅与咖啡馆小巷",
+            "zhHant": "新興市場的餐廳與咖啡館小巷"
+          }
+        },
+        {
+          "src": "./photos/해방촌신흥시장2.jpg",
+          "alt": {
+            "ko": "1953 신흥시장 간판과 시장 골목",
+            "en": "1953 Sinheung Market sign and alley",
+            "ja": "1953年の新興市場の看板と路地",
+            "zhHans": "1953 新兴市场招牌与巷道",
+            "zhHant": "1953 新興市場招牌與巷道"
+          },
+          "caption": {
+            "ko": "1953 신흥시장 간판과 시장 골목",
+            "en": "1953 Sinheung Market sign and alley",
+            "ja": "1953年の新興市場の看板と路地",
+            "zhHans": "1953 新兴市场招牌与巷道",
+            "zhHant": "1953 新興市場招牌與巷道"
+          }
+        },
+        {
+          "src": "./photos/해방촌신흥시장2.png",
+          "alt": {
+            "ko": "오래된 상점 간판이 남아 있는 시장 골목",
+            "en": "Old storefront sign in Sinheung Market",
+            "ja": "昔の看板が残る新興市場の店先",
+            "zhHans": "保留旧式招牌的市场店面",
+            "zhHant": "保留舊式招牌的市場店面"
+          },
+          "caption": {
+            "ko": "오래된 상점 간판이 남아 있는 시장 골목",
+            "en": "Old storefront sign in Sinheung Market",
+            "ja": "昔の看板が残る新興市場の店先",
+            "zhHans": "保留旧式招牌的市场店面",
+            "zhHant": "保留舊式招牌的市場店面"
+          }
+        }
+      ]
     },
     {
       "name": "리사르커피 명동점",
@@ -7285,7 +7408,178 @@
         "sourceUrl": "https://www.diningcode.com/profile.php?rid=rUHRlFu24DYc",
         "checkedDate": "2026-10-31",
         "lastOrder": "21:30"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/낙원역2.jpg",
+          "alt": {
+            "ko": "한옥 정원으로 이어지는 철길",
+            "en": "Railway-themed hanok courtyard",
+            "ja": "韓屋の中庭へ続く線路",
+            "zhHans": "通往韩屋庭院的铁轨",
+            "zhHant": "通往韓屋庭院的鐵軌"
+          },
+          "caption": {
+            "ko": "한옥 정원으로 이어지는 철길",
+            "en": "Railway-themed hanok courtyard",
+            "ja": "韓屋の中庭へ続く線路",
+            "zhHans": "通往韩屋庭院的铁轨",
+            "zhHant": "通往韓屋庭院的鐵軌"
+          }
+        },
+        {
+          "src": "./photos/낙원역3.png",
+          "alt": {
+            "ko": "정원을 배경으로 즐기는 음료와 디저트",
+            "en": "Drinks and dessert by the garden",
+            "ja": "庭を眺めながら楽しむドリンクとスイーツ",
+            "zhHans": "庭院旁的饮品与甜点",
+            "zhHant": "庭院旁的飲品與甜點"
+          },
+          "caption": {
+            "ko": "정원을 배경으로 즐기는 음료와 디저트",
+            "en": "Drinks and dessert by the garden",
+            "ja": "庭を眺めながら楽しむドリンクとスイーツ",
+            "zhHans": "庭院旁的饮品与甜点",
+            "zhHant": "庭院旁的飲品與甜點"
+          }
+        },
+        {
+          "src": "./photos/낙원역1.jpg",
+          "alt": {
+            "ko": "초록 식물 사이로 이어진 철길",
+            "en": "Rail tracks winding through the courtyard",
+            "ja": "緑に囲まれた中庭の線路",
+            "zhHans": "绿植环绕的庭院铁轨",
+            "zhHant": "綠植環繞的庭院鐵軌"
+          },
+          "caption": {
+            "ko": "초록 식물 사이로 이어진 철길",
+            "en": "Rail tracks winding through the courtyard",
+            "ja": "緑に囲まれた中庭の線路",
+            "zhHans": "绿植环绕的庭院铁轨",
+            "zhHant": "綠植環繞的庭院鐵軌"
+          }
+        },
+        {
+          "src": "./photos/낙원역4.png",
+          "alt": {
+            "ko": "한옥 목재 기둥과 디저트 진열대",
+            "en": "Timber-framed café counter and dessert display",
+            "ja": "木の柱が印象的なカウンターとスイーツ",
+            "zhHans": "木梁咖啡吧台与甜点展示",
+            "zhHant": "木樑咖啡吧台與甜點展示"
+          },
+          "caption": {
+            "ko": "한옥 목재 기둥과 디저트 진열대",
+            "en": "Timber-framed café counter and dessert display",
+            "ja": "木の柱が印象的なカウンターとスイーツ",
+            "zhHans": "木梁咖啡吧台与甜点展示",
+            "zhHant": "木樑咖啡吧台與甜點展示"
+          }
+        },
+        {
+          "src": "./photos/낙원역5.png",
+          "alt": {
+            "ko": "정원을 바라보는 실내 좌석과 카운터",
+            "en": "Window seating overlooking the courtyard",
+            "ja": "中庭を望む窓際席とカウンター",
+            "zhHans": "可眺望庭院的窗边座位与吧台",
+            "zhHant": "可眺望庭院的窗邊座位與吧台"
+          },
+          "caption": {
+            "ko": "정원을 바라보는 실내 좌석과 카운터",
+            "en": "Window seating overlooking the courtyard",
+            "ja": "中庭を望む窓際席とカウンター",
+            "zhHans": "可眺望庭院的窗边座位与吧台",
+            "zhHant": "可眺望庭院的窗邊座位與吧台"
+          }
+        },
+        {
+          "src": "./photos/낙원역3.jpg",
+          "alt": {
+            "ko": "정원 쪽으로 열린 한옥 카페 좌석",
+            "en": "Hanok café seats facing the courtyard",
+            "ja": "中庭に面した韓屋カフェの席",
+            "zhHans": "面向庭院的韩屋咖啡馆座位",
+            "zhHant": "面向庭院的韓屋咖啡館座位"
+          },
+          "caption": {
+            "ko": "정원 쪽으로 열린 한옥 카페 좌석",
+            "en": "Hanok café seats facing the courtyard",
+            "ja": "中庭に面した韓屋カフェの席",
+            "zhHans": "面向庭院的韩屋咖啡馆座位",
+            "zhHant": "面向庭院的韓屋咖啡館座位"
+          }
+        }
+      ]
+    },
+    {
+      "name": "익선동 한옥거리",
+      "enName": "Ikseon-dong Hanok Street",
+      "jaName": "益善洞韓屋通り",
+      "zhHansName": "益善洞韩屋街",
+      "zhHantName": "益善洞韓屋街",
+      "desc": "Hanok Alleys · Cafés, Restaurants & Small Shops",
+      "descs": {
+        "ko": "한옥 골목을 따라 카페와 식당, 작은 가게들이 모인 지역",
+        "en": "Traditional hanok alleys filled with cafés, restaurants and small shops",
+        "ja": "伝統的な韓屋の路地にカフェ、飲食店、雑貨店が集まるエリア",
+        "zhHans": "传统韩屋巷弄中聚集着咖啡馆、餐厅和小店",
+        "zhHant": "傳統韓屋巷弄中聚集著咖啡館、餐廳和小店"
+      },
+      "category": "spot",
+      "lat": 37.5735,
+      "lng": 126.98985,
+      "address": "서울 종로구 수표로28길 21-12 일대",
+      "icon": "📷",
+      "pinVerification": "neighborhood-center-approximate",
+      "pinSourceUrl": "https://ko.aroundus.com/p/171415033-igseondong-hanogmaeul",
+      "sourceUrl": "https://english.seoul.go.kr/ikseon-dong-hanok-street/",
+      "tip": {
+        "ko": "좁은 한옥 골목을 천천히 걸어보세요. 해 질 무렵 조명이 켜진 풍경이 특히 멋지고, 가게별 영업시간은 달라요.",
+        "en": "Explore the narrow hanok alleys at a relaxed pace. The lights are lovely around dusk, and each shop sets its own hours.",
+        "ja": "韓屋の細い路地をゆっくり散策してみてください。夕暮れの灯りも魅力的。営業時間は店舗ごとに異なります。",
+        "zhHans": "慢慢逛逛狭窄的韩屋小巷。黄昏亮灯时格外迷人，各家店铺营业时间不同。",
+        "zhHant": "慢慢逛逛狹窄的韓屋小巷。黃昏亮燈時格外迷人，各家店鋪營業時間不同。"
+      },
+      "hoursVerificationNote": "Public alleys are accessible any time; individual shop hours vary.",
+      "photos": [
+        {
+          "src": "./photos/익선동1.jpg",
+          "alt": {
+            "ko": "해질녘 조명이 켜진 익선동 한옥 골목",
+            "en": "Ikseon-dong hanok alley at dusk",
+            "ja": "夕暮れの益善洞・韓屋路地",
+            "zhHans": "黄昏时分的益善洞韩屋小巷",
+            "zhHant": "黃昏時分的益善洞韓屋小巷"
+          },
+          "caption": {
+            "ko": "해질녘 조명이 켜진 익선동 한옥 골목",
+            "en": "Ikseon-dong hanok alley at dusk",
+            "ja": "夕暮れの益善洞・韓屋路地",
+            "zhHans": "黄昏时分的益善洞韩屋小巷",
+            "zhHant": "黃昏時分的益善洞韓屋小巷"
+          }
+        },
+        {
+          "src": "./photos/익선동2.png",
+          "alt": {
+            "ko": "밤의 익선동 골목과 작은 가게들",
+            "en": "Shops along an Ikseon-dong alley at night",
+            "ja": "夜の益善洞の路地と店",
+            "zhHans": "夜晚益善洞小巷里的店铺",
+            "zhHant": "夜晚益善洞小巷裡的店鋪"
+          },
+          "caption": {
+            "ko": "밤의 익선동 골목과 작은 가게들",
+            "en": "Shops along an Ikseon-dong alley at night",
+            "ja": "夜の益善洞の路地と店",
+            "zhHans": "夜晚益善洞小巷里的店铺",
+            "zhHant": "夜晚益善洞小巷裡的店鋪"
+          }
+        }
+      ]
     }
   ]
 }
