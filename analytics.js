@@ -183,7 +183,8 @@
     button.className = "hohe-analytics-settings";
     button.textContent = copy.settings;
     button.addEventListener("click", function () { showConsent(); });
-    intro.appendChild(button);
+    const explore = intro.querySelector("#introExplore");
+    intro.insertBefore(button, explore || null);
   }
 
   function init(language) {
