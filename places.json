@@ -1426,7 +1426,94 @@
         },
         "sourceUrl": "https://m.fritz.co.kr/contact.html",
         "checkedDate": "2026-10-26"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/프릳츠장충점1.jpg",
+          "alt": {
+            "ko": "프릳츠 장충점 · 사진 1",
+            "en": "프릳츠 장충점 · Photo 1",
+            "ja": "프릳츠 장충점 · 写真 1",
+            "zhHans": "프릳츠 장충점 · 照片 1",
+            "zhHant": "프릳츠 장충점 · 照片 1"
+          },
+          "caption": {
+            "ko": "프릳츠 장충점 · 사진 1",
+            "en": "프릳츠 장충점 · Photo 1",
+            "ja": "프릳츠 장충점 · 写真 1",
+            "zhHans": "프릳츠 장충점 · 照片 1",
+            "zhHant": "프릳츠 장충점 · 照片 1"
+          }
+        },
+        {
+          "src": "./photos/프릳츠장충점2.jpg",
+          "alt": {
+            "ko": "프릳츠 장충점 · 사진 2",
+            "en": "프릳츠 장충점 · Photo 2",
+            "ja": "프릳츠 장충점 · 写真 2",
+            "zhHans": "프릳츠 장충점 · 照片 2",
+            "zhHant": "프릳츠 장충점 · 照片 2"
+          },
+          "caption": {
+            "ko": "프릳츠 장충점 · 사진 2",
+            "en": "프릳츠 장충점 · Photo 2",
+            "ja": "프릳츠 장충점 · 写真 2",
+            "zhHans": "프릳츠 장충점 · 照片 2",
+            "zhHant": "프릳츠 장충점 · 照片 2"
+          }
+        },
+        {
+          "src": "./photos/프릳츠장충점3.jpg",
+          "alt": {
+            "ko": "프릳츠 장충점 · 사진 3",
+            "en": "프릳츠 장충점 · Photo 3",
+            "ja": "프릳츠 장충점 · 写真 3",
+            "zhHans": "프릳츠 장충점 · 照片 3",
+            "zhHant": "프릳츠 장충점 · 照片 3"
+          },
+          "caption": {
+            "ko": "프릳츠 장충점 · 사진 3",
+            "en": "프릳츠 장충점 · Photo 3",
+            "ja": "프릳츠 장충점 · 写真 3",
+            "zhHans": "프릳츠 장충점 · 照片 3",
+            "zhHant": "프릳츠 장충점 · 照片 3"
+          }
+        },
+        {
+          "src": "./photos/프릳츠장충점4.jpg",
+          "alt": {
+            "ko": "프릳츠 장충점 · 사진 4",
+            "en": "프릳츠 장충점 · Photo 4",
+            "ja": "프릳츠 장충점 · 写真 4",
+            "zhHans": "프릳츠 장충점 · 照片 4",
+            "zhHant": "프릳츠 장충점 · 照片 4"
+          },
+          "caption": {
+            "ko": "프릳츠 장충점 · 사진 4",
+            "en": "프릳츠 장충점 · Photo 4",
+            "ja": "프릳츠 장충점 · 写真 4",
+            "zhHans": "프릳츠 장충점 · 照片 4",
+            "zhHant": "프릳츠 장충점 · 照片 4"
+          }
+        },
+        {
+          "src": "./photos/프릳츠장충점5.jpg",
+          "alt": {
+            "ko": "프릳츠 장충점 · 사진 5",
+            "en": "프릳츠 장충점 · Photo 5",
+            "ja": "프릳츠 장충점 · 写真 5",
+            "zhHans": "프릳츠 장충점 · 照片 5",
+            "zhHant": "프릳츠 장충점 · 照片 5"
+          },
+          "caption": {
+            "ko": "프릳츠 장충점 · 사진 5",
+            "en": "프릳츠 장충점 · Photo 5",
+            "ja": "프릳츠 장충점 · 写真 5",
+            "zhHans": "프릳츠 장충점 · 照片 5",
+            "zhHant": "프릳츠 장충점 · 照片 5"
+          }
+        }
+      ]
     },
     {
       "name": "성수동대림창고갤러리",
@@ -1855,7 +1942,43 @@
         },
         "sourceUrl": "https://m.fritz.co.kr/contact.html",
         "checkedDate": "2026-10-26"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/프릳츠원서점1.jpg",
+          "alt": {
+            "ko": "프릳츠 원서점 · 사진 1",
+            "en": "프릳츠 원서점 · Photo 1",
+            "ja": "프릳츠 원서점 · 写真 1",
+            "zhHans": "프릳츠 원서점 · 照片 1",
+            "zhHant": "프릳츠 원서점 · 照片 1"
+          },
+          "caption": {
+            "ko": "프릳츠 원서점 · 사진 1",
+            "en": "프릳츠 원서점 · Photo 1",
+            "ja": "프릳츠 원서점 · 写真 1",
+            "zhHans": "프릳츠 원서점 · 照片 1",
+            "zhHant": "프릳츠 원서점 · 照片 1"
+          }
+        },
+        {
+          "src": "./photos/프릳츠원서점2.jpg",
+          "alt": {
+            "ko": "프릳츠 원서점 · 사진 2",
+            "en": "프릳츠 원서점 · Photo 2",
+            "ja": "프릳츠 원서점 · 写真 2",
+            "zhHans": "프릳츠 원서점 · 照片 2",
+            "zhHant": "프릳츠 원서점 · 照片 2"
+          },
+          "caption": {
+            "ko": "프릳츠 원서점 · 사진 2",
+            "en": "프릳츠 원서점 · Photo 2",
+            "ja": "프릳츠 원서점 · 写真 2",
+            "zhHans": "프릳츠 원서점 · 照片 2",
+            "zhHant": "프릳츠 원서점 · 照片 2"
+          }
+        }
+      ]
     },
     {
       "name": "타일러",
@@ -3825,7 +3948,111 @@
         },
         "sourceUrl": "https://www.diningcode.com/profile.php?rid=xOAPSFIxvqdP",
         "checkedDate": "2026-10-26"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/런던베이글뮤지엄안국1.jpg",
+          "alt": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 1",
+            "en": "런던베이글뮤지엄 안국 · Photo 1",
+            "ja": "런던베이글뮤지엄 안국 · 写真 1",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 1",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 1"
+          },
+          "caption": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 1",
+            "en": "런던베이글뮤지엄 안국 · Photo 1",
+            "ja": "런던베이글뮤지엄 안국 · 写真 1",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 1",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 1"
+          }
+        },
+        {
+          "src": "./photos/런던베이글뮤지엄안국2.jpg",
+          "alt": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 2",
+            "en": "런던베이글뮤지엄 안국 · Photo 2",
+            "ja": "런던베이글뮤지엄 안국 · 写真 2",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 2",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 2"
+          },
+          "caption": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 2",
+            "en": "런던베이글뮤지엄 안국 · Photo 2",
+            "ja": "런던베이글뮤지엄 안국 · 写真 2",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 2",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 2"
+          }
+        },
+        {
+          "src": "./photos/런던베이글뮤지엄안국3.png",
+          "alt": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 3",
+            "en": "런던베이글뮤지엄 안국 · Photo 3",
+            "ja": "런던베이글뮤지엄 안국 · 写真 3",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 3",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 3"
+          },
+          "caption": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 3",
+            "en": "런던베이글뮤지엄 안국 · Photo 3",
+            "ja": "런던베이글뮤지엄 안국 · 写真 3",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 3",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 3"
+          }
+        },
+        {
+          "src": "./photos/런던베이글뮤지엄안국4.png",
+          "alt": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 4",
+            "en": "런던베이글뮤지엄 안국 · Photo 4",
+            "ja": "런던베이글뮤지엄 안국 · 写真 4",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 4",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 4"
+          },
+          "caption": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 4",
+            "en": "런던베이글뮤지엄 안국 · Photo 4",
+            "ja": "런던베이글뮤지엄 안국 · 写真 4",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 4",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 4"
+          }
+        },
+        {
+          "src": "./photos/런던베이글뮤지엄안국5.png",
+          "alt": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 5",
+            "en": "런던베이글뮤지엄 안국 · Photo 5",
+            "ja": "런던베이글뮤지엄 안국 · 写真 5",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 5",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 5"
+          },
+          "caption": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 5",
+            "en": "런던베이글뮤지엄 안국 · Photo 5",
+            "ja": "런던베이글뮤지엄 안국 · 写真 5",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 5",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 5"
+          }
+        },
+        {
+          "src": "./photos/런던베이글뮤지엄안국6.png",
+          "alt": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 6",
+            "en": "런던베이글뮤지엄 안국 · Photo 6",
+            "ja": "런던베이글뮤지엄 안국 · 写真 6",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 6",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 6"
+          },
+          "caption": {
+            "ko": "런던베이글뮤지엄 안국 · 사진 6",
+            "en": "런던베이글뮤지엄 안국 · Photo 6",
+            "ja": "런던베이글뮤지엄 안국 · 写真 6",
+            "zhHans": "런던베이글뮤지엄 안국 · 照片 6",
+            "zhHant": "런던베이글뮤지엄 안국 · 照片 6"
+          }
+        }
+      ]
     },
     {
       "name": "런던베이글뮤지엄 도산",
@@ -4513,7 +4740,77 @@
           "zhHans": "首尔官方旅游指南标示凌晨1点关门，其他资料有凌晨2点或周三休息的说法，建议提前确认。",
           "zhHant": "首爾官方旅遊指南標示凌晨1點關門，其他資料有凌晨2點或週三休息的說法，建議提前確認。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/주신당1.jpg",
+          "alt": {
+            "ko": "주신당 · 사진 1",
+            "en": "주신당 · Photo 1",
+            "ja": "주신당 · 写真 1",
+            "zhHans": "주신당 · 照片 1",
+            "zhHant": "주신당 · 照片 1"
+          },
+          "caption": {
+            "ko": "주신당 · 사진 1",
+            "en": "주신당 · Photo 1",
+            "ja": "주신당 · 写真 1",
+            "zhHans": "주신당 · 照片 1",
+            "zhHant": "주신당 · 照片 1"
+          }
+        },
+        {
+          "src": "./photos/주신당2.jpg",
+          "alt": {
+            "ko": "주신당 · 사진 2",
+            "en": "주신당 · Photo 2",
+            "ja": "주신당 · 写真 2",
+            "zhHans": "주신당 · 照片 2",
+            "zhHant": "주신당 · 照片 2"
+          },
+          "caption": {
+            "ko": "주신당 · 사진 2",
+            "en": "주신당 · Photo 2",
+            "ja": "주신당 · 写真 2",
+            "zhHans": "주신당 · 照片 2",
+            "zhHant": "주신당 · 照片 2"
+          }
+        },
+        {
+          "src": "./photos/주신당3.jpg",
+          "alt": {
+            "ko": "주신당 · 사진 3",
+            "en": "주신당 · Photo 3",
+            "ja": "주신당 · 写真 3",
+            "zhHans": "주신당 · 照片 3",
+            "zhHant": "주신당 · 照片 3"
+          },
+          "caption": {
+            "ko": "주신당 · 사진 3",
+            "en": "주신당 · Photo 3",
+            "ja": "주신당 · 写真 3",
+            "zhHans": "주신당 · 照片 3",
+            "zhHant": "주신당 · 照片 3"
+          }
+        },
+        {
+          "src": "./photos/주신당5.jpg",
+          "alt": {
+            "ko": "주신당 · 사진 4",
+            "en": "주신당 · Photo 4",
+            "ja": "주신당 · 写真 4",
+            "zhHans": "주신당 · 照片 4",
+            "zhHant": "주신당 · 照片 4"
+          },
+          "caption": {
+            "ko": "주신당 · 사진 4",
+            "en": "주신당 · Photo 4",
+            "ja": "주신당 · 写真 4",
+            "zhHans": "주신당 · 照片 4",
+            "zhHant": "주신당 · 照片 4"
+          }
+        }
+      ]
     },
     {
       "name": "코끼리브루어리 신당",
@@ -4580,7 +4877,43 @@
           "zhHans": "部分资料标示周六凌晨1点、周日23点关门，请提前确认。",
           "zhHant": "部分資料標示週六凌晨1點、週日23點關門，請提前確認。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/코끼리브루어리1.jpg",
+          "alt": {
+            "ko": "코끼리브루어리 신당 · 사진 1",
+            "en": "코끼리브루어리 신당 · Photo 1",
+            "ja": "코끼리브루어리 신당 · 写真 1",
+            "zhHans": "코끼리브루어리 신당 · 照片 1",
+            "zhHant": "코끼리브루어리 신당 · 照片 1"
+          },
+          "caption": {
+            "ko": "코끼리브루어리 신당 · 사진 1",
+            "en": "코끼리브루어리 신당 · Photo 1",
+            "ja": "코끼리브루어리 신당 · 写真 1",
+            "zhHans": "코끼리브루어리 신당 · 照片 1",
+            "zhHant": "코끼리브루어리 신당 · 照片 1"
+          }
+        },
+        {
+          "src": "./photos/코끼리브루어리2.jpg",
+          "alt": {
+            "ko": "코끼리브루어리 신당 · 사진 2",
+            "en": "코끼리브루어리 신당 · Photo 2",
+            "ja": "코끼리브루어리 신당 · 写真 2",
+            "zhHans": "코끼리브루어리 신당 · 照片 2",
+            "zhHant": "코끼리브루어리 신당 · 照片 2"
+          },
+          "caption": {
+            "ko": "코끼리브루어리 신당 · 사진 2",
+            "en": "코끼리브루어리 신당 · Photo 2",
+            "ja": "코끼리브루어리 신당 · 写真 2",
+            "zhHans": "코끼리브루어리 신당 · 照片 2",
+            "zhHant": "코끼리브루어리 신당 · 照片 2"
+          }
+        }
+      ]
     },
     {
       "name": "사테",
@@ -5799,7 +6132,43 @@
         "zhHans": "欣赏“Spring”雕塑后，沿台阶下到清溪川步道。夜晚灯光亮起时散步也很惬意。",
         "zhHant": "欣賞「Spring」雕塑後，沿階梯走到清溪川步道。夜晚燈光亮起時散步也很愜意。"
       },
-      "hoursVerificationNote": "Open public plaza; events and stream access may be temporarily restricted by weather or safety conditions."
+      "hoursVerificationNote": "Open public plaza; events and stream access may be temporarily restricted by weather or safety conditions.",
+      "photos": [
+        {
+          "src": "./photos/청계광장2.jpg",
+          "alt": {
+            "ko": "조명으로 빛나는 청계광장과 청계천 야경",
+            "en": "Cheonggye Plaza and the illuminated stream at night",
+            "ja": "ライトアップされた清渓広場と清渓川の夜景",
+            "zhHans": "清溪广场与清溪川夜景",
+            "zhHant": "清溪廣場與清溪川夜景"
+          },
+          "caption": {
+            "ko": "조명으로 빛나는 청계광장과 청계천 야경",
+            "en": "Cheonggye Plaza and the illuminated stream at night",
+            "ja": "ライトアップされた清渓広場と清渓川の夜景",
+            "zhHans": "清溪广场与清溪川夜景",
+            "zhHant": "清溪廣場與清溪川夜景"
+          }
+        },
+        {
+          "src": "./photos/청계광장1.png",
+          "alt": {
+            "ko": "도심 속 청계천 산책로의 낮 풍경",
+            "en": "Daytime view of Cheonggyecheon Stream promenade",
+            "ja": "清渓川の昼間の遊歩道",
+            "zhHans": "清溪川日间步道景色",
+            "zhHant": "清溪川日間步道景色"
+          },
+          "caption": {
+            "ko": "도심 속 청계천 산책로의 낮 풍경",
+            "en": "Daytime view of Cheonggyecheon Stream promenade",
+            "ja": "清渓川の昼間の遊歩道",
+            "zhHans": "清溪川日间步道景色",
+            "zhHant": "清溪川日間步道景色"
+          }
+        }
+      ]
     },
     {
       "name": "덕수궁",
@@ -5864,7 +6233,60 @@
           "zhHans": "20:00停止入场。节假日休宫日可能调整；石造殿内部参观另有时间和预约规则。",
           "zhHant": "20:00停止入場。假日休宮日可能調整；石造殿內部參觀另有時間和預約規則。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/덕수궁4.png",
+          "alt": {
+            "ko": "덕수궁 석조전과 분수 정원",
+            "en": "Seokjojeon Hall and fountain garden at Deoksugung",
+            "ja": "徳寿宮の石造殿と噴水庭園",
+            "zhHans": "德寿宫石造殿与喷泉庭院",
+            "zhHant": "德壽宮石造殿與噴泉庭院"
+          },
+          "caption": {
+            "ko": "덕수궁 석조전과 분수 정원",
+            "en": "Seokjojeon Hall and fountain garden at Deoksugung",
+            "ja": "徳寿宮の石造殿と噴水庭園",
+            "zhHans": "德寿宫石造殿与喷泉庭院",
+            "zhHant": "德壽宮石造殿與噴泉庭院"
+          }
+        },
+        {
+          "src": "./photos/덕수궁3.jpg",
+          "alt": {
+            "ko": "밤에 조명이 켜진 덕수궁 석조전",
+            "en": "Illuminated Seokjojeon Hall at night",
+            "ja": "夜にライトアップされた徳寿宮石造殿",
+            "zhHans": "夜晚亮灯的德寿宫石造殿",
+            "zhHant": "夜晚亮燈的德壽宮石造殿"
+          },
+          "caption": {
+            "ko": "밤에 조명이 켜진 덕수궁 석조전",
+            "en": "Illuminated Seokjojeon Hall at night",
+            "ja": "夜にライトアップされた徳寿宮石造殿",
+            "zhHans": "夜晚亮灯的德寿宫石造殿",
+            "zhHant": "夜晚亮燈的德壽宮石造殿"
+          }
+        },
+        {
+          "src": "./photos/덕수궁5.jpg",
+          "alt": {
+            "ko": "단풍으로 둘러싸인 덕수궁의 전통 전각",
+            "en": "Traditional palace hall framed by autumn leaves",
+            "ja": "紅葉に囲まれた徳寿宮の伝統建築",
+            "zhHans": "秋叶环绕的德寿宫传统殿阁",
+            "zhHant": "秋葉環繞的德壽宮傳統殿閣"
+          },
+          "caption": {
+            "ko": "단풍으로 둘러싸인 덕수궁의 전통 전각",
+            "en": "Traditional palace hall framed by autumn leaves",
+            "ja": "紅葉に囲まれた徳寿宮の伝統建築",
+            "zhHans": "秋叶环绕的德寿宫传统殿阁",
+            "zhHant": "秋葉環繞的德壽宮傳統殿閣"
+          }
+        }
+      ]
     },
     {
       "name": "경복궁",
@@ -6162,7 +6584,77 @@
           "zhHans": "开放时间随季节变化，闭馆前1小时停止入场。节假日休宫日可能调整，特别夜间开放另有日程。",
           "zhHant": "開放時間隨季節變化，閉館前1小時停止入場。假日休宮日可能調整，特別夜間開放另有日程。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/경복궁1.png",
+          "alt": {
+            "ko": "해질녘 경복궁 광화문의 정면 풍경",
+            "en": "Gwanghwamun Gate at Gyeongbokgung near dusk",
+            "ja": "夕暮れの景福宮・光化門",
+            "zhHans": "傍晚的景福宫光化门",
+            "zhHant": "傍晚的景福宮光化門"
+          },
+          "caption": {
+            "ko": "해질녘 경복궁 광화문의 정면 풍경",
+            "en": "Gwanghwamun Gate at Gyeongbokgung near dusk",
+            "ja": "夕暮れの景福宮・光化門",
+            "zhHans": "傍晚的景福宫光化门",
+            "zhHant": "傍晚的景福宮光化門"
+          }
+        },
+        {
+          "src": "./photos/경복궁2.webp",
+          "alt": {
+            "ko": "궁궐 입구 광화문을 비스듬히 바라본 모습",
+            "en": "Angled view of Gwanghwamun Gate",
+            "ja": "斜めから見た光化門",
+            "zhHans": "从侧面拍摄的光化门",
+            "zhHant": "從側面拍攝的光化門"
+          },
+          "caption": {
+            "ko": "궁궐 입구 광화문을 비스듬히 바라본 모습",
+            "en": "Angled view of Gwanghwamun Gate",
+            "ja": "斜めから見た光化門",
+            "zhHans": "从侧面拍摄的光化门",
+            "zhHant": "從側面拍攝的光化門"
+          }
+        },
+        {
+          "src": "./photos/경복궁4.jpg",
+          "alt": {
+            "ko": "경복궁 근정전 내부의 왕좌",
+            "en": "Royal throne in Geunjeongjeon Hall",
+            "ja": "景福宮・勤政殿の玉座",
+            "zhHans": "景福宫勤政殿内的御座",
+            "zhHant": "景福宮勤政殿內的御座"
+          },
+          "caption": {
+            "ko": "경복궁 근정전 내부의 왕좌",
+            "en": "Royal throne in Geunjeongjeon Hall",
+            "ja": "景福宮・勤政殿の玉座",
+            "zhHans": "景福宫勤政殿内的御座",
+            "zhHant": "景福宮勤政殿內的御座"
+          }
+        },
+        {
+          "src": "./photos/경복궁5.jpg",
+          "alt": {
+            "ko": "경복궁 전각 천장의 화려한 단청",
+            "en": "Colorful painted ceiling inside Gyeongbokgung",
+            "ja": "景福宮の華やかな丹青装飾の天井",
+            "zhHans": "景福宫殿阁内部绚丽的丹青彩绘天花板",
+            "zhHant": "景福宮殿閣內部絢麗的丹青彩繪天花板"
+          },
+          "caption": {
+            "ko": "경복궁 전각 천장의 화려한 단청",
+            "en": "Colorful painted ceiling inside Gyeongbokgung",
+            "ja": "景福宮の華やかな丹青装飾の天井",
+            "zhHans": "景福宫殿阁内部绚丽的丹青彩绘天花板",
+            "zhHant": "景福宮殿閣內部絢麗的丹青彩繪天花板"
+          }
+        }
+      ]
     },
     {
       "name": "달맞이광장바베큐 본점",
@@ -6230,7 +6722,60 @@
           "zhHans": "露天座位视天气及现场情况开放，请提前确认排队或预约方式。",
           "zhHant": "露天座位視天氣及現場情況開放，請提前確認排隊或預約方式。"
         }
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/달맞이광장바베큐2.jpg",
+          "alt": {
+            "ko": "달맞이광장바베큐 · 사진 1",
+            "en": "달맞이광장바베큐 · Photo 1",
+            "ja": "달맞이광장바베큐 · 写真 1",
+            "zhHans": "달맞이광장바베큐 · 照片 1",
+            "zhHant": "달맞이광장바베큐 · 照片 1"
+          },
+          "caption": {
+            "ko": "달맞이광장바베큐 · 사진 1",
+            "en": "달맞이광장바베큐 · Photo 1",
+            "ja": "달맞이광장바베큐 · 写真 1",
+            "zhHans": "달맞이광장바베큐 · 照片 1",
+            "zhHant": "달맞이광장바베큐 · 照片 1"
+          }
+        },
+        {
+          "src": "./photos/달맞이광장바베큐3.jpg",
+          "alt": {
+            "ko": "달맞이광장바베큐 · 사진 2",
+            "en": "달맞이광장바베큐 · Photo 2",
+            "ja": "달맞이광장바베큐 · 写真 2",
+            "zhHans": "달맞이광장바베큐 · 照片 2",
+            "zhHant": "달맞이광장바베큐 · 照片 2"
+          },
+          "caption": {
+            "ko": "달맞이광장바베큐 · 사진 2",
+            "en": "달맞이광장바베큐 · Photo 2",
+            "ja": "달맞이광장바베큐 · 写真 2",
+            "zhHans": "달맞이광장바베큐 · 照片 2",
+            "zhHant": "달맞이광장바베큐 · 照片 2"
+          }
+        },
+        {
+          "src": "./photos/달맞이광장바베큐4.jpg",
+          "alt": {
+            "ko": "달맞이광장바베큐 · 사진 3",
+            "en": "달맞이광장바베큐 · Photo 3",
+            "ja": "달맞이광장바베큐 · 写真 3",
+            "zhHans": "달맞이광장바베큐 · 照片 3",
+            "zhHant": "달맞이광장바베큐 · 照片 3"
+          },
+          "caption": {
+            "ko": "달맞이광장바베큐 · 사진 3",
+            "en": "달맞이광장바베큐 · Photo 3",
+            "ja": "달맞이광장바베큐 · 写真 3",
+            "zhHans": "달맞이광장바베큐 · 照片 3",
+            "zhHant": "달맞이광장바베큐 · 照片 3"
+          }
+        }
+      ]
     }
   ]
 }
