@@ -6163,6 +6163,74 @@
           "zhHant": "開放時間隨季節變化，閉館前1小時停止入場。假日休宮日可能調整，特別夜間開放另有日程。"
         }
       }
+    },
+    {
+      "name": "달맞이광장바베큐 본점",
+      "enName": "Dalmaji Gwangjang BBQ Euljiro",
+      "jaName": "タルマジ広場バーベキュー 本店",
+      "zhHansName": "月迎广场烧烤 乙支路总店",
+      "zhHantName": "月迎廣場燒烤 乙支路總店",
+      "desc": "Charcoal-Grilled Chicken BBQ · Draft Beer & Outdoor Seating",
+      "descs": {
+        "ko": "주문 즉시 구워내는 숯불 닭 바베큐와 생맥주를 즐기는 을지로 야장 맛집",
+        "en": "Freshly charcoal-grilled chicken barbecue, draft beer and a lively Euljiro courtyard",
+        "ja": "注文ごとに焼く炭火チキンBBQと生ビールが楽しめる乙支路の屋外席のあるお店",
+        "zhHans": "现点现烤炭火鸡肉烧烤、冰爽生啤与乙支路露天庭院氛围",
+        "zhHant": "現點現烤炭火雞肉燒烤、冰爽生啤與乙支路露天庭院氛圍"
+      },
+      "category": "food",
+      "lat": 37.565958959097,
+      "lng": 126.99042615667,
+      "address": "서울 중구 을지로 112-1 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5cq5Zz6C",
+      "naverLinkStatus": "user-provided-share-link",
+      "naverPlaceId": "2021614070",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1114015500103430011012956/서울특별시-중구-을지로-112-1-을지로3가",
+      "sourceUrl": "https://korean.visitseoul.net/restaurants/dalmazibbq/KOPjdhubv",
+      "tip": {
+        "ko": "처음이라면 소금 바베큐와 시원한 생맥주를 추천해요. 야외 좌석은 날씨에 따라 운영되며, 인기 시간에는 웨이팅이 있을 수 있어요.",
+        "en": "Start with the salt-grilled chicken BBQ and a cold draft beer. Outdoor seating depends on the weather, and busy hours may mean a wait.",
+        "ja": "初めてなら塩味の炭火チキンBBQと冷たい生ビールがおすすめ。屋外席は天候に左右され、混雑時は待つことがあります。",
+        "zhHans": "初次来访推荐盐味炭烤鸡肉配冰爽生啤。露天座位视天气开放，热门时段可能需要排队。",
+        "zhHant": "初次來訪推薦鹽味炭烤雞肉配冰爽生啤。露天座位視天氣開放，熱門時段可能需要排隊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "16:00–01:00 (+1)"
+          ],
+          "tue": [
+            "16:00–01:00 (+1)"
+          ],
+          "wed": [
+            "16:00–01:00 (+1)"
+          ],
+          "thu": [
+            "16:00–01:00 (+1)"
+          ],
+          "fri": [
+            "16:00–02:00 (+1)"
+          ],
+          "sat": [
+            "16:00–02:00 (+1)"
+          ],
+          "sun": [
+            "16:00–01:00 (+1)"
+          ]
+        },
+        "sourceUrl": "https://korean.visitseoul.net/restaurants/dalmazibbq/KOPjdhubv",
+        "checkedDate": "2026-10-31",
+        "specialHoursNotes": {
+          "ko": "야외 좌석은 날씨와 현장 상황에 따라 운영됩니다. 현장 대기·예약 방식은 방문 전 확인하세요.",
+          "en": "Outdoor seating depends on weather and operating conditions. Check the current waitlist or reservation process before visiting.",
+          "ja": "屋外席は天候や営業状況によります。順番待ち・予約方法は来店前にご確認ください。",
+          "zhHans": "露天座位视天气及现场情况开放，请提前确认排队或预约方式。",
+          "zhHant": "露天座位視天氣及現場情況開放，請提前確認排隊或預約方式。"
+        }
+      }
     }
   ]
 }
