@@ -7166,6 +7166,126 @@
       },
       "hoursVerificationNote": "Public market alley with independently operated shops; hours vary by venue.",
       "instagramReelUrl": "https://www.instagram.com/reel/DeBM4OUR77N/"
+    },
+    {
+      "name": "리사르커피 명동점",
+      "enName": "Leesar Coffee Myeongdong",
+      "jaName": "リサルコーヒー 明洞店",
+      "zhHansName": "Leesar Coffee 明洞店",
+      "zhHantName": "Leesar Coffee 明洞店",
+      "desc": "Italian-Style Espresso Bar",
+      "descs": {
+        "en": "Italian-style espresso bar · Signature espresso drinks",
+        "ko": "이탈리아식 에스프레소 전문 카페",
+        "ja": "イタリア式エスプレッソバー · 多彩なエスプレッソメニュー",
+        "zhHans": "意式浓缩咖啡吧 · 多种特色浓缩咖啡",
+        "zhHant": "義式濃縮咖啡吧 · 多種特色濃縮咖啡"
+      },
+      "category": "cafe",
+      "lat": 37.5617852,
+      "lng": 126.9882271,
+      "address": "서울 중구 명동8가길 58 1~2층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/xAA48v1g",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04537-111404103160-st-652c0cc3f27008be2c572bf3",
+      "tip": {
+        "ko": "명동에서 이탈리아식 에스프레소를 즐겨보세요. 진한 커피가 부담스럽다면 크림을 얹은 콘 판나를 추천해요.",
+        "en": "Try an Italian-style espresso while exploring Myeongdong. For a sweeter, creamier cup, order a caffè con panna.",
+        "ja": "明洞散策の合間にイタリア式エスプレッソを。濃いコーヒーが苦手なら、クリームをのせたコンパンナがおすすめです。",
+        "zhHans": "逛明洞时不妨试试意式浓缩咖啡。若想要口感更柔和香甜，推荐加了奶油的 Con Panna。",
+        "zhHant": "逛明洞時不妨試試義式濃縮咖啡。若想要口感更柔和香甜，推薦加了鮮奶油的 Con Panna。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "07:00–20:00"
+          ],
+          "tue": [
+            "07:00–20:00"
+          ],
+          "wed": [
+            "07:00–20:00"
+          ],
+          "thu": [
+            "07:00–20:00"
+          ],
+          "fri": [
+            "07:00–20:00"
+          ],
+          "sat": [
+            "08:00–20:00"
+          ],
+          "sun": [
+            "08:00–20:00"
+          ]
+        },
+        "sourceUrl": "https://leesarcoffee.com/locations/",
+        "checkedDate": "2026-10-31",
+        "lastOrder": "19:30"
+      }
+    },
+    {
+      "name": "낙원역",
+      "enName": "Nakwon Station",
+      "jaName": "ナグォン駅",
+      "zhHansName": "乐园站",
+      "zhHantName": "樂園站",
+      "desc": "Hanok Railway-Themed Café",
+      "descs": {
+        "en": "Hanok café · Railway-themed courtyard and rotating dessert display",
+        "ko": "철길 포토존과 회전식 디저트 진열대가 있는 한옥 카페",
+        "ja": "韓屋カフェ · 線路のフォトスポットと回転式デザートディスプレイ",
+        "zhHans": "韩屋咖啡馆 · 铁轨拍照区与旋转甜点展示台",
+        "zhHant": "韓屋咖啡館 · 鐵軌拍照區與旋轉甜點展示台"
+      },
+      "category": "cafe",
+      "lat": 37.573361323311,
+      "lng": 126.99013929822,
+      "address": "서울 종로구 수표로28길 33-5 1층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/xVBxH0TK",
+      "naverLinkStatus": "user-provided-share-link",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1111013300101660032015736/",
+      "tip": {
+        "ko": "한옥 안으로 이어지는 철길 포토존과 돌아가는 디저트 진열대를 놓치지 마세요. 한적한 사진을 원한다면 평일 방문을 추천해요.",
+        "en": "Don't miss the railway photo spot and the rotating dessert display inside the hanok. Visit on a weekday for less crowded photos.",
+        "ja": "韓屋へ続く線路のフォトスポットと回転式のデザートディスプレイは必見。ゆっくり撮影するなら平日がおすすめです。",
+        "zhHans": "别错过通往韩屋内部的铁轨拍照点和旋转甜点展示台。想拍到人少的照片，建议平日前往。",
+        "zhHant": "別錯過通往韓屋內部的鐵軌拍照點和旋轉甜點展示台。想拍到人少的照片，建議平日前往。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–22:00"
+          ],
+          "tue": [
+            "11:00–22:00"
+          ],
+          "wed": [
+            "11:00–22:00"
+          ],
+          "thu": [
+            "11:00–22:00"
+          ],
+          "fri": [
+            "11:00–22:00"
+          ],
+          "sat": [
+            "11:00–22:00"
+          ],
+          "sun": [
+            "11:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=rUHRlFu24DYc",
+        "checkedDate": "2026-10-31",
+        "lastOrder": "21:30"
+      }
     }
   ]
 }
