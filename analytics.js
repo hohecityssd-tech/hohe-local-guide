@@ -1,13 +1,13 @@
 /* HOHE CITY LOCAL GUIDE — GA4 event tracking.
- * Disabled until GA4_MEASUREMENT_ID is filled in.
+ * Disabled until a visitor consents and this branch is deployed.
  * Google Analytics only loads after a visitor explicitly allows usage analytics.
  * The map works normally when tracking is disabled or declined.
  */
 (function () {
   "use strict";
 
-  // Paste the Google Analytics 4 web stream Measurement ID here (example: G-XXXXXXXXXX).
-  const GA4_MEASUREMENT_ID = "";
+  // HOHE CITY LOCAL GUIDE GA4 web stream Measurement ID.
+  const GA4_MEASUREMENT_ID = "G-TML12HSGK4";
   const CONSENT_KEY = "hohe-guide-analytics-consent-v1";
   const TRACKING_READY = /^G-[A-Z0-9]+$/.test(GA4_MEASUREMENT_ID);
   const COPY = {
