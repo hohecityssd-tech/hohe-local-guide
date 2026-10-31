@@ -1,7 +1,7 @@
 # HOHE CITY LOCAL GUIDE — Analytics setup (GA4)
 
 ## Current status
-The map has a **prepared** GA4 integration on a separate feature branch. It is **not collecting any data** until a valid GA4 Measurement ID is added to analytics.js, privacy notices are reviewed, and the branch is merged/deployed.
+The map has a **configured** GA4 integration (Measurement ID: **G-TML12HSGK4**) on a separate feature branch. It is **not collecting any live data** until the privacy notice is reviewed and the branch is merged/deployed. Once deployed, analytics loads only after each visitor opts in.
 
 There is no change to the existing printed QR code or the map's core navigation.
 
@@ -9,7 +9,7 @@ There is no change to the existing printed QR code or the map's core navigation.
 1. Open https://analytics.google.com/ with a hotel-managed Google account.
 2. Create a GA4 property and a **Web** data stream for https://hohe-local-guide.vercel.app/.
 3. Copy the Measurement ID (format **G-XXXXXXXXXX**).
-4. In analytics.js, fill in the GA4_MEASUREMENT_ID constant. A measurement ID is public, not a secret; do not include API secrets.
+4. The GA4_MEASUREMENT_ID in analytics.js is already set to **G-TML12HSGK4**. Confirm the property/web stream belongs to the hotel. Measurement IDs are public; do not include API secrets.
 5. Review the hotel privacy notice and legal requirements for analytics, cookies, consent, and any cross-border processing. The compact multilingual consent banner is **not a replacement for a privacy policy**.
 6. Merge/deploy after review. Open the website, choose **Allow analytics**, and verify in GA4 > Reports > Realtime (or DebugView). Declining analytics leaves the map usable and sends no events.
 7. Test on mobile, including NAVER MAP and GOOGLE MAPS buttons.
