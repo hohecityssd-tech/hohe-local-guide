@@ -215,6 +215,19 @@
     .sheet.open{transform:translateY(0)}
     .photo-gallery{margin:0 -16px 14px;overflow:hidden;background:#E8E3DC;}
     .photo-gallery[hidden],.photo-viewer[hidden]{display:none!important}
+    .reel-panel{margin:0 -16px 14px;padding:12px 16px;background:#F7F4EF;border-bottom:1px solid var(--line)}
+    .reel-panel[hidden],.reel-trigger[hidden],.reel-player[hidden]{display:none!important}
+    .reel-trigger{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;
+      padding:12px 14px;border:1px solid #CFC5B8;border-radius:10px;background:#fffaf3;
+      color:var(--hotel);font-size:13px;font-weight:800;cursor:pointer}
+    .reel-trigger:focus-visible,.reel-fallback:focus-visible{outline:2px solid #8E6551;outline-offset:3px}
+    .reel-play{display:inline-grid;place-items:center;width:28px;height:28px;flex:none;
+      border-radius:50%;background:var(--hotel);color:#fff;font-size:12px}
+    .reel-player{display:flex;justify-content:center;margin:0 0 9px}
+    .reel-player iframe{display:block;width:min(100%,360px);height:480px;border:0;border-radius:10px;
+      background:#fff}
+    .reel-fallback{display:block;margin:9px 0 0;text-align:center;font-size:12px;font-weight:700;
+      color:var(--hotel);text-decoration:underline;text-underline-offset:3px}
     .photo-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;
       scrollbar-width:none;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y}
     .photo-track::-webkit-scrollbar{display:none}
@@ -374,6 +387,13 @@
       <span class="photo-caption" id="photoCaption"></span>
       <span class="photo-count" id="photoCount"></span>
     </div>
+  </div>
+  <div class="reel-panel" id="reelPanel" hidden>
+    <button class="reel-trigger" id="reelTrigger" type="button">
+      <span class="reel-play" aria-hidden="true">▶</span><span id="reelTriggerText">Watch Reel</span>
+    </button>
+    <div class="reel-player" id="reelPlayer" hidden></div>
+    <a class="reel-fallback" id="reelLink" target="_blank" rel="noopener noreferrer">Open on Instagram ↗</a>
   </div>
   <div class="sheet-name" id="sheetName"></div>
   <div class="sheet-local" id="sheetLocal"></div>
@@ -673,6 +693,11 @@ const sheetLocal = document.getElementById("sheetLocal");
 const sheetDesc = document.getElementById("sheetDesc");
 const placeTip = document.getElementById("placeTip");
 const placeTipText = document.getElementById("placeTipText");
+const reelPanel = document.getElementById("reelPanel");
+const reelTrigger = document.getElementById("reelTrigger");
+const reelTriggerText = document.getElementById("reelTriggerText");
+const reelPlayer = document.getElementById("reelPlayer");
+const reelLink = document.getElementById("reelLink");
 const photoGallery = document.getElementById("photoGallery");
 const photoTrack = document.getElementById("photoTrack");
 const photoCaption = document.getElementById("photoCaption");
@@ -786,7 +811,7 @@ if(introQuery.get("intro") === "1" ||
 const bounds = new maplibregl.LngLatBounds();
 let userMarker = null;
 
-function closeSheet(){ sheet.classList.remove("open"); }
+function closeSheet(){ sheet.classList.remove("open"); resetReel(); }
 
 function renderHours(place){
   const hours = place.hours;
@@ -944,6 +969,49 @@ function updatePhotoMeta(index){
   photoCount.textContent=(currentPhotoIndex+1)+" / "+currentPhotos.length;
   photoCaption.textContent=currentPhotos[currentPhotoIndex].caption || "";
 }
+// Instagram is loaded only when a guest taps Play; changing places or closing the sheet unloads it.
+const reelUi = {
+  en:{play:"WATCH REEL",open:"Open on Instagram ↗",title:"Instagram Reel about this place"},
+  ja:{play:"リールを見る",open:"Instagramで開く ↗",title:"このスポットのInstagramリール"},
+  zhHans:{play:"观看短视频",open:"在 Instagram 中打开 ↗",title:"此地点的 Instagram Reels 短视频"},
+  zhHant:{play:"觀看短影片",open:"在 Instagram 開啟 ↗",title:"此地點的 Instagram Reels 短影片"},
+  ko:{play:"릴스 보기",open:"인스타그램에서 열기 ↗",title:"이 장소의 인스타그램 릴스"}
+}[locale];
+let currentReelId = "";
+function resetReel(){
+  currentReelId = "";
+  reelPlayer.replaceChildren(); // Remove iframe to stop playback and external requests.
+  reelPlayer.hidden = true;
+  reelTrigger.hidden = false;
+  reelPanel.hidden = true;
+}
+function renderReel(place){
+  resetReel();
+  if(typeof place.instagramReelUrl !== "string")return;
+  let link;
+  try{link = new URL(place.instagramReelUrl)}catch{return}
+  if(link.protocol !== "https:" || !["www.instagram.com","instagram.com"].includes(link.hostname))return;
+  const match = link.pathname.match(/^\/reels?\/([A-Za-z0-9_-]{6,30})\/?$/);
+  if(!match)return;
+  currentReelId = match[1];
+  reelPanel.hidden = false;
+  reelTriggerText.textContent = reelUi.play;
+  reelLink.textContent = reelUi.open;
+  reelLink.href = "https://www.instagram.com/reel/" + currentReelId + "/";
+}
+reelTrigger.addEventListener("click",()=>{
+  if(!currentReelId)return;
+  const iframe = document.createElement("iframe");
+  iframe.src = "https://www.instagram.com/reel/" + currentReelId + "/embed/";
+  iframe.title = reelUi.title;
+  iframe.loading = "lazy";
+  iframe.referrerPolicy = "strict-origin-when-cross-origin";
+  iframe.setAttribute("allow","encrypted-media; fullscreen; picture-in-picture");
+  iframe.setAttribute("allowfullscreen","");
+  reelPlayer.replaceChildren(iframe);
+  reelPlayer.hidden = false;
+  reelTrigger.hidden = true;
+});
 function renderPhotos(place){
   closePhotoViewer();
   currentPhotos=getPhotos(place);
@@ -1016,6 +1084,7 @@ document.addEventListener("keydown",e=>{
 function openPlace(place){
   sheet.classList.toggle("hotel-place",place.category==="hotel");
   renderPhotos(place);
+  renderReel(place);
   sheet.scrollTop=0;
   sheetName.textContent = primaryName(place);
   sheetLocal.textContent = place.category === "hotel" ? "" : secondaryName(place);
