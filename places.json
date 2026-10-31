@@ -7348,7 +7348,111 @@
         "sourceUrl": "https://leesarcoffee.com/locations/",
         "checkedDate": "2026-10-31",
         "lastOrder": "19:30"
-      }
+      },
+      "photos": [
+        {
+          "src": "./photos/리사르6.jpg",
+          "alt": {
+            "ko": "커피 음료 한 잔",
+            "en": "Coffee served at Leesar Coffee",
+            "ja": "リサルコーヒーのコーヒー",
+            "zhHans": "Leesar Coffee 的咖啡",
+            "zhHant": "Leesar Coffee 的咖啡"
+          },
+          "caption": {
+            "ko": "커피 음료 한 잔",
+            "en": "Coffee served at Leesar Coffee",
+            "ja": "リサルコーヒーのコーヒー",
+            "zhHans": "Leesar Coffee 的咖啡",
+            "zhHant": "Leesar Coffee 的咖啡"
+          }
+        },
+        {
+          "src": "./photos/리사르5.jpg",
+          "alt": {
+            "ko": "에스프레소 머신에서 커피 추출",
+            "en": "Espresso being pulled from the machine",
+            "ja": "エスプレッソの抽出風景",
+            "zhHans": "意式浓缩咖啡萃取过程",
+            "zhHant": "義式濃縮咖啡萃取過程"
+          },
+          "caption": {
+            "ko": "에스프레소 머신에서 커피 추출",
+            "en": "Espresso being pulled from the machine",
+            "ja": "エスプレッソの抽出風景",
+            "zhHans": "意式浓缩咖啡萃取过程",
+            "zhHant": "義式濃縮咖啡萃取過程"
+          }
+        },
+        {
+          "src": "./photos/리사르1.jpg",
+          "alt": {
+            "ko": "리사르커피 명동점 외관과 입구",
+            "en": "Leesar Coffee Myeongdong exterior and entrance",
+            "ja": "リサルコーヒー明洞店の外観と入口",
+            "zhHans": "Leesar Coffee 明洞店外观与入口",
+            "zhHant": "Leesar Coffee 明洞店外觀與入口"
+          },
+          "caption": {
+            "ko": "리사르커피 명동점 외관과 입구",
+            "en": "Leesar Coffee Myeongdong exterior and entrance",
+            "ja": "リサルコーヒー明洞店の外観と入口",
+            "zhHans": "Leesar Coffee 明洞店外观与入口",
+            "zhHant": "Leesar Coffee 明洞店外觀與入口"
+          }
+        },
+        {
+          "src": "./photos/리사르2.jpg",
+          "alt": {
+            "ko": "아늑한 실내 좌석과 테이블",
+            "en": "Cozy indoor seating and tables",
+            "ja": "落ち着いた店内の席とテーブル",
+            "zhHans": "温馨的室内座位与桌椅",
+            "zhHant": "溫馨的室內座位與桌椅"
+          },
+          "caption": {
+            "ko": "아늑한 실내 좌석과 테이블",
+            "en": "Cozy indoor seating and tables",
+            "ja": "落ち着いた店内の席とテーブル",
+            "zhHans": "温馨的室内座位与桌椅",
+            "zhHant": "溫馨的室內座位與桌椅"
+          }
+        },
+        {
+          "src": "./photos/리사르3.jpg",
+          "alt": {
+            "ko": "창가에 마련된 카페 좌석",
+            "en": "Window-side seating at the café",
+            "ja": "窓際のカフェ席",
+            "zhHans": "咖啡馆的窗边座位",
+            "zhHant": "咖啡館的窗邊座位"
+          },
+          "caption": {
+            "ko": "창가에 마련된 카페 좌석",
+            "en": "Window-side seating at the café",
+            "ja": "窓際のカフェ席",
+            "zhHans": "咖啡馆的窗边座位",
+            "zhHant": "咖啡館的窗邊座位"
+          }
+        },
+        {
+          "src": "./photos/리사르4.jpg",
+          "alt": {
+            "ko": "창가에 진열된 커피 제품과 꽃",
+            "en": "Coffee products and flowers displayed by the window",
+            "ja": "窓辺に並ぶコーヒー商品と花",
+            "zhHans": "窗边陈列的咖啡产品与鲜花",
+            "zhHant": "窗邊陳列的咖啡產品與鮮花"
+          },
+          "caption": {
+            "ko": "창가에 진열된 커피 제품과 꽃",
+            "en": "Coffee products and flowers displayed by the window",
+            "ja": "窓辺に並ぶコーヒー商品と花",
+            "zhHans": "窗边陈列的咖啡产品与鲜花",
+            "zhHant": "窗邊陳列的咖啡產品與鮮花"
+          }
+        }
+      ]
     },
     {
       "name": "낙원역",
