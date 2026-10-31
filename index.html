@@ -808,8 +808,11 @@ function renderHours(place){
     && Array.isArray(monthlyClosed.weeks)
     && monthlyClosed.weeks.includes(Math.ceil(dayOfMonth / 7));
 
+  // Some heritage sites use different visitor hours by calendar month.
+  const currentMonth = new Intl.DateTimeFormat("en-US", {month:"numeric",timeZone}).format(now);
+  const weeklySchedule = (hours.weeklyByMonth && hours.weeklyByMonth[currentMonth]) || hours.weekly;
   const formatted = key => {
-    const slots = hours.weekly && hours.weekly[key];
+    const slots = weeklySchedule && weeklySchedule[key];
     if(slots == null) return hoursUi.unknown;
     return Array.isArray(slots) && slots.length ? slots.join(" / ").replace(/\s*\(\+1\)/g, " (" + hoursUi.nextDay + ")") : hoursUi.closed;
   };
