@@ -45,6 +45,7 @@
 
   let guideLanguage = "en";
   let active = false;
+  let tagLoaded = false;
   let banner = null;
 
   function getChoice() {
@@ -64,7 +65,15 @@
 
   function startAnalytics() {
     if (!TRACKING_READY || active) return;
+    window["ga-disable-" + GA4_MEASUREMENT_ID] = false;
     active = true;
+    if (tagLoaded) {
+      if (typeof window.gtag === "function") {
+        window.gtag("consent", "update", { analytics_storage: "granted" });
+      }
+      return;
+    }
+    tagLoaded = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
     window.gtag("js", new Date());
