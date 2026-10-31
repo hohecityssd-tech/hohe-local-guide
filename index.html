@@ -448,6 +448,7 @@
   </div>
 </div>
 
+<script src="./analytics.js"></script>
 <script>
 let places = [];
 
@@ -465,6 +466,7 @@ function detectLocale(){
 }
 
 const locale = detectLocale();
+window.HOHEAnalytics?.init(locale);
 const htmlLang = {en:"en", ja:"ja", ko:"ko", zhHans:"zh-CN", zhHant:"zh-TW"}[locale] || "en";
 document.documentElement.lang = htmlLang;
 
@@ -983,6 +985,7 @@ function updatePhotoViewer(){
   photoViewerNext.hidden=currentPhotos.length<=1;
 }
 function openPhotoViewer(index,trigger){
+  if(analyticsSelectedPlace) window.HOHEAnalytics?.photoOpen(analyticsSelectedPlace);
   lastPhotoTrigger=trigger;
   currentViewerIndex=index;
   updatePhotoViewer();
@@ -1013,7 +1016,14 @@ document.addEventListener("keydown",e=>{
   else if(e.key==="ArrowRight")photoViewerNext.click();
 });
 
+let analyticsSelectedPlace = null;
+bookingLink.addEventListener("click",()=>{
+  if(analyticsSelectedPlace) window.HOHEAnalytics?.bookingOutbound(analyticsSelectedPlace);
+});
+
 function openPlace(place){
+  analyticsSelectedPlace = place;
+  window.HOHEAnalytics?.placeOpen(place);
   sheet.classList.toggle("hotel-place",place.category==="hotel");
   renderPhotos(place);
   sheet.scrollTop=0;
@@ -1048,6 +1058,7 @@ function openPlace(place){
 }
 
 function openDirections(place){
+  window.HOHEAnalytics?.mapOutbound(place,"naver");
   if(place.naverUrl){
     window.location.href = place.naverUrl;
     return;
@@ -1058,6 +1069,7 @@ function openDirections(place){
 }
 
 function openGoogleDirections(place){
+  window.HOHEAnalytics?.mapOutbound(place,"google");
   if(place.googleUrl){
     window.location.href = place.googleUrl;
     return;
