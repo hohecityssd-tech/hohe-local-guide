@@ -1,5 +1,4 @@
 /* HOHE CITY LOCAL GUIDE — GA4 event tracking.
- * Disabled until a visitor consents and this branch is deployed.
  * Google Analytics only loads after a visitor explicitly allows usage analytics.
  * The map works normally when tracking is disabled or declined.
  */
@@ -47,6 +46,8 @@
   let active = false;
   let tagLoaded = false;
   let banner = null;
+  let initialized = false;
+  const LANGUAGE_GROUPS = { en: "EN", ja: "JP", zhHans: "CN", zhHant: "CN", ko: "KR" };
 
   function getChoice() {
     try { return window.localStorage.getItem(CONSENT_KEY); }
@@ -97,12 +98,14 @@
       page_location: cleanPageLocation(),
       entry_channel: entryChannel
     });
+    track("guide_language_view");
   }
 
   function track(eventName, params) {
     if (!active || typeof window.gtag !== "function") return;
     window.gtag("event", eventName, Object.assign({
-      guide_language: guideLanguage
+      guide_language: guideLanguage,
+      guide_language_group: LANGUAGE_GROUPS[guideLanguage]
     }, params || {}));
   }
 
@@ -188,7 +191,10 @@
   }
 
   function init(language) {
+    if (initialized) return;
+    initialized = true;
     guideLanguage = COPY[language] ? language : "en";
+    createLanguageSelector();
     if (!TRACKING_READY) return;
     const style = document.createElement("style");
     style.textContent = [
@@ -212,6 +218,50 @@
     createSettingsLink();
     if (getChoice() === "granted") startAnalytics();
     else if (getChoice() !== "denied") showConsent();
+  }
+
+  function createLanguageSelector() {
+    const intro = document.querySelector(".intro-dialog");
+    if (!intro) return;
+    const label = document.createElement("label");
+    label.textContent = "Language / 言語 / 语言 / 語言 / 언어 ";
+    label.style.cssText = "display:block;margin:12px auto;font-size:13px;color:#555";
+    const select = document.createElement("select");
+    select.id = "guideLanguage";
+    select.style.cssText = "max-width:100%;padding:8px;border:1px solid #bfb6ab;border-radius:8px;background:#fff;color:#262522";
+    const labels = { en: "English", ja: "日本語", zhHans: "简体中文", zhHant: "繁體中文", ko: "한국어" };
+    Object.keys(labels).forEach(function (language) {
+      const option = document.createElement("option");
+      option.value = language;
+      option.textContent = labels[language];
+      select.appendChild(option);
+    });
+    select.value = guideLanguage;
+    select.addEventListener("change", function () {
+      const next = select.value;
+      if (!LANGUAGE_GROUPS[next] || next === guideLanguage) return;
+      const url = new URL(window.location.href);
+      url.searchParams.set("lang", { zhHans: "zh-CN", zhHant: "zh-TW" }[next] || next);
+      let navigated = false;
+      function navigate() {
+        if (navigated) return;
+        navigated = true;
+        window.location.assign(url.href);
+      }
+      if (!active) { navigate(); return; }
+      select.disabled = true;
+      // A blocked tag must never prevent the visitor from changing language.
+      window.setTimeout(navigate, 500);
+      track("guide_language_change", {
+        previous_guide_language: guideLanguage,
+        guide_language: next,
+        guide_language_group: LANGUAGE_GROUPS[next],
+        event_callback: navigate,
+        event_timeout: 500
+      });
+    });
+    label.appendChild(select);
+    intro.insertBefore(label, intro.querySelector("#introExplore") || null);
   }
 
   window.HOHEAnalytics = {
