@@ -6999,6 +6999,75 @@
       }
     },
     {
+      "name": "POINT of VIEW SEOUL",
+      "enName": "POINT OF VIEW SEOUL",
+      "jaName": "POINT OF VIEW SEOUL（ポイント・オブ・ビュー）",
+      "zhHansName": "POINT OF VIEW SEOUL",
+      "zhHantName": "POINT OF VIEW SEOUL",
+      "desc": "Design Stationery · Notebooks, Pens & Creative Objects",
+      "descs": {
+        "ko": "성수의 3층 디자인 문구 편집숍 · 노트·필기구·감각적인 소품",
+        "en": "Three-floor design stationery store · Notebooks, pens and creative objects",
+        "ja": "聖水の3フロアの文具セレクトショップ · ノート・筆記具・雑貨",
+        "zhHans": "圣水三层设计文具选物店 · 笔记本、文具与创意小物",
+        "zhHant": "聖水三層設計文具選物店 · 筆記本、文具與創意小物"
+      },
+      "category": "shop",
+      "lat": 37.543560793701,
+      "lng": 127.05140279232,
+      "address": "서울특별시 성동구 연무장길 18 1~3층",
+      "icon": "🛍️",
+      "naverUrl": "https://naver.me/GL8if0xg",
+      "naverLinkStatus": "verified-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=POINT%20OF%20VIEW%20SEOUL&query_place_id=ChIJowPrEJ2lfDURDL0Tmyv2u3Q",
+      "googleLinkStatus": "verified-place-id",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400100160039008765/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C-%EC%84%B1%EB%8F%99%EA%B5%AC-%EC%97%B0%EB%AC%B4%EC%9E%A5%EA%B8%B8-18-%EC%84%B1%EC%88%98%EB%8F%991%EA%B0%80",
+      "sourceUrl": "https://www.pointofview.kr/pointofview/about.html",
+      "tip": {
+        "ko": "1~3층이 각각 다른 테마로 꾸며져 있어요. 천천히 둘러보며 특별한 문구와 선물을 찾아보세요. 주말에는 대기할 수 있어요.",
+        "en": "Explore all three themed floors for distinctive stationery and gifts. Weekends can be busy, so allow extra time.",
+        "ja": "テーマの異なる3フロアを巡りながら、お気に入りの文具やギフトを探してみてください。週末は入店待ちになることも。",
+        "zhHans": "建议逛完三层不同主题的空间，寻找特别的文具和礼物。周末可能需要排队。",
+        "zhHant": "建議逛完三層不同主題的空間，尋找特別的文具和禮物。週末可能需要排隊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "12:00–20:00"
+          ],
+          "tue": [
+            "12:00–20:00"
+          ],
+          "wed": [
+            "12:00–20:00"
+          ],
+          "thu": [
+            "12:00–20:00"
+          ],
+          "fri": [
+            "12:00–20:00"
+          ],
+          "sat": [
+            "12:00–20:00"
+          ],
+          "sun": [
+            "12:00–20:00"
+          ]
+        },
+        "specialHoursNotes": {
+          "ko": "월 1회 정기휴무가 있습니다(보통 마지막 월요일). 방문 전 공식 인스타그램을 확인해주세요.",
+          "en": "Closed once a month (usually the last Monday). Check the official Instagram before visiting.",
+          "ja": "月1回の定休日があります（通常は最終月曜日）。来店前に公式Instagramをご確認ください。",
+          "zhHans": "每月休息一天（通常是最后一个周一），出发前请查看官方Instagram。",
+          "zhHant": "每月休息一天（通常是最後一個週一），出發前請查看官方Instagram。"
+        },
+        "sourceUrl": "https://www.pointofview.kr/pointofview/about.html",
+        "checkedDate": "2026-11-04"
+      }
+    },
+    {
       "name": "더 스팟 패뷸러스",
       "enName": "The Spot Fabulous",
       "jaName": "ザ・スポット・ファビュラス",
