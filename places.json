@@ -8041,6 +8041,146 @@
       }
     },
     {
+      "name": "결",
+      "enName": "Gyeol by BEAN BROTHERS",
+      "jaName": "ギョル（BEAN BROTHERS）",
+      "zhHansName": "Gyeol（结）",
+      "zhHantName": "Gyeol（結）",
+      "desc": "Specialty Coffee by Bean Brothers · Filter Coffee & Canelés",
+      "descs": {
+        "ko": "종각역 센트로폴리스 1층 · 빈브라더스가 운영하는 스페셜티 카페와 까눌레",
+        "en": "Jonggak specialty coffee bar by Bean Brothers · Filter coffee and canelés",
+        "ja": "鍾閣駅近く、BEAN BROTHERSが手がけるコーヒー店 · フィルターコーヒーとカヌレ",
+        "zhHans": "钟阁站附近由 Bean Brothers 经营的精品咖啡店 · 手冲风味咖啡与可露丽",
+        "zhHant": "鐘閣站附近由 Bean Brothers 經營的精品咖啡店 · 濾泡咖啡與可麗露"
+      },
+      "category": "cafe",
+      "lat": 37.571330348113,
+      "lng": 126.98340367392,
+      "address": "서울 종로구 우정국로 26 센트로폴리스 A동 1층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/FsRslsi1",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gyeol%20by%20BEAN%20BROTHERS%2C%2026%20Ujeongguk-ro%2C%20Jongno-gu%2C%20Seoul",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://jusoga.com/b/1111012700100050001014286/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C-%EC%A2%85%EB%A1%9C%EA%B5%AC-%EC%9A%B0%EC%A0%95%EA%B5%AD%EB%A1%9C-26-%EA%B3%B5%ED%8F%89%EB%8F%99",
+      "sourceUrl": "https://nyam.io/place/detail/Kya08PKKv5/%EA%B2%B0",
+      "tip": {
+        "ko": "빈브라더스의 다양한 원두 중 취향에 맞는 필터커피를 골라보세요. 까눌레와 함께 즐기기 좋고, 평일 점심에는 붐빌 수 있어요.",
+        "en": "Choose a Bean Brothers filter coffee to suit your taste and pair it with a canelé. Weekday lunchtime can get busy.",
+        "ja": "好みに合わせてBEAN BROTHERSのフィルターコーヒーを選び、カヌレと一緒にどうぞ。平日のランチタイムは混雑することも。",
+        "zhHans": "可以按喜好选择 Bean Brothers 的滤泡咖啡，搭配可露丽一起享用。工作日午餐时段可能较拥挤。",
+        "zhHant": "可以依喜好選擇 Bean Brothers 的濾泡咖啡，搭配可麗露一起享用。平日午餐時段可能較擁擠。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "07:30–20:30"
+          ],
+          "tue": [
+            "07:30–20:30"
+          ],
+          "wed": [
+            "07:30–20:30"
+          ],
+          "thu": [
+            "07:30–20:30"
+          ],
+          "fri": [
+            "07:30–20:30"
+          ],
+          "sat": [
+            "10:00–21:00"
+          ],
+          "sun": [
+            "10:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677ccc5e66de5f06987ef694",
+        "checkedDate": "2026-11-04",
+        "specialHoursNotes": {
+          "ko": "공휴일에는 영업시간이 변경될 수 있으니 방문 전 확인해주세요.",
+          "en": "Hours may change on public holidays; please check before visiting.",
+          "ja": "祝日は営業時間が変更される場合があります。来店前にご確認ください。",
+          "zhHans": "节假日营业时间可能调整，出发前请确认。",
+          "zhHant": "國定假日營業時間可能調整，出發前請確認。"
+        }
+      }
+    },
+    {
+      "name": "폰트 용산점",
+      "enName": "PONT Coffee Yongsan",
+      "jaName": "PONT COFFEE 龍山店",
+      "zhHansName": "PONT Coffee 龙山店",
+      "zhHantName": "PONT Coffee 龍山店",
+      "desc": "Specialty Coffee Roastery · Single-Origin Brews & Flat Whites",
+      "descs": {
+        "ko": "용산역 인근 옛 철도 관사를 리노베이션한 커피 전문점 · 싱글 오리진과 플랫화이트",
+        "en": "Yongsan specialty coffee in a renovated railway residence · Single-origin brews and flat whites",
+        "ja": "旧鉄道官舎を改装した龍山のコーヒー店 · シングルオリジンとフラットホワイト",
+        "zhHans": "由旧铁路职工宿舍改造的龙山精品咖啡馆 · 单品咖啡与馥芮白",
+        "zhHant": "由舊鐵路職員宿舍改造的龍山精品咖啡館 · 單品咖啡與馥芮白"
+      },
+      "category": "cafe",
+      "lat": 37.5272,
+      "lng": 126.9659,
+      "address": "서울 용산구 한강대로15길 19-16 1층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/xs3GDBsd",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Pont%20Cafe%2C%2019-16%20Hangang-daero%2015-gil%2C%20Yongsan-gu%2C%20Seoul",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "approximate-neighborhood-pin-requires-check",
+      "pinSourceUrl": "https://dorojuso.kr/1117012800100400162011932/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C-%EC%9A%A9%EC%82%B0%EA%B5%AC-%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C15%EA%B8%B8-19-16-%ED%95%9C%EA%B0%95%EB%A1%9C3%EA%B0%80",
+      "sourceUrl": "https://www.pontcoffee.com/shopinfo/company.html",
+      "tip": {
+        "ko": "옛 철도 관사를 개조한 독특한 공간이에요. 싱글 오리진 브루잉이나 진한 플랫화이트를 추천해요. 좌석이 많지 않아 붐빌 수 있어요.",
+        "en": "This café occupies a renovated railway residence. Try a single-origin brew or rich flat white; seating can fill up quickly.",
+        "ja": "旧鉄道官舎を改装したユニークな空間。シングルオリジンのドリップや濃厚なフラットホワイトがおすすめ。席が埋まりやすいのでご注意を。",
+        "zhHans": "咖啡馆由旧铁路宿舍改造而成。推荐单品手冲或浓郁的馥芮白，座位不多，可能需要等候。",
+        "zhHant": "咖啡館由舊鐵路宿舍改造而成。推薦單品手沖或濃郁的馥芮白，座位不多，可能需要等候。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–21:00"
+          ],
+          "tue": [
+            "10:00–21:00"
+          ],
+          "wed": [
+            "10:00–21:00"
+          ],
+          "thu": [
+            "10:00–21:00"
+          ],
+          "fri": [
+            "10:00–21:00"
+          ],
+          "sat": [
+            "10:00–21:00"
+          ],
+          "sun": [
+            "10:00–21:00"
+          ]
+        },
+        "lastOrder": "20:30",
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=WFV6hXvR1O4s",
+        "alternateSourceUrl": "https://www.tabling.co.kr/place/677cce5f66de5f069882c038",
+        "checkedDate": "2026-11-04",
+        "specialHoursNotes": {
+          "ko": "일부 오래된 자료에는 11:00 개점으로 표기돼 있어요. 방문 전 최신 정보를 확인해주세요.",
+          "en": "Some older listings show an 11 AM opening; check current hours before visiting.",
+          "ja": "以前の案内には11時開店との記載もあります。来店前に最新情報をご確認ください。",
+          "zhHans": "部分旧资料显示11:00开门，出发前请确认最新营业时间。",
+          "zhHant": "部分舊資料顯示11:00開門，出發前請確認最新營業時間。"
+        }
+      }
+    },
+    {
       "name": "익선동 한옥거리",
       "enName": "Ikseon-dong Hanok Street",
       "jaName": "益善洞韓屋通り",
