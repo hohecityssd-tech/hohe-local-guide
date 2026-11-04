@@ -7758,6 +7758,76 @@
       }
     },
     {
+      "name": "테라로사 청계광장점",
+      "enName": "TERAROSA Cheonggye Plaza",
+      "jaName": "テラロサ 清渓広場店",
+      "zhHansName": "TERAROSA 清溪广场店",
+      "zhHantName": "TERAROSA 清溪廣場店",
+      "desc": "Specialty Coffee · Hand Drip, Coffee Beans & Pastries",
+      "descs": {
+        "ko": "청계광장 앞 스페셜티 커피 카페 · 핸드드립·원두·베이커리",
+        "en": "Specialty coffee by Cheonggye Plaza · Pour-overs, roasted beans and pastries",
+        "ja": "清渓広場そばのスペシャルティコーヒー店 · ハンドドリップ・コーヒー豆・焼き菓子",
+        "zhHans": "清溪广场旁的精品咖啡店 · 手冲咖啡、咖啡豆与烘焙点心",
+        "zhHant": "清溪廣場旁的精品咖啡店 · 手沖咖啡、咖啡豆與烘焙點心"
+      },
+      "category": "cafe",
+      "lat": 37.5688185,
+      "lng": 126.9782321,
+      "address": "서울 중구 청계천로 8 프리미어플레이스빌딩 1층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/xBwJI3zd",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Terarosa%20Cheonggye%20Plaza&query_place_id=ChIJz4TI_syjfDURtq2qhGyd4bI",
+      "googleLinkStatus": "verified-place-id",
+      "pinVerification": "business-address-geocoded",
+      "pinSourceUrl": "https://place.clariosync.com/p/6444241/%28%EC%A3%BC%29%ED%95%99%EC%82%B0-%ED%85%8C%EB%9D%BC%EB%A1%9C%EC%82%AC%EC%BB%A4%ED%94%BC-%EC%B2%AD%EA%B3%84%EA%B4%91%EC%9E%A5%EC%A7%80%EC%A0%90",
+      "sourceUrl": "https://renew.terarosa.com/store/21/detail",
+      "tip": {
+        "ko": "청계천 산책 전후에 들르기 좋아요. 취향에 맞는 원두로 핸드드립 커피를 즐겨보세요. 평일 점심에는 붐빌 수 있어요.",
+        "en": "Stop by before or after a Cheonggyecheon walk. Try a pour-over with beans that suit your taste; weekday lunchtimes can be busy.",
+        "ja": "清渓川の散策前後に立ち寄るのがおすすめ。好みに合う豆でハンドドリップを楽しんで。平日の昼どきは混み合うことがあります。",
+        "zhHans": "逛清溪川前后很适合来坐坐。可以挑选喜欢的咖啡豆试试手冲；工作日午餐时段可能比较拥挤。",
+        "zhHant": "逛清溪川前後很適合來坐坐。可以挑選喜歡的咖啡豆試試手沖；平日午餐時段可能比較擁擠。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "08:00–21:00"
+          ],
+          "tue": [
+            "08:00–21:00"
+          ],
+          "wed": [
+            "08:00–21:00"
+          ],
+          "thu": [
+            "08:00–21:00"
+          ],
+          "fri": [
+            "08:00–21:00"
+          ],
+          "sat": [
+            "09:00–21:00"
+          ],
+          "sun": [
+            "09:00–21:00"
+          ]
+        },
+        "lastOrder": "20:30",
+        "specialHoursNotes": {
+          "ko": "공휴일은 주말과 동일하게 09:00부터 운영합니다.",
+          "en": "On public holidays, the café opens at 9 AM, as on weekends.",
+          "ja": "祝日は週末と同じ9時開店です。",
+          "zhHans": "公共假日与周末一样，上午9点开始营业。",
+          "zhHant": "國定假日與週末一樣，上午9點開始營業。"
+        },
+        "sourceUrl": "https://renew.terarosa.com/store/21/detail",
+        "checkedDate": "2026-11-04"
+      }
+    },
+    {
       "name": "익선동 한옥거리",
       "enName": "Ikseon-dong Hanok Street",
       "jaName": "益善洞韓屋通り",
