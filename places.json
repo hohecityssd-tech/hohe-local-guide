@@ -7688,6 +7688,76 @@
       ]
     },
     {
+      "name": "헤베커피",
+      "enName": "Hebe Coffee",
+      "jaName": "ヘベコーヒー",
+      "zhHansName": "Hebe Coffee",
+      "zhHantName": "Hebe Coffee",
+      "desc": "Specialty Coffee Roastery · Hand Drip & Freshly Roasted Beans",
+      "descs": {
+        "ko": "충무로 스페셜티 로스터리 카페 · 직접 로스팅한 원두와 브루잉 커피",
+        "en": "Chungmuro specialty coffee roastery · Freshly roasted beans and hand-drip brews",
+        "ja": "忠武路のスペシャルティコーヒーロースタリー · 自家焙煎豆とハンドドリップ",
+        "zhHans": "忠武路精品咖啡烘焙店 · 自家烘焙咖啡豆与手冲咖啡",
+        "zhHant": "忠武路精品咖啡烘焙店 · 自家烘焙咖啡豆與手沖咖啡"
+      },
+      "category": "cafe",
+      "lat": 37.5587761,
+      "lng": 126.9960135,
+      "address": "서울 중구 필동로 32 낙원빌딩 1층",
+      "icon": "☕",
+      "naverUrl": "https://naver.me/F6lTzmvL",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Hebe%20Coffee%2C%2032%20Pildong-ro%2C%20Jung-gu%2C%20Seoul",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://findby.co.kr/details/04626-111403101012-st-652c0cc9f27008be2c573fa3",
+      "sourceUrl": "https://www.hebecoffee.kr/about",
+      "tip": {
+        "ko": "커피 대회 수상 경력이 있는 바리스타가 운영하는 로스터리예요. 취향에 맞는 원두를 추천받아 핸드드립으로 즐겨보세요.",
+        "en": "This roastery is led by an award-winning barista. Ask for a bean recommendation that suits your taste and try a hand-drip coffee.",
+        "ja": "コーヒー大会での受賞歴を持つバリスタが営むロースタリー。好みに合う豆を相談して、ハンドドリップを楽しんでみてください。",
+        "zhHans": "这家烘焙咖啡店由多次在咖啡比赛中获奖的咖啡师经营。可以请店员推荐符合口味的豆子，试试手冲咖啡。",
+        "zhHant": "這家烘焙咖啡店由多次在咖啡比賽中獲獎的咖啡師經營。可以請店員推薦符合口味的豆子，試試手沖咖啡。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–20:00"
+          ],
+          "tue": [
+            "11:00–20:00"
+          ],
+          "wed": [
+            "11:00–20:00"
+          ],
+          "thu": [
+            "11:00–20:00"
+          ],
+          "fri": [
+            "11:00–20:00"
+          ],
+          "sat": [
+            "10:00–18:00"
+          ],
+          "sun": [
+            "10:00–17:00"
+          ]
+        },
+        "sourceUrl": "https://www.hebecoffee.kr/about",
+        "alternateSourceUrl": "https://www.tabling.co.kr/place/677cccfb66de5f06988020d5",
+        "checkedDate": "2026-11-04",
+        "specialHoursNotes": {
+          "ko": "공식 홈페이지 일부 안내에 주말 영업시간이 다르게 표기되어 있어요. 방문 전 최신 공지를 확인해주세요.",
+          "en": "Weekend hours differ across some official listings. Please check the latest notice before visiting.",
+          "ja": "公式サイト内でも週末の営業時間に異なる表記があります。来店前に最新情報をご確認ください。",
+          "zhHans": "官网部分页面显示的周末营业时间不一致，出发前请确认最新公告。",
+          "zhHant": "官網部分頁面顯示的週末營業時間不一致，出發前請確認最新公告。"
+        }
+      }
+    },
+    {
       "name": "익선동 한옥거리",
       "enName": "Ikseon-dong Hanok Street",
       "jaName": "益善洞韓屋通り",
