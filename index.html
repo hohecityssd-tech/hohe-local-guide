@@ -1197,8 +1197,19 @@ map.on("load", async ()=>{
     const data = await response.json();
     places = Array.isArray(data) ? data : data.places;
 
+    // These two shops occupy the same building. Keep their true coordinates,
+    // but separate the 36px icons by a few pixels so both remain tappable.
+    const overlappingMarkerOffsets = {
+      "젠틀몬스터 성수": [-21, 0],
+      "하우스 노웨어 서울": [21, 0]
+    };
+
     places.forEach(place=>{
-      new maplibregl.Marker({element:markerEl(place),anchor:"center"})
+      new maplibregl.Marker({
+        element: markerEl(place),
+        anchor: "center",
+        offset: overlappingMarkerOffsets[place.name] || [0, 0]
+      })
         .setLngLat([place.lng,place.lat])
         .addTo(map);
       if(place.category !== "experience") bounds.extend([place.lng,place.lat]);
