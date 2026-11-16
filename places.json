@@ -9722,6 +9722,74 @@
         "checkedDate": "2026-11-16",
         "lastOrder": "21:00"
       }
+    },
+    {
+      "name": "히노신",
+      "enName": "Hinoshin",
+      "jaName": "ヒノシン",
+      "zhHansName": "Hinoshin 日式居酒屋",
+      "zhHantName": "Hinoshin 日式居酒屋",
+      "desc": "Seongsu Izakaya · Charcoal-Grilled Yakitori & Irori Fish",
+      "descs": {
+        "ko": "성수동의 일본식 이자카야 · 숯불 야키토리와 이로리 화로 생선구이",
+        "en": "Seongsu Japanese izakaya · Charcoal-grilled yakitori and irori hearth-roasted fish",
+        "ja": "聖水洞の居酒屋 · 炭火焼き鳥と囲炉裏で焼く魚料理",
+        "zhHans": "圣水洞日式居酒屋 · 炭火烤鸡串与围炉烤鱼",
+        "zhHant": "聖水洞日式居酒屋 · 炭火烤雞串與圍爐烤魚"
+      },
+      "category": "bar",
+      "lat": 37.5434226,
+      "lng": 127.0542854,
+      "address": "서울 성동구 연무장길 41-26 2층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/Fc5LdAIR",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Hinoshin%2C%2041-26%20Yeonmujang-gil%2C%20Seongdong-gu%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04782-112004109413-st-652bf0cc4e0223ae18063d5f",
+      "sourceUrl": "https://www.diningcode.com/profile.php?rid=MiUKMgzN0FyQ",
+      "tip": {
+        "ko": "처음이라면 오늘의 추천 야키토리 7종과 이로리 화로 생선구이를 추천해요. 굽는 모습을 보려면 카운터석 예약을 확인해보세요.",
+        "en": "Start with the chef's seven-skewer yakitori selection and irori-roasted fish. Ask about counter seats to watch the grilling.",
+        "ja": "まずはおまかせ焼き鳥7種と囲炉裏の焼き魚を。調理風景を楽しむならカウンター席を予約時に確認してみてください。",
+        "zhHans": "推荐先尝主厨精选的7串烤鸡肉串与围炉烤鱼。想近距离看烤制过程，可以提前询问吧台座位。",
+        "zhHant": "推薦先嚐主廚精選的7串烤雞肉串與圍爐烤魚。想近距離看烤製過程，可以提前詢問吧台座位。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "17:00–24:00"
+          ],
+          "wed": [
+            "17:00–24:00"
+          ],
+          "thu": [
+            "17:00–24:00"
+          ],
+          "fri": [
+            "17:00–24:00"
+          ],
+          "sat": [
+            "17:00–24:00"
+          ],
+          "sun": [
+            "17:00–23:00"
+          ]
+        },
+        "sourceUrl": "https://hongsi.io/place/p/3add6b10-485e-46a4-a06e-7c6da902e591",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "23:00",
+        "specialHoursNotes": {
+          "ko": "일요일 라스트오더는 22:00로 안내됩니다. 영업시간은 방문 전 다시 확인하세요.",
+          "en": "Sunday last order is listed as 22:00. Please confirm current hours before visiting.",
+          "ja": "日曜のラストオーダーは22:00と案内されています。来店前に営業時間をご確認ください。",
+          "zhHans": "周日最后点单时间标为22:00，建议出发前确认最新营业时间。",
+          "zhHant": "週日最後點餐時間標為22:00，建議出發前確認最新營業時間。"
+        }
+      }
     }
   ]
 }
