@@ -9177,6 +9177,551 @@
           "zhHant": "不同平台對午間休息日的標示不同，請提前確認最新營業時間。"
         }
       }
+    },
+    {
+      "name": "계월",
+      "enName": "Kyewol Gomtang",
+      "jaName": "ケウォル",
+      "zhHansName": "桂月鸡汤饭",
+      "zhHantName": "桂月雞湯飯",
+      "desc": "Chicken Gomtang · Clear Broth & Tender Chicken",
+      "descs": {
+        "ko": "성수동의 닭곰탕 전문점 · 맑은 국물과 부드러운 닭고기",
+        "en": "Seongsu chicken gomtang · Clear broth, tender chicken and rice",
+        "ja": "聖水洞の鶏コムタン専門店 · 澄んだスープと柔らかい鶏肉",
+        "zhHans": "圣水洞鸡汤饭专门店 · 清澈汤底与嫩鸡肉",
+        "zhHant": "聖水洞雞湯飯專門店 · 清澈湯底與嫩雞肉"
+      },
+      "category": "food",
+      "lat": 37.539571764015,
+      "lng": 127.04755075737,
+      "address": "서울 성동구 성덕정3길 8 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/F3TXPuAs",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Kyewol%20Gomtang%2C%20%EC%84%9C%EC%9A%B8%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EB%8D%95%EC%A0%953%EA%B8%B8%208%201%EC%B8%B5%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400100720041009240/",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kyewol-gomtang",
+      "tip": {
+        "ko": "처음 방문한다면 담백한 백곰탕부터 드셔보세요. 점심에는 닭무침이나 닭수육을 곁들여도 좋아요.",
+        "en": "Start with the delicate white chicken gomtang. At lunch, consider a side of spicy chicken salad or tender chicken.",
+        "ja": "初めてなら澄んだスープの白コムタンを。ランチには鶏の和え物や茹で鶏を添えるのもおすすめ。",
+        "zhHans": "初次到访推荐清淡的白鸡汤饭；午餐可搭配香辣拌鸡肉或嫩鸡肉小菜。",
+        "zhHant": "初次到訪推薦清淡的白雞湯飯；午餐可搭配香辣拌雞肉或嫩雞肉小菜。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–14:30",
+            "17:00–20:30"
+          ],
+          "tue": [
+            "11:00–14:30",
+            "17:00–20:30"
+          ],
+          "wed": [
+            "11:00–14:30",
+            "17:00–20:30"
+          ],
+          "thu": [
+            "11:00–14:30",
+            "17:00–20:30"
+          ],
+          "fri": [
+            "11:00–14:30",
+            "17:00–20:30"
+          ],
+          "sat": [
+            "11:00–14:30",
+            "17:00–20:30"
+          ],
+          "sun": [
+            "11:00–14:30",
+            "17:00–20:30"
+          ]
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/kyewol-gomtang",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "맷돌",
+      "enName": "Mattdol",
+      "jaName": "メットル",
+      "zhHansName": "Mattdol 墨西哥餐厅",
+      "zhHantName": "Mattdol 墨西哥餐廳",
+      "desc": "Intimate Mexican Tasting Course · House-Made Tortillas",
+      "descs": {
+        "ko": "성수동의 소규모 멕시칸 다이닝 · 수제 토르티야와 테이스팅 코스",
+        "en": "Intimate Mexican dining · House-made tortillas and a tasting menu",
+        "ja": "聖水洞の小さなメキシカンダイニング · 自家製トルティーヤのコース",
+        "zhHans": "圣水洞小型墨西哥餐厅 · 自制玉米饼与品鉴套餐",
+        "zhHant": "聖水洞小型墨西哥餐廳 · 自製玉米餅與品鑑套餐"
+      },
+      "category": "food",
+      "lat": 37.538023774978,
+      "lng": 127.05068635122,
+      "address": "서울 성동구 성덕정길 63 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/xFLDz3t0",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Mattdol%2C%20%EC%84%9C%EC%9A%B8%20%EC%84%B1%EB%8F%99%EA%B5%AC%20%EC%84%B1%EB%8D%95%EC%A0%95%EA%B8%B8%2063%201%EC%B8%B5%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://jusoga.com/b/1120011400103050000009707/",
+      "sourceUrl": "https://www.tabling.co.kr/place/677cd3e266de5f06988c5f7b",
+      "tip": {
+        "ko": "타코와 수제 토르티야를 중심으로 한 코스 요리를 즐기는 곳이에요. 저녁에만 운영하니 예약 가능 여부를 확인하세요.",
+        "en": "Come for a Mexican tasting menu built around tacos and house-made tortillas. Dinner only; check bookings ahead.",
+        "ja": "タコスと自家製トルティーヤを中心としたコース料理。ディナーのみなので予約を確認してからどうぞ。",
+        "zhHans": "以塔可和自制玉米饼为核心的墨西哥品鉴套餐。仅供应晚餐，建议提前确认预约。",
+        "zhHant": "以塔可和自製玉米餅為核心的墨西哥品鑑套餐。僅供應晚餐，建議提前確認預約。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "18:00–21:00"
+          ],
+          "wed": [
+            "18:00–21:00"
+          ],
+          "thu": [
+            "18:00–21:00"
+          ],
+          "fri": [
+            "18:00–21:00"
+          ],
+          "sat": [
+            "18:00–21:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://www.tabling.co.kr/place/677cd3e266de5f06988c5f7b",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "정면",
+      "enName": "Jeongmyeon",
+      "jaName": "チョンミョン",
+      "zhHansName": "正面面馆",
+      "zhHantName": "正面麵館",
+      "desc": "Small Chef-Run Rice Noodle Bar · White & Spicy Red Broth",
+      "descs": {
+        "ko": "셰프가 운영하는 작은 쌀국수집 · 담백한 백면과 매콤한 홍면",
+        "en": "Tiny chef-run rice noodle bar · Mild white broth or spicy red broth",
+        "ja": "シェフ一人で切り盛りする小さな米麺店 · 白麺と辛口の紅麺",
+        "zhHans": "主厨经营的小型米粉店 · 清淡白汤与香辣红汤",
+        "zhHant": "主廚經營的小型米粉店 · 清淡白湯與香辣紅湯"
+      },
+      "category": "food",
+      "lat": 37.5455066134199,
+      "lng": 127.068619206641,
+      "address": "서울 광진구 능동로13길 88 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5oE5QEbZ",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Jeongmyeon%2C%20%EC%84%9C%EC%9A%B8%20%EA%B4%91%EC%A7%84%EA%B5%AC%20%EB%8A%A5%EB%8F%99%EB%A1%9C13%EA%B8%B8%2088%201%EC%B8%B5%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://xju.purpleo.kr/article/15034",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jeongmyeon",
+      "tip": {
+        "ko": "메뉴는 백면과 홍면 두 가지예요. 매운 음식을 좋아한다면 맵기를 조절할 수 있는 홍면을 추천해요.",
+        "en": "Choose between the mild white noodles and spicy red noodles. The red bowl lets you pick your heat level.",
+        "ja": "メニューは白麺と紅麺の2種類。辛いもの好きなら辛さを調節できる紅麺をどうぞ。",
+        "zhHans": "只有白面和红面两款。喜欢辣味的话，可以试试能调整辣度的红面。",
+        "zhHant": "只有白麵和紅麵兩款。喜歡辣味的話，可以試試能調整辣度的紅麵。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–15:00",
+            "17:00–20:00"
+          ],
+          "tue": [
+            "11:30–15:00",
+            "17:00–20:00"
+          ],
+          "wed": [
+            "11:30–15:00",
+            "17:00–20:00"
+          ],
+          "thu": [
+            "11:30–15:00",
+            "17:00–20:00"
+          ],
+          "fri": [
+            "11:30–15:00",
+            "17:00–20:00"
+          ],
+          "sat": [
+            "11:30–15:00",
+            "17:00–20:00"
+          ],
+          "sun": [
+            "11:30–15:00",
+            "17:00–20:00"
+          ]
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/jeongmyeon",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "안암",
+      "enName": "Anam",
+      "jaName": "アナム",
+      "zhHansName": "安岩猪肉汤饭",
+      "zhHantName": "安岩豬肉湯飯",
+      "desc": "Modern Korean Pork Gukbap · Optional Cilantro",
+      "descs": {
+        "ko": "북촌의 개성 있는 돼지국밥 전문점 · 고수 선택 가능",
+        "en": "Modern pork-and-rice soup in Bukchon · With or without cilantro",
+        "ja": "北村の個性派豚クッパ · パクチーは有無を選択可能",
+        "zhHans": "北村特色猪肉汤饭 · 可选择是否加香菜",
+        "zhHant": "北村特色豬肉湯飯 · 可選擇是否加香菜"
+      },
+      "category": "food",
+      "lat": 37.5794426,
+      "lng": 126.9844188,
+      "address": "서울 종로구 북촌로5길 10",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5ne4qiI4",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Anam%2C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EB%B6%81%EC%B4%8C%EB%A1%9C5%EA%B8%B8%2010%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/03055-111104100112-st-652c0c1ef27008be2c553b96",
+      "sourceUrl": "https://www.anaminanguk.com/menus",
+      "tip": {
+        "ko": "시그니처 안암국밥은 고수 유무를 선택할 수 있어요. 취향에 따라 고수를 더하고 라임 제육을 곁들여보세요.",
+        "en": "You can order the signature pork soup with or without cilantro. Try the lime-seasoned pork on the side.",
+        "ja": "名物の豚クッパはパクチーの有無を選べます。ライム風味の豚肉料理もご一緒に。",
+        "zhHans": "招牌猪肉汤饭可选择加或不加香菜，也推荐搭配青柠风味猪肉。",
+        "zhHant": "招牌豬肉湯飯可選擇加或不加香菜，也推薦搭配萊姆風味豬肉。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "tue": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "wed": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "thu": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "fri": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "sat": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ],
+          "sun": [
+            "11:30–15:00",
+            "17:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=rTgxk74EA6un",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "20:10",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "주말 브레이크타임 안내가 사이트마다 다릅니다. 방문 전 확인하세요.",
+          "en": "Weekend afternoon-break hours differ across listings. Check before visiting.",
+          "ja": "週末の休憩時間は案内によって異なります。訪問前にご確認ください。",
+          "zhHans": "各平台的周末休息时段标注不一致，建议提前确认。",
+          "zhHant": "各平台的週末休息時段標示不一致，建議提前確認。"
+        }
+      }
+    },
+    {
+      "name": "호라파",
+      "enName": "Horapa",
+      "jaName": "ホラパ",
+      "zhHansName": "Horapa 泰国餐厅",
+      "zhHantName": "Horapa 泰國餐廳",
+      "desc": "Seochon Thai Bistro · Bold Herbs & Authentic Curries",
+      "descs": {
+        "ko": "서촌의 개성 있는 태국 음식점 · 향신채 샐러드와 마싸만 커리",
+        "en": "Distinctive Thai bistro in Seochon · Herb-forward salads and Massaman curry",
+        "ja": "西村の個性派タイ料理店 · 香草サラダとマッサマンカレー",
+        "zhHans": "西村特色泰国餐厅 · 香草沙拉与马萨曼咖喱",
+        "zhHant": "西村特色泰國餐廳 · 香草沙拉與瑪莎曼咖哩"
+      },
+      "category": "food",
+      "lat": 37.5793929,
+      "lng": 126.9711008,
+      "address": "서울 종로구 자하문로 37-1 2층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/G8s9Bw0N",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Horapa%2C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%9E%90%ED%95%98%EB%AC%B8%EB%A1%9C%2037-1%202%EC%B8%B5%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/03040-111103100012-st-652c0c4df27008be2c55c7cc",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/horapa",
+      "tip": {
+        "ko": "숯불 버섯 샐러드 남똑헷과 마싸만 커리를 추천해요. 좌석이 많지 않으니 미리 예약하세요.",
+        "en": "Try the smoky mushroom salad nam tok het and Massaman curry. Seating is limited, so book ahead.",
+        "ja": "炭火焼ききのこのサラダ「ナムトックヘット」とマッサマンカレーがおすすめ。席数が少ないため予約推奨です。",
+        "zhHans": "推荐炭烤蘑菇沙拉 Nam Tok Het 与马萨曼咖喱。座位不多，建议提前预约。",
+        "zhHant": "推薦炭烤蘑菇沙拉 Nam Tok Het 與瑪莎曼咖哩。座位不多，建議提前預約。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "11:30–15:00",
+            "18:00–22:00"
+          ],
+          "wed": [
+            "11:30–15:00",
+            "18:00–22:00"
+          ],
+          "thu": [
+            "11:30–15:00",
+            "18:00–22:00"
+          ],
+          "fri": [
+            "11:30–15:00",
+            "18:00–22:00"
+          ],
+          "sat": [
+            "11:30–15:00",
+            "18:00–22:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/horapa",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "할매집",
+      "enName": "Halmaejip",
+      "jaName": "ハルメジプ",
+      "zhHansName": "奶奶家",
+      "zhHantName": "奶奶家",
+      "desc": "Old-School Korean Restaurant · Gamjatang & Jokbal",
+      "descs": {
+        "ko": "서촌 골목의 오래된 한식집 · 콩나물·부추 감자탕과 족발",
+        "en": "Old-school Korean favorite near Gyeongbokgung · Pork-backbone stew and jokbal",
+        "ja": "景福宮近くの路地にある老舗 · もやし入りカムジャタンと豚足",
+        "zhHans": "景福宫附近的传统韩餐老店 · 猪骨土豆汤与韩式猪蹄",
+        "zhHant": "景福宮附近的傳統韓餐老店 · 豬骨馬鈴薯湯與韓式豬腳"
+      },
+      "category": "food",
+      "lat": 37.5756780567,
+      "lng": 126.9714158521,
+      "address": "서울 종로구 사직로12길 1-5",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5hua5mDy",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Halmaejip%2C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%82%AC%EC%A7%81%EB%A1%9C12%EA%B8%B8%201-5%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://kor.clubrichtour.co.kr/bbs/board.php?bo_table=datagokr_Eng&wr_id=4898",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/halmaejip",
+      "tip": {
+        "ko": "이곳 감자탕은 깻잎·들깨 대신 콩나물과 부추가 들어가 국물이 개운해요. 족발도 인기이며, 입장 시 신발을 벗어야 해요.",
+        "en": "The gamjatang uses bean sprouts and chives for a lighter, spicy broth. Jokbal is also popular; shoes come off indoors.",
+        "ja": "カムジャタンはもやしとニラ入りで、すっきりとした辛さ。豚足も人気で、店内では靴を脱ぎます。",
+        "zhHans": "这里的猪骨汤用豆芽和韭菜提鲜，汤头清爽微辣。猪蹄也很受欢迎，入内需脱鞋。",
+        "zhHant": "這裡的豬骨湯用豆芽和韭菜提鮮，湯頭清爽微辣。豬腳也很受歡迎，入內需脫鞋。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "17:00–21:00"
+          ],
+          "wed": [
+            "11:50–14:00",
+            "17:00–21:00"
+          ],
+          "thu": [
+            "11:50–14:00",
+            "17:00–21:00"
+          ],
+          "fri": [
+            "11:50–14:00",
+            "17:00–21:00"
+          ],
+          "sat": [
+            "11:50–14:00",
+            "17:00–21:00"
+          ],
+          "sun": [
+            "11:50–14:00",
+            "17:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/halmaejip",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "광화문국밥",
+      "enName": "Gwanghwamun Gukbap",
+      "jaName": "光化門クッパ",
+      "zhHansName": "光化门汤饭",
+      "zhHantName": "光化門湯飯",
+      "desc": "Clear Pork-and-Rice Soup · Mild, Clean Broth",
+      "descs": {
+        "ko": "광화문의 맑은 돼지국밥 전문점 · 담백한 육수와 부추",
+        "en": "Gwanghwamun pork-and-rice soup · Clear, delicate broth and chives",
+        "ja": "光化門の澄んだ豚クッパ · あっさりしたスープとニラ",
+        "zhHans": "光化门清汤猪肉饭 · 清淡汤底与韭菜",
+        "zhHant": "光化門清湯豬肉飯 · 清淡湯底與韭菜"
+      },
+      "category": "food",
+      "lat": 37.5689748,
+      "lng": 126.9754119,
+      "address": "서울 중구 세종대로21길 53",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/xJiB3hRy",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gwanghwamun%20Gukbap%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%84%B8%EC%A2%85%EB%8C%80%EB%A1%9C21%EA%B8%B8%2053%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04519-111404103195-st-652c0cbdf27008be2c5717ab",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/gwanghwamun-gukbap",
+      "tip": {
+        "ko": "뽀얀 국물이 아닌 맑은 돼지국밥이 특징이에요. 먼저 육수 본연의 맛을 즐기고 부추·깍두기를 곁들여보세요.",
+        "en": "Unlike milky pork soup, this gukbap has a clear, delicate broth. Taste it first, then add chives or enjoy with radish kimchi.",
+        "ja": "白濁していない澄んだ豚クッパが特徴。まずはスープそのものを味わい、ニラやカクテキと一緒に。",
+        "zhHans": "不同于乳白色猪骨汤，这里的猪肉汤饭清澈清淡。先尝原汤，再搭配韭菜和萝卜泡菜。",
+        "zhHant": "不同於乳白色豬骨湯，這裡的豬肉湯飯清澈清淡。先嚐原湯，再搭配韭菜和蘿蔔泡菜。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–14:00",
+            "17:00–21:40"
+          ],
+          "tue": [
+            "11:00–14:00",
+            "17:00–21:40"
+          ],
+          "wed": [
+            "11:00–14:00",
+            "17:00–21:40"
+          ],
+          "thu": [
+            "11:00–14:00",
+            "17:00–21:40"
+          ],
+          "fri": [
+            "11:00–14:00",
+            "17:00–21:40"
+          ],
+          "sat": [
+            "12:00–14:30",
+            "17:00–21:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://info.koreacharts.com/tour/2914214/contents.html",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "20:35",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "한국관광공사 정보와 미쉐린 안내의 마감 시간이 약간 달라요. 방문 전 확인하세요.",
+          "en": "Closing hours differ slightly between tourism and Michelin listings. Confirm before visiting.",
+          "ja": "観光案内とミシュランで閉店時間が少し異なります。来店前にご確認ください。",
+          "zhHans": "旅游资料与米其林标示的闭店时间略有不同，请提前确认。",
+          "zhHant": "旅遊資料與米其林標示的閉店時間略有不同，請提前確認。"
+        }
+      }
+    },
+    {
+      "name": "우육미",
+      "enName": "Wooyookmi",
+      "jaName": "ウユクミ",
+      "zhHansName": "牛肉味",
+      "zhHantName": "牛肉味",
+      "desc": "Korean Steakhouse · Oak-Smoked T-Bone Steak",
+      "descs": {
+        "ko": "신당동의 프리미엄 소고기 다이닝 · 참나무 훈연 티본스테이크",
+        "en": "Premium steakhouse in Sindang · Oak-smoked T-bone steaks and hearty sides",
+        "ja": "新堂洞のプレミアムステーキ店 · オーク材で燻製したTボーンステーキ",
+        "zhHans": "新堂洞精品牛排餐厅 · 橡木烟熏T骨牛排",
+        "zhHant": "新堂洞精品牛排餐廳 · 橡木煙燻T骨牛排"
+      },
+      "category": "food",
+      "lat": 37.5652619,
+      "lng": 127.0129799,
+      "address": "서울 중구 퇴계로 373",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/FioVgoqx",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Wooyookmi%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%ED%87%B4%EA%B3%84%EB%A1%9C%20373%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "address-geocoded",
+      "pinSourceUrl": "https://findby.co.kr/details/04566-111403101011-st-652c0c8af27008be2c567d58",
+      "sourceUrl": "https://uyukmi.com/ko",
+      "tip": {
+        "ko": "대표 메뉴인 티본스테이크를 추천해요. 짬뽕이나 철판 매시드 포테이토를 곁들이면 색다른 조합을 즐길 수 있어요.",
+        "en": "Try the signature T-bone steak, then add Korean-style spicy seafood noodles or sizzling mashed potatoes for a twist.",
+        "ja": "名物のTボーンステーキがおすすめ。韓国風ちゃんぽんや鉄板マッシュポテトと合わせても楽しめます。",
+        "zhHans": "推荐招牌T骨牛排，搭配韩式辣海鲜面或铁板土豆泥，风味更有特色。",
+        "zhHant": "推薦招牌T骨牛排，搭配韓式辣海鮮麵或鐵板馬鈴薯泥，風味更有特色。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "tue": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "wed": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "thu": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "fri": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "sat": [
+            "11:30–22:00"
+          ],
+          "sun": [
+            "11:30–22:00"
+          ]
+        },
+        "sourceUrl": "https://uyukmi.com/ko",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "21:00"
+      }
     }
   ]
 }
