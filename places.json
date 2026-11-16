@@ -8246,6 +8246,534 @@
           }
         }
       ]
+    },
+    {
+      "name": "태극당",
+      "enName": "Taegeukdang",
+      "jaName": "テグクダン",
+      "zhHansName": "太极堂",
+      "zhHantName": "太極堂",
+      "desc": "Historic Korean Bakery · Monaka Ice Cream Since 1946",
+      "descs": {
+        "ko": "1946년 창업한 서울의 전통 제과점 · 모나카 아이스크림과 옛날 빵",
+        "en": "Historic bakery founded in 1946 · Monaka ice cream and classic Korean pastries",
+        "ja": "1946年創業の老舗ベーカリー · モナカアイスと昔ながらのパン",
+        "zhHans": "1946年创立的首尔老字号面包店 · 莫纳卡冰淇淋和经典面包",
+        "zhHant": "1946年創立的首爾老字號麵包店 · 最中冰淇淋和經典麵包"
+      },
+      "category": "bakery",
+      "lat": 37.5595049,
+      "lng": 127.0050701,
+      "address": "서울 중구 동호로24길 7",
+      "icon": "🥐",
+      "naverUrl": "https://naver.me/IMyGJprz",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Taegeukdang%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8F%99%ED%98%B8%EB%A1%9C24%EA%B8%B8%207%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://place.clariosync.com/p/6741155/%ED%83%9C%EA%B7%B9%EB%8B%B9",
+      "sourceUrl": "https://korean.visitseoul.net/editorspicks/2026-Jangchung/KONzu73ot",
+      "tip": {
+        "ko": "오랜 서울 제과점의 분위기를 느껴보세요. 대표 메뉴인 모나카 아이스크림을 추천해요.",
+        "en": "Enjoy the atmosphere of a classic Seoul bakery and try its signature monaka ice cream.",
+        "ja": "昔ながらのソウルの洋菓子店の雰囲気を楽しみ、名物のモナカアイスをぜひ。",
+        "zhHans": "感受首尔老字号面包店的怀旧氛围，别错过招牌莫纳卡冰淇淋。",
+        "zhHant": "感受首爾老字號麵包店的懷舊氛圍，別錯過招牌最中冰淇淋。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "08:00–21:00"
+          ],
+          "tue": [
+            "08:00–21:00"
+          ],
+          "wed": [
+            "08:00–21:00"
+          ],
+          "thu": [
+            "08:00–21:00"
+          ],
+          "fri": [
+            "08:00–21:00"
+          ],
+          "sat": [
+            "08:00–21:00"
+          ],
+          "sun": [
+            "08:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://korean.visitseoul.net/editorspicks/2026-Jangchung/KONzu73ot",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "천년동안도",
+      "enName": "Chunnyun Jazz Club",
+      "jaName": "チョンニョンドンアンド",
+      "zhHansName": "千年岛爵士俱乐部",
+      "zhHantName": "千年島爵士俱樂部",
+      "desc": "Live Jazz Club · Since 1996",
+      "descs": {
+        "ko": "1996년 문을 연 낙원동의 라이브 재즈 클럽 · 공연과 음료",
+        "en": "Long-running live jazz club near Ikseon-dong · Performances and drinks",
+        "ja": "益善洞近く、1996年創業の老舗ライブジャズクラブ",
+        "zhHans": "益善洞附近的老牌现场爵士乐俱乐部 · 1996年开业",
+        "zhHant": "益善洞附近的老牌現場爵士樂俱樂部 · 1996年開業"
+      },
+      "category": "bar",
+      "lat": 37.5730822,
+      "lng": 126.9885916,
+      "address": "서울 종로구 수표로 134 2층",
+      "icon": "🍸",
+      "naverUrl": "https://naver.me/GvcTr8IV",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Chunnyun%20Jazz%20Club%2C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%88%98%ED%91%9C%EB%A1%9C%20134%202%EC%B8%B5%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://findby.co.kr/details/03133-111104100143-st-652c0bc6f27008be2c5436e2",
+      "sourceUrl": "https://www.chunnyun.com/?page=location",
+      "tip": {
+        "ko": "라이브 재즈 공연을 가까이서 즐길 수 있어요. 공연료와 음료값은 별도이니 방문 전 공연 일정과 예약을 확인하세요.",
+        "en": "Enjoy live jazz up close. The performance fee is separate from drinks; check the lineup and booking details before visiting.",
+        "ja": "生演奏を間近で楽しめます。ライブ料金はドリンク代と別なので、公演予定と予約方法を事前に確認しましょう。",
+        "zhHans": "近距离欣赏现场爵士演奏。演出费与饮品费分开收取，建议提前确认节目及预约方式。",
+        "zhHant": "近距離欣賞現場爵士演奏。演出費與飲品費分開收取，建議提前確認節目及預約方式。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "18:30–23:00"
+          ],
+          "tue": [
+            "18:30–23:00"
+          ],
+          "wed": [
+            "18:30–23:00"
+          ],
+          "thu": [
+            "18:30–23:00"
+          ],
+          "fri": [
+            "18:30–23:00"
+          ],
+          "sat": [
+            "17:00–23:15"
+          ],
+          "sun": [
+            "18:30–23:00"
+          ]
+        },
+        "sourceUrl": "https://stage-kr.visitseoul.net/restaurants/%EC%B2%9C%EB%85%84%EB%8F%99%EC%95%88%EB%8F%84/KOP040936",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "필동면옥",
+      "enName": "Pildong Myeonok",
+      "jaName": "ピルドンミョノク",
+      "zhHansName": "笔洞面屋",
+      "zhHantName": "筆洞麵屋",
+      "desc": "Pyongyang Cold Noodles · Delicate Broth & Boiled Pork",
+      "descs": {
+        "ko": "슴슴한 육수의 평양냉면 전문점 · 제육과 만두",
+        "en": "Pyongyang-style cold buckwheat noodles · Delicate broth, boiled pork and dumplings",
+        "ja": "すっきりと淡い旨みの平壌冷麺 · 茹で豚と餃子",
+        "zhHans": "平壤冷面专门店 · 清淡鲜美的汤底、白切肉与饺子",
+        "zhHant": "平壤冷麵專門店 · 清淡鮮美的湯底、白切肉與餃子"
+      },
+      "category": "food",
+      "lat": 37.560446953,
+      "lng": 126.9970195064,
+      "address": "서울 중구 서애로 26",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5WOQesew",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Pildong%20Myeonok%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%84%9C%EC%95%A0%EB%A1%9C%2026%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://trip.guidejung.com/food/b7ac7775-1a98-54f3-b4c5-4273b98df0dd",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pildong-myeonok",
+      "tip": {
+        "ko": "평양냉면 특유의 슴슴한 육수를 먼저 그대로 맛보세요. 제육을 곁들이는 것도 추천해요.",
+        "en": "Taste the subtle broth before adding condiments. Boiled pork makes a great side dish.",
+        "ja": "まずは調味料を加えず、繊細なスープの味を。茹で豚もおすすめです。",
+        "zhHans": "先不加调料，品尝平壤冷面的清淡汤底；也推荐搭配白切猪肉。",
+        "zhHant": "先不加調料，品嚐平壤冷麵的清淡湯底；也推薦搭配白切豬肉。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–15:00",
+            "17:00–20:00"
+          ],
+          "tue": [
+            "11:00–15:00",
+            "17:00–20:00"
+          ],
+          "wed": [
+            "11:00–15:00",
+            "17:00–20:00"
+          ],
+          "thu": [
+            "11:00–15:00",
+            "17:00–20:00"
+          ],
+          "fri": [
+            "11:00–15:00",
+            "17:00–20:00"
+          ],
+          "sat": [
+            "11:00–15:00",
+            "17:00–20:00"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/pildong-myeonok",
+        "checkedDate": "2026-11-16",
+        "verification": "conflicting-sources"
+      }
+    },
+    {
+      "name": "우래옥",
+      "enName": "Woo Lae Oak",
+      "jaName": "ウレオク",
+      "zhHansName": "又来屋",
+      "zhHantName": "又來屋",
+      "desc": "Classic Pyongyang Cold Noodles · Beef Broth Since 1946",
+      "descs": {
+        "ko": "1946년 개업한 평양냉면 노포 · 깊은 소고기 육수와 불고기",
+        "en": "Established in 1946 · Pyongyang cold noodles with rich beef broth and bulgogi",
+        "ja": "1946年創業の平壌冷麺の名店 · 牛肉の旨みが深いスープとプルコギ",
+        "zhHans": "1946年开业的平壤冷面老店 · 牛肉鲜汤与烤牛肉",
+        "zhHant": "1946年開業的平壤冷麵老店 · 牛肉鮮湯與烤牛肉"
+      },
+      "category": "food",
+      "lat": 37.5682193,
+      "lng": 126.998732,
+      "address": "서울 중구 창경궁로 62-29",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/xxY2cYXP",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Woo%20Lae%20Oak%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EC%B0%BD%EA%B2%BD%EA%B6%81%EB%A1%9C%2062-29%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://findby.co.kr/details/04546-111403005008-st-652c0cbdf27008be2c5718ec",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/woo-lae-oak",
+      "tip": {
+        "ko": "다른 평양냉면집보다 소고기 육향이 뚜렷한 편이에요. 대기가 길 수 있으니 여유 있게 방문하세요.",
+        "en": "Its beef broth is more pronounced than at many Pyongyang noodle shops. Expect a possible queue.",
+        "ja": "牛肉の風味がしっかり感じられる平壌冷麺。行列を見込んで時間に余裕を持って訪れてください。",
+        "zhHans": "比不少平壤冷面店更能感受到牛肉香气，热门时段可能需要排队。",
+        "zhHant": "比不少平壤冷麵店更能感受到牛肉香氣，熱門時段可能需要排隊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "11:30–21:00"
+          ],
+          "wed": [
+            "11:30–21:00"
+          ],
+          "thu": [
+            "11:30–21:00"
+          ],
+          "fri": [
+            "11:30–21:00"
+          ],
+          "sat": [
+            "11:30–21:00"
+          ],
+          "sun": [
+            "11:30–21:00"
+          ]
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/woo-lae-oak",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "20:20"
+      }
+    },
+    {
+      "name": "마복림할머니집",
+      "enName": "Ma Bok-rim Tteokbokki",
+      "jaName": "マ・ボンニムおばあさんの店",
+      "zhHansName": "马福林奶奶辣炒年糕",
+      "zhHantName": "馬福林奶奶辣炒年糕",
+      "desc": "Original Sindang-dong Tteokbokki · Tabletop Rice Cake Hotpot",
+      "descs": {
+        "ko": "1953년부터 이어온 신당동 즉석떡볶이 원조집 · 달콤매콤한 전골식 떡볶이",
+        "en": "Original Sindang-dong tteokbokki since 1953 · Sweet-spicy tabletop rice cake hotpot",
+        "ja": "1953年創業の新堂洞トッポッキの老舗 · 卓上で煮込む甘辛トッポッキ",
+        "zhHans": "1953年开业的新堂洞炒年糕老店 · 桌边现煮的甜辣年糕锅",
+        "zhHant": "1953年開業的新堂洞炒年糕老店 · 桌邊現煮的甜辣年糕鍋"
+      },
+      "category": "food",
+      "lat": 37.5631674412,
+      "lng": 127.0150985274,
+      "address": "서울 중구 다산로35길 5",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5IS9e7ua",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Ma%20Bok-rim%20Tteokbokki%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8B%A4%EC%82%B0%EB%A1%9C35%EA%B8%B8%205%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://trip.guidejung.com/food/b84b678d-2b04-5585-9857-72652a071bfb",
+      "sourceUrl": "https://stage-kr.visitseoul.net/restaurants/MabongnimHalmeonijip/KOP8wjib6",
+      "tip": {
+        "ko": "즉석떡볶이는 2인 세트부터 주문할 수 있어요. 라면 사리를 곁들이고 남은 양념에 볶음밥으로 마무리해 보세요.",
+        "en": "Order a tabletop tteokbokki set for two or more. Add ramen noodles and finish with fried rice in the remaining sauce.",
+        "ja": "トッポッキ鍋は2人前から。ラーメンを追加し、最後は残ったソースで炒めご飯を楽しんでみてください。",
+        "zhHans": "即煮炒年糕从双人套餐起点，推荐加拉面，最后用剩余酱汁做炒饭。",
+        "zhHant": "現煮炒年糕從雙人套餐起點，推薦加拉麵，最後用剩餘醬汁做炒飯。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "09:00–22:50"
+          ],
+          "tue": [
+            "09:00–22:50"
+          ],
+          "wed": [
+            "09:00–22:50"
+          ],
+          "thu": [
+            "09:00–22:50"
+          ],
+          "fri": [
+            "09:00–22:50"
+          ],
+          "sat": [
+            "09:00–22:50"
+          ],
+          "sun": [
+            "09:00–22:50"
+          ]
+        },
+        "sourceUrl": "https://stage-kr.visitseoul.net/restaurants/MabongnimHalmeonijip/KOP8wjib6",
+        "checkedDate": "2026-11-16",
+        "specialHoursNotes": {
+          "ko": "매월 둘째·넷째 월요일 휴무로 안내됩니다. 방문 전 확인하세요.",
+          "en": "Listed as closed on the 2nd and 4th Mondays of each month. Please confirm before visiting.",
+          "ja": "毎月第2・第4月曜は定休日と案内されています。訪問前にご確認ください。",
+          "zhHans": "资料显示每月第二、第四个周一休息，请提前确认。",
+          "zhHant": "資料顯示每月第二、第四個週一休息，請提前確認。"
+        }
+      }
+    },
+    {
+      "name": "명동교자 본점",
+      "enName": "Myeongdong Kyoja Main Branch",
+      "jaName": "明洞餃子 本店",
+      "zhHansName": "明洞饺子总店",
+      "zhHantName": "明洞餃子總店",
+      "desc": "Myeongdong Institution · Kalguksu Noodles & Dumplings",
+      "descs": {
+        "ko": "명동의 대표 칼국수 전문점 · 진한 국물의 칼국수와 만두",
+        "en": "Myeongdong's famous noodle restaurant · Rich kalguksu soup and steamed dumplings",
+        "ja": "明洞の名物カルグクス専門店 · コクのあるスープと蒸し餃子",
+        "zhHans": "明洞著名刀切面老店 · 浓郁汤底的刀切面与蒸饺",
+        "zhHant": "明洞著名刀切麵老店 · 濃郁湯底的刀切麵與蒸餃"
+      },
+      "category": "food",
+      "lat": 37.562573,
+      "lng": 126.985761,
+      "address": "서울 중구 명동10길 29",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/Fy2FRbll",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Myeongdong%20Kyoja%20Main%20Branch%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%AA%85%EB%8F%9910%EA%B8%B8%2029%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://xju.purpleo.kr/article/14799",
+      "sourceUrl": "https://korean.visitseoul.net/citycenter/%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90_/8570",
+      "tip": {
+        "ko": "처음 방문한다면 칼국수와 만두를 추천해요. 함께 나오는 마늘김치는 상당히 맵고 알싸해요.",
+        "en": "Try the kalguksu and steamed dumplings. The accompanying garlic kimchi is surprisingly spicy and pungent.",
+        "ja": "初めてならカルグクスと蒸し餃子を。付け合わせのニンニクキムチはかなり辛く、刺激的です。",
+        "zhHans": "初次到访推荐刀切面和蒸饺。搭配的蒜香泡菜味道浓烈，而且很辣。",
+        "zhHant": "初次到訪推薦刀切麵和蒸餃。搭配的蒜香泡菜味道濃烈，而且很辣。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:30–21:00"
+          ],
+          "tue": [
+            "10:30–21:00"
+          ],
+          "wed": [
+            "10:30–21:00"
+          ],
+          "thu": [
+            "10:30–21:00"
+          ],
+          "fri": [
+            "10:30–21:00"
+          ],
+          "sat": [
+            "10:30–21:00"
+          ],
+          "sun": [
+            "10:30–21:00"
+          ]
+        },
+        "sourceUrl": "https://korean.visitseoul.net/citycenter/%EB%AA%85%EB%8F%99%EA%B5%90%EC%9E%90_/8570",
+        "checkedDate": "2026-11-16",
+        "specialHoursNotes": {
+          "ko": "추석 당일 휴무로 안내됩니다.",
+          "en": "Listed as closed on Chuseok day.",
+          "ja": "秋夕（チュソク）当日は休業予定です。",
+          "zhHans": "中秋节当天休息。",
+          "zhHant": "中秋節當天休息。"
+        }
+      }
+    },
+    {
+      "name": "바토스",
+      "enName": "Vatos Itaewon",
+      "jaName": "ヴァトス 梨泰院",
+      "zhHansName": "Vatos 梨泰院店",
+      "zhHantName": "Vatos 梨泰院店",
+      "desc": "Korean-Mexican Fusion · Tacos & Kimchi Carnitas Fries",
+      "descs": {
+        "ko": "이태원의 코리안-멕시칸 퓨전 레스토랑 · 타코와 김치 까르니따스 프라이즈",
+        "en": "Itaewon Korean-Mexican fusion · Tacos and kimchi carnitas fries",
+        "ja": "梨泰院の韓国×メキシコ料理 · タコスとキムチ・カルニタス・フライ",
+        "zhHans": "梨泰院韩墨融合餐厅 · 塔可和泡菜手撕猪肉薯条",
+        "zhHant": "梨泰院韓墨融合餐廳 · 塔可和泡菜手撕豬肉薯條"
+      },
+      "category": "food",
+      "lat": 37.534619,
+      "lng": 126.99019,
+      "address": "서울 용산구 이태원로15길 1 2층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5Rh0sCPk",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Vatos%20Itaewon%2C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%EC%9D%B4%ED%83%9C%EC%9B%90%EB%A1%9C15%EA%B8%B8%201%202%EC%B8%B5%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://qaj.purpleo.kr/article/2676",
+      "sourceUrl": "https://www.daangn.com/kr/local-profile/%EB%B0%94%ED%86%A0%EC%8A%A4-%EC%9D%B4%ED%83%9C%EC%9B%90%EC%A0%90-q6vgjjseum4s/",
+      "tip": {
+        "ko": "대표 메뉴인 김치 까르니따스 프라이즈와 타코를 함께 주문해 보세요. 식사와 칵테일 모두 즐기기 좋아요.",
+        "en": "Pair the signature kimchi carnitas fries with tacos. A fun spot for both dinner and cocktails.",
+        "ja": "名物のキムチ・カルニタス・フライとタコスをぜひ一緒に。食事にもカクテルにもおすすめです。",
+        "zhHans": "推荐把招牌泡菜手撕猪肉薯条和塔可一起点，也适合享用晚餐与鸡尾酒。",
+        "zhHant": "推薦把招牌泡菜手撕豬肉薯條和塔可一起點，也適合享用晚餐與雞尾酒。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "tue": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "wed": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "thu": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "fri": [
+            "11:30–15:00",
+            "17:00–22:00"
+          ],
+          "sat": [
+            "11:30–22:00"
+          ],
+          "sun": [
+            "11:30–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=bCIEgJcuFhbu",
+        "checkedDate": "2026-11-16",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "주말 브레이크타임 등 일부 영업시간 정보가 서로 달라 방문 전 확인이 필요합니다.",
+          "en": "Some listings differ on weekend breaks. Please confirm current hours before visiting.",
+          "ja": "週末の休憩時間などは情報源によって異なります。来店前に最新情報をご確認ください。",
+          "zhHans": "不同资料对周末休息时间的标注不一致，请提前确认。",
+          "zhHant": "不同資料對週末休息時間的標示不一致，請提前確認。"
+        }
+      }
+    },
+    {
+      "name": "원조순희네빈대떡",
+      "enName": "Wonjo Sunhee's Bindaetteok",
+      "jaName": "元祖スニネ・ピンデトッ",
+      "zhHansName": "元祖顺熙家绿豆煎饼",
+      "zhHantName": "元祖順熙家綠豆煎餅",
+      "desc": "Gwangjang Market · Crispy Mung Bean Pancakes",
+      "descs": {
+        "ko": "광장시장의 대표 빈대떡집 · 녹두빈대떡과 고기완자",
+        "en": "Gwangjang Market favorite · Crispy mung bean pancakes and meat patties",
+        "ja": "広蔵市場の人気店 · 緑豆チヂミと肉ワンジャ",
+        "zhHans": "广藏市场人气老店 · 绿豆煎饼与韩式肉饼",
+        "zhHant": "廣藏市場人氣老店 · 綠豆煎餅與韓式肉餅"
+      },
+      "category": "food",
+      "lat": 37.5706283319934,
+      "lng": 127.000724456485,
+      "address": "서울 종로구 종로32길 5",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5du4ywfn",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Wonjo%20Sunhee's%20Bindaetteok%2C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%A2%85%EB%A1%9C32%EA%B8%B8%205%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "source-coordinates",
+      "pinSourceUrl": "https://reo.purpleo.kr/article/527",
+      "sourceUrl": "https://korean.visitseoul.net/restaurants/%EC%88%9C%ED%9D%AC%EB%84%A4%EB%B9%88%EB%8C%80%EB%96%A1/KOP014610",
+      "tip": {
+        "ko": "바삭하게 부친 녹두빈대떡과 고기완자를 같이 맛보세요. 막걸리를 곁들이거나 포장해도 좋아요.",
+        "en": "Try the crispy mung bean pancake alongside a meat patty. Pair with makgeolli or grab some to go.",
+        "ja": "カリッと焼いた緑豆チヂミと肉ワンジャを一緒に。マッコリとの相性も良く、持ち帰りもできます。",
+        "zhHans": "推荐一起尝尝香脆的绿豆煎饼和韩式肉饼，搭配马格利米酒或外带都不错。",
+        "zhHant": "推薦一起嚐嚐香脆的綠豆煎餅和韓式肉餅，搭配馬格利米酒或外帶都不錯。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–21:00"
+          ],
+          "tue": [
+            "10:00–21:00"
+          ],
+          "wed": [
+            "10:00–21:00"
+          ],
+          "thu": [
+            "10:00–21:00"
+          ],
+          "fri": [
+            "10:00–21:00"
+          ],
+          "sat": [
+            "10:00–21:00"
+          ],
+          "sun": [
+            "10:00–21:00"
+          ]
+        },
+        "sourceUrl": "https://korean.visitseoul.net/restaurants/%EC%88%9C%ED%9D%AC%EB%84%A4%EB%B9%88%EB%8C%80%EB%96%A1/KOP014610",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "20:30"
+      }
     }
   ]
 }
