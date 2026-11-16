@@ -8774,6 +8774,409 @@
         "checkedDate": "2026-11-16",
         "lastOrder": "20:30"
       }
+    },
+    {
+      "name": "삼청동수제비",
+      "enName": "Samcheong-dong Sujebi",
+      "jaName": "三清洞スジェビ",
+      "zhHansName": "三清洞手撕面片汤",
+      "zhHantName": "三清洞手撕麵片湯",
+      "desc": "Traditional Korean Hand-Torn Noodle Soup · Since 1982",
+      "descs": {
+        "ko": "1982년부터 이어진 삼청동 수제비 전문점 · 항아리 수제비와 감자전",
+        "en": "Samcheong-dong institution since 1982 · Hand-torn noodle soup and potato pancakes",
+        "ja": "1982年創業の三清洞の老舗 · 甕で供されるすいとんとじゃがいもチヂミ",
+        "zhHans": "1982年开业的三清洞老店 · 陶罐手撕面片汤与土豆煎饼",
+        "zhHant": "1982年開業的三清洞老店 · 陶罐手撕麵片湯與馬鈴薯煎餅"
+      },
+      "category": "food",
+      "lat": 37.5846,
+      "lng": 126.9819,
+      "address": "서울 종로구 삼청로 101-1",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/Gsj2SOfT",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Samcheong-dong%20Sujebi%2C%20%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%82%BC%EC%B2%AD%EB%A1%9C%20101-1%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://infotravelog.com/places/35364",
+      "sourceUrl": "https://stage-kr.visitseoul.net/restaurants/Samcheong-dongSujebi/KOPqgbap0",
+      "tip": {
+        "ko": "항아리에 담겨 나오는 수제비와 바삭한 감자전을 함께 추천해요. 점심시간에는 대기가 있을 수 있어요.",
+        "en": "Try the sujebi served in an earthenware jar with a crispy potato pancake. Expect a queue around lunch.",
+        "ja": "甕で出てくるすいとんとカリッとしたじゃがいもチヂミがおすすめ。昼は行列になることも。",
+        "zhHans": "推荐陶罐盛装的手撕面片汤搭配香脆土豆煎饼，午餐时段可能需要排队。",
+        "zhHant": "推薦陶罐盛裝的手撕麵片湯搭配香脆馬鈴薯煎餅，午餐時段可能需要排隊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:00–20:00"
+          ],
+          "tue": [
+            "11:00–20:00"
+          ],
+          "wed": [
+            "11:00–20:00"
+          ],
+          "thu": [
+            "11:00–20:00"
+          ],
+          "fri": [
+            "11:00–20:00"
+          ],
+          "sat": [
+            "11:00–20:00"
+          ],
+          "sun": [
+            "11:00–20:00"
+          ]
+        },
+        "sourceUrl": "https://stage-kr.visitseoul.net/restaurants/Samcheong-dongSujebi/KOPqgbap0",
+        "checkedDate": "2026-11-16"
+      }
+    },
+    {
+      "name": "고사리 익스프레스 신당",
+      "enName": "Gosari Express Sindang",
+      "jaName": "コサリ・エクスプレス 新堂",
+      "zhHansName": "Gosari Express 新堂店",
+      "zhHantName": "Gosari Express 新堂店",
+      "desc": "Creative Vegan Noodles · Bracken-Fern Oil Sauce",
+      "descs": {
+        "ko": "고사리 오일로 만든 창의적인 비건 누들 · 신당동의 개성 있는 면요리",
+        "en": "Creative vegan noodle dishes with a signature bracken-fern oil sauce",
+        "ja": "ワラビオイルを使った個性的なヴィーガン麺料理",
+        "zhHans": "以蕨菜油酱为特色的创意纯素面食",
+        "zhHant": "以蕨菜油醬為特色的創意純素麵食"
+      },
+      "category": "food",
+      "lat": 37.5662654,
+      "lng": 127.0200103,
+      "address": "서울 중구 퇴계로85길 12-10 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/5wWe7Yhl",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Gosari%20Express%20Sindang%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%ED%87%B4%EA%B3%84%EB%A1%9C85%EA%B8%B8%2012-10%201%EC%B8%B5%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://place.clariosync.com/p/4824297/%EB%A7%88%EB%9D%BC%ED%85%90%EC%83%A4",
+      "sourceUrl": "https://korean.visitseoul.net/restaurants/GosariExpress/KOPujk758",
+      "tip": {
+        "ko": "시그니처 고사리 클래식 온면을 추천해요. 비건 요리에 익숙하지 않아도 색다른 면 요리를 즐길 수 있어요.",
+        "en": "Start with the signature bracken-fern noodle soup. It's an interesting introduction to creative vegan noodles.",
+        "ja": "名物のワラビ・クラシック温麺がおすすめ。ヴィーガン料理が初めてでも楽しめる一皿です。",
+        "zhHans": "推荐招牌蕨菜经典温面，即使不常吃纯素料理，也值得体验独特的面食风味。",
+        "zhHant": "推薦招牌蕨菜經典溫麵，即使不常吃純素料理，也值得體驗獨特的麵食風味。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [],
+          "tue": [
+            "11:00–15:00",
+            "17:00–21:30"
+          ],
+          "wed": [
+            "11:00–15:00",
+            "17:00–21:30"
+          ],
+          "thu": [
+            "11:00–15:00",
+            "17:00–21:30"
+          ],
+          "fri": [
+            "11:00–15:00",
+            "17:00–21:30"
+          ],
+          "sat": [
+            "11:00–21:30"
+          ],
+          "sun": []
+        },
+        "sourceUrl": "https://korean.visitseoul.net/restaurants/GosariExpress/KOPujk758",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "20:30"
+      }
+    },
+    {
+      "name": "금돼지식당",
+      "enName": "Geumdwaeji Sikdang",
+      "jaName": "クムデジ食堂",
+      "zhHansName": "金猪食堂",
+      "zhHantName": "金豬食堂",
+      "desc": "Michelin-Recognized Korean Pork BBQ · Bone-In Pork Belly",
+      "descs": {
+        "ko": "약수역의 인기 돼지고기 구이 전문점 · 본삼겹과 눈꽃목살",
+        "en": "Popular Korean pork barbecue · Bone-in pork belly and marbled pork shoulder",
+        "ja": "薬水駅近くの人気豚焼肉店 · 骨付きサムギョプサルと霜降り肩ロース",
+        "zhHans": "药水站附近的人气烤猪肉店 · 带骨五花肉与雪花猪肩肉",
+        "zhHant": "藥水站附近的人氣烤豬肉店 · 帶骨五花肉與雪花豬肩肉"
+      },
+      "category": "food",
+      "lat": 37.5570857834926,
+      "lng": 127.011657111174,
+      "address": "서울 중구 다산로 149",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/GgWkok3V",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Geumdwaeji%20Sikdang%2C%20%EC%84%9C%EC%9A%B8%20%EC%A4%91%EA%B5%AC%20%EB%8B%A4%EC%82%B0%EB%A1%9C%20149%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://smi.purpleo.kr/article/43693",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/geumdwaeji-sikdang",
+      "tip": {
+        "ko": "본삼겹과 눈꽃목살을 함께 주문해 보세요. 예약을 받지 않아 현장 대기가 길 수 있어요.",
+        "en": "Order the bone-in pork belly and marbled shoulder together. They don't take reservations, so queues can be long.",
+        "ja": "骨付きサムギョプサルと霜降り肩ロースを食べ比べて。予約不可で行列になることがあります。",
+        "zhHans": "推荐一起品尝带骨五花肉和雪花猪肩肉。店家不接受预订，现场可能需要较长时间排队。",
+        "zhHant": "推薦一起品嚐帶骨五花肉和雪花豬肩肉。店家不接受預訂，現場可能需要較長時間排隊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "11:30–23:00"
+          ],
+          "tue": [
+            "11:30–23:00"
+          ],
+          "wed": [
+            "11:30–23:00"
+          ],
+          "thu": [
+            "11:30–23:00"
+          ],
+          "fri": [
+            "11:30–23:00"
+          ],
+          "sat": [
+            "11:30–23:00"
+          ],
+          "sun": [
+            "11:30–23:00"
+          ]
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/geumdwaeji-sikdang",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "22:20"
+      }
+    },
+    {
+      "name": "오일제",
+      "enName": "Oilje",
+      "jaName": "オイルジェ",
+      "zhHansName": "五日济",
+      "zhHantName": "五日濟",
+      "desc": "Modern Korean Set Meal · Perilla Seaweed Soup",
+      "descs": {
+        "ko": "들깨 미역국과 가마솥 밥이 중심인 정갈한 한식 반상",
+        "en": "Thoughtful Korean set meal · Perilla seaweed soup and freshly cooked rice",
+        "ja": "エゴマのわかめスープと炊きたてご飯の韓国定食",
+        "zhHans": "精致韩式定食 · 紫苏籽海带汤与现煮米饭",
+        "zhHant": "精緻韓式定食 · 紫蘇籽海帶湯與現煮米飯"
+      },
+      "category": "food",
+      "lat": 37.5325421,
+      "lng": 126.9747537,
+      "address": "서울 용산구 한강대로62다길 29 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/xrSQIbhK",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Oilje%2C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C62%EB%8B%A4%EA%B8%B8%2029%201%EC%B8%B5%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://findby.co.kr/details/04382-111704106445-st-652c0a95f27008be2c50ba65",
+      "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oilje",
+      "tip": {
+        "ko": "고소한 들깨 미역국에 갓 지은 밥을 곁들여 보세요. 평일 점심 위주로 운영하니 방문 전에 시간을 꼭 확인하세요.",
+        "en": "Pair the nutty perilla seaweed soup with freshly cooked rice. Hours focus on weekday lunch, so check before visiting.",
+        "ja": "香ばしいエゴマのわかめスープと炊きたてご飯をぜひ。平日ランチ中心の営業なので、事前に営業時間をご確認ください。",
+        "zhHans": "推荐搭配现煮米饭品尝香浓的紫苏籽海带汤。主要在工作日午餐时段营业，请提前确认时间。",
+        "zhHant": "推薦搭配現煮米飯品嚐香濃的紫蘇籽海帶湯。主要在平日午餐時段營業，請提前確認時間。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "09:30–13:30"
+          ],
+          "tue": [
+            "09:30–13:30"
+          ],
+          "wed": [
+            "09:30–13:30"
+          ],
+          "thu": [
+            "09:30–13:30"
+          ],
+          "fri": [
+            "09:30–13:30"
+          ],
+          "sat": [],
+          "sun": []
+        },
+        "sourceUrl": "https://guide.michelin.com/kr/ko/seoul-capital-area/kr-seoul/restaurant/oilje",
+        "checkedDate": "2026-11-16",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "미쉐린 가이드는 13:30 마감, 일부 다른 안내는 15:00 마감으로 표기됩니다. 방문 전 영업시간을 확인하세요.",
+          "en": "Michelin lists a 13:30 closing time; some listings show 15:00. Confirm current hours before visiting.",
+          "ja": "ミシュランは13:30閉店、他の案内では15:00閉店と記載。来店前にご確認ください。",
+          "zhHans": "米其林标示13:30结束营业，其他资料有15:00的说法，请提前确认。",
+          "zhHant": "米其林標示13:30結束營業，其他資料有15:00的說法，請提前確認。"
+        }
+      }
+    },
+    {
+      "name": "능동미나리 신용산점",
+      "enName": "Neungdong Minari Sinyongsan",
+      "jaName": "ヌンドンミナリ 新龍山店",
+      "zhHansName": "能洞水芹 新龙山店",
+      "zhHantName": "能洞水芹 新龍山店",
+      "desc": "Korean Beef Soup · Fresh Minari Greens",
+      "descs": {
+        "ko": "미나리를 듬뿍 올린 맑은 소고기 곰탕과 육회비빔밥",
+        "en": "Clear Korean beef soup topped with fresh minari · Beef tartare bibimbap",
+        "ja": "セリをたっぷりのせた澄んだ牛スープとユッケビビンバ",
+        "zhHans": "铺满新鲜水芹菜的清汤牛肉汤饭与生牛肉拌饭",
+        "zhHant": "鋪滿新鮮水芹菜的清湯牛肉湯飯與生牛肉拌飯"
+      },
+      "category": "food",
+      "lat": 37.530127608518,
+      "lng": 126.97083384316,
+      "address": "서울 용산구 한강대로40길 28 1·2층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/GG7tFk5h",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=Neungdong%20Minari%20Sinyongsan%2C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C40%EA%B8%B8%2028%201%C2%B72%EC%B8%B5%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://jusoga.com/b/1117012500101480006013851/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C-%EC%9A%A9%EC%82%B0%EA%B5%AC-%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C40%EA%B8%B8-28-%ED%95%9C%EA%B0%95%EB%A1%9C2%EA%B0%80",
+      "sourceUrl": "https://korean.visitseoul.net/restaurants/2024-ndminari/KOPu891p5",
+      "tip": {
+        "ko": "처음이라면 미나리 곰탕이나 육회비빔밥을 추천해요. 인기 있는 식당이라 현장 대기가 있을 수 있어요.",
+        "en": "Start with the minari beef soup or beef tartare bibimbap. It's popular, so allow time for a possible wait.",
+        "ja": "初めてならセリ入りコムタンかユッケビビンバを。人気店なので待ち時間を見込んでください。",
+        "zhHans": "初次到访推荐水芹牛肉汤饭或生牛肉拌饭。人气较高，可能需要现场排队。",
+        "zhHant": "初次到訪推薦水芹牛肉湯飯或生牛肉拌飯。人氣較高，可能需要現場排隊。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:00–23:00"
+          ],
+          "tue": [
+            "10:00–23:00"
+          ],
+          "wed": [
+            "10:00–23:00"
+          ],
+          "thu": [
+            "10:00–23:00"
+          ],
+          "fri": [
+            "10:00–23:00"
+          ],
+          "sat": [
+            "09:30–23:00"
+          ],
+          "sun": [
+            "09:30–23:00"
+          ]
+        },
+        "sourceUrl": "https://korean.visitseoul.net/restaurants/2024-ndminari/KOPu891p5",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "21:50",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "영업 시작 시간은 일부 예약·대기 사이트와 다르게 표기됩니다. 방문 전 확인하세요.",
+          "en": "Opening times vary across some listings. Confirm before visiting.",
+          "ja": "開店時間はサイトによって異なるため、訪問前にご確認ください。",
+          "zhHans": "不同平台标注的开门时间存在差异，建议出发前确认。",
+          "zhHant": "不同平台標示的開門時間存在差異，建議出發前確認。"
+        }
+      }
+    },
+    {
+      "name": "쌤쌤쌤 용산점",
+      "enName": "SAM SAM SAM Yongsan",
+      "jaName": "サムサムサム 龍山店",
+      "zhHansName": "SAM SAM SAM 龙山店",
+      "zhHantName": "SAM SAM SAM 龍山店",
+      "desc": "San Francisco-Style Casual Dining · Lasagna & Pasta",
+      "descs": {
+        "ko": "용리단길의 샌프란시스코 감성 레스토랑 · 라자냐와 잠봉뵈르 파스타",
+        "en": "San Francisco-inspired casual restaurant · Lasagna and jambon-beurre pasta",
+        "ja": "龍理団通りのサンフランシスコ風レストラン · ラザニアとジャンボンブールパスタ",
+        "zhHans": "龙理团街的旧金山风格餐厅 · 千层面与火腿黄油意面",
+        "zhHant": "龍理團街的舊金山風格餐廳 · 千層麵與火腿奶油義大利麵"
+      },
+      "category": "food",
+      "lat": 37.53156,
+      "lng": 126.97217,
+      "address": "서울 용산구 한강대로50길 25 1층",
+      "icon": "🍴",
+      "naverUrl": "https://naver.me/xrSQ8idj",
+      "naverLinkStatus": "user-provided-share-link",
+      "googleUrl": "https://www.google.com/maps/search/?api=1&query=SAM%20SAM%20SAM%20Yongsan%2C%20%EC%84%9C%EC%9A%B8%20%EC%9A%A9%EC%82%B0%EA%B5%AC%20%ED%95%9C%EA%B0%95%EB%8C%80%EB%A1%9C50%EA%B8%B8%2025%201%EC%B8%B5%2C%20Seoul%2C%20South%20Korea",
+      "googleLinkStatus": "search-fallback",
+      "pinVerification": "building-address-center",
+      "pinSourceUrl": "https://kr.geoview.info/ssaemssaemssaem%2C11865746758n",
+      "sourceUrl": "https://www.tabling.co.kr/place/677ccff666de5f06988533f5",
+      "tip": {
+        "ko": "대표 메뉴인 라자냐와 잠봉뵈르 파스타를 추천해요. 인기가 많으니 대기와 브레이크타임을 확인하세요.",
+        "en": "Try the lasagna and jambon-beurre pasta. Check the waitlist and afternoon break before visiting.",
+        "ja": "名物のラザニアとジャンボンブールパスタがおすすめ。待ち時間と休憩時間を確認してから訪れましょう。",
+        "zhHans": "推荐招牌千层面和火腿黄油意面。前往之前请确认排队情况与午间休息时间。",
+        "zhHant": "推薦招牌千層麵和火腿奶油義大利麵。前往之前請確認排隊情況與午間休息時間。"
+      },
+      "hours": {
+        "timeZone": "Asia/Seoul",
+        "weekly": {
+          "mon": [
+            "10:30–15:00",
+            "17:00–22:00"
+          ],
+          "tue": [
+            "10:30–15:00",
+            "17:00–22:00"
+          ],
+          "wed": [
+            "10:30–15:00",
+            "17:00–22:00"
+          ],
+          "thu": [
+            "10:30–15:00",
+            "17:00–22:00"
+          ],
+          "fri": [
+            "10:30–15:00",
+            "17:00–22:00"
+          ],
+          "sat": [
+            "10:30–15:00",
+            "17:00–22:00"
+          ],
+          "sun": [
+            "10:30–15:00",
+            "17:00–22:00"
+          ]
+        },
+        "sourceUrl": "https://www.diningcode.com/profile.php?rid=5owyTlBPVsSe",
+        "checkedDate": "2026-11-16",
+        "lastOrder": "21:00",
+        "verification": "conflicting-sources",
+        "specialHoursNotes": {
+          "ko": "브레이크타임 적용 요일은 자료마다 다릅니다. 방문 전 최신 영업시간을 확인하세요.",
+          "en": "Some listings differ on which days have an afternoon break. Confirm current hours before visiting.",
+          "ja": "休憩時間の実施日は案内によって異なります。訪問前に最新情報をご確認ください。",
+          "zhHans": "不同平台对午间休息日的标注不同，请提前确认最新营业时间。",
+          "zhHant": "不同平台對午間休息日的標示不同，請提前確認最新營業時間。"
+        }
+      }
     }
   ]
 }
